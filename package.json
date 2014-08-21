@@ -1,0 +1,20 @@
+{
+    "name": "project-name",
+    "description": "description",
+    "version": "0.1.0",
+    "private": true,
+    "author": {
+        "name": "huanhuan",
+        "email": "469973264@qq.com"
+    },
+    "devDependencies": {
+        "grunt": "~0.4.0",
+        "grunt-contrib-concat": "*",
+        "grunt-contrib-cssmin": "*",
+        "grunt-contrib-jshint": "^0.10.0",
+        "grunt-contrib-sass": "*",
+        "grunt-contrib-uglify": "*",
+        "grunt-contrib-watch": "*",
+        "grunt-contrib-jade": "*"
+    }
+}

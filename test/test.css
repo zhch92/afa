@@ -1,0 +1,18 @@
+.red{
+	background: red;
+}
+.green{
+	background: green;
+}
+.olive{
+	background: olive;
+}
+
+.item{
+	margin: 1em 0;
+}
+.title{
+	font-size: 20px;
+	text-align: center;
+	font-weight: bolder;
+}
