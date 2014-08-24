@@ -27,8 +27,7 @@ module.exports = function (grunt) {
         sass: {
             base: {
                 options: {
-                    banner: "/*font end base.css*/",
-                    compass: true
+                    banner: "/*font end base.css*/"
                 },
                 files: {
                     'css/global.css': 'build/sass/global.scss',

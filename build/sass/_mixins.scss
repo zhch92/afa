@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @mixin gradient-horizontal($start-color: #555, $end-color: #333, $start-percent: 0%, $end-percent: 100%) {
   background-image: -webkit-linear-gradient(left, $start-color $start-percent, $end-color $end-percent); // Safari 5.1-6, Chrome 10+
   background-image: -o-linear-gradient(left, $start-color $start-percent, $end-color $end-percent); // Opera 12
@@ -71,7 +72,7 @@
   height: $height;
 }
 //flex box layout
-%flexbox() {
+%flexbox{
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
