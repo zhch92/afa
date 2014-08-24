@@ -21,13 +21,45 @@
 	margin: -100px auto auto -300px;
 	text-align: center;
 	@include size(600px,200px);
-	background:url(../img/trans_6.png) repeat;
+	@extend %trans_5;
+	@extend %font-f-yahei;
+	font-weight:bold;
 	.text{
 		color: $gray;
 		font-size: 4em;
 		b{
 			color: $yellow;
+			font-weight: bold;
 		}
 	}
-
+	.afa-logo{
+		margin: 10px auto;
+	}
 }
+.first-screen{
+	z-index:100;
+}
+.afa-index{
+	z-index:500;
+}
+
+.blur{
+	 filter: url(blur.svg#blur); /* FireFox, Chrome, Opera */
+    -webkit-filter: blur(5px); /* Chrome, Opera */
+       -moz-filter: blur(5px);
+        -ms-filter: blur(5px);    
+            filter: blur(5px);
+    filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius=5, MakeShadow=false); /* IE6~IE9 */
+}
+
+
+.menu-nav{
+	box-sizing:border-box;
+	-moz-box-sizing:border-box; /* Firefox */
+	-webkit-box-sizing:border-box; /* Safari */
+	padding:$header-height 0 $footer-height 0;
+	.container{
+		height: 100%;
+	}
+}
+

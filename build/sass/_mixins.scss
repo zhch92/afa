@@ -93,3 +93,8 @@
   -webkit-order: $val;
   order: $val;
 }
+
+//background-image 
+@mixin bgimage($url:"../img/trans_5.png"){
+    background:transparent url($url) repeat center;
+}

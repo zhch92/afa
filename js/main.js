@@ -1,43 +1,25 @@
 requirejs.config({
 	baseUrl: 'js/lib',
 	paths: {
-		main: '../main',
-		btn: '../main/btn'
+		
 	},
 	skim: {
 
 	}
 });
 
-requirejs(['jquery', 'main'], function($, main) {
 
-	alert('nimei meimei');
+requirejs(['jquery'], function($) {
+	var indexTimer = null;
 
-	console.log('today is beauty day !');
+	indexTimer = setTimeout(function() {
+		$('#first-screen').animate({
+			opacity: '0',
+			display: 'none',
+			zIndex: '20'
+		}, 1000);
 
-	//mothod1();
+	}, 3000);
 
-	//mothod2();
-
-	console.log(main);
-
-});
-
-
-
-requirejs(['btn'], function(btn) {
-
-	console.log('nimei');
-
-	btn.mothod1();
-});
-
-
-requirejs(['../main/alert'], function(alert) {
-
-	alert.meg_one();
-
-
-	alert.meg_two();
 
 });
