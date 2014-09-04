@@ -1,0 +1,106 @@
+/*font end base.css*/
+@charset "UTF-8";
+.menu-nav .img-menu ul:before, .menu-nav .img-menu ul:after {
+  content: " ";
+  display: table; }
+.menu-nav .img-menu ul:after {
+  clear: both; }
+
+.welcome-info {
+  font-family: "微软雅黑"; }
+
+.welcome-info {
+  background: transparent url(../img/trans_5.png) repeat; }
+
+/* ==========================================================================
+   引用模块
+   ========================================================================== */
+/* ==========================================================================
+   index 首页样式
+   ========================================================================== */
+.index-bg {
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0; }
+
+/* --------------------------------------------------------------------------
+   欢迎框样式
+   -------------------------------------------------------------------------- */
+.welcome-info {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -100px auto auto -300px;
+  text-align: center;
+  width: 600px;
+  height: 200px;
+  font-weight: bold; }
+  .welcome-info .text {
+    color: #949494;
+    font-size: 4em; }
+    .welcome-info .text b {
+      color: #def505;
+      font-weight: bold; }
+  .welcome-info .afa-logo {
+    padding: 30px 0 20px;
+    text-align: center; }
+
+.first-screen {
+  z-index: 100; }
+
+.afa-index {
+  z-index: 50; }
+
+.blur {
+  filter: url(blur.svg#blur);
+  /* FireFox, Chrome, Opera */
+  -webkit-filter: blur(5px);
+  /* Chrome, Opera */
+  -moz-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px);
+  filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius=5, MakeShadow=false);
+  /* IE6~IE9 */ }
+
+.menu-nav {
+  position: relative;
+  height: 100%;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  /* Firefox */
+  -webkit-box-sizing: border-box;
+  /* Safari */ }
+  .menu-nav .box {
+    height: 100%; }
+  .menu-nav .slidebox {
+    position: relative;
+    z-index: 60; }
+  .menu-nav .img-menu {
+    width: 960px;
+    z-index: 60; }
+    .menu-nav .img-menu ul .img-item {
+      position: relative;
+      float: left;
+      width: 137px;
+      height: 100%;
+      overflow: hidden; }
+      .menu-nav .img-menu ul .img-item b {
+        position: absolute;
+        top: 60px;
+        font-size: 24px;
+        left: 50px; }
+      .menu-nav .img-menu ul .img-item img {
+        min-height: 500px; }
+      .menu-nav .img-menu ul .img-item .cover {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background: transparent url("../img/trans_5.png") repeat center; }
+
+/*# sourceMappingURL=index.css.map */

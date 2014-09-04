@@ -1,0 +1,49 @@
+.icon{
+	display: inline-block;
+	text-decoration: none;
+	&:hover{
+		text-decoration: none;
+	}
+}
+
+.icon-weixin,
+.icon-qq,
+.icon-sina{
+	width: 80px;
+	height: 80px;
+}
+.icon-weixin{
+	background:transparent url('../img/icon/share1.png') 0 0 no-repeat;
+	color: transparent;
+}
+.icon-qq{
+	background:transparent url('../img/icon/share1.png') -101px 0 no-repeat;
+	color: transparent;
+}
+.icon-sina{
+	background:transparent url('../img/icon/share1.png') -203px 0 no-repeat;
+	color: transparent;
+}
+
+
+.icon-like,
+.icon-comment,
+.icon-share{
+	position: relative;
+
+	width: 34px;
+	height: 34px;
+
+	background-image: url('../img/icon/afa_icon.png');
+
+	background-repeat: no-repeat;
+}
+.icon-like{
+	background-position: 4px 0;
+}
+.icon-comment{
+	background-position: -32px 0;
+}
+.icon-share{
+	background-position: -66px 0;
+}

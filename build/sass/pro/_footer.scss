@@ -1,0 +1,26 @@
+.footer{
+	position:relative;
+	bottom:0;
+	left:0;
+	width:100%;
+	height: $footer-height;
+	font-size:12px;
+	z-index:map-get($zIndex,top);
+	@include bgimage("../img/trans_9.png");
+	line-height:$footer-height;
+	color:$gray;
+	a{
+		color: $gray;
+	}
+
+	&.fixed{
+		position: fixed;
+	}
+}
+
+.copyright{
+	
+}
+.friendlink{
+	text-align: right;
+}

@@ -1,112 +1,191 @@
 /*font end base.css*/
 @charset "UTF-8";
-.welcome-info {
+.box:before, .box:after {
+  content: " ";
+  display: table; }
+.box:after {
+  clear: both; }
+
+.slide-menu .btn-list a {
   font-family: "微软雅黑"; }
-
-.welcome-info {
-  background: transparent url(../img/trans_5.png) repeat; }
-
-/* ==========================================================================
-   index 首页样式
-   ========================================================================== */
-.index-bg {
-  background-repeat: no-repeat;
-  background-position: center center;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0; }
-
-/* --------------------------------------------------------------------------
-   欢迎框样式
-   -------------------------------------------------------------------------- */
-.welcome-info {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin: -100px auto auto -300px;
-  text-align: center;
-  width: 600px;
-  height: 200px;
-  font-weight: bold; }
-  .welcome-info .text {
-    color: #949494;
-    font-size: 4em; }
-    .welcome-info .text b {
-      color: #def505;
-      font-weight: bold; }
-  .welcome-info .afa-logo {
-    margin: 10px auto; }
-
-.first-screen {
-  z-index: 100; }
-
-.afa-index {
-  z-index: 500; }
-
-.blur {
-  filter: url(blur.svg#blur);
-  /* FireFox, Chrome, Opera */
-  -webkit-filter: blur(5px);
-  /* Chrome, Opera */
-  -moz-filter: blur(5px);
-  -ms-filter: blur(5px);
-  filter: blur(5px);
-  filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius=5, MakeShadow=false);
-  /* IE6~IE9 */ }
-
-.menu-nav {
-  box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  /* Firefox */
-  -webkit-box-sizing: border-box;
-  /* Safari */
-  padding: 50px 0 30px 0; }
-  .menu-nav .container {
-    height: 100%; }
 
 /* ==========================================================================
    阿尔法 项目 公共样式配置
    ========================================================================== */
 .container {
-  width: 1200px !important; }
+  width: 960px !important;
+  padding: 0; }
 
-.afa-logo {
-  display: inline-block;
-  width: 100px;
-  height: 60px;
-  background: url(../img/icon/logo.png) no-repeat; }
+div, span,
+ul, li,
+dl, dt, dd,
+i, b, em,
+h1, h2, h3, h4, h5, h6 {
+  padding: 0;
+  margin: 0; }
 
-.friendlink {
-  text-align: right; }
+ul, ol, dl, dt {
+  list-style: none; }
+
+body {
+  font-family: Lucida Sans Unicode, Verdana, Aril, sans-serif; }
 
 .header {
-  position: fixed;
+  position: relative;
   top: 0;
   left: 0;
   width: 100%;
-  height: 50px;
-  font-size: 14px;
-  background: transparent url("../img/trans_8.png") repeat center;
-  line-height: 50px;
+  font-size: 12px;
+  background: transparent url("../img/trans_9.png") repeat center;
   color: #949494;
   z-index: 100; }
   .header a {
     color: #949494; }
+  .header .afa-logo {
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: inline-block;
+    text-indent: 0; }
+    .header .afa-logo a {
+      height: 50px;
+      line-height: 50px;
+      vertical-align: middle;
+      display: table-cell; }
+    .header .afa-logo img {
+      vertical-align: middle;
+      max-height: 50px; }
+  .header .afa-center {
+    background: #909090;
+    padding: 0 5px;
+    color: #000000;
+    line-height: 1.5;
+    display: inline-block; }
+  .header .contentbox {
+    position: relative;
+    width: 900px;
+    text-indent: 60px;
+    text-align: center;
+    line-height: 1; }
+  .header .center-operate {
+    width: 185px;
+    line-height: 50px; }
+  .header .img-nav-tab {
+    display: inline-block;
+    text-align: center;
+    line-height: 100%; }
+    .header .img-nav-tab .nav-item {
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+      margin: 15px 5px;
+      border-radius: 20px;
+      background: transparent url(../img/header_nav.png) no-repeat center; }
+      .header .img-nav-tab .nav-item.active {
+        background: transparent url(../img/header_nav_active.png) no-repeat center; }
 
 .footer {
-  position: fixed;
+  position: relative;
   bottom: 0;
   left: 0;
   width: 100%;
   height: 30px;
   font-size: 12px;
-  background: transparent url("../img/trans_8.png") repeat center;
+  z-index: 100;
+  background: transparent url("../img/trans_9.png") repeat center;
   line-height: 30px;
-  color: #949494;
-  z-index: 100; }
+  color: #949494; }
   .footer a {
     color: #949494; }
+  .footer.fixed {
+    position: fixed; }
+
+.friendlink {
+  text-align: right; }
+
+.box {
+  width: 1210px;
+  margin: 0 auto;
+  min-height: 1px; }
+  .box.padding {
+    padding: 50px 0 30px; }
+
+.slidebox {
+  float: left;
+  width: 125px;
+  min-height: 1px; }
+
+.contentbox {
+  float: left;
+  width: 960px;
+  min-height: 1px;
+  overflow: hidden; }
+
+.slide-menu {
+  height: 100%;
+  overflow: hidden;
+  background: #000000; }
+  .slide-menu .btn-list {
+    margin: 100px 0;
+    text-indent: 20px;
+    line-height: 2;
+    font-size: 16px; }
+    .slide-menu .btn-list a {
+      color: #ffffff; }
+
+.icon {
+  display: inline-block;
+  text-decoration: none; }
+  .icon:hover {
+    text-decoration: none; }
+
+.icon-weixin,
+.icon-qq,
+.icon-sina {
+  width: 80px;
+  height: 80px; }
+
+.icon-weixin {
+  background: transparent url("../img/icon/share1.png") 0 0 no-repeat;
+  color: transparent; }
+
+.icon-qq {
+  background: transparent url("../img/icon/share1.png") -101px 0 no-repeat;
+  color: transparent; }
+
+.icon-sina {
+  background: transparent url("../img/icon/share1.png") -203px 0 no-repeat;
+  color: transparent; }
+
+.icon-like,
+.icon-comment,
+.icon-share {
+  position: relative;
+  width: 34px;
+  height: 34px;
+  background-image: url("../img/icon/afa_icon.png");
+  background-repeat: no-repeat; }
+
+.icon-like {
+  background-position: 4px 0; }
+
+.icon-comment {
+  background-position: -32px 0; }
+
+.icon-share {
+  background-position: -66px 0; }
+
+.roll-btn-b-left, .roll-btn-b-right {
+  display: inline-block;
+  width: 20px;
+  height: 39px;
+  background-position: 0 0;
+  background-repeat: no-repeat; }
+
+.roll-btn-b-left {
+  background-image: url(../img/icon/roll_b_left.png); }
+
+.roll-btn-b-right {
+  background-image: url(../img/icon/roll_b_right.png); }
 
 /*# sourceMappingURL=pro.min.css.map */

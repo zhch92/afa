@@ -1,0 +1,208 @@
+@charset "UTF-8";
+@import "variables";
+@import "mixins";
+@import "placeholders";
+
+/* ==========================================================================
+   引用模块
+   ========================================================================== */
+@import "pro/roll.scss";
+/* ==========================================================================
+   全程管理页面
+   ========================================================================== */
+
+/* --------------------------------------------------------------------------
+   模块标题
+   -------------------------------------------------------------------------- */
+
+.afa-module-title {
+    font-size: 20px;
+    font-weight: bold;
+    background: $module-bg-color;
+    text-indent: 20px;
+    line-height: $title-bar-height;
+}
+
+
+/* --------------------------------------------------------------------------
+   全程管家 模块 顶部导航块
+   -------------------------------------------------------------------------- */
+
+$item-height:150px;
+ .afa-m-m-nav {
+    @extend %clearfix;
+    margin-right: -10px;
+    $item-bgcolor:#baccff;
+    a {
+        display: block;
+        width: 100%;
+        height: 100%;
+
+        font-size: 18px;
+        color: $black;
+        text-decoration: none;
+        &:hover{
+            text-decoration: none;
+        }
+        h3{
+            font-size: inherit;
+        }
+    }
+    .item {
+        position: relative;
+        height: $item-height;
+        h3 {
+            margin: 0;
+        }
+        &:hover{
+            h3{
+                color: $white;
+            }
+        }
+    }
+    .nav-list-one {
+        float: left;
+        width: 440px;
+        margin: 0 10px 0 0;
+        @extend %clearfix;
+        .item-top {
+            display: block;
+            height: 310px;
+            margin-bottom: 10px;
+            h3{
+                position: absolute;
+                width: 100%;
+                text-align: center;
+                top: 80px;
+                left: 0;
+                font-size: 30px;
+            }
+            -webkit-transition:all linear 300ms;
+            -moz-transition:all linear 300ms;
+            -ms-transition:all linear 300ms;
+            transition:all linear 300ms;
+            &:hover{
+                background-position:center 130px;
+                -webkit-transition:all linear 300ms;
+                -moz-transition:all linear 300ms;
+                -ms-transition:all linear 300ms;
+                transition:all linear 300ms;
+            }
+        }
+        .item-bottom {
+            display: block;
+            @extend %clearfix;
+            margin-right: -10px;
+            .item {
+                float: left;
+                width: 215px;
+                margin: 0 10px 0 0;
+                -webkit-transition:all linear 300ms;
+                -moz-transition:all linear 300ms;
+                -ms-transition:all linear 300ms;
+                transition:all linear 300ms;
+                &:hover{
+                    background-position:center 0;
+                    -webkit-transition:all linear 300ms;
+                    -moz-transition:all linear 300ms;
+                    -ms-transition:all linear 300ms;
+                    transition:all linear 300ms;
+                }
+            }
+            h3{
+                position: absolute;
+                width: 100%;
+                text-align: center;
+                bottom: 20px;
+                left: 0;
+            }
+        }
+    }
+    .nav-list-two {
+        @extend %clearfix;
+        width: 520px;
+        height: 470px;
+        overflow: hidden;
+        float: left;
+        .item {
+            float: left;
+            display: block;
+            width: 250px;
+            margin: 0 10px 10px 0;
+            -webkit-transition:all linear 300ms;
+            -moz-transition:all linear 300ms;
+            -ms-transition:all linear 300ms;
+            transition:all linear 300ms;
+            &:hover{
+                background-position: 20px center;
+                -webkit-transition:all linear 300ms;
+                -moz-transition:all linear 300ms;
+                -ms-transition:all linear 300ms;
+                transition:all linear 300ms;
+            }
+        }
+        h3{
+            position: absolute;
+            height: 100%;
+            line-height: 150px;
+            left: 150px;
+            top: 0;
+        }
+    }
+    .nav-shi {
+        background:$item-bgcolor url(../img/icon/shi.png) no-repeat center 150px;
+    }
+    .nav-yu {
+        background:$item-bgcolor url(../img/icon/yu.png) no-repeat center 10px;
+    }
+    .nav-zhuang {
+        background:$item-bgcolor url(../img/icon/zhuang.png) no-repeat center 10px;
+    }
+    .nav-ji {
+        background:$item-bgcolor url(../img/icon/ji.png) no-repeat 30px center;
+    }
+    .nav-huo {
+        background:$item-bgcolor url(../img/icon/huo.png) no-repeat 30px center;
+    }
+    .nav-men {
+        background:$item-bgcolor url(../img/icon/men.png) no-repeat 30px center;
+    }
+    .nav-ying {
+        background:$item-bgcolor url(../img/icon/ying.png) no-repeat 30px center;
+    }
+    .nav-tu {
+        background:$item-bgcolor url(../img/icon/tu.png) no-repeat 30px center;
+    }
+    .nav-re {
+        background:$item-bgcolor url(../img/icon/re.png) no-repeat 30px center;
+    }
+}
+
+
+/*==================全程管理子模块=================*/
+/*===title===*/
+
+.afa-m-title{
+    position: relative;
+    font-size: 16px;
+    background: $module-bg-color; 
+    text-indent: 20px;
+    h3{
+        font-size: 16px;
+        line-height: $title-bar-height;
+    }
+    .search{
+        position: absolute;
+        top: 8px;
+        right: 30px;
+        font-size: 12px;
+
+    }
+    .afa-input-text{
+        text-indent: 25px;
+        border: 1px solid;
+        padding: 2px 2px;
+        border-radius: 2px;
+        background:transparent url('../img/icon/search.png') 2px center no-repeat;
+    }
+}

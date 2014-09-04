@@ -102,7 +102,6 @@
     -webkit-order: 3;
     order: 3; }
 
-@inport "theme";
 /*
 *文本对其方式
 */
@@ -127,5 +126,14 @@
   height: 100%;
   top: 0;
   left: 0; }
+
+.w-hide {
+  display: none; }
+
+.w-show {
+  display: block; }
+
+.w-p-fixed {
+  position: fixed; }
 
 /*# sourceMappingURL=global.css.map */

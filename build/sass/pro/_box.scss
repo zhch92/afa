@@ -1,0 +1,24 @@
+// box
+$boxW:1210px;
+$slideboxW:125px;
+$contentboxW:960px;
+.box{
+	width:$boxW;
+	margin:0 auto;
+	@extend %clearfix;
+	min-height:1px;
+	&.padding{
+		padding:$header-height 0 $footer-height;
+	}
+}
+.slidebox{
+	float:left;
+	width:$slideboxW;
+	min-height:1px;
+}
+.contentbox{
+	float:left;
+	width:$contentboxW;
+	min-height:1px;
+	overflow:hidden;
+}

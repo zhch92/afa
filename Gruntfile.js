@@ -31,7 +31,9 @@ module.exports = function (grunt) {
                 },
                 files: {
                     'css/global.css': 'build/sass/global.scss',
-                    'css/pro.min.css': 'build/sass/pro.scss'
+                    'css/pro.min.css': 'build/sass/pro.scss',
+                    'css/index.css': 'build/sass/index.scss',
+                    'css/manager.css': 'build/sass/manager.scss'
                 }
             }
         },

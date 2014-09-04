@@ -1,0 +1,14 @@
+.roll-btn-b-left,.roll-btn-b-right{
+	display: inline-block;
+	width: 20px;
+	height: 39px;
+	background-position: 0 0;
+	background-repeat: no-repeat;
+}
+
+.roll-btn-b-left{
+	background-image: url(../img/icon/roll_b_left.png);
+}
+.roll-btn-b-right{
+	background-image: url(../img/icon/roll_b_right.png);
+}

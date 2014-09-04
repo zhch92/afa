@@ -18,8 +18,5 @@ requirejs(['jquery'], function($) {
 			display: 'none',
 			zIndex: '20'
 		}, 1000);
-
 	}, 3000);
-
-
 });

@@ -1,0 +1,17 @@
+@charset "UTF-8";
+//left menu 找知识 分享 找路线 。。。。
+.slide-menu{
+	height: 100%;
+	overflow: hidden;
+	background: $black;
+	.btn-list{
+		margin: 100px 0;
+		text-indent: 20px;
+		line-height: 2;
+		font-size: 16px;
+		a{
+			color: $white;
+			@extend %font-f-yahei;
+		}
+	}
+}

@@ -1,0 +1,65 @@
+.header{
+	position:relative;
+	top:0;
+	left:0;
+	width:100%;
+	font-size:12px;
+	@include bgimage("../img/trans_9.png");
+	color:$gray;
+	z-index:map-get($zIndex,top);
+	a{
+		color: $gray;
+	}
+	// logo
+	.afa-logo{
+		position: absolute;
+		left: 0;
+		top: 0;
+		display: inline-block;
+		text-indent: 0;
+		a{
+			height: 50px;
+			line-height: 50px;
+			vertical-align: middle;
+			display: table-cell;
+		}
+		img{
+			vertical-align: middle;
+			max-height: 50px;
+		}
+	}
+	.afa-center{
+		background:#909090;
+		padding: 0 5px;
+		color: $black;
+		line-height: 1.5;
+		display: inline-block;
+	}
+	.contentbox{
+		position: relative;
+		width: 900px;		
+		text-indent: 60px;
+		text-align: center;
+		line-height: 1;
+	}
+	.center-operate{
+		width: 185px;		
+		line-height:$header-height;
+	}
+	.img-nav-tab{
+		display: inline-block;
+		text-align: center;
+		line-height: 100%;
+		.nav-item{
+			display: inline-block;
+			width: 20px;
+			height: 20px;
+			margin: 15px 5px;
+			border-radius: 20px;
+			background: transparent url(../img/header_nav.png) no-repeat center;
+			&.active{
+				background: transparent url(../img/header_nav_active.png) no-repeat center;
+			}
+		}
+	}
+}

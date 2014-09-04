@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+/* ==========================================================================
+   阿尔法 项目 公共样式配置
+   ========================================================================== */
+// reset bootstrap
+.container{
+	width: 960px !important;
+	padding:0;
+} 
+div,span,
+ul,li,
+dl,dt,dd,
+i,b,em,
+h1,h2,h3,h4,h5,h6{
+	padding:0;
+	margin:0;
+}
+ul,ol,dl,dt{
+	list-style:none;
+}
+
+body{
+	font-family:Lucida Sans Unicode, Verdana, Aril, sans-serif;
+}

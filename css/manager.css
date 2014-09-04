@@ -1,0 +1,275 @@
+/*font end base.css*/
+@charset "UTF-8";
+.afa-m-imgshow .list:before, .afa-m-m-nav:before, .afa-m-m-nav .nav-list-one:before, .afa-m-m-nav .nav-list-one .item-bottom:before, .afa-m-m-nav .nav-list-two:before, .afa-m-imgshow .list:after, .afa-m-m-nav:after, .afa-m-m-nav .nav-list-one:after, .afa-m-m-nav .nav-list-one .item-bottom:after, .afa-m-m-nav .nav-list-two:after {
+  content: " ";
+  display: table; }
+.afa-m-imgshow .list:after, .afa-m-m-nav:after, .afa-m-m-nav .nav-list-one:after, .afa-m-m-nav .nav-list-one .item-bottom:after, .afa-m-m-nav .nav-list-two:after {
+  clear: both; }
+
+/* ==========================================================================
+   引用模块
+   ========================================================================== */
+.afa-m-roll {
+  position: relative;
+  top: 0;
+  left: 0;
+  height: 400px;
+  overflow: hidden; }
+  .afa-m-roll .roll-item {
+    height: 400px;
+    overflow: hidden; }
+    .afa-m-roll .roll-item a {
+      display: block;
+      height: 100%; }
+    .afa-m-roll .roll-item img {
+      width: 100%;
+      height: auto; }
+  .afa-m-roll .roll-btn-left,
+  .afa-m-roll .roll-btn-right {
+    position: absolute;
+    top: 50%;
+    display: inline-block;
+    width: 40px;
+    height: 77px;
+    margin-top: -38px; }
+  .afa-m-roll .roll-btn-left {
+    left: 10px;
+    background: transparent url(../img/icon/roll_left.png) center no-repeat; }
+  .afa-m-roll .roll-btn-right {
+    right: 10px;
+    background: transparent url(../img/icon/roll_right.png) center no-repeat; }
+  .afa-m-roll .info-box {
+    position: absolute;
+    top: 50px;
+    right: 60px;
+    width: 200px;
+    height: 250px;
+    background: transparent url(../img/icon/info_bg.png) center no-repeat;
+    color: #000000;
+    font-size: 14px;
+    line-height: 1.5; }
+    .afa-m-roll .info-box .title {
+      text-align: center;
+      line-height: 2; }
+
+.afa-m-text {
+  position: relative;
+  padding: 20px 100px; }
+  .afa-m-text .item {
+    position: relative; }
+  .afa-m-text .user-photo {
+    position: absolute;
+    left: -20px;
+    top: -10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    overflow: hidden; }
+    .afa-m-text .user-photo img {
+      width: 100%;
+      height: auto; }
+  .afa-m-text .user-operate {
+    text-align: right;
+    margin: 10px 0; }
+    .afa-m-text .user-operate a {
+      line-height: 34px;
+      padding: 0 5px; }
+      .afa-m-text .user-operate a i {
+        vertical-align: middle; }
+  .afa-m-text .t-content {
+    padding: 0 20px;
+    line-height: 1.5; }
+  .afa-m-text .roll-btn-b-left,
+  .afa-m-text .roll-btn-b-right {
+    position: absolute;
+    top: 50%;
+    margin-top: -18px; }
+  .afa-m-text .roll-btn-b-left {
+    left: 10px; }
+  .afa-m-text .roll-btn-b-right {
+    right: 10px; }
+
+.afa-m-imgshow .list {
+  margin-right: -10px; }
+  .afa-m-imgshow .list .item {
+    float: left;
+    margin-right: 10px;
+    width: 232.5px; }
+  .afa-m-imgshow .list .img {
+    display: table-cell;
+    height: 150px;
+    width: 232.5px;
+    line-height: 150px;
+    vertical-align: middle;
+    text-align: center; }
+    .afa-m-imgshow .list .img img {
+      max-width: 100%;
+      max-height: 100%;
+      vertical-align: middle; }
+  .afa-m-imgshow .list .user {
+    position: relative;
+    text-align: right;
+    margin: 0 0 20px 0; }
+    .afa-m-imgshow .list .user .tou {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 30px;
+      height: 30px;
+      border-radius: 30px;
+      border: 2px solid #ffffff; }
+    .afa-m-imgshow .list .user a i {
+      vertical-align: middle; }
+
+/* ==========================================================================
+   全程管理页面
+   ========================================================================== */
+/* --------------------------------------------------------------------------
+   模块标题
+   -------------------------------------------------------------------------- */
+.afa-module-title {
+  font-size: 20px;
+  font-weight: bold;
+  background: #f0f0f0;
+  text-indent: 20px;
+  line-height: 40px; }
+
+/* --------------------------------------------------------------------------
+   全程管家 模块 顶部导航块
+   -------------------------------------------------------------------------- */
+.afa-m-m-nav {
+  margin-right: -10px; }
+  .afa-m-m-nav a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    font-size: 18px;
+    color: #000000;
+    text-decoration: none; }
+    .afa-m-m-nav a:hover {
+      text-decoration: none; }
+    .afa-m-m-nav a h3 {
+      font-size: inherit; }
+  .afa-m-m-nav .item {
+    position: relative;
+    height: 150px; }
+    .afa-m-m-nav .item h3 {
+      margin: 0; }
+    .afa-m-m-nav .item:hover h3 {
+      color: #ffffff; }
+  .afa-m-m-nav .nav-list-one {
+    float: left;
+    width: 440px;
+    margin: 0 10px 0 0; }
+    .afa-m-m-nav .nav-list-one .item-top {
+      display: block;
+      height: 310px;
+      margin-bottom: 10px;
+      -webkit-transition: all linear 300ms;
+      -moz-transition: all linear 300ms;
+      -ms-transition: all linear 300ms;
+      transition: all linear 300ms; }
+      .afa-m-m-nav .nav-list-one .item-top h3 {
+        position: absolute;
+        width: 100%;
+        text-align: center;
+        top: 80px;
+        left: 0;
+        font-size: 30px; }
+      .afa-m-m-nav .nav-list-one .item-top:hover {
+        background-position: center 130px;
+        -webkit-transition: all linear 300ms;
+        -moz-transition: all linear 300ms;
+        -ms-transition: all linear 300ms;
+        transition: all linear 300ms; }
+    .afa-m-m-nav .nav-list-one .item-bottom {
+      display: block;
+      margin-right: -10px; }
+      .afa-m-m-nav .nav-list-one .item-bottom .item {
+        float: left;
+        width: 215px;
+        margin: 0 10px 0 0;
+        -webkit-transition: all linear 300ms;
+        -moz-transition: all linear 300ms;
+        -ms-transition: all linear 300ms;
+        transition: all linear 300ms; }
+        .afa-m-m-nav .nav-list-one .item-bottom .item:hover {
+          background-position: center 0;
+          -webkit-transition: all linear 300ms;
+          -moz-transition: all linear 300ms;
+          -ms-transition: all linear 300ms;
+          transition: all linear 300ms; }
+      .afa-m-m-nav .nav-list-one .item-bottom h3 {
+        position: absolute;
+        width: 100%;
+        text-align: center;
+        bottom: 20px;
+        left: 0; }
+  .afa-m-m-nav .nav-list-two {
+    width: 520px;
+    height: 470px;
+    overflow: hidden;
+    float: left; }
+    .afa-m-m-nav .nav-list-two .item {
+      float: left;
+      display: block;
+      width: 250px;
+      margin: 0 10px 10px 0;
+      -webkit-transition: all linear 300ms;
+      -moz-transition: all linear 300ms;
+      -ms-transition: all linear 300ms;
+      transition: all linear 300ms; }
+      .afa-m-m-nav .nav-list-two .item:hover {
+        background-position: 20px center;
+        -webkit-transition: all linear 300ms;
+        -moz-transition: all linear 300ms;
+        -ms-transition: all linear 300ms;
+        transition: all linear 300ms; }
+    .afa-m-m-nav .nav-list-two h3 {
+      position: absolute;
+      height: 100%;
+      line-height: 150px;
+      left: 150px;
+      top: 0; }
+  .afa-m-m-nav .nav-shi {
+    background: #baccff url(../img/icon/shi.png) no-repeat center 150px; }
+  .afa-m-m-nav .nav-yu {
+    background: #baccff url(../img/icon/yu.png) no-repeat center 10px; }
+  .afa-m-m-nav .nav-zhuang {
+    background: #baccff url(../img/icon/zhuang.png) no-repeat center 10px; }
+  .afa-m-m-nav .nav-ji {
+    background: #baccff url(../img/icon/ji.png) no-repeat 30px center; }
+  .afa-m-m-nav .nav-huo {
+    background: #baccff url(../img/icon/huo.png) no-repeat 30px center; }
+  .afa-m-m-nav .nav-men {
+    background: #baccff url(../img/icon/men.png) no-repeat 30px center; }
+  .afa-m-m-nav .nav-ying {
+    background: #baccff url(../img/icon/ying.png) no-repeat 30px center; }
+  .afa-m-m-nav .nav-tu {
+    background: #baccff url(../img/icon/tu.png) no-repeat 30px center; }
+  .afa-m-m-nav .nav-re {
+    background: #baccff url(../img/icon/re.png) no-repeat 30px center; }
+
+/*==================全程管理子模块=================*/
+/*===title===*/
+.afa-m-title {
+  position: relative;
+  font-size: 16px;
+  background: #f0f0f0;
+  text-indent: 20px; }
+  .afa-m-title h3 {
+    font-size: 16px;
+    line-height: 40px; }
+  .afa-m-title .search {
+    position: absolute;
+    top: 8px;
+    right: 30px;
+    font-size: 12px; }
+  .afa-m-title .afa-input-text {
+    text-indent: 25px;
+    border: 1px solid;
+    padding: 2px 2px;
+    border-radius: 2px;
+    background: transparent url("../img/icon/search.png") 2px center no-repeat; }
+
+/*# sourceMappingURL=manager.css.map */
