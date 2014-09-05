@@ -15,6 +15,9 @@
         "grunt-contrib-sass": "*",
         "grunt-contrib-uglify": "*",
         "grunt-contrib-watch": "*",
-        "grunt-contrib-jade": "*"
+            
+            "grunt-contrib-jade": "*",
+        
+        iosdifosd
     }
 }
