@@ -1,6 +1,7 @@
 .icon{
 	display: inline-block;
 	text-decoration: none;
+	vertical-align: middle;
 	&:hover{
 		text-decoration: none;
 	}
@@ -9,19 +10,19 @@
 .icon-weixin,
 .icon-qq,
 .icon-sina{
-	width: 80px;
-	height: 80px;
+	width: 60px;
+	height: 60px;
 }
 .icon-weixin{
 	background:transparent url('../img/icon/share1.png') 0 0 no-repeat;
 	color: transparent;
 }
 .icon-qq{
-	background:transparent url('../img/icon/share1.png') -101px 0 no-repeat;
+	background:transparent url('../img/icon/share1.png') -76px 0 no-repeat;
 	color: transparent;
 }
 .icon-sina{
-	background:transparent url('../img/icon/share1.png') -203px 0 no-repeat;
+	background:transparent url('../img/icon/share1.png') -152px 0 no-repeat;
 	color: transparent;
 }
 
@@ -31,19 +32,32 @@
 .icon-share{
 	position: relative;
 
-	width: 34px;
-	height: 34px;
+	width: 20px;
+	height: 20px;
 
-	background-image: url('../img/icon/afa_icon.png');
+	background-image: url('../img/icon/afa_icon2.png');
 
 	background-repeat: no-repeat;
 }
 .icon-like{
-	background-position: 4px 0;
+	background-position: 2px 0;
 }
 .icon-comment{
-	background-position: -32px 0;
+	background-position: -19px 0;
 }
 .icon-share{
-	background-position: -66px 0;
+	background-position: -41px 0;
+}
+
+.icon-afa-user{
+	background: transparent url(../img/icon/afa_user.png) no-repeat;
+	width: 18px;
+	height: 18px;
+
+	.icon-user{
+		background-position: 0 -57px;
+	}
+	.icon-password{
+		background-position: 0 0;
+	}
 }

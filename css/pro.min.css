@@ -7,7 +7,7 @@
   clear: both; }
 
 .slide-menu .btn-list a {
-  font-family: "微软雅黑"; }
+  font-family: "Microsoft YaHei"; }
 
 /* ==========================================================================
    阿尔法 项目 公共样式配置
@@ -28,7 +28,13 @@ ul, ol, dl, dt {
   list-style: none; }
 
 body {
-  font-family: Lucida Sans Unicode, Verdana, Aril, sans-serif; }
+  font-family: Lucida Sans Unicode, Verdana, Aril, sans-serif;
+  line-height: 1.5; }
+
+a {
+  text-decoration: none; }
+  a:hover {
+    text-decoration: none; }
 
 .header {
   position: relative;
@@ -42,7 +48,6 @@ body {
   .header a {
     color: #949494; }
   .header .afa-logo {
-    position: absolute;
     left: 0;
     top: 0;
     display: inline-block;
@@ -124,7 +129,8 @@ body {
 .slide-menu {
   height: 100%;
   overflow: hidden;
-  background: #000000; }
+  background: #000000;
+  min-height: 500px; }
   .slide-menu .btn-list {
     margin: 100px 0;
     text-indent: 20px;
@@ -135,45 +141,55 @@ body {
 
 .icon {
   display: inline-block;
-  text-decoration: none; }
+  text-decoration: none;
+  vertical-align: middle; }
   .icon:hover {
     text-decoration: none; }
 
 .icon-weixin,
 .icon-qq,
 .icon-sina {
-  width: 80px;
-  height: 80px; }
+  width: 60px;
+  height: 60px; }
 
 .icon-weixin {
   background: transparent url("../img/icon/share1.png") 0 0 no-repeat;
   color: transparent; }
 
 .icon-qq {
-  background: transparent url("../img/icon/share1.png") -101px 0 no-repeat;
+  background: transparent url("../img/icon/share1.png") -76px 0 no-repeat;
   color: transparent; }
 
 .icon-sina {
-  background: transparent url("../img/icon/share1.png") -203px 0 no-repeat;
+  background: transparent url("../img/icon/share1.png") -152px 0 no-repeat;
   color: transparent; }
 
 .icon-like,
 .icon-comment,
 .icon-share {
   position: relative;
-  width: 34px;
-  height: 34px;
-  background-image: url("../img/icon/afa_icon.png");
+  width: 20px;
+  height: 20px;
+  background-image: url("../img/icon/afa_icon2.png");
   background-repeat: no-repeat; }
 
 .icon-like {
-  background-position: 4px 0; }
+  background-position: 2px 0; }
 
 .icon-comment {
-  background-position: -32px 0; }
+  background-position: -19px 0; }
 
 .icon-share {
-  background-position: -66px 0; }
+  background-position: -41px 0; }
+
+.icon-afa-user {
+  background: transparent url(../img/icon/afa_user.png) no-repeat;
+  width: 18px;
+  height: 18px; }
+  .icon-afa-user .icon-user {
+    background-position: 0 -57px; }
+  .icon-afa-user .icon-password {
+    background-position: 0 0; }
 
 .roll-btn-b-left, .roll-btn-b-right {
   display: inline-block;

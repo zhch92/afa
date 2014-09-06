@@ -73,7 +73,7 @@
 	.user-photo{
 		position: absolute;
 		left: -20px;
-		top: -10px;
+		top: 0;
 
 		width: 50px;
 		height: 50px;
@@ -100,6 +100,7 @@
 	}
 
 	.t-content{
+		font-size: 12px;
 		padding: 0 20px;
 		line-height: 1.5;
 	}
@@ -125,16 +126,15 @@
 .afa-m-imgshow{
 	.list{
 		@extend %clearfix;
-		margin-right: -10px;
+		margin-right: -8px;
 		.item{
 			float: left;
-			margin-right: 10px;
-			width: 232.5px;
+			margin-right: 8px;
+			width: 234px;
 		}
 		.img{
 			display: table-cell;
 			height: 150px;
-			width: 232.5px;
 			line-height: 150px;
 			vertical-align: middle;
 			text-align: center;
@@ -148,6 +148,7 @@
 			position: relative;
 			text-align: right;
 			margin: 0 0 20px 0;
+			line-height: 30px;
 			.tou{
 				position: absolute;
 				top: 0;
@@ -162,6 +163,53 @@
 				i{
 					vertical-align: middle;
 				}
+			}
+
+		}
+		.hotel-info{
+			position: relative;
+			.col-md-8,
+			.col-md-4,
+			.col-md-12{
+				padding: 0;
+			}
+			.name,.price{
+				font-family: "Microsoft YaHei";
+			}
+			.name{
+				width: 150px;
+				height: 20px;
+				margin: 0 0 8px;
+				overflow: hidden;
+
+				a{
+					color: #000000;
+					font-size: 14px;
+					font-weight: bold;
+					line-height: 20px;
+					&:hover{
+						color: #ff7e00;
+					}
+				}
+			}
+			.price{
+				position: absolute;
+				top: 0;
+				right: 15px;
+
+				text-align: right;
+				font-size: 14px;
+				color: #ff7e00;
+				b{
+					font-size: 20px;
+				}
+			}
+			.address{
+				height: 20px;
+				line-height: 20px;
+				overflow: hidden;
+				font-size: 12px;
+				margin: 0 0 10px;
 			}
 
 		}

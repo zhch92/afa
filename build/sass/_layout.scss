@@ -1,4 +1,9 @@
 @charset "UTF-8";
+
+input,textarea{
+	-webkit-appearance: none;
+	-webkit-border-radius: 0;
+}
 .full-screen{
 	position:fixed;
 	width: 100%;
@@ -7,6 +12,10 @@
 	left:0;
 }
 //float 
+.w-cf{
+	@extend %clearfix;
+}
+
 .w-hide{
 	display:none;
 }
@@ -16,4 +25,7 @@
 
 .w-p-fixed{
 	position: fixed;
+}
+.w-p-absolute{
+	position: absolute;
 }

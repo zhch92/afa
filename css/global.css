@@ -1,5 +1,11 @@
 /*font end base.css*/
 @charset "UTF-8";
+.w-cf:before, .w-cf:after {
+  content: " ";
+  display: table; }
+.w-cf:after {
+  clear: both; }
+
 .fe-flex-box {
   display: -webkit-box;
   /* OLD - iOS 6-, Safari 3.1-6 */
@@ -120,6 +126,10 @@
 .fe-t2em {
   text-indent: 2em; }
 
+input, textarea {
+  -webkit-appearance: none;
+  -webkit-border-radius: 0; }
+
 .full-screen {
   position: fixed;
   width: 100%;
@@ -135,5 +145,8 @@
 
 .w-p-fixed {
   position: fixed; }
+
+.w-p-absolute {
+  position: absolute; }
 
 /*# sourceMappingURL=global.css.map */
