@@ -4,11 +4,14 @@
 	left:0;
 	width:100%;
 	font-size:12px;
-	@include bgimage("../img/trans_9.png");
-	color:$gray;
+	@include bgimage("../img/trans_gray_8.png");
+	color:$white;
 	z-index:map-get($zIndex,top);
 	a{
-		color: $gray;
+		color: $white;
+		&:hover{
+			text-decoration: underline;
+		}
 	}
 	// logo
 	.afa-logo{
@@ -29,7 +32,7 @@
 		}
 	}
 	.afa-center{
-		background:#909090;
+		background:$white;
 		padding: 0 5px;
 		color: $black;
 		line-height: 1.5;

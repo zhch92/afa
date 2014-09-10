@@ -35,6 +35,10 @@
     width: 40px;
     height: 77px;
     margin-top: -38px; }
+    .afa-m-roll .roll-btn-left:hover,
+    .afa-m-roll .roll-btn-right:hover {
+      background-color: #fff;
+      background-color: rgba(255, 255, 255, 0.4); }
   .afa-m-roll .roll-btn-left {
     left: 10px;
     background: transparent url(../img/icon/roll_left.png) center no-repeat; }
@@ -78,7 +82,8 @@
       line-height: 34px;
       padding: 0 5px; }
       .afa-m-text .user-operate a i {
-        vertical-align: middle; }
+        vertical-align: middle;
+        margin: 0 3px 0 0; }
   .afa-m-text .t-content {
     font-size: 12px;
     padding: 0 20px;
@@ -123,7 +128,8 @@
       border-radius: 30px;
       border: 2px solid #ffffff; }
     .afa-m-imgshow .list .user a i {
-      vertical-align: middle; }
+      vertical-align: middle;
+      margin: 0 3px 0 0; }
   .afa-m-imgshow .list .hotel-info {
     position: relative; }
     .afa-m-imgshow .list .hotel-info .col-md-8,

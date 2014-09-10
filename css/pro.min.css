@@ -28,7 +28,7 @@ ul, ol, dl, dt {
   list-style: none; }
 
 body {
-  font-family: Lucida Sans Unicode, Verdana, Aril, sans-serif;
+  font-family: tahoma,arial,'Hiragino Sans GB','\5b8b\4f53',sans-serif;
   line-height: 1.5; }
 
 a {
@@ -42,11 +42,13 @@ a {
   left: 0;
   width: 100%;
   font-size: 12px;
-  background: transparent url("../img/trans_9.png") repeat center;
-  color: #949494;
+  background: transparent url("../img/trans_gray_8.png") repeat center;
+  color: #ffffff;
   z-index: 100; }
   .header a {
-    color: #949494; }
+    color: #ffffff; }
+    .header a:hover {
+      text-decoration: underline; }
   .header .afa-logo {
     left: 0;
     top: 0;
@@ -61,7 +63,7 @@ a {
       vertical-align: middle;
       max-height: 50px; }
   .header .afa-center {
-    background: #909090;
+    background: #ffffff;
     padding: 0 5px;
     color: #000000;
     line-height: 1.5;
@@ -180,7 +182,7 @@ a {
   background-position: -19px 0; }
 
 .icon-share {
-  background-position: -41px 0; }
+  background-position: -39px 0; }
 
 .icon-afa-user {
   background: transparent url(../img/icon/afa_user.png) no-repeat;

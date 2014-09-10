@@ -96,14 +96,22 @@
 				width: 137px;
 				height: 100%;
 				overflow: hidden;
+				a{
+					display: block;
+					color: $white;
+					&:hover,
+					&:focus{
+						color: $white;
+					}
+				}
 				b{
 					position:absolute;
 					top: 60px;
 					font-size: 24px;
-					left: 50px;
+					left: 20px;
 				}
 				img{
-					min-height: 500px;
+					min-height: 400px;
 				}
 				.cover{
 					position:absolute;

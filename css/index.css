@@ -88,13 +88,18 @@
       width: 137px;
       height: 100%;
       overflow: hidden; }
+      .menu-nav .img-menu ul .img-item a {
+        display: block;
+        color: #ffffff; }
+        .menu-nav .img-menu ul .img-item a:hover, .menu-nav .img-menu ul .img-item a:focus {
+          color: #ffffff; }
       .menu-nav .img-menu ul .img-item b {
         position: absolute;
         top: 60px;
         font-size: 24px;
-        left: 50px; }
+        left: 20px; }
       .menu-nav .img-menu ul .img-item img {
-        min-height: 500px; }
+        min-height: 400px; }
       .menu-nav .img-menu ul .img-item .cover {
         position: absolute;
         width: 100%;
