@@ -3,7 +3,7 @@ $boxW:1210px;
 $slideboxW:125px;
 $contentboxW:960px;
 .box{
-	width:$boxW;
+	width:$boxW+2;
 	margin:0 auto;
 	@extend %clearfix;
 	min-height:1px;
@@ -21,4 +21,13 @@ $contentboxW:960px;
 	width:$contentboxW;
 	min-height:1px;
 	overflow:hidden;
+	border: 1px solid transparent;
+	box-sizing:content-box;
+	&.afa-index{
+		border: none;
+	}
+	&.border{
+		border-color: $black;
+		margin: 20px 0;
+	}
 }

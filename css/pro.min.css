@@ -49,6 +49,14 @@ a {
     color: #ffffff; }
     .header a:hover {
       text-decoration: underline; }
+  .header.normal {
+    background: #ffffff;
+    color: #000000;
+    border-bottom: 1px solid #000000; }
+    .header.normal a {
+      color: #000000; }
+      .header.normal a:hover {
+        text-decoration: underline; }
   .header .afa-logo {
     left: 0;
     top: 0;
@@ -64,10 +72,12 @@ a {
       max-height: 50px; }
   .header .afa-center {
     background: #ffffff;
-    padding: 0 5px;
+    padding: 3px 3px;
     color: #000000;
     line-height: 1.5;
-    display: inline-block; }
+    display: inline-block;
+    border: 1px solid #000000;
+    border-radius: 4px; }
   .header .contentbox {
     position: relative;
     width: 900px;
@@ -111,7 +121,7 @@ a {
   text-align: right; }
 
 .box {
-  width: 1210px;
+  width: 1212px;
   margin: 0 auto;
   min-height: 1px; }
   .box.padding {
@@ -126,13 +136,26 @@ a {
   float: left;
   width: 960px;
   min-height: 1px;
-  overflow: hidden; }
+  overflow: hidden;
+  border: 1px solid transparent;
+  box-sizing: content-box; }
+  .contentbox.afa-index {
+    border: none; }
+  .contentbox.border {
+    border-color: #000000;
+    margin: 20px 0; }
 
 .slide-menu {
   height: 100%;
   overflow: hidden;
   background: #000000;
   min-height: 500px; }
+  .slide-menu.normal {
+    background: #ffffff; }
+    .slide-menu.normal .btn-list a {
+      color: #000000; }
+      .slide-menu.normal .btn-list a:hover {
+        color: #949494; }
   .slide-menu .btn-list {
     margin: 100px 0;
     text-indent: 20px;
@@ -140,6 +163,24 @@ a {
     font-size: 16px; }
     .slide-menu .btn-list a {
       color: #ffffff; }
+  .slide-menu.skin01 {
+    background: #ffffff; }
+    .slide-menu.skin01 .btn-list a {
+      color: #000000; }
+      .slide-menu.skin01 .btn-list a:hover {
+        color: #4b87bf; }
+  .slide-menu.skin02 {
+    background: #ffffff; }
+    .slide-menu.skin02 .btn-list a {
+      color: #000000; }
+      .slide-menu.skin02 .btn-list a:hover {
+        color: #4b87bf; }
+  .slide-menu.skin03 {
+    background: #ffffff; }
+    .slide-menu.skin03 .btn-list a {
+      color: #000000; }
+      .slide-menu.skin03 .btn-list a:hover {
+        color: #4b87bf; }
 
 .icon {
   display: inline-block;
@@ -205,5 +246,37 @@ a {
 
 .roll-btn-b-right {
   background-image: url(../img/icon/roll_b_right.png); }
+
+/* --------------------------------------------------------------------------
+   模块标题
+   -------------------------------------------------------------------------- */
+.afa-module-title {
+  font-size: 20px;
+  font-weight: bold;
+  background: #f0f0f0;
+  text-indent: 20px;
+  line-height: 40px; }
+
+/*==================全程管理子模块=================*/
+/*===title===*/
+.afa-m-title {
+  position: relative;
+  font-size: 16px;
+  background: #f0f0f0;
+  text-indent: 20px; }
+  .afa-m-title h3 {
+    font-size: 16px;
+    line-height: 40px; }
+  .afa-m-title .search {
+    position: absolute;
+    top: 8px;
+    right: 30px;
+    font-size: 12px; }
+  .afa-m-title .afa-input-text {
+    text-indent: 25px;
+    border: 1px solid;
+    padding: 2px 2px;
+    border-radius: 2px;
+    background: transparent url("../img/icon/search.png") 2px center no-repeat; }
 
 /*# sourceMappingURL=pro.min.css.map */

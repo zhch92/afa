@@ -1,13 +1,10 @@
 /*font end base.css*/
 @charset "UTF-8";
-.afa-m-roll .roll-list:before, .afa-m-imgshow .list:before, .afa-m-m-nav:before, .afa-m-m-nav .nav-list-one:before, .afa-m-m-nav .nav-list-one .item-bottom:before, .afa-m-m-nav .nav-list-two:before, .afa-m-roll .roll-list:after, .afa-m-imgshow .list:after, .afa-m-m-nav:after, .afa-m-m-nav .nav-list-one:after, .afa-m-m-nav .nav-list-one .item-bottom:after, .afa-m-m-nav .nav-list-two:after {
+.afa-m-roll .roll-list:before, .afa-m-imgshow .list:before, .afa-m-roll .roll-list:after, .afa-m-imgshow .list:after {
   content: " ";
   display: table; }
-.afa-m-roll .roll-list:after, .afa-m-imgshow .list:after, .afa-m-m-nav:after, .afa-m-m-nav .nav-list-one:after, .afa-m-m-nav .nav-list-one .item-bottom:after, .afa-m-m-nav .nav-list-two:after {
+.afa-m-roll .roll-list:after, .afa-m-imgshow .list:after {
   clear: both; }
-
-.afa-m-m-nav a h3 {
-  font-family: "Microsoft YaHei"; }
 
 /* ==========================================================================
    引用模块
@@ -177,117 +174,52 @@
 /* --------------------------------------------------------------------------
    全程管家 模块 顶部导航块
    -------------------------------------------------------------------------- */
-.afa-m-m-nav {
-  margin-right: -10px; }
-  .afa-m-m-nav a {
-    display: block;
-    width: 100%;
-    height: 100%;
-    font-size: 18px;
-    color: #000000;
-    text-decoration: none; }
-    .afa-m-m-nav a:hover {
-      text-decoration: none; }
-    .afa-m-m-nav a h3 {
-      font-size: inherit; }
-  .afa-m-m-nav .item {
-    position: relative;
-    height: 150px; }
-    .afa-m-m-nav .item h3 {
-      margin: 0; }
-    .afa-m-m-nav .item:hover h3 {
-      color: #ffffff; }
-  .afa-m-m-nav .nav-list-one {
-    float: left;
-    width: 440px;
-    margin: 0 10px 0 0; }
-    .afa-m-m-nav .nav-list-one .item-top {
-      display: block;
-      height: 310px;
-      margin-bottom: 10px;
-      -webkit-transition: all linear 300ms;
-      -moz-transition: all linear 300ms;
-      -ms-transition: all linear 300ms;
-      transition: all linear 300ms; }
-      .afa-m-m-nav .nav-list-one .item-top h3 {
-        position: absolute;
-        width: 100%;
-        text-align: center;
-        top: 80px;
-        left: 0;
-        font-size: 30px; }
-      .afa-m-m-nav .nav-list-one .item-top:hover {
-        background-position: center 130px;
-        -webkit-transition: all linear 300ms;
-        -moz-transition: all linear 300ms;
-        -ms-transition: all linear 300ms;
-        transition: all linear 300ms; }
-    .afa-m-m-nav .nav-list-one .item-bottom {
-      display: block;
-      margin-right: -10px; }
-      .afa-m-m-nav .nav-list-one .item-bottom .item {
-        float: left;
-        width: 215px;
-        margin: 0 10px 0 0;
-        -webkit-transition: all linear 300ms;
-        -moz-transition: all linear 300ms;
-        -ms-transition: all linear 300ms;
-        transition: all linear 300ms; }
-        .afa-m-m-nav .nav-list-one .item-bottom .item:hover {
-          background-position: center 0;
-          -webkit-transition: all linear 300ms;
-          -moz-transition: all linear 300ms;
-          -ms-transition: all linear 300ms;
-          transition: all linear 300ms; }
-      .afa-m-m-nav .nav-list-one .item-bottom h3 {
-        position: absolute;
-        width: 100%;
-        text-align: center;
-        bottom: 20px;
-        left: 0; }
-  .afa-m-m-nav .nav-list-two {
-    width: 520px;
-    height: 470px;
-    overflow: hidden;
-    float: left; }
-    .afa-m-m-nav .nav-list-two .item {
-      float: left;
-      display: block;
-      width: 250px;
-      margin: 0 10px 10px 0;
-      -webkit-transition: all linear 300ms;
-      -moz-transition: all linear 300ms;
-      -ms-transition: all linear 300ms;
-      transition: all linear 300ms; }
-      .afa-m-m-nav .nav-list-two .item:hover {
-        background-position: 20px center;
-        -webkit-transition: all linear 300ms;
-        -moz-transition: all linear 300ms;
-        -ms-transition: all linear 300ms;
-        transition: all linear 300ms; }
-    .afa-m-m-nav .nav-list-two h3 {
-      position: absolute;
-      height: 100%;
-      line-height: 150px;
-      left: 150px;
-      top: 0; }
-  .afa-m-m-nav .nav-shi {
-    background: #baccff url(../img/icon/shi.png) no-repeat center 150px; }
-  .afa-m-m-nav .nav-yu {
-    background: #baccff url(../img/icon/yu.png) no-repeat center 10px; }
-  .afa-m-m-nav .nav-zhuang {
-    background: #baccff url(../img/icon/zhuang.png) no-repeat center 10px; }
-  .afa-m-m-nav .nav-ji {
-    background: #baccff url(../img/icon/ji.png) no-repeat 30px center; }
-  .afa-m-m-nav .nav-huo {
-    background: #baccff url(../img/icon/huo.png) no-repeat 30px center; }
-  .afa-m-m-nav .nav-men {
-    background: #baccff url(../img/icon/men.png) no-repeat 30px center; }
-  .afa-m-m-nav .nav-ying {
-    background: #baccff url(../img/icon/ying.png) no-repeat 30px center; }
-  .afa-m-m-nav .nav-tu {
-    background: #baccff url(../img/icon/tu.png) no-repeat 30px center; }
-  .afa-m-m-nav .nav-re {
-    background: #baccff url(../img/icon/re.png) no-repeat 30px center; }
+/* --------------------------------------------------------------------------
+   文章模块
+   -------------------------------------------------------------------------- */
+.afa-m-k-zixun-content {
+  background: #fafafa; }
 
-/*# sourceMappingURL=manager.css.map */
+.travel-m-title h2 {
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 3; }
+
+.travel-text-intr {
+  line-height: 2;
+  font-size: 12px;
+  text-indent: 2em; }
+  .travel-text-intr span {
+    display: inline-block;
+    margin: 0 20px 0 0;
+    text-indent: 0; }
+
+.travel-text p {
+  text-indent: 2em; }
+.travel-text strong {
+  text-indent: 0; }
+.travel-text p.intr-img {
+  text-indent: 0;
+  text-align: center; }
+  .travel-text p.intr-img img {
+    max-width: 900px;
+    height: auto; }
+
+/* --------------------------------------------------------------------------
+   找常识
+   -------------------------------------------------------------------------- */
+.afa-m-k-chang-content {
+  background: #fafafa; }
+  .afa-m-k-chang-content .content-table {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px 0; }
+    .afa-m-k-chang-content .content-table tr {
+      height: 30px; }
+      .afa-m-k-chang-content .content-table tr th {
+        text-indent: 5px;
+        font-weight: normal; }
+      .afa-m-k-chang-content .content-table tr td {
+        text-align: center; }
+
+/*# sourceMappingURL=knowledge.css.map */

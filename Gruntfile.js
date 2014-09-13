@@ -1,4 +1,4 @@
-module.exports = function (grunt) {
+module.exports = function(grunt) {
     grunt.initConfig({
         pkg: grunt.file.readJSON('package.json'),
         jshint: {
@@ -34,11 +34,12 @@ module.exports = function (grunt) {
                     'css/pro.min.css': 'build/sass/pro.scss',
                     'css/index.css': 'build/sass/index.scss',
                     'css/manager.css': 'build/sass/manager.scss',
-                    'css/user.css': 'build/sass/user.scss'
+                    'css/user.css': 'build/sass/user.scss',
+                    'css/knowledge.css': 'build/sass/knowledge.scss'
                 }
             }
         },
-/*        jade: {
+        /*        jade: {
             compile: {
                 files: {
                     'index.html': 'build/page/index.jade'
@@ -49,7 +50,7 @@ module.exports = function (grunt) {
             sass: {
                 files: ['build/sass/**/*.scss'],
                 tasks: ['sass']
-            }//,
+            } //,
             // jade: {
             //      files: ['build/page/**/*.jade'],
             //      tasks: ['jade']
@@ -69,5 +70,4 @@ module.exports = function (grunt) {
     //grunt.registerTask('test', ['jshint', 'qunit']);
 
     grunt.registerTask('default', ['jshint', 'sass', 'watch']);
-
 };

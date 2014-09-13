@@ -12,19 +12,6 @@
    ========================================================================== */
 
 /* --------------------------------------------------------------------------
-   模块标题
-   -------------------------------------------------------------------------- */
-
-.afa-module-title {
-    font-size: 20px;
-    font-weight: bold;
-    background: $module-bg-color;
-    text-indent: 20px;
-    line-height: $title-bar-height;
-}
-
-
-/* --------------------------------------------------------------------------
    全程管家 模块 顶部导航块
    -------------------------------------------------------------------------- */
 
@@ -176,34 +163,5 @@ $item-height:150px;
     }
     .nav-re {
         background:$item-bgcolor url(../img/icon/re.png) no-repeat 30px center;
-    }
-}
-
-
-/*==================全程管理子模块=================*/
-/*===title===*/
-
-.afa-m-title{
-    position: relative;
-    font-size: 16px;
-    background: $module-bg-color; 
-    text-indent: 20px;
-    h3{
-        font-size: 16px;
-        line-height: $title-bar-height;
-    }
-    .search{
-        position: absolute;
-        top: 8px;
-        right: 30px;
-        font-size: 12px;
-
-    }
-    .afa-input-text{
-        text-indent: 25px;
-        border: 1px solid;
-        padding: 2px 2px;
-        border-radius: 2px;
-        background:transparent url('../img/icon/search.png') 2px center no-repeat;
     }
 }

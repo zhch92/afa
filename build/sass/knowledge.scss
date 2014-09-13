@@ -1,0 +1,82 @@
+@charset "UTF-8";
+@import "variables";
+@import "mixins";
+@import "placeholders";
+
+/* ==========================================================================
+   引用模块
+   ========================================================================== */
+@import "pro/roll.scss";
+/* ==========================================================================
+   全程管理页面
+   ========================================================================== */
+
+/* --------------------------------------------------------------------------
+   全程管家 模块 顶部导航块
+   -------------------------------------------------------------------------- */
+
+/* --------------------------------------------------------------------------
+   文章模块
+   -------------------------------------------------------------------------- */
+.afa-m-k-zixun-content{
+	background:darken($white,2%);
+}
+.travel-m-title{
+	h2{
+		font-size: 20px;
+		font-weight: bold;
+		line-height:3;
+	}
+}
+.travel-text-intr{
+	line-height: 2;
+	font-size: 12px;
+	text-indent: 2em;
+	span{
+		display: inline-block;
+		margin: 0 20px 0 0;
+		text-indent: 0;
+	}
+}
+
+.travel-text{
+	p{
+		text-indent: 2em;
+	}
+	strong{
+		text-indent: 0;
+	}
+	p.intr-img{
+		text-indent: 0;
+		text-align: center;
+		img{
+			max-width: 900px;
+			height: auto;
+		}
+	}
+}
+
+/* --------------------------------------------------------------------------
+   找常识
+   -------------------------------------------------------------------------- */
+.afa-m-k-chang{
+
+}
+.afa-m-k-chang-content{
+	background:darken($white,2%);
+	.content-table{
+		width: 400px;
+		margin: 0 auto;
+		padding: 20px 0;
+		tr{
+			height: 30px;
+			th{
+				text-indent: 5px;
+				font-weight: normal;
+			}
+			td{
+				text-align: center;
+			}
+		}
+	}	
+}

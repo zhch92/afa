@@ -8,7 +8,14 @@
 
 	height: $img-height;
 	overflow: hidden;
+	.roll-list{
+		position: relative;
+		top: 0;
+		left: 0;
+		@extend %clearfix;
+	}
 	.roll-item{
+		float: left;
 		height: $img-height;
 		overflow: hidden;
 		a{

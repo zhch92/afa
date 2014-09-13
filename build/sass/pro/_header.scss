@@ -13,6 +13,17 @@
 			text-decoration: underline;
 		}
 	}
+	&.normal{
+		background: $white;
+		color:$black;
+		border-bottom: 1px solid $black;
+		a{
+			color: $black;
+			&:hover{
+			text-decoration: underline;
+			}
+		}
+	}
 	// logo
 	.afa-logo{
 		//position: absolute;
@@ -33,10 +44,12 @@
 	}
 	.afa-center{
 		background:$white;
-		padding: 0 5px;
+		padding: 3px 3px;
 		color: $black;
 		line-height: 1.5;
 		display: inline-block;
+		border: 1px solid $black;
+		border-radius: 4px;
 	}
 	.contentbox{
 		position: relative;

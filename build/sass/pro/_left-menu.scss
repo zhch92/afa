@@ -5,6 +5,17 @@
 	overflow: hidden;
 	background: $black;
 	min-height: 500px;
+	&.normal{
+		background: $white;
+		.btn-list{
+			a{
+				color: $black;
+				&:hover{
+					color: $gray;
+				}
+			}
+		}
+	}
 	.btn-list{
 		margin: 100px 0;
 		text-indent: 20px;
@@ -13,6 +24,41 @@
 		a{
 			color: $white;
 			@extend %font-f-yahei;
+		}
+	}
+
+
+	&.skin01{
+		background: $white;
+		.btn-list{
+			a{
+				color: $black;
+				&:hover{
+					color: #4b87bf;
+				}
+			}
+		}
+	}
+	&.skin02{
+		background: $white;
+		.btn-list{
+			a{
+				color: $black;
+				&:hover{
+					color: #4b87bf;
+				}
+			}
+		}
+	}
+	&.skin03{
+		background: $white;
+		.btn-list{
+			a{
+				color: $black;
+				&:hover{
+					color: #4b87bf;
+				}
+			}
 		}
 	}
 }
