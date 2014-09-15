@@ -1,0 +1,61 @@
+@charset "UTF-8";
+@import "variables";
+@import "mixins";
+@import "placeholders";
+/* ==========================================================================
+   照片墙
+   ========================================================================== */
+.afa-m-picwall{
+	.img-list{
+		@extend %clearfix;
+		width: 960px;
+		overflow: hidden;
+		margin-right: 5px;
+		background: $white;
+	}
+	.item{
+		float: left;
+		width: 75.5px;		
+		margin: 5px 5px 0 0;
+	}	
+	img{
+		display: block;
+		width: 100%;
+		height: auto;
+	}		
+	ul{
+		@extend %clearfix;
+		margin-right: -5px;
+	}		
+	.img-i-one{
+		float: left;
+		width: 75.5px;overflow: hidden;
+		margin-right: 5px;
+	}
+	.img-i-two{
+		float: left;
+		width: 155.5px;overflow: hidden;
+		margin-right: 5px;
+		&>img{
+			margin-top: 5px;
+		}
+		ul{
+			margin-right: -10px;
+		}
+	}
+	.img-i-three{
+		float: left;
+		width: 236.5px;overflow: hidden;
+		margin-right: 5px;
+		&>img{
+			margin-top: 5px;
+		}
+	}
+	.img-i-four{
+		float: left;
+		width: 317px;overflow: hidden;
+		margin-right: 5px;
+	}
+
+
+}

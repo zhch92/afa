@@ -75,12 +75,17 @@
   -webkit-box-sizing: border-box;
   /* Safari */ }
   .menu-nav .box {
-    height: 100%; }
+    height: 100%;
+    padding: 50px 0 30px;
+    box-sizing: border-box;
+    overflow: hidden; }
   .menu-nav .slidebox {
     position: relative;
     z-index: 60; }
   .menu-nav .img-menu {
     width: 960px;
+    height: 100%;
+    overflow: hidden;
     z-index: 60; }
     .menu-nav .img-menu ul .img-item {
       position: relative;

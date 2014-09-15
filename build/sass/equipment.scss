@@ -35,3 +35,80 @@
 		height: auto;
 	}
 }
+
+
+/* --------------------------------------------------------------------------
+  	img show
+   -------------------------------------------------------------------------- */
+.afa-m-fe-imgshow{
+	margin: 5px 0;
+	.item{
+		padding: 10px;
+		background: #424242;
+		box-sizing:border-box;
+		.img{
+			height: auto;
+		}
+	}
+	.img{
+		.price{
+			position: relative;
+			padding: 5px;
+			background: #7c9d1d;
+			line-height: 1.2;
+			color: $white;
+			text-align: left;
+			p{
+				margin: 0;
+				line-height: 1.5;
+			}
+		}
+		.new-price{
+			font-size: 20px;
+			font-weight: bold;
+		}
+		.old-price{
+			font-size: 14px;
+			text-decoration: line-through;
+		}
+		.buy-btn{
+			position: absolute;
+			top: 15px;
+			right: 10px;
+			font-size: 18px;
+			line-height: 1.5;
+			border-radius: 15px;
+			padding: 0 20px;
+			background: $white;
+			color: #7c9d1d;
+		}
+	}
+	.bottom{
+		.name{
+			display: block;
+			line-height: 20px;
+			height: 40px;
+			padding: 5px 0;
+			overflow: hidden;
+			font-size: 14px;
+			color: $gray;
+			box-sizing:content-box;
+		}
+		.info{
+			padding: 0;
+			font-size: 12px;
+			padding-top: 10px;
+			.col-md-4,.col-md-8{
+				padding: 0;
+				line-height: 20px;
+			}
+			b,i{
+				color: #7c9d1d;
+				font-style: normal;
+			}
+			b{
+				font-size: 16px;
+			}
+		}
+	}
+}

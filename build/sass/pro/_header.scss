@@ -4,9 +4,14 @@
 	left:0;
 	width:100%;
 	font-size:12px;
-	@include bgimage("../img/trans_gray_8.png");
+	@include bgimage("../img/black.8.png");
+	//background: rgba(0,0,0,.8);
 	color:$white;
 	z-index:map-get($zIndex,top);
+
+	&.fixed{
+		position: fixed;
+	}
 	a{
 		color: $white;
 		&:hover{
@@ -46,7 +51,7 @@
 		background:$white;
 		padding: 3px 3px;
 		color: $black;
-		line-height: 1.5;
+		line-height: 1.2;
 		display: inline-block;
 		border: 1px solid $black;
 		border-radius: 4px;
@@ -57,9 +62,10 @@
 		text-indent: 60px;
 		text-align: center;
 		line-height: 1;
+		border: none;
 	}
 	.center-operate{
-		width: 185px;		
+		width: 185px;	
 		line-height:$header-height;
 	}
 	.img-nav-tab{

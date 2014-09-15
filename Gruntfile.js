@@ -36,7 +36,8 @@ module.exports = function(grunt) {
                     'css/manager.css': 'build/sass/manager.scss',
                     'css/user.css': 'build/sass/user.scss',
                     'css/knowledge.css': 'build/sass/knowledge.scss',
-                     'css/equipment.css': 'build/sass/equipment.scss'
+                    'css/equipment.css': 'build/sass/equipment.scss',
+                    'css/team.css': 'build/sass/team.scss'
                 }
             }
         },

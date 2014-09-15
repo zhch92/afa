@@ -14,7 +14,7 @@ requirejs(['jquery'],function($) {
 	//welcome change page
 	var indexTimer = null;
 
-	var nav_img_arr = ['./img/a01.jpg', './img/a02.jpg', './img/a03.jpg', './img/a04.jpg', './img/a05.jpg', './img/a06.jpg', './img/a07.jpg']
+	var nav_img_arr = ['./img/b01.jpg', './img/b02.jpg', './img/b03.jpg', './img/b04.jpg', './img/b05.jpg', './img/b06.jpg', './img/b07.jpg']
 
 	indexTimer = setTimeout(function() {
 		$('#first-screen').animate({

@@ -42,9 +42,11 @@ a {
   left: 0;
   width: 100%;
   font-size: 12px;
-  background: transparent url("../img/trans_gray_8.png") repeat center;
+  background: transparent url("../img/black.8.png") repeat center;
   color: #ffffff;
   z-index: 100; }
+  .header.fixed {
+    position: fixed; }
   .header a {
     color: #ffffff; }
     .header a:hover {
@@ -74,7 +76,7 @@ a {
     background: #ffffff;
     padding: 3px 3px;
     color: #000000;
-    line-height: 1.5;
+    line-height: 1.2;
     display: inline-block;
     border: 1px solid #000000;
     border-radius: 4px; }
@@ -83,7 +85,8 @@ a {
     width: 900px;
     text-indent: 60px;
     text-align: center;
-    line-height: 1; }
+    line-height: 1;
+    border: none; }
   .header .center-operate {
     width: 185px;
     line-height: 50px; }

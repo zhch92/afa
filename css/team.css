@@ -1,0 +1,125 @@
+/*font end base.css*/
+@charset "UTF-8";
+.afa-m-picwall .img-list:before, .afa-m-picwall ul:before, .afa-m-picwall .img-list:after, .afa-m-picwall ul:after {
+  content: " ";
+  display: table; }
+.afa-m-picwall .img-list:after, .afa-m-picwall ul:after {
+  clear: both; }
+
+/* ==========================================================================
+   引用模块
+   ========================================================================== */
+.afa-m-picwall .img-list:before, .afa-m-picwall ul:before, .afa-m-picwall .img-list:after, .afa-m-picwall ul:after {
+  content: " ";
+  display: table; }
+.afa-m-picwall .img-list:after, .afa-m-picwall ul:after {
+  clear: both; }
+
+.w-fade-in-out-wrapper-outer {
+  position: relative; }
+  .w-fade-in-out-wrapper-outer .wrapper-list {
+    height: 400px;
+    overflow: hidden; }
+  .w-fade-in-out-wrapper-outer .img-item {
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block;
+    height: 400px;
+    overflow: hidden; }
+    .w-fade-in-out-wrapper-outer .img-item a {
+      display: block; }
+      .w-fade-in-out-wrapper-outer .img-item a img {
+        display: block;
+        width: 100%;
+        height: auto; }
+    .w-fade-in-out-wrapper-outer .img-item .desc {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      padding: 20px;
+      background: rgba(0, 0, 0, 0.6);
+      background: #000 \9;
+      filter: alpha(opacity=60);
+      color: #ffffff; }
+      .w-fade-in-out-wrapper-outer .img-item .desc h3 {
+        line-height: 2; }
+  .w-fade-in-out-wrapper-outer .control-view {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    width: 100%;
+    height: 13px;
+    z-index: 50;
+    text-align: center; }
+    .w-fade-in-out-wrapper-outer .control-view a {
+      display: inline-block;
+      width: 13px;
+      height: 13px;
+      background: url(../img/icon/circle.png) no-repeat 0 0; }
+      .w-fade-in-out-wrapper-outer .control-view a.current {
+        background-position: -16px 0; }
+
+.afa-m-picwall .img-list:before, .afa-m-picwall ul:before, .afa-m-picwall .img-list:after, .afa-m-picwall ul:after {
+  content: " ";
+  display: table; }
+.afa-m-picwall .img-list:after, .afa-m-picwall ul:after {
+  clear: both; }
+
+/* ==========================================================================
+   照片墙
+   ========================================================================== */
+.afa-m-picwall .img-list {
+  width: 960px;
+  overflow: hidden;
+  margin-right: 5px;
+  background: #ffffff; }
+.afa-m-picwall .item {
+  float: left;
+  width: 75.5px;
+  margin: 5px 5px 0 0; }
+.afa-m-picwall img {
+  display: block;
+  width: 100%;
+  height: auto; }
+.afa-m-picwall ul {
+  margin-right: -5px; }
+.afa-m-picwall .img-i-one {
+  float: left;
+  width: 75.5px;
+  overflow: hidden;
+  margin-right: 5px; }
+.afa-m-picwall .img-i-two {
+  float: left;
+  width: 155.5px;
+  overflow: hidden;
+  margin-right: 5px; }
+  .afa-m-picwall .img-i-two > img {
+    margin-top: 5px; }
+  .afa-m-picwall .img-i-two ul {
+    margin-right: -10px; }
+.afa-m-picwall .img-i-three {
+  float: left;
+  width: 236.5px;
+  overflow: hidden;
+  margin-right: 5px; }
+  .afa-m-picwall .img-i-three > img {
+    margin-top: 5px; }
+.afa-m-picwall .img-i-four {
+  float: left;
+  width: 317px;
+  overflow: hidden;
+  margin-right: 5px; }
+
+/* ==========================================================================
+   找领队
+   ========================================================================== */
+/* --------------------------------------------------------------------------
+  
+   -------------------------------------------------------------------------- */
+/* --------------------------------------------------------------------------
+   找领队
+   -------------------------------------------------------------------------- */
+
+/*# sourceMappingURL=team.css.map */
