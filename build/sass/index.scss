@@ -17,7 +17,7 @@
    ========================================================================== */
 .index-bg{
 	background-repeat:no-repeat;
-	background-position:center center;
+	background-position:center;
 	position: absolute;
 	width: 100%;
 	height: 100%;
@@ -46,8 +46,14 @@
 		}
 	}
 	.afa-logo{
-		padding:30px 0 20px;
-		text-align: center;
+		padding: 20px 0;
+		img{
+			width: 200px;
+			height: auto;
+
+			display: block;
+			margin: 0 auto;
+		}
 	}
 }
 .first-screen{
@@ -56,16 +62,6 @@
 .afa-index{
 	z-index:50;
 }
-
-.blur{
-	 filter: url(blur.svg#blur); /* FireFox, Chrome, Opera */
-    -webkit-filter: blur(5px); /* Chrome, Opera */
-       -moz-filter: blur(5px);
-        -ms-filter: blur(5px);    
-            filter: blur(5px);
-    filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius=5, MakeShadow=false); /* IE6~IE9 */
-}
-
 //index header
 .menu-nav{
 	position:relative;
@@ -78,7 +74,6 @@
 	$imgW:960px;
 	.box{
 		height: 100%;
-		padding: 50px 0 30px;	
 		box-sizing:border-box;
 		overflow: hidden;
 	}
@@ -128,3 +123,16 @@
 		}
 	}
 }
+/* --------------------------------------------------------------------------
+   首页logo显示
+   -------------------------------------------------------------------------- */
+.afa-logo{
+	position: relative;
+	&.index{
+		position: absolute;
+		top:50px;
+		left: 20%;
+		z-index: 999;
+	}
+}
+

@@ -24,11 +24,40 @@ body{
 	font-family:tahoma,arial,'Hiragino Sans GB','\5b8b\4f53',sans-serif;
 	line-height: 1.5;
 }
-
-
 a{
 	text-decoration: none;
 	&:hover{
 		text-decoration: none;
+	}
+}
+
+/* --------------------------------------------------------------------------
+  全景背景图片
+   -------------------------------------------------------------------------- */
+.full-bg{
+	position: absolute;
+	top:0;
+	left:0;	
+	width: 100%;
+	height: 100%;
+
+	background-repeat:no-repeat;
+	background-position:center;
+
+	.opacity-9{
+		background:#000000;
+		@include opacity(.9);
+	}
+	.opacity-8{
+		background:#000000;
+		@include opacity(.8);
+	}
+	.opacity-7{
+		background:#000000;
+		@include opacity(.7);
+	}
+	.opacity-6{
+		background:#000000;
+		@include opacity(.6);
 	}
 }

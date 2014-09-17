@@ -50,7 +50,7 @@ requirejs(['jquery'],function($) {
 
 		this_item.animate({
 			width: '480px'
-		}, 500, function() {
+		}, 100, function() {
 
 		});
 	};
@@ -58,7 +58,7 @@ requirejs(['jquery'],function($) {
 	//导航图 初始化
 	init_img(nav_img_arr);
 
-	img_item.click(function(event) {
+	img_item.bind('hover',function(event) {
 
 		var i_click_item = $(this);
 
@@ -84,19 +84,17 @@ requirejs(['jquery'],function($) {
 		if (active_item == null) {
 			img_item.not(i_click_item).animate({
 				width: '80px'
-			}, 500);
+			}, 100);
 		} else {
 			img_item.eq(active_item).animate({
 				'width': '80px'
-			}, 500);
+			}, 100);
 
 			img_item.eq(active_item).find('b').animate({
 				fontSize: '24px'
-			}, 500);
+			}, 100);
 		}
 
 		active_item = img_item.index(i_click_item);
-	});
-
-
+	})
 });

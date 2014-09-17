@@ -36,6 +36,34 @@ a {
   a:hover {
     text-decoration: none; }
 
+/* --------------------------------------------------------------------------
+  全景背景图片
+   -------------------------------------------------------------------------- */
+.full-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center; }
+  .full-bg .opacity-9 {
+    background: #000000;
+    opacity: 0.9;
+    filter: alpha(opacity=90); }
+  .full-bg .opacity-8 {
+    background: #000000;
+    opacity: 0.8;
+    filter: alpha(opacity=80); }
+  .full-bg .opacity-7 {
+    background: #000000;
+    opacity: 0.7;
+    filter: alpha(opacity=70); }
+  .full-bg .opacity-6 {
+    background: #000000;
+    opacity: 0.6;
+    filter: alpha(opacity=60); }
+
 .header {
   position: relative;
   top: 0;
@@ -71,7 +99,7 @@ a {
       display: table-cell; }
     .header .afa-logo img {
       vertical-align: middle;
-      max-height: 50px; }
+      max-height: 45px; }
   .header .afa-center {
     background: #ffffff;
     padding: 3px 3px;
