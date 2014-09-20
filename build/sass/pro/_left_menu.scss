@@ -1,0 +1,70 @@
+@charset "UTF-8";
+//left menu 找知识 分享 找路线 。。。。
+.slide-menu{
+	position: relative;
+
+	padding: 50px 0;
+	overflow: hidden;
+
+	//background: $black;
+	border: 1px solid $border;
+	&.normal{
+		background: $white;
+		.btn-list{
+			a{
+				color: $black;
+				&:hover{
+					color: $gray;
+				}
+			}
+		}
+	}
+	.btn-list{
+		text-indent: 20px;
+		line-height: 2;
+		font-size: 16px;
+		a{
+			color: $white;
+			&.active{
+			}
+		}
+	}
+
+
+	&.skin01{
+		background: transparent;
+		.btn-list{
+			a{
+				color: #b7b7b7;
+				&:hover{
+					color: $white;
+				}
+				&.active{
+					color: $white;
+				}
+			}
+		}
+	}
+	&.skin02{
+		background: $white;
+		.btn-list{
+			a{
+				color: $black;
+				&:hover{
+					color: #4b87bf;
+				}
+			}
+		}
+	}
+	&.skin03{
+		background: $white;
+		.btn-list{
+			a{
+				color: $black;
+				&:hover{
+					color: #4b87bf;
+				}
+			}
+		}
+	}
+}

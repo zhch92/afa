@@ -46,13 +46,13 @@
 		}
 	}
 	.afa-logo{
+		position: relative;
+		width: auto;
 		padding: 20px 0;
+		text-align: center;
 		img{
 			width: 200px;
 			height: auto;
-
-			display: block;
-			margin: 0 auto;
 		}
 	}
 }
@@ -88,12 +88,19 @@
 		z-index: 60;
 		ul{
 			@extend %clearfix;
+			display: block;
+			height: 100%;
 			.img-item{
 				position:relative;
 				float: left;
+				z-index: 5;
 				width: 137px;
 				height: 100%;
 				overflow: hidden;
+				border-right: 1px solid #ffffff;
+				&.bl{
+					border-left: 1px solid #ffffff;
+				}
 				a{
 					display: block;
 					color: $white;
@@ -102,11 +109,25 @@
 						color: $white;
 					}
 				}
-				b{
+
+				.title{
 					position:absolute;
-					top: 60px;
-					font-size: 24px;
-					left: 20px;
+					top: 50%;
+					left: 10px;
+
+					width: 100%;
+					h2{
+						font-size: 20px;
+						line-height: 1.5;
+
+						b{
+							font-size:30px;
+						}
+					}
+					.text{
+						display: none;
+						font-size: 15px;
+					}
 				}
 				img{
 					min-height: 400px;
@@ -128,6 +149,11 @@
    -------------------------------------------------------------------------- */
 .afa-logo{
 	position: relative;
+	width: 150px;
+	img{
+		width: 100%;
+		height: auto;
+	}
 	&.index{
 		position: absolute;
 		top:50px;

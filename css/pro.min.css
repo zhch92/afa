@@ -6,9 +6,6 @@
 .box:after {
   clear: both; }
 
-.slide-menu .btn-list a {
-  font-family: "Microsoft YaHei"; }
-
 /* ==========================================================================
    阿尔法 项目 公共样式配置
    ========================================================================== */
@@ -40,9 +37,10 @@ a {
   全景背景图片
    -------------------------------------------------------------------------- */
 .full-bg {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
+  z-index: -1;
   width: 100%;
   height: 100%;
   background-repeat: no-repeat;
@@ -69,8 +67,8 @@ a {
   top: 0;
   left: 0;
   width: 100%;
+  height: 120px;
   font-size: 12px;
-  background: transparent url("../img/black.8.png") repeat center;
   color: #ffffff;
   z-index: 100; }
   .header.fixed {
@@ -88,18 +86,18 @@ a {
       .header.normal a:hover {
         text-decoration: underline; }
   .header .afa-logo {
+    position: absolute;
     left: 0;
-    top: 0;
+    top: 40px;
     display: inline-block;
     text-indent: 0; }
     .header .afa-logo a {
-      height: 50px;
-      line-height: 50px;
       vertical-align: middle;
       display: table-cell; }
     .header .afa-logo img {
       vertical-align: middle;
-      max-height: 45px; }
+      width: 150px;
+      height: auto; }
   .header .afa-center {
     background: #ffffff;
     padding: 3px 3px;
@@ -110,27 +108,30 @@ a {
     border-radius: 4px; }
   .header .contentbox {
     position: relative;
-    width: 900px;
-    text-indent: 60px;
+    height: 120px;
     text-align: center;
     line-height: 1;
-    border: none; }
+    border: none;
+    overflow: visible; }
   .header .center-operate {
-    width: 185px;
-    line-height: 50px; }
+    position: absolute;
+    top: 10px;
+    right: -132px; }
   .header .img-nav-tab {
     display: inline-block;
     text-align: center;
-    line-height: 100%; }
+    line-height: 100%;
+    padding: 30px 0; }
     .header .img-nav-tab .nav-item {
       display: inline-block;
-      width: 20px;
-      height: 20px;
-      margin: 15px 5px;
-      border-radius: 20px;
-      background: transparent url(../img/header_nav.png) no-repeat center; }
-      .header .img-nav-tab .nav-item.active {
-        background: transparent url(../img/header_nav_active.png) no-repeat center; }
+      width: 60px;
+      height: 60px;
+      margin: 0 5px;
+      border-radius: 60px;
+      background: #fce70e;
+      text-align: center;
+      line-height: 60px;
+      font-size: 20px; }
 
 .footer {
   position: relative;
@@ -168,19 +169,17 @@ a {
   width: 960px;
   min-height: 1px;
   overflow: hidden;
-  border: 1px solid transparent;
   box-sizing: content-box; }
   .contentbox.afa-index {
     border: none; }
   .contentbox.border {
-    border-color: #000000;
-    margin: 20px 0; }
+    border-color: #adadad; }
 
 .slide-menu {
-  height: 100%;
+  position: relative;
+  padding: 50px 0;
   overflow: hidden;
-  background: #000000;
-  min-height: 500px; }
+  border: 1px solid #adadad; }
   .slide-menu.normal {
     background: #ffffff; }
     .slide-menu.normal .btn-list a {
@@ -188,18 +187,19 @@ a {
       .slide-menu.normal .btn-list a:hover {
         color: #949494; }
   .slide-menu .btn-list {
-    margin: 100px 0;
     text-indent: 20px;
     line-height: 2;
     font-size: 16px; }
     .slide-menu .btn-list a {
       color: #ffffff; }
   .slide-menu.skin01 {
-    background: #ffffff; }
+    background: transparent; }
     .slide-menu.skin01 .btn-list a {
-      color: #000000; }
+      color: #b7b7b7; }
       .slide-menu.skin01 .btn-list a:hover {
-        color: #4b87bf; }
+        color: #ffffff; }
+      .slide-menu.skin01 .btn-list a.active {
+        color: #ffffff; }
   .slide-menu.skin02 {
     background: #ffffff; }
     .slide-menu.skin02 .btn-list a {
@@ -282,11 +282,11 @@ a {
    模块标题
    -------------------------------------------------------------------------- */
 .afa-module-title {
+  position: relative;
+  height: 180px;
+  margin-bottom: 20px;
   font-size: 20px;
-  font-weight: bold;
-  background: #f0f0f0;
-  text-indent: 20px;
-  line-height: 40px; }
+  font-weight: bold; }
 
 /*==================全程管理子模块=================*/
 /*===title===*/
@@ -309,5 +309,11 @@ a {
     padding: 2px 2px;
     border-radius: 2px;
     background: transparent url("../img/icon/search.png") 2px center no-repeat; }
+
+/* ==========================================================================
+   阿尔法 项目 背景统一管理
+   ========================================================================== */
+.afa-bg-m-title {
+  background: url(../img/bg_m_title.png) repeat center; }
 
 /*# sourceMappingURL=pro.min.css.map */

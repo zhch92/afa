@@ -3,8 +3,9 @@
 	top:0;
 	left:0;
 	width:100%;
+	height: 120px;
 	font-size:12px;
-	@include bgimage("../img/black.8.png");
+	//@include bgimage("../img/trans_5.png");
 	//background: rgba(0,0,0,.8);
 	color:$white;
 	z-index:map-get($zIndex,top);
@@ -31,20 +32,20 @@
 	}
 	// logo
 	.afa-logo{
-		//position: absolute;
+		position:absolute;
 		left: 0;
-		top: 0;
+		top: 40px;
+
 		display: inline-block;
 		text-indent: 0;
 		a{
-			height: 50px;
-			line-height: 50px;
 			vertical-align: middle;
 			display: table-cell;
 		}
 		img{
 			vertical-align: middle;
-			max-height: 45px;
+			width: 150px;
+			height: auto;
 		}
 	}
 	.afa-center{
@@ -57,30 +58,37 @@
 		border-radius: 4px;
 	}
 	.contentbox{
-		position: relative;
-		width: 900px;		
-		text-indent: 60px;
+		position: relative;	
+		height: 120px;	
 		text-align: center;
 		line-height: 1;
 		border: none;
+		overflow: visible;
 	}
 	.center-operate{
-		width: 185px;	
-		line-height:$header-height;
+		position: absolute;
+		top: 10px;
+		right: -132px;	
 	}
 	.img-nav-tab{
 		display: inline-block;
 		text-align: center;
-		line-height: 100%;
+		line-height: 100%;			
+		padding:30px 0;
 		.nav-item{
 			display: inline-block;
-			width: 20px;
-			height: 20px;
-			margin: 15px 5px;
-			border-radius: 20px;
-			background: transparent url(../img/header_nav.png) no-repeat center;
+			width: 60px;
+			height: 60px;
+			margin: 0 5px;
+			border-radius: 60px;
+			background:#fce70e;
+
+			text-align: center;
+			line-height: 60px;
+			font-size: 20px;
+			// background: transparent url(../img/header_nav.png) no-repeat center;
 			&.active{
-				background: transparent url(../img/header_nav_active.png) no-repeat center;
+				// background: transparent url(../img/header_nav_active.png) no-repeat center;
 			}
 		}
 	}

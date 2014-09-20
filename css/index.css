@@ -46,12 +46,13 @@
       color: #def505;
       font-weight: bold; }
   .welcome-info .afa-logo {
-    padding: 20px 0; }
+    position: relative;
+    width: auto;
+    padding: 20px 0;
+    text-align: center; }
     .welcome-info .afa-logo img {
       width: 200px;
-      height: auto;
-      display: block;
-      margin: 0 auto; }
+      height: auto; }
 
 .first-screen {
   z-index: 100; }
@@ -79,37 +80,56 @@
     height: 100%;
     overflow: hidden;
     z-index: 60; }
-    .menu-nav .img-menu ul .img-item {
-      position: relative;
-      float: left;
-      width: 137px;
-      height: 100%;
-      overflow: hidden; }
-      .menu-nav .img-menu ul .img-item a {
-        display: block;
-        color: #ffffff; }
-        .menu-nav .img-menu ul .img-item a:hover, .menu-nav .img-menu ul .img-item a:focus {
-          color: #ffffff; }
-      .menu-nav .img-menu ul .img-item b {
-        position: absolute;
-        top: 60px;
-        font-size: 24px;
-        left: 20px; }
-      .menu-nav .img-menu ul .img-item img {
-        min-height: 400px; }
-      .menu-nav .img-menu ul .img-item .cover {
-        position: absolute;
-        width: 100%;
+    .menu-nav .img-menu ul {
+      display: block;
+      height: 100%; }
+      .menu-nav .img-menu ul .img-item {
+        position: relative;
+        float: left;
+        z-index: 5;
+        width: 137px;
         height: 100%;
-        top: 0;
-        left: 0;
-        background: transparent url("../img/trans_5.png") repeat center; }
+        overflow: hidden;
+        border-right: 1px solid #ffffff; }
+        .menu-nav .img-menu ul .img-item.bl {
+          border-left: 1px solid #ffffff; }
+        .menu-nav .img-menu ul .img-item a {
+          display: block;
+          color: #ffffff; }
+          .menu-nav .img-menu ul .img-item a:hover, .menu-nav .img-menu ul .img-item a:focus {
+            color: #ffffff; }
+        .menu-nav .img-menu ul .img-item .title {
+          position: absolute;
+          top: 50%;
+          left: 10px;
+          width: 100%; }
+          .menu-nav .img-menu ul .img-item .title h2 {
+            font-size: 20px;
+            line-height: 1.5; }
+            .menu-nav .img-menu ul .img-item .title h2 b {
+              font-size: 30px; }
+          .menu-nav .img-menu ul .img-item .title .text {
+            display: none;
+            font-size: 15px; }
+        .menu-nav .img-menu ul .img-item img {
+          min-height: 400px; }
+        .menu-nav .img-menu ul .img-item .cover {
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          top: 0;
+          left: 0;
+          background: transparent url("../img/trans_5.png") repeat center; }
 
 /* --------------------------------------------------------------------------
    首页logo显示
    -------------------------------------------------------------------------- */
 .afa-logo {
-  position: relative; }
+  position: relative;
+  width: 150px; }
+  .afa-logo img {
+    width: 100%;
+    height: auto; }
   .afa-logo.index {
     position: absolute;
     top: 50px;

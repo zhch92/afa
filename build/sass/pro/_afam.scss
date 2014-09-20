@@ -4,11 +4,12 @@
    -------------------------------------------------------------------------- */
 
 .afa-module-title {
+    position: relative;
+    height: 180px;
+    margin-bottom: 20px;
+    
     font-size: 20px;
     font-weight: bold;
-    background: $module-bg-color;
-    text-indent: 20px;
-    line-height: $title-bar-height;
 }
 /*==================全程管理子模块=================*/
 /*===title===*/

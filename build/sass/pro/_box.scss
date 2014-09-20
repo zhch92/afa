@@ -21,13 +21,12 @@ $contentboxW:960px;
 	width:$contentboxW;
 	min-height:1px;
 	overflow:hidden;
-	border: 1px solid transparent;
+	//border: 1px solid transparent;
 	box-sizing:content-box;
 	&.afa-index{
 		border: none;
 	}
 	&.border{
-		border-color: $black;
-		margin: 20px 0;
+		border-color: $border;
 	}
 }

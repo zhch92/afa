@@ -1,14 +1,117 @@
 /*font end base.css*/
 @charset "UTF-8";
-.afa-m-roll .roll-list:before, .afa-m-imgshow .list:before, .afa-m-roll .roll-list:after, .afa-m-imgshow .list:after {
+.afa-m-picwall .img-list:before, .afa-m-picwall ul:before, .afa-m-roll .roll-list:before, .afa-m-imgshow .list:before, .afa-m-picwall .img-list:after, .afa-m-picwall ul:after, .afa-m-roll .roll-list:after, .afa-m-imgshow .list:after {
   content: " ";
   display: table; }
-.afa-m-roll .roll-list:after, .afa-m-imgshow .list:after {
+.afa-m-picwall .img-list:after, .afa-m-picwall ul:after, .afa-m-roll .roll-list:after, .afa-m-imgshow .list:after {
   clear: both; }
 
 /* ==========================================================================
    引用模块
    ========================================================================== */
+.afa-m-picwall .img-list:before, .afa-m-picwall ul:before, .afa-m-roll .roll-list:before, .afa-m-imgshow .list:before, .afa-m-picwall .img-list:after, .afa-m-picwall ul:after, .afa-m-roll .roll-list:after, .afa-m-imgshow .list:after {
+  content: " ";
+  display: table; }
+.afa-m-picwall .img-list:after, .afa-m-picwall ul:after, .afa-m-roll .roll-list:after, .afa-m-imgshow .list:after {
+  clear: both; }
+
+.w-fade-in-out-wrapper-outer {
+  position: relative; }
+  .w-fade-in-out-wrapper-outer .wrapper-list {
+    height: 400px;
+    overflow: hidden; }
+  .w-fade-in-out-wrapper-outer .img-item {
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block;
+    height: 400px;
+    overflow: hidden; }
+    .w-fade-in-out-wrapper-outer .img-item a {
+      display: block; }
+      .w-fade-in-out-wrapper-outer .img-item a img {
+        display: block;
+        width: 100%;
+        height: auto; }
+    .w-fade-in-out-wrapper-outer .img-item .desc {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      padding: 20px;
+      background: rgba(0, 0, 0, 0.6);
+      background: #000 \9;
+      filter: alpha(opacity=60);
+      color: #ffffff; }
+      .w-fade-in-out-wrapper-outer .img-item .desc h3 {
+        line-height: 2; }
+  .w-fade-in-out-wrapper-outer .control-view {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    width: 100%;
+    height: 13px;
+    z-index: 50;
+    text-align: center; }
+    .w-fade-in-out-wrapper-outer .control-view a {
+      display: inline-block;
+      width: 13px;
+      height: 13px;
+      background: url(../img/icon/circle.png) no-repeat 0 0; }
+      .w-fade-in-out-wrapper-outer .control-view a.current {
+        background-position: -16px 0; }
+
+.afa-m-picwall .img-list:before, .afa-m-picwall ul:before, .afa-m-roll .roll-list:before, .afa-m-imgshow .list:before, .afa-m-picwall .img-list:after, .afa-m-picwall ul:after, .afa-m-roll .roll-list:after, .afa-m-imgshow .list:after {
+  content: " ";
+  display: table; }
+.afa-m-picwall .img-list:after, .afa-m-picwall ul:after, .afa-m-roll .roll-list:after, .afa-m-imgshow .list:after {
+  clear: both; }
+
+/* ==========================================================================
+   照片墙
+   ========================================================================== */
+.afa-m-picwall .img-list {
+  width: 960px;
+  overflow: hidden;
+  margin-right: 5px;
+  background: #ffffff; }
+.afa-m-picwall .item {
+  float: left;
+  width: 75.5px;
+  margin: 5px 5px 0 0; }
+.afa-m-picwall img {
+  display: block;
+  width: 100%;
+  height: auto; }
+.afa-m-picwall ul {
+  margin-right: -5px; }
+.afa-m-picwall .img-i-one {
+  float: left;
+  width: 75.5px;
+  overflow: hidden;
+  margin-right: 5px; }
+.afa-m-picwall .img-i-two {
+  float: left;
+  width: 155.5px;
+  overflow: hidden;
+  margin-right: 5px; }
+  .afa-m-picwall .img-i-two > img {
+    margin-top: 5px; }
+  .afa-m-picwall .img-i-two ul {
+    margin-right: -10px; }
+.afa-m-picwall .img-i-three {
+  float: left;
+  width: 236.5px;
+  overflow: hidden;
+  margin-right: 5px; }
+  .afa-m-picwall .img-i-three > img {
+    margin-top: 5px; }
+.afa-m-picwall .img-i-four {
+  float: left;
+  width: 317px;
+  overflow: hidden;
+  margin-right: 5px; }
+
 .afa-m-roll {
   position: relative;
   top: 0;
@@ -171,130 +274,14 @@
         font-size: 12px;
         margin: 0 0 10px; }
 
-.afa-m-roll .roll-list:before, .afa-m-imgshow .list:before, .afa-m-roll .roll-list:after, .afa-m-imgshow .list:after {
-  content: " ";
-  display: table; }
-.afa-m-roll .roll-list:after, .afa-m-imgshow .list:after {
-  clear: both; }
-
-.w-fade-in-out-wrapper-outer {
-  position: relative; }
-  .w-fade-in-out-wrapper-outer .wrapper-list {
-    height: 400px;
-    overflow: hidden; }
-  .w-fade-in-out-wrapper-outer .img-item {
-    position: relative;
-    top: 0;
-    left: 0;
-    display: block;
-    height: 400px;
-    overflow: hidden; }
-    .w-fade-in-out-wrapper-outer .img-item a {
-      display: block; }
-      .w-fade-in-out-wrapper-outer .img-item a img {
-        display: block;
-        width: 100%;
-        height: auto; }
-    .w-fade-in-out-wrapper-outer .img-item .desc {
-      position: absolute;
-      bottom: 0;
-      left: 0;
-      width: 100%;
-      padding: 20px;
-      background: rgba(0, 0, 0, 0.6);
-      background: #000 \9;
-      filter: alpha(opacity=60);
-      color: #ffffff; }
-      .w-fade-in-out-wrapper-outer .img-item .desc h3 {
-        line-height: 2; }
-  .w-fade-in-out-wrapper-outer .control-view {
-    position: absolute;
-    bottom: 10px;
-    left: 0;
-    width: 100%;
-    height: 13px;
-    z-index: 50;
-    text-align: center; }
-    .w-fade-in-out-wrapper-outer .control-view a {
-      display: inline-block;
-      width: 13px;
-      height: 13px;
-      background: url(../img/icon/circle.png) no-repeat 0 0; }
-      .w-fade-in-out-wrapper-outer .control-view a.current {
-        background-position: -16px 0; }
-
 /* ==========================================================================
-   找装备页面
+   阿尔法 相应模块主页
    ========================================================================== */
 /* --------------------------------------------------------------------------
-   全程管家 模块 顶部导航块
+  
    -------------------------------------------------------------------------- */
 /* --------------------------------------------------------------------------
-   找装备
+   
    -------------------------------------------------------------------------- */
-.afa-m-fe-shop-name .name-img {
-  display: block;
-  margin: 0 auto;
-  max-width: 100%;
-  height: auto; }
 
-/* --------------------------------------------------------------------------
-  	img show
-   -------------------------------------------------------------------------- */
-.afa-m-fe-imgshow {
-  margin: 5px 0; }
-  .afa-m-fe-imgshow .item {
-    padding: 10px;
-    background: #424242;
-    box-sizing: border-box; }
-    .afa-m-fe-imgshow .item .img {
-      height: auto; }
-  .afa-m-fe-imgshow .img .price {
-    position: relative;
-    padding: 5px;
-    background: #7c9d1d;
-    line-height: 1.2;
-    color: #ffffff;
-    text-align: left; }
-    .afa-m-fe-imgshow .img .price p {
-      margin: 0;
-      line-height: 1.5; }
-  .afa-m-fe-imgshow .img .new-price {
-    font-size: 20px;
-    font-weight: bold; }
-  .afa-m-fe-imgshow .img .old-price {
-    font-size: 14px;
-    text-decoration: line-through; }
-  .afa-m-fe-imgshow .img .buy-btn {
-    position: absolute;
-    top: 15px;
-    right: 10px;
-    font-size: 18px;
-    line-height: 1.5;
-    border-radius: 15px;
-    padding: 0 20px;
-    background: #ffffff;
-    color: #7c9d1d; }
-  .afa-m-fe-imgshow .bottom .name {
-    display: block;
-    line-height: 20px;
-    height: 40px;
-    padding: 5px 0;
-    overflow: hidden;
-    font-size: 14px;
-    color: #949494;
-    box-sizing: content-box; }
-  .afa-m-fe-imgshow .bottom .info {
-    padding: 0;
-    font-size: 12px;
-    padding-top: 10px; }
-    .afa-m-fe-imgshow .bottom .info .col-md-4, .afa-m-fe-imgshow .bottom .info .col-md-8 {
-      padding: 0;
-      line-height: 20px; }
-    .afa-m-fe-imgshow .bottom .info b, .afa-m-fe-imgshow .bottom .info i {
-      color: #7c9d1d;
-      font-style: normal; }
-    .afa-m-fe-imgshow .bottom .info b {
-      font-size: 16px; }
-
-/*# sourceMappingURL=equipment.css.map */
+/*# sourceMappingURL=afa_index.css.map */
