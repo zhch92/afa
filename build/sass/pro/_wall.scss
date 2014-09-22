@@ -56,6 +56,58 @@
 		width: 317px;overflow: hidden;
 		margin-right: 5px;
 	}
+}
 
-
+/* ==========================================================================
+   照片墙 afa-m-wall
+   ========================================================================== */
+.afa-m-wall{
+	background: $white;
+	@extend %clearfix;
+	img{
+		display: block;
+		width: 100%;
+		height: auto;
+		@extend %bs-border-box;
+		padding: 0 1px 1px 0;
+	}
+	.status-one{
+		float: left;
+		width: 400px;
+		.r-top{
+			@extend %clearfix;
+			float: left;
+		}
+		.r-bottom{
+			@extend %clearfix;
+			float: left;
+		}
+	}
+	ul{
+		@extend %clearfix;
+	}
+	.status-two{
+		float: left;
+		width: 160px;
+	}
+	.status-three{
+		float: left;
+		width: 240px;
+	}
+	.c-one{
+		float: left;
+		width: 80px;
+	}
+	.c-three{
+		float: left;
+		width: 240px;
+	}
+	.c-two{
+		float: left;
+		width: 160px;
+	}
+	.item{
+		width: 80px;
+		float: left;
+	}
 }

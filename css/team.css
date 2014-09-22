@@ -1,19 +1,31 @@
 /*font end base.css*/
 @charset "UTF-8";
-.afa-m-picwall .img-list:before, .afa-m-picwall ul:before, .afa-m-picwall .img-list:after, .afa-m-picwall ul:after {
+.afa-m-picwall .img-list:before, .afa-m-picwall ul:before, .afa-m-wall:before, .afa-m-wall .status-one .r-top:before, .afa-m-wall .status-one .r-bottom:before, .afa-m-wall ul:before, .afa-m-picwall .img-list:after, .afa-m-picwall ul:after, .afa-m-wall:after, .afa-m-wall .status-one .r-top:after, .afa-m-wall .status-one .r-bottom:after, .afa-m-wall ul:after {
   content: " ";
   display: table; }
-.afa-m-picwall .img-list:after, .afa-m-picwall ul:after {
+.afa-m-picwall .img-list:after, .afa-m-picwall ul:after, .afa-m-wall:after, .afa-m-wall .status-one .r-top:after, .afa-m-wall .status-one .r-bottom:after, .afa-m-wall ul:after {
   clear: both; }
+
+.afa-m-wall img {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box; }
 
 /* ==========================================================================
    引用模块
    ========================================================================== */
-.afa-m-picwall .img-list:before, .afa-m-picwall ul:before, .afa-m-picwall .img-list:after, .afa-m-picwall ul:after {
+.afa-m-picwall .img-list:before, .afa-m-picwall ul:before, .afa-m-wall:before, .afa-m-wall .status-one .r-top:before, .afa-m-wall .status-one .r-bottom:before, .afa-m-wall ul:before, .afa-m-picwall .img-list:after, .afa-m-picwall ul:after, .afa-m-wall:after, .afa-m-wall .status-one .r-top:after, .afa-m-wall .status-one .r-bottom:after, .afa-m-wall ul:after {
   content: " ";
   display: table; }
-.afa-m-picwall .img-list:after, .afa-m-picwall ul:after {
+.afa-m-picwall .img-list:after, .afa-m-picwall ul:after, .afa-m-wall:after, .afa-m-wall .status-one .r-top:after, .afa-m-wall .status-one .r-bottom:after, .afa-m-wall ul:after {
   clear: both; }
+
+.afa-m-wall img {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box; }
 
 .w-fade-in-out-wrapper-outer {
   position: relative; }
@@ -38,13 +50,19 @@
       bottom: 0;
       left: 0;
       width: 100%;
-      padding: 20px;
       background: rgba(0, 0, 0, 0.6);
       background: #000 \9;
       filter: alpha(opacity=60);
       color: #ffffff; }
       .w-fade-in-out-wrapper-outer .img-item .desc h3 {
-        line-height: 2; }
+        line-height: 2;
+        font-size: 30px;
+        padding: 0 20px; }
+      .w-fade-in-out-wrapper-outer .img-item .desc p {
+        font-size: 12px;
+        line-height: 1.5;
+        padding: 0 20px 20px 20px;
+        margin: 0; }
   .w-fade-in-out-wrapper-outer .control-view {
     position: absolute;
     bottom: 10px;
@@ -61,11 +79,17 @@
       .w-fade-in-out-wrapper-outer .control-view a.current {
         background-position: -16px 0; }
 
-.afa-m-picwall .img-list:before, .afa-m-picwall ul:before, .afa-m-picwall .img-list:after, .afa-m-picwall ul:after {
+.afa-m-picwall .img-list:before, .afa-m-picwall ul:before, .afa-m-wall:before, .afa-m-wall .status-one .r-top:before, .afa-m-wall .status-one .r-bottom:before, .afa-m-wall ul:before, .afa-m-picwall .img-list:after, .afa-m-picwall ul:after, .afa-m-wall:after, .afa-m-wall .status-one .r-top:after, .afa-m-wall .status-one .r-bottom:after, .afa-m-wall ul:after {
   content: " ";
   display: table; }
-.afa-m-picwall .img-list:after, .afa-m-picwall ul:after {
+.afa-m-picwall .img-list:after, .afa-m-picwall ul:after, .afa-m-wall:after, .afa-m-wall .status-one .r-top:after, .afa-m-wall .status-one .r-bottom:after, .afa-m-wall ul:after {
   clear: both; }
+
+.afa-m-wall img {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box; }
 
 /* ==========================================================================
    照片墙
@@ -111,6 +135,42 @@
   width: 317px;
   overflow: hidden;
   margin-right: 5px; }
+
+/* ==========================================================================
+   照片墙 afa-m-wall
+   ========================================================================== */
+.afa-m-wall {
+  background: #ffffff; }
+  .afa-m-wall img {
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 0 1px 1px 0; }
+  .afa-m-wall .status-one {
+    float: left;
+    width: 400px; }
+    .afa-m-wall .status-one .r-top {
+      float: left; }
+    .afa-m-wall .status-one .r-bottom {
+      float: left; }
+  .afa-m-wall .status-two {
+    float: left;
+    width: 160px; }
+  .afa-m-wall .status-three {
+    float: left;
+    width: 240px; }
+  .afa-m-wall .c-one {
+    float: left;
+    width: 80px; }
+  .afa-m-wall .c-three {
+    float: left;
+    width: 240px; }
+  .afa-m-wall .c-two {
+    float: left;
+    width: 160px; }
+  .afa-m-wall .item {
+    width: 80px;
+    float: left; }
 
 /* ==========================================================================
    找领队

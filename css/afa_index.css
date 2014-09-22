@@ -1,19 +1,31 @@
 /*font end base.css*/
 @charset "UTF-8";
-.afa-m-picwall .img-list:before, .afa-m-picwall ul:before, .afa-m-roll .roll-list:before, .afa-m-imgshow .list:before, .afa-m-picwall .img-list:after, .afa-m-picwall ul:after, .afa-m-roll .roll-list:after, .afa-m-imgshow .list:after {
+.afa-m-picwall .img-list:before, .afa-m-picwall ul:before, .afa-m-wall:before, .afa-m-wall .status-one .r-top:before, .afa-m-wall .status-one .r-bottom:before, .afa-m-wall ul:before, .afa-m-roll .roll-list:before, .afa-m-imgshow .list:before, .afa-m-picwall .img-list:after, .afa-m-picwall ul:after, .afa-m-wall:after, .afa-m-wall .status-one .r-top:after, .afa-m-wall .status-one .r-bottom:after, .afa-m-wall ul:after, .afa-m-roll .roll-list:after, .afa-m-imgshow .list:after {
   content: " ";
   display: table; }
-.afa-m-picwall .img-list:after, .afa-m-picwall ul:after, .afa-m-roll .roll-list:after, .afa-m-imgshow .list:after {
+.afa-m-picwall .img-list:after, .afa-m-picwall ul:after, .afa-m-wall:after, .afa-m-wall .status-one .r-top:after, .afa-m-wall .status-one .r-bottom:after, .afa-m-wall ul:after, .afa-m-roll .roll-list:after, .afa-m-imgshow .list:after {
   clear: both; }
+
+.afa-m-wall img {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box; }
 
 /* ==========================================================================
    引用模块
    ========================================================================== */
-.afa-m-picwall .img-list:before, .afa-m-picwall ul:before, .afa-m-roll .roll-list:before, .afa-m-imgshow .list:before, .afa-m-picwall .img-list:after, .afa-m-picwall ul:after, .afa-m-roll .roll-list:after, .afa-m-imgshow .list:after {
+.afa-m-picwall .img-list:before, .afa-m-picwall ul:before, .afa-m-wall:before, .afa-m-wall .status-one .r-top:before, .afa-m-wall .status-one .r-bottom:before, .afa-m-wall ul:before, .afa-m-roll .roll-list:before, .afa-m-imgshow .list:before, .afa-m-picwall .img-list:after, .afa-m-picwall ul:after, .afa-m-wall:after, .afa-m-wall .status-one .r-top:after, .afa-m-wall .status-one .r-bottom:after, .afa-m-wall ul:after, .afa-m-roll .roll-list:after, .afa-m-imgshow .list:after {
   content: " ";
   display: table; }
-.afa-m-picwall .img-list:after, .afa-m-picwall ul:after, .afa-m-roll .roll-list:after, .afa-m-imgshow .list:after {
+.afa-m-picwall .img-list:after, .afa-m-picwall ul:after, .afa-m-wall:after, .afa-m-wall .status-one .r-top:after, .afa-m-wall .status-one .r-bottom:after, .afa-m-wall ul:after, .afa-m-roll .roll-list:after, .afa-m-imgshow .list:after {
   clear: both; }
+
+.afa-m-wall img {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box; }
 
 .w-fade-in-out-wrapper-outer {
   position: relative; }
@@ -38,13 +50,19 @@
       bottom: 0;
       left: 0;
       width: 100%;
-      padding: 20px;
       background: rgba(0, 0, 0, 0.6);
       background: #000 \9;
       filter: alpha(opacity=60);
       color: #ffffff; }
       .w-fade-in-out-wrapper-outer .img-item .desc h3 {
-        line-height: 2; }
+        line-height: 2;
+        font-size: 30px;
+        padding: 0 20px; }
+      .w-fade-in-out-wrapper-outer .img-item .desc p {
+        font-size: 12px;
+        line-height: 1.5;
+        padding: 0 20px 20px 20px;
+        margin: 0; }
   .w-fade-in-out-wrapper-outer .control-view {
     position: absolute;
     bottom: 10px;
@@ -61,11 +79,17 @@
       .w-fade-in-out-wrapper-outer .control-view a.current {
         background-position: -16px 0; }
 
-.afa-m-picwall .img-list:before, .afa-m-picwall ul:before, .afa-m-roll .roll-list:before, .afa-m-imgshow .list:before, .afa-m-picwall .img-list:after, .afa-m-picwall ul:after, .afa-m-roll .roll-list:after, .afa-m-imgshow .list:after {
+.afa-m-picwall .img-list:before, .afa-m-picwall ul:before, .afa-m-wall:before, .afa-m-wall .status-one .r-top:before, .afa-m-wall .status-one .r-bottom:before, .afa-m-wall ul:before, .afa-m-roll .roll-list:before, .afa-m-imgshow .list:before, .afa-m-picwall .img-list:after, .afa-m-picwall ul:after, .afa-m-wall:after, .afa-m-wall .status-one .r-top:after, .afa-m-wall .status-one .r-bottom:after, .afa-m-wall ul:after, .afa-m-roll .roll-list:after, .afa-m-imgshow .list:after {
   content: " ";
   display: table; }
-.afa-m-picwall .img-list:after, .afa-m-picwall ul:after, .afa-m-roll .roll-list:after, .afa-m-imgshow .list:after {
+.afa-m-picwall .img-list:after, .afa-m-picwall ul:after, .afa-m-wall:after, .afa-m-wall .status-one .r-top:after, .afa-m-wall .status-one .r-bottom:after, .afa-m-wall ul:after, .afa-m-roll .roll-list:after, .afa-m-imgshow .list:after {
   clear: both; }
+
+.afa-m-wall img {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box; }
 
 /* ==========================================================================
    照片墙
@@ -111,6 +135,42 @@
   width: 317px;
   overflow: hidden;
   margin-right: 5px; }
+
+/* ==========================================================================
+   照片墙 afa-m-wall
+   ========================================================================== */
+.afa-m-wall {
+  background: #ffffff; }
+  .afa-m-wall img {
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 0 1px 1px 0; }
+  .afa-m-wall .status-one {
+    float: left;
+    width: 400px; }
+    .afa-m-wall .status-one .r-top {
+      float: left; }
+    .afa-m-wall .status-one .r-bottom {
+      float: left; }
+  .afa-m-wall .status-two {
+    float: left;
+    width: 160px; }
+  .afa-m-wall .status-three {
+    float: left;
+    width: 240px; }
+  .afa-m-wall .c-one {
+    float: left;
+    width: 80px; }
+  .afa-m-wall .c-three {
+    float: left;
+    width: 240px; }
+  .afa-m-wall .c-two {
+    float: left;
+    width: 160px; }
+  .afa-m-wall .item {
+    width: 80px;
+    float: left; }
 
 .afa-m-roll {
   position: relative;
@@ -273,6 +333,100 @@
         overflow: hidden;
         font-size: 12px;
         margin: 0 0 10px; }
+
+/* ==========================================================================
+   定制模块
+   ========================================================================== */
+.afa-custom-make {
+  font-size: 15px;
+  padding: 30px 0;
+  background: #a1a1a0; }
+
+.a-c-m-content-wrapper {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 600px;
+  margin: 0 auto;
+  border: 1px solid #adadad;
+  padding: 20px 40px;
+  color: #e6e6e6; }
+  .a-c-m-content-wrapper .afa-f-list {
+    font-size: 20px; }
+  .a-c-m-content-wrapper .afa-f-list.head {
+    padding: 0 0 20px 0;
+    line-height: 1; }
+    .a-c-m-content-wrapper .afa-f-list.head .label {
+      color: #fff;
+      line-height: 24px; }
+    .a-c-m-content-wrapper .afa-f-list.head .field {
+      width: 500px; }
+  .a-c-m-content-wrapper .label, .a-c-m-content-wrapper .field {
+    min-height: 1px; }
+  .a-c-m-content-wrapper .field .muliti-line {
+    margin-right: -20px; }
+    .a-c-m-content-wrapper .field .muliti-line .fm-text {
+      margin-right: 10px;
+      margin-bottom: 10px; }
+  .a-c-m-content-wrapper .w-block-b {
+    padding-left: 40px;
+    box-sizing: border-box; }
+  .a-c-m-content-wrapper .afa-f-list.one .field {
+    width: 500px; }
+  .a-c-m-content-wrapper .afa-f-list.two .field {
+    width: 200px; }
+  .a-c-m-content-wrapper .f-text {
+    width: 500px;
+    display: block;
+    box-sizing: border-box;
+    border: 1px solid #adadad; }
+  .a-c-m-content-wrapper .fm-text {
+    width: 160px;
+    display: block;
+    float: left;
+    box-sizing: border-box;
+    border: 1px solid #adadad;
+    padding: 2px 2px; }
+  .a-c-m-content-wrapper .field {
+    position: relative; }
+    .a-c-m-content-wrapper .field .icon {
+      position: absolute; }
+    .a-c-m-content-wrapper .field .icon-search {
+      top: 5px;
+      left: 5px; }
+    .a-c-m-content-wrapper .field .i_search {
+      padding-left: 30px; }
+    .a-c-m-content-wrapper .field .btn-right {
+      position: absolute;
+      right: 0;
+      top: 0;
+      width: 30px;
+      height: 30px;
+      text-align: center;
+      font-style: normal;
+      background: #a1a1a0; }
+  .a-c-m-content-wrapper .tab-list {
+    float: right; }
+    .a-c-m-content-wrapper .tab-list .tab-item {
+      margin: 0 5px;
+      padding: 0 10px;
+      width: 80px;
+      text-align: center;
+      border: 1px solid #adadad;
+      border-radius: 4px;
+      cursor: pointer; }
+      .a-c-m-content-wrapper .tab-list .tab-item.active {
+        color: #fff; }
+  .a-c-m-content-wrapper .submit-make {
+    text-align: center; }
+    .a-c-m-content-wrapper .submit-make input {
+      line-height: 30px;
+      font-size: 20px;
+      width: 150px;
+      border-radius: 4px;
+      border: 1px solid #ffffff;
+      color: #1a1a1a;
+      background: #a1a1a0; }
 
 /* ==========================================================================
    阿尔法 相应模块主页

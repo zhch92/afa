@@ -41,7 +41,9 @@
   font-weight: bold; }
   .welcome-info .text {
     color: #949494;
-    font-size: 4em; }
+    font-size: 4em;
+    margin: 0;
+    padding: 0; }
     .welcome-info .text b {
       color: #def505;
       font-weight: bold; }
@@ -89,6 +91,7 @@
         z-index: 5;
         width: 137px;
         height: 100%;
+        box-sizing: border-box;
         overflow: hidden;
         border-right: 1px solid #ffffff; }
         .menu-nav .img-menu ul .img-item.bl {

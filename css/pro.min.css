@@ -1,9 +1,21 @@
 /*font end base.css*/
 @charset "UTF-8";
-.box:before, .box:after {
+.box:before, .afa-f-list:before, .tab-list:before, .w-grid-a:before,
+.w-grid-b:before,
+.w-grid-c:before,
+.w-grid-d:before,
+.w-grid-e:before, .box:after, .afa-f-list:after, .tab-list:after, .w-grid-a:after,
+.w-grid-b:after,
+.w-grid-c:after,
+.w-grid-d:after,
+.w-grid-e:after {
   content: " ";
   display: table; }
-.box:after {
+.box:after, .afa-f-list:after, .tab-list:after, .w-grid-a:after,
+.w-grid-b:after,
+.w-grid-c:after,
+.w-grid-d:after,
+.w-grid-e:after {
   clear: both; }
 
 /* ==========================================================================
@@ -146,11 +158,27 @@ a {
   color: #949494; }
   .footer a {
     color: #949494; }
-  .footer.fixed {
-    position: fixed; }
 
 .friendlink {
   text-align: right; }
+
+.box:before, .afa-f-list:before, .tab-list:before, .w-grid-a:before,
+.w-grid-b:before,
+.w-grid-c:before,
+.w-grid-d:before,
+.w-grid-e:before, .box:after, .afa-f-list:after, .tab-list:after, .w-grid-a:after,
+.w-grid-b:after,
+.w-grid-c:after,
+.w-grid-d:after,
+.w-grid-e:after {
+  content: " ";
+  display: table; }
+.box:after, .afa-f-list:after, .tab-list:after, .w-grid-a:after,
+.w-grid-b:after,
+.w-grid-c:after,
+.w-grid-d:after,
+.w-grid-e:after {
+  clear: both; }
 
 .box {
   width: 1212px;
@@ -174,6 +202,71 @@ a {
     border: none; }
   .contentbox.border {
     border-color: #adadad; }
+
+.wrapper {
+  width: 960px;
+  margin: 0 auto; }
+
+.afa-f-list {
+  padding: 5px 0; }
+  .afa-f-list .label {
+    display: block;
+    float: left;
+    width: 100px; }
+  .afa-f-list .field {
+    display: block;
+    float: left; }
+  .afa-f-list .f-select {
+    color: #000; }
+
+/* ==========================================================================
+   tabs 模块
+   ========================================================================== */
+.tab-list .tab-item {
+  float: left;
+  padding: 0 20px;
+  line-height: 1.5; }
+
+/* ==========================================================================
+   grid 模块
+   ========================================================================== */
+.w-grid-a,
+.w-grid-b,
+.w-grid-c,
+.w-grid-d,
+.w-grid-e {
+  display: block; }
+
+.w-block-a,
+.w-block-b,
+.w-block-c,
+.w-block-d,
+.w-block-e,
+.w-block-f {
+  display: block;
+  float: left; }
+
+.w-grid-a .w-block-a, .w-grid-a .w-block-b {
+  width: 50%; }
+
+.w-grid-b .w-block-a,
+.w-grid-b .w-block-b,
+.w-grid-b .w-block-c {
+  width: 33.3333%; }
+
+.w-grid-c .w-block-a, .w-grid-c .w-block-b,
+.w-grid-c .w-block-c, .w-grid-c .w-block-d {
+  width: 25%; }
+
+.w-grid-d .w-block-a, .w-grid-d .w-block-b,
+.w-grid-d .w-block-c, .w-grid-d .w-block-d,
+.w-grid-d .w-block-e {
+  width: 20%; }
+
+.w-grid-e .w-block-a, .w-grid-e .w-block-b,
+.w-grid-e .w-block-c, .w-grid-e .w-block-d,
+.w-grid-e .w-block-e, .w-grid-e .w-block-f {
+  width: 16.6666%; }
 
 .slide-menu {
   position: relative;
@@ -264,6 +357,11 @@ a {
     background-position: 0 -57px; }
   .icon-afa-user .icon-password {
     background-position: 0 0; }
+
+.icon-search {
+  background: url(../img/icon/search.png) no-repeat center;
+  width: 20px;
+  height: 20px; }
 
 .roll-btn-b-left, .roll-btn-b-right {
   display: inline-block;

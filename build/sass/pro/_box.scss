@@ -1,4 +1,9 @@
-// box
+@charset "UTF-8";
+@import "variables";
+@import "mixins";
+@import "placeholders";
+
+
 $boxW:1210px;
 $slideboxW:125px;
 $contentboxW:960px;
@@ -30,3 +35,93 @@ $contentboxW:960px;
 		border-color: $border;
 	}
 }
+
+.wrapper{
+	width: 960px;
+	margin: 0 auto;
+}
+.afa-f-list{
+	padding: 5px 0;
+	@extend %clearfix;
+	.label{
+		display: block;
+		float: left;
+		width: 100px;
+
+	}
+	.field{
+		display: block;
+		float: left;
+	}
+	.f-select{
+		color: #000;
+	}
+}
+
+/* ==========================================================================
+   tabs 模块
+   ========================================================================== */
+.tab-list{
+	@extend %clearfix;
+	.tab-item{
+		float: left;
+		padding:0 20px;
+		line-height: 1.5;
+	}
+}
+
+
+/* ==========================================================================
+   grid 模块
+   ========================================================================== */
+.w-grid-a,
+.w-grid-b,
+.w-grid-c,
+.w-grid-d,
+.w-grid-e{
+	display: block;
+	@extend %clearfix;
+}
+.w-block-a,
+.w-block-b,
+.w-block-c,
+.w-block-d,
+.w-block-e,
+.w-block-f{
+	display: block;
+	float: left;
+}
+
+.w-grid-a{
+	.w-block-a,.w-block-b{
+		width: 50%;
+	}
+}
+.w-grid-b{
+	.w-block-a,
+	.w-block-b,
+	.w-block-c,{
+		width: 33.3333%;
+	}
+}
+.w-grid-c{
+	.w-block-a,.w-block-b,
+	.w-block-c,.w-block-d{
+		width: 25%;
+	}
+}
+.w-grid-d{
+	.w-block-a,.w-block-b,
+	.w-block-c,.w-block-d,	
+	.w-block-e{
+		width: 20%;
+	}
+}
+.w-grid-e{
+	.w-block-a,.w-block-b,
+	.w-block-c,.w-block-d,	
+	.w-block-e,.w-block-f,{
+		width: 16.6666%;
+	}
+}
+

@@ -200,13 +200,19 @@
       bottom: 0;
       left: 0;
       width: 100%;
-      padding: 20px;
       background: rgba(0, 0, 0, 0.6);
       background: #000 \9;
       filter: alpha(opacity=60);
       color: #ffffff; }
       .w-fade-in-out-wrapper-outer .img-item .desc h3 {
-        line-height: 2; }
+        line-height: 2;
+        font-size: 30px;
+        padding: 0 20px; }
+      .w-fade-in-out-wrapper-outer .img-item .desc p {
+        font-size: 12px;
+        line-height: 1.5;
+        padding: 0 20px 20px 20px;
+        margin: 0; }
   .w-fade-in-out-wrapper-outer .control-view {
     position: absolute;
     bottom: 10px;

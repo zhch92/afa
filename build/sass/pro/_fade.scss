@@ -35,7 +35,6 @@
 			left: 0;
 
 			width: 100%;
-			padding: 20px;
 
 			background: rgba(0,0,0,0.6);
 			background:#000\9; filter:alpha(opacity=60);
@@ -44,9 +43,14 @@
 			// filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#BF000000,endColorstr=#BF000000);
 			h3{
 				line-height: 2;
+				font-size: 30px;
+				padding: 0 20px;
 			}
 			p{
-				
+				font-size: 12px;
+				line-height: 1.5;
+				padding: 0 20px 20px 20px;
+				margin: 0;
 			}
 		}
 	}

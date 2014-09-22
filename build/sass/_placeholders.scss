@@ -31,5 +31,19 @@
 }
 
 
+// 盒模型
+%bs-border-box{
+  -webkit-box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  -ms-box-sizing:border-box;
+  box-sizing:border-box;
+}
+%bs-content-box{
+  -webkit-box-sizing:content-box;
+  -moz-box-sizing:content-box;
+  -ms-box-sizing:content-box;
+  box-sizing:content-box;
+}
+
 
 

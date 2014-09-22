@@ -40,6 +40,8 @@
 	.text{
 		color: $gray;
 		font-size: 4em;
+		margin: 0;
+		padding: 0;
 		b{
 			color: $yellow;
 			font-weight: bold;
@@ -96,6 +98,7 @@
 				z-index: 5;
 				width: 137px;
 				height: 100%;
+				box-sizing:border-box;
 				overflow: hidden;
 				border-right: 1px solid #ffffff;
 				&.bl{

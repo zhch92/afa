@@ -1,4 +1,7 @@
 @charset "UTF-8";
+@import "variables";
+@import "mixins";
+@import "placeholders";
 
 input,textarea{
 	-webkit-appearance: none;
@@ -14,6 +17,20 @@ input,textarea{
 //float 
 .w-cf{
 	@extend %clearfix;
+}
+.w-fl{
+	display: block;
+	float: left;
+}
+.w-fr{
+	display: block;
+	float: right;
+}
+.w-tl{
+	text-align: left;
+}
+.w-tc{
+	text-align: center;
 }
 
 .w-hide{

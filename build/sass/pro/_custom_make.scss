@@ -1,0 +1,131 @@
+@charset "UTF-8";
+
+/* ==========================================================================
+   定制模块
+   ========================================================================== */
+
+.afa-custom-make {
+    font-size: 15px;
+    padding: 30px 0;
+    background: #a1a1a0;
+}
+.a-c-m-content-wrapper {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 600px;
+    margin: 0 auto;
+    border: 1px solid $border;
+    padding: 20px 40px;
+    color: #e6e6e6;
+    .afa-f-list {
+    	font-size: 20px;
+    }
+    .afa-f-list.head {
+        padding: 0 0 20px 0;
+        line-height: 1;
+        .label {
+            color: #fff;
+            line-height: 24px;
+        }
+        .field {
+            width: 500px;
+        }
+    }
+    .label,.field{
+    	min-height: 1px;
+    }
+    .field{
+    	.muliti-line{
+    		margin-right: -20px;
+    		.fm-text{
+    			margin-right: 10px;
+    			margin-bottom: 10px;
+    		}
+    	}
+    }
+    .w-block-b{
+    	padding-left: 40px;
+    	box-sizing:border-box;
+    }
+    .afa-f-list {
+        &.one {
+            .field {
+                 width:500px;
+            }
+        }
+    }
+    .afa-f-list {
+        &.two {
+            .field {
+                 width:200px;
+            }
+        }
+    }
+    .f-text {
+        width: 500px;
+        display: block;
+        box-sizing: border-box;
+        border: 1px solid $border;
+    }
+    .fm-text {
+        width: 160px;
+        display: block;
+        float:left;
+        box-sizing: border-box;
+        border: 1px solid $border;
+        padding: 2px 2px;
+
+    }
+    .field {
+        position: relative;
+        .icon {
+            position: absolute;
+        }
+        .icon-search{
+    		top: 5px;
+    		left: 5px;	
+    	}
+    	.i_search{
+    		padding-left: 30px;
+    	}
+    	.btn-right{
+    		position: absolute;
+    		right: 0;
+    		top:0;
+    		width: 30px;
+    		height: 30px;
+    		text-align: center;
+    		font-style: normal;
+    		background: #a1a1a0;
+    	}	
+    }
+    .tab-list {
+        float: right;
+        .tab-item {
+            margin: 0 5px;
+            padding: 0 10px;
+            width: 80px;
+            text-align: center;
+            border: 1px solid $border;
+            border-radius: 4px;
+            cursor: pointer;
+            &.active {
+                color: #fff;
+            }
+        }
+    }
+
+    .submit-make{
+    	text-align: center;
+		input{
+			line-height: 30px;
+			font-size: 20px;
+			width: 150px;
+			border-radius: 4px;
+			border: 1px solid $white;
+			color: lighten($black,10%);
+			background: #a1a1a0;
+		}
+    }
+}
