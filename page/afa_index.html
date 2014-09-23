@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>阿尔法旅游网站&全程管家</title>
     <link rel="shortcut icon" type="image/x-icon" href="../img/favicon.ico" media="screen" />
+    <link rel="stylesheet" type="text/css" href="../css/lib/jquery-ui.min.css">
     <link rel="stylesheet" type="text/css" href="../css/global.css">
     <link rel="stylesheet" type="text/css" href="../css/pro.min.css">
     <link rel="stylesheet" type="text/css" href="../css/afa_index.css">
@@ -83,18 +84,17 @@
                                 <ul class="wrapper-list">
                                     <li class="img-item">
                                         <a href="">
-                                            <img src="../img/jian.jpg" alt="">
+                                            <img src="../img/b01.jpg" alt="">
                                         </a>
                                         <div class="desc">
                                             <h3>2014亚洲户外用品展览会</h3>
-                                            <p>20142014亚洲户外用品展览会2014亚洲户外用品展览会2014亚洲户外用品展览会2014亚洲户外用品展览会
-                                            20142014亚洲户外用品展览会2014亚洲户外用品展览会2014亚洲户外用品展览会2014亚洲户外用品展览会
-                                            20142014亚洲户外用品展览会2014亚洲户外用品展览会2014亚洲户外用品展览会2014亚洲户外用品展览会</p>
+                                            <p>20142014亚洲户外用品展览会2014亚洲户外用品展览会2014亚洲户外用品展览会2014亚洲户外用品展览会 20142014亚洲户外用品展览会2014亚洲户外用品展览会2014亚洲户外用品展览会2014亚洲户外用品展览会 20142014亚洲户外用品展览会2014亚洲户外用品展览会2014亚洲户外用品展览会2014亚洲户外用品展览会
+                                            </p>
                                         </div>
                                     </li>
                                     <li class="img-item">
                                         <a href="">
-                                            <img src="../img/jian.jpg" alt="">
+                                            <img src="../img/b02.jpg" alt="">
                                         </a>
                                         <div class="desc">
                                             <h3>2014亚洲户外用品展览会</h3>
@@ -103,7 +103,7 @@
                                     </li>
                                     <li class="img-item">
                                         <a href="">
-                                            <img src="../img/jian.jpg" alt="">
+                                            <img src="../img/b03.jpg" alt="">
                                         </a>
                                         <div class="desc">
                                             <h3>2014亚洲户外用品展览会</h3>
@@ -112,9 +112,9 @@
                                     </li>
                                 </ul>
                                 <div class="control-view">
-                                    <a class="current" href=""></a>
-                                    <a href=""></a>
-                                    <a href=""></a>
+                                    <a class="current" href="javascript:void(0);"></a>
+                                    <a href="javascript:void(0);"></a>
+                                    <a href="javascript:void(0);"></a>
                                 </div>
                             </div>
                         </div>
@@ -230,7 +230,7 @@
                                         <span class="label">经&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;由</span>
                                         <div class="field">
                                             <div class="muliti-line w-cf">
-                                                <a href="" class="btn-add"></a>
+                                                <a href="" class="icon icon-add btn-right btn-add"></a>
                                                 <input type="text" class="fm-text">
                                                 <input type="text" class="fm-text">
                                                 <input type="text" class="fm-text">
@@ -244,15 +244,15 @@
                                             <div class="w-block-a w-cf">
                                                 <span class="label">出发日期</span>
                                                 <div class="field">
-                                                    <a href="" class="icon-calendar"></a>
-                                                    <input type="text" class="fm-text">
+                                                    <!-- <a href="javascript:void(0);" class="btn-right icon icon-calendar"></a> -->
+                                                    <input id="travel_out_time" type="text" class="fm-text calendar">
                                                 </div>
                                             </div>
                                             <div class="w-block-b w-cf">
                                                 <span class="label">返回日期</span>
                                                 <div class="field">
-                                                    <a href="" class="icon-calendar"></a>
-                                                    <input type="text" class="fm-text">
+                                                    <!-- <a href="javascript:void(0);" class="btn-right icon icon-calendar"></a> -->
+                                                    <input id="travel_in_time" type="text" class="fm-text calendar">
                                                 </div>
                                             </div>
                                         </div>
@@ -269,152 +269,217 @@
                                             <div class="w-block-b">
                                                 <span class="label">高级选项</span>
                                                 <div class="field">
-                                                    <input type="button" class="icon" value="">
+                                                    <input id="open_gaoji" type="button" class="icon 
+                                                    icon-open open-gaoji" value="">
                                                 </div>
                                             </div>
                                         </div>
+                                    </div>
+                                    <div data-open="false" class="high-grade-content" style="display:none;">
+                                        <hr color="#fff" style=" height：0;border:none;border-top:1px dashed #eef1f5; background:#a1a1a0;">
+                                        <div class="afa-f-list">
+                                            <div class="w-grid-a">
+                                                <div class="w-block-a w-cf">
+                                                    <span class="label">成&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;人</span>
+                                                    <div class="field">
+                                                        <i class="btn-right">人</i>
+                                                        <input type="text" class="fm-text">
+                                                    </div>
+                                                </div>
+                                                <div class="w-block-b w-cf">
+                                                    <span class="label">类&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;型</span>
+                                                    <div class="field">
+                                                        <a href="" class="btn-right icon select"></a>
+                                                        <input id="value_form" type="text" value="AA制" class="fm-text">
+                                                        <select data-select="true" _goal="value_form" name="" id="">
+                                                            <option value="1">AA制</option>
+                                                            <option value="2">俱乐部形式</option>
+                                                            <option value="3">女士免单</option>
+                                                            <option value="4">party</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="afa-f-list">
+                                            <div class="w-grid-a">
+                                                <div class="w-block-a w-cf">
+                                                    <span class="label">男&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;人</span>
+                                                    <div class="field">
+                                                        <i class="btn-right">人</i>
+                                                        <input type="text" class="fm-text">
+                                                    </div>
+                                                </div>
+                                                <div class="w-block-b w-cf">
+                                                    <span class="label">女&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;人</span>
+                                                    <div class="field">
+                                                        <i class="btn-right">人</i>
+                                                        <input type="text" class="fm-text">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="afa-f-list">
+                                            <div class="w-grid-a">
+                                                <div class="w-block-a w-cf">
+                                                    <span class="label">儿&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;童</span>
+                                                    <div class="field">
+                                                        <i class="btn-right">人</i>
+                                                        <input type="text" class="fm-text">
+                                                    </div>
+                                                </div>
+                                                <div class="w-block-b w-cf">
+                                                    <span class="label">要求人数</span>
+                                                    <div class="field">
+                                                        <i class="btn-right">人</i>
+                                                        <input type="text" class="fm-text">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="afa-f-list">
+                                            <div class="w-grid-a">
+                                                <div class="w-block-a w-cf">
+                                                    <span class="label">费用形式</span>
+                                                    <div class="field">
+                                                        <a href="" class="btn-right icon select"></a>
+                                                        <input id="value_money_form" type="text" value="AA制" class="fm-text">
+                                                        <select data-select="true" _goal="value_money_form" name="" id="">
+                                                            <option value="1">AA制</option>
+                                                            <option value="2">俱乐部形式</option>
+                                                            <option value="3">女士免单</option>
+                                                            <option value="4">party</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <div class="w-block-b w-cf">
+                                                    <span class="label">人均消费</span>
+                                                    <div class="field">
+                                                        <a href="" class="icon-calendar"></a>
+                                                        <input type="text" class="fm-text">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="afa-f-list">
+                                            <div class="w-grid-a">
+                                                <div class="w-block-a w-cf">
+                                                    <span class="label">司&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;机</span>
+                                                    <div class="field">
+                                                        <a href="" class="btn-right select"></a>
+                                                        <input id="value_siji" type="text" value="是" class="fm-text">
+                                                        <select data-select="true" _goal="value_siji" name="" id="">
+                                                            <option value="1">是</option>
+                                                            <option value="2">否</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <div class="w-block-b w-cf">
+                                                    <span class="label">当地导游</span>
+                                                    <div class="field">
+                                                        <a href="" class="btn-right select"></a>
+                                                        <input id="value_local_dao" type="text" value="是" class="fm-text">
+                                                        <select data-select="true" _goal="value_local_dao" name="" id="">
+                                                            <option value="1">是</option>
+                                                            <option value="2">否</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="afa-f-list">
+                                            <div class="w-grid-a">
+                                                <div class="w-block-a w-cf">
+                                                    <span class="label">马&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;匹</span>
+                                                    <div class="field">
+                                                        <a href="" class="btn-right select"></a>
+                                                        <input id="value_horse" type="text" value="是" class="fm-text">
+                                                        <select data-select="true" _goal="value_horse" name="" id="">
+                                                            <option value="1">是</option>
+                                                            <option value="2">否</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <div class="w-block-b w-cf">
+                                                    <span class="label">是否购物</span>
+                                                    <div class="field">
+                                                        <a href="" class="btn-right select"></a>
+                                                        <input id="value_shopping" type="text" value="是" class="fm-text">
+                                                        <select data-select="true" _goal="value_shopping" name="" id="">
+                                                            <option value="1">是</option>
+                                                            <option value="2">否</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="afa-f-list">
+                                            <div class="w-grid-a">
+                                                <div class="w-block-a w-cf">
+                                                    <span class="label">娱乐项目</span>
+                                                    <div class="field">
+                                                        <a href="" class="btn-right select"></a>
+                                                        <input id="value_yule" type="text" value="是" class="fm-text">
+                                                        <select data-select="true" _goal="value_yule" name="" id="">
+                                                            <option value="1">是</option>
+                                                            <option value="2">否</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <div class="w-block-b w-cf">
+                                                    <span class="label">指定领队</span>
+                                                    <div class="field">
+                                                        <a href="" class="btn-right select"></a>
+                                                        <input id="value_team" type="text" value="是" class="fm-text">
+                                                        <select data-select="true" _goal="value_team" name="" id="">
+                                                            <option value="1">是</option>
+                                                            <option value="2">否</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="afa-f-list">
+                                            <div class="w-grid-a">
+                                                <div class="w-block-a w-cf">
+                                                    <span class="label">门票代购</span>
+                                                    <div class="field">
+                                                        <a href="" class="btn-right select"></a>
+                                                        <input id="value_help_buy" type="text" value="是" class="fm-text">
+                                                        <select data-select="true" _goal="value_help_buy" name="" id="">
+                                                            <option value="1">是</option>
+                                                            <option value="2">否</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <div class="w-block-b w-cf">
+                                                    <span class="label">门票代购</span>
+                                                    <div class="field">
+                                                        <a href="" class="btn-right select"></a>
+                                                        <input id="value_team" type="text" value="是" class="fm-text">
+                                                        <select data-select="true" _goal="value_team" name="" id="">
+                                                            <option value="1">是</option>
+                                                            <option value="2">否</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="afa-f-list">
+                                            <span class="label">住宿要求</span>
+                                            <div class="field">
+                                                <input type="text" class="f-text" placeholder="关键字">
+                                            </div>
+                                        </div>
+                                        <div class="afa-f-list">
+                                            <span class="label">三餐要求</span>
+                                            <div class="field">
 
-                                    </div>
-                                    <hr color="#fff" style=" height：0;border:none;border-top:1px dashed #eef1f5; background:#a1a1a0;">
-                                    <div class="afa-f-list">
-                                        <div class="w-grid-a">
-                                            <div class="w-block-a w-cf">
-                                                <span class="label">成&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;人</span>
-                                                <div class="field">
-                                                    <i class="btn-right">人</i>
-                                                    <input type="text" class="fm-text">
-                                                </div>
-                                            </div>
-                                            <div class="w-block-b w-cf">
-                                                <span class="label">类&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;型</span>
-                                                <div class="field">
-                                                    <a href="" class="icon-calendar"></a>
-                                                    <input type="text" class="fm-text">
-                                                </div>
+                                                <input type="text" class="f-text" placeholder="关键字">
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="afa-f-list">
-                                        <div class="w-grid-a">
-                                            <div class="w-block-a w-cf">
-                                                <span class="label">男&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;人</span>
-                                                <div class="field">
-                                                   <i class="btn-right">人</i>
-                                                    <input type="text" class="fm-text">
-                                                </div>
-                                            </div>
-                                            <div class="w-block-b w-cf">
-                                                <span class="label">女&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;人</span>
-                                                <div class="field">
-                                                   <i class="btn-right">人</i>
-                                                    <input type="text" class="fm-text">
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="afa-f-list">
-                                        <div class="w-grid-a">
-                                            <div class="w-block-a w-cf">
-                                                <span class="label">儿&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;童</span>
-                                                <div class="field">
-                                                    <i class="btn-right">人</i>
-                                                    <input type="text" class="fm-text">
-                                                </div>
-                                            </div>
-                                            <div class="w-block-b w-cf">
-                                                <span class="label">要求人数</span>
-                                                <div class="field">
-                                                    <i class="btn-right">人</i>
-                                                    <input type="text" class="fm-text">
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="afa-f-list">
-                                        <div class="w-grid-a">
-                                            <div class="w-block-a w-cf">
-                                                <span class="label">费用形式</span>
-                                                <div class="field">
-                                                    <a href="" class="icon-calendar"></a>
-                                                    <input type="text" class="fm-text">
-                                                </div>
-                                            </div>
-                                            <div class="w-block-b w-cf">
-                                                <span class="label">人均消费</span>
-                                                <div class="field">
-                                                    <a href="" class="icon-calendar"></a>
-                                                    <input type="text" class="fm-text">
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="afa-f-list">
-                                        <div class="w-grid-a">
-                                            <div class="w-block-a w-cf">
-                                                <span class="label">司&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;机</span>
-                                                <div class="field">
-                                                    <a href="" class="icon-calendar"></a>
-                                                    <input type="text" class="fm-text">
-                                                </div>
-                                            </div>
-                                            <div class="w-block-b w-cf">
-                                                <span class="label">当地导游</span>
-                                                <div class="field">
-                                                    <a href="" class="icon-calendar"></a>
-                                                    <input type="text" class="fm-text">
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="afa-f-list">
-                                        <div class="w-grid-a">
-                                            <div class="w-block-a w-cf">
-                                                <span class="label">马&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;匹</span>
-                                                <div class="field">
-                                                    <a href="" class="icon-calendar"></a>
-                                                    <input type="text" class="fm-text">
-                                                </div>
-                                            </div>
-                                            <div class="w-block-b w-cf">
-                                                <span class="label">是否购物</span>
-                                                <div class="field">
-                                                    <a href="" class="icon-calendar"></a>
-                                                    <input type="text" class="fm-text">
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="afa-f-list">
-                                        <div class="w-grid-a">
-                                            <div class="w-block-a w-cf">
-                                                <span class="label">娱乐项目</span>
-                                                <div class="field">
-                                                    <a href="" class="icon-calendar"></a>
-                                                    <input type="text" class="fm-text">
-                                                </div>
-                                            </div>
-                                            <div class="w-block-b w-cf">
-                                                <span class="label">指定领队</span>
-                                                <div class="field">
-                                                    <a href="" class="icon-calendar"></a>
-                                                    <input type="text" class="fm-text">
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="afa-f-list">
-                                        <span class="label">门票代购</span>
-                                        <div class="field">
-                                            <input type="text" class="f-text" placeholder="关键字">
-                                        </div>
-                                    </div>
-                                    <div class="afa-f-list">
-                                        <span class="label">三餐要求</span>
-                                        <div class="field">
 
-                                            <input type="text" class="f-text" placeholder="关键字">
-                                        </div>
-                                    </div>
                                     <div class="submit-make">
                                         <input type="submit" id="submit_make" value="提交定制">
                                     </div>
@@ -429,7 +494,7 @@
 
             </div>
         </div>
-                <div class="box">
+        <div class="box">
             <div class="slidebox slide-menu skin01">
                 <ul class="btn-list">
                     <li><a href="">找路线</a>
@@ -463,31 +528,55 @@
                                 <div class="r-top">
                                     <div class="c-one">
                                         <ul>
-                                            <li class="item"><img src="../img/a07.jpg" alt=""></li>
-                                            <li class="item"><img src="../img/a07.jpg" alt=""></li>
-                                            <li class="item"><img src="../img/a07.jpg" alt=""></li>
+                                            <li class="item">
+                                                <img src="../img/a07.jpg" alt="">
+                                            </li>
+                                            <li class="item">
+                                                <img src="../img/a07.jpg" alt="">
+                                            </li>
+                                            <li class="item">
+                                                <img src="../img/a07.jpg" alt="">
+                                            </li>
                                         </ul>
                                     </div>
                                     <div class="c-three">
                                         <img data-adImg="1" src="../img/a07.jpg" alt="">
                                     </div>
                                     <div class="c-one">
-                                         <ul>
-                                            <li class="item"><img src="../img/a07.jpg" alt=""></li>
-                                            <li class="item"><img src="../img/a07.jpg" alt=""></li>
-                                            <li class="item"><img src="../img/a07.jpg" alt=""></li>
+                                        <ul>
+                                            <li class="item">
+                                                <img src="../img/a07.jpg" alt="">
+                                            </li>
+                                            <li class="item">
+                                                <img src="../img/a07.jpg" alt="">
+                                            </li>
+                                            <li class="item">
+                                                <img src="../img/a07.jpg" alt="">
+                                            </li>
                                         </ul>
                                     </div>
                                 </div>
                                 <div class="r-bottom">
                                     <div class="c-three">
                                         <ul>
-                                            <li class="item"><img src="../img/a07.jpg" alt=""></li>
-                                            <li class="item"><img src="../img/a07.jpg" alt=""></li>
-                                            <li class="item"><img src="../img/a07.jpg" alt=""></li>
-                                            <li class="item"><img src="../img/a07.jpg" alt=""></li>
-                                            <li class="item"><img src="../img/a07.jpg" alt=""></li>
-                                            <li class="item"><img src="../img/a07.jpg" alt=""></li>
+                                            <li class="item">
+                                                <img src="../img/a07.jpg" alt="">
+                                            </li>
+                                            <li class="item">
+                                                <img src="../img/a07.jpg" alt="">
+                                            </li>
+                                            <li class="item">
+                                                <img src="../img/a07.jpg" alt="">
+                                            </li>
+                                            <li class="item">
+                                                <img src="../img/a07.jpg" alt="">
+                                            </li>
+                                            <li class="item">
+                                                <img src="../img/a07.jpg" alt="">
+                                            </li>
+                                            <li class="item">
+                                                <img src="../img/a07.jpg" alt="">
+                                            </li>
                                         </ul>
                                     </div>
                                     <div class="c-two">
@@ -497,24 +586,50 @@
                             </div>
                             <div class="status-two">
                                 <ul>
-                                    <li class="item"><img src="../img/a07.jpg" alt=""></li>
-                                    <li class="item"><img src="../img/a07.jpg" alt=""></li>
-                                    <li class="item"><img src="../img/a07.jpg" alt=""></li>
-                                    <li class="item"><img src="../img/a07.jpg" alt=""></li>
-                                    <li class="item"><img src="../img/a07.jpg" alt=""></li>
-                                    <li class="item"><img src="../img/a07.jpg" alt=""></li>
-                                    <li class="item"><img src="../img/a07.jpg" alt=""></li>
-                                    <li class="item"><img src="../img/a07.jpg" alt=""></li>
-                                    <li class="item"><img src="../img/a07.jpg" alt=""></li>
-                                    <li class="item"><img src="../img/a07.jpg" alt=""></li>
+                                    <li class="item">
+                                        <img src="../img/a07.jpg" alt="">
+                                    </li>
+                                    <li class="item">
+                                        <img src="../img/a07.jpg" alt="">
+                                    </li>
+                                    <li class="item">
+                                        <img src="../img/a07.jpg" alt="">
+                                    </li>
+                                    <li class="item">
+                                        <img src="../img/a07.jpg" alt="">
+                                    </li>
+                                    <li class="item">
+                                        <img src="../img/a07.jpg" alt="">
+                                    </li>
+                                    <li class="item">
+                                        <img src="../img/a07.jpg" alt="">
+                                    </li>
+                                    <li class="item">
+                                        <img src="../img/a07.jpg" alt="">
+                                    </li>
+                                    <li class="item">
+                                        <img src="../img/a07.jpg" alt="">
+                                    </li>
+                                    <li class="item">
+                                        <img src="../img/a07.jpg" alt="">
+                                    </li>
+                                    <li class="item">
+                                        <img src="../img/a07.jpg" alt="">
+                                    </li>
                                 </ul>
                             </div>
                             <div class="status-three">
                                 <div class="r-one">
                                     <ul>
-                                        <li class="item"><img src="../img/a07.jpg" alt=""></li>
-                                        <li class="item"><img src="../img/a07.jpg" alt=""></li>
-                                        <li class="item"><img src="../img/a07.jpg" alt=""></li>
+                                        <li class="item">
+                                            <img src="../img/a07.jpg" alt="">
+                                        </li>
+                                        <li class="item">
+                                            <img src="../img/a07.jpg" alt="">
+                                        </li>
+                                        <li class="item">
+                                            <img src="../img/a07.jpg" alt="">
+                                        </li>
                                     </ul>
                                 </div>
                                 <div class="r-three">
@@ -522,24 +637,50 @@
                                 </div>
                                 <div class="r-one">
                                     <ul>
-                                        <li class="item"><img src="../img/a07.jpg" alt=""></li>
-                                        <li class="item"><img src="../img/a07.jpg" alt=""></li>
-                                        <li class="item"><img src="../img/a07.jpg" alt=""></li>
+                                        <li class="item">
+                                            <img src="../img/a07.jpg" alt="">
+                                        </li>
+                                        <li class="item">
+                                            <img src="../img/a07.jpg" alt="">
+                                        </li>
+                                        <li class="item">
+                                            <img src="../img/a07.jpg" alt="">
+                                        </li>
                                     </ul>
                                 </div>
                             </div>
-                             <div class="status-two">
+                            <div class="status-two">
                                 <ul>
-                                    <li class="item"><img src="../img/a07.jpg" alt=""></li>
-                                    <li class="item"><img src="../img/a07.jpg" alt=""></li>
-                                    <li class="item"><img src="../img/a07.jpg" alt=""></li>
-                                    <li class="item"><img src="../img/a07.jpg" alt=""></li>
-                                    <li class="item"><img src="../img/a07.jpg" alt=""></li>
-                                    <li class="item"><img src="../img/a07.jpg" alt=""></li>
-                                    <li class="item"><img src="../img/a07.jpg" alt=""></li>
-                                    <li class="item"><img src="../img/a07.jpg" alt=""></li>
-                                    <li class="item"><img src="../img/a07.jpg" alt=""></li>
-                                    <li class="item"><img src="../img/a07.jpg" alt=""></li>
+                                    <li class="item">
+                                        <img src="../img/a07.jpg" alt="">
+                                    </li>
+                                    <li class="item">
+                                        <img src="../img/a07.jpg" alt="">
+                                    </li>
+                                    <li class="item">
+                                        <img src="../img/a07.jpg" alt="">
+                                    </li>
+                                    <li class="item">
+                                        <img src="../img/a07.jpg" alt="">
+                                    </li>
+                                    <li class="item">
+                                        <img src="../img/a07.jpg" alt="">
+                                    </li>
+                                    <li class="item">
+                                        <img src="../img/a07.jpg" alt="">
+                                    </li>
+                                    <li class="item">
+                                        <img src="../img/a07.jpg" alt="">
+                                    </li>
+                                    <li class="item">
+                                        <img src="../img/a07.jpg" alt="">
+                                    </li>
+                                    <li class="item">
+                                        <img src="../img/a07.jpg" alt="">
+                                    </li>
+                                    <li class="item">
+                                        <img src="../img/a07.jpg" alt="">
+                                    </li>
                                 </ul>
                             </div>
                         </div>

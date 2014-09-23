@@ -30,13 +30,15 @@
 .w-fade-in-out-wrapper-outer {
   position: relative; }
   .w-fade-in-out-wrapper-outer .wrapper-list {
+    position: relative;
     height: 400px;
     overflow: hidden; }
   .w-fade-in-out-wrapper-outer .img-item {
-    position: relative;
+    position: absolute;
     top: 0;
     left: 0;
-    display: block;
+    z-index: 1;
+    width: 100%;
     height: 400px;
     overflow: hidden; }
     .w-fade-in-out-wrapper-outer .img-item a {
@@ -377,16 +379,31 @@
     width: 200px; }
   .a-c-m-content-wrapper .f-text {
     width: 500px;
-    display: block;
-    box-sizing: border-box;
-    border: 1px solid #adadad; }
+    display: block; }
   .a-c-m-content-wrapper .fm-text {
-    width: 160px;
-    display: block;
     float: left;
-    box-sizing: border-box;
+    width: 160px;
+    display: block; }
+    .a-c-m-content-wrapper .fm-text.calendar {
+      background: #fff url(../img/icon/calendar.png) no-repeat right center; }
+  .a-c-m-content-wrapper .f-text,
+  .a-c-m-content-wrapper .fm-text,
+  .a-c-m-content-wrapper select,
+  .a-c-m-content-wrapper option {
+    position: relative;
     border: 1px solid #adadad;
-    padding: 2px 2px; }
+    box-sizing: border-box;
+    color: #000;
+    padding: 2px 2px;
+    z-index: 1; }
+  .a-c-m-content-wrapper .field select {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 160px;
+    opacity: 0; }
+  .a-c-m-content-wrapper .open-gaoji {
+    border: none; }
   .a-c-m-content-wrapper .field {
     position: relative; }
     .a-c-m-content-wrapper .field .icon {
@@ -404,7 +421,11 @@
       height: 30px;
       text-align: center;
       font-style: normal;
-      background: #a1a1a0; }
+      background-color: #aeaead; }
+      .a-c-m-content-wrapper .field .btn-right.select {
+        background: #aeaead url(../img/icon/arrow_bottom.png) no-repeat center; }
+    .a-c-m-content-wrapper .field .btn-add {
+      right: -30px; }
   .a-c-m-content-wrapper .tab-list {
     float: right; }
     .a-c-m-content-wrapper .tab-list .tab-item {
@@ -418,7 +439,8 @@
       .a-c-m-content-wrapper .tab-list .tab-item.active {
         color: #fff; }
   .a-c-m-content-wrapper .submit-make {
-    text-align: center; }
+    text-align: center;
+    padding: 10px 0; }
     .a-c-m-content-wrapper .submit-make input {
       line-height: 30px;
       font-size: 20px;

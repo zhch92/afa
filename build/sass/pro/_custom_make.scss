@@ -65,17 +65,37 @@
     .f-text {
         width: 500px;
         display: block;
-        box-sizing: border-box;
-        border: 1px solid $border;
-    }
+    }    
     .fm-text {
+    	float: left;
         width: 160px;
         display: block;
-        float:left;
-        box-sizing: border-box;
-        border: 1px solid $border;
-        padding: 2px 2px;
-
+        &.calendar{
+        	background: #fff url(../img/icon/calendar.png) no-repeat right center;
+        }
+    }
+    .f-text,
+    .fm-text,
+    select,
+    option{
+    	position: relative;
+    	border: 1px solid $border;
+    	box-sizing: border-box;
+    	color: #000;
+    	padding: 2px 2px;
+    	z-index: 1;
+    }
+    .field{
+    	select{
+    		position: absolute;
+    		top: 0;
+    		left: 0;
+    		width: 160px;
+    		opacity: 0;
+    	}
+    }
+    .open-gaoji{
+    	border: none;
     }
     .field {
         position: relative;
@@ -97,7 +117,13 @@
     		height: 30px;
     		text-align: center;
     		font-style: normal;
-    		background: #a1a1a0;
+    		background-color: lighten(#a1a1a0,5%);
+    		&.select{
+    			background:lighten(#a1a1a0,5%) url(../img/icon/arrow_bottom.png) no-repeat center;
+    		}
+    	}
+    	.btn-add{
+    		right: -30px;
     	}	
     }
     .tab-list {
@@ -118,6 +144,7 @@
 
     .submit-make{
     	text-align: center;
+    	padding: 10px 0;
 		input{
 			line-height: 30px;
 			font-size: 20px;

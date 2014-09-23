@@ -363,6 +363,26 @@ a {
   width: 20px;
   height: 20px; }
 
+.icon-calendar {
+  background: url(../img/icon/calendar.png) no-repeat center;
+  width: 30px;
+  height: 30px; }
+
+.icon-open {
+  background: url(../img/icon/open.png) no-repeat center;
+  width: 30px;
+  height: 30px; }
+
+.icon-close {
+  background: url(../img/icon/close.png) no-repeat center;
+  width: 30px;
+  height: 30px; }
+
+.icon-add {
+  background: url(../img/icon/add.png) no-repeat center;
+  width: 30px;
+  height: 30px; }
+
 .roll-btn-b-left, .roll-btn-b-right {
   display: inline-block;
   width: 20px;
