@@ -83,6 +83,7 @@
     .bg_01 {
         width: 50px;
         height: 50px;
+        margin: 0 10px 0 0;
         text-align: center;
         font-style: normal;
         background: url('../img/icon/circle_bg_01.png') center no-repeat;
@@ -109,6 +110,7 @@
     .bg_02 {
         width: 50px;
         height: 50px;
+        margin: 0 10px 0 0;
         text-align: center;
         font-style: normal;
         color: $white;
@@ -151,7 +153,12 @@
  //找领队
 /***********************************/ 
 .afa-m-leader{
-   padding: 0 20px; 
+    padding: 10px 0 20px;
+
+    .zu-title{
+        text-indent: 10px;
+        padding-bottom: 5px;
+    }
 }
 .leader-pic{
     img{
@@ -189,8 +196,52 @@
     }
 }
 .leader-zu-img{
+    padding:0 20px;
     img{
-        width: 644px;
+        display: block;
+        width: 604px;
         height: 322px;
+    }
+}
+
+// 俱乐部
+.l-c-title{
+    font-size: 20px;
+    text-indent: 20px;
+    line-height: 2;
+}
+.afa-module-club{
+    .club-picture{
+        padding: 20px;
+        img{
+            display: block;
+            height: 200px;
+            overflow: hidden;
+        }
+    }
+    .club-info{
+        margin: 20px 0 0 20px;
+        width: 80%;
+        tr{
+            &.bg{
+                background:#eeeeee;
+            }
+        }
+        td{
+            width: 50%;
+            line-height: 1.8;
+            text-indent: 10px;
+        }
+    }
+}
+
+.blue-tooltip{
+    color: #0d6396;
+    background: $white;
+    font-size: 30px;
+    line-height: 2;
+    a{
+        color: #0d6396;
+        text-decoration: underline;
     }
 }

@@ -1,0 +1,222 @@
+
+<div class="afa-custom-make">
+  <div class="a-c-m-content-wrapper">
+    <form id="custom_make" method="" action="">
+      <div class="afa-f-list head"><span class="label">马上定制</span>
+        <div class="field">
+          <ul class="tab-list">
+            <li class="tab-item active">四川省内</li>
+            <li class="tab-item">四川省外</li>
+            <li class="tab-item">国外</li>
+          </ul>
+        </div>
+      </div>
+      <div class="afa-f-list"><span class="label">出&nbsp;发&nbsp;地</span>
+        <div class="field"><i class="icon icon-search"></i>
+          <input type="text" placeholder="请输入目的地" class="f-text i_search"/>
+        </div>
+      </div>
+      <div class="afa-f-list"><span class="label">目&nbsp;的&nbsp;地</span>
+        <div class="field"><i class="icon icon-search"></i>
+          <input type="text" placeholder="请输入目的地" class="f-text i_search"/>
+        </div>
+      </div>
+      <div class="afa-f-list">
+        <div class="w-grid-a">
+          <div class="w-block-a w-cf"><span class="label">出发日期</span>
+            <input id="travel_out_time" type="text" class="fm-text calendar"/>
+          </div>
+          <div class="w-block-b w-cf"><span class="label">返回日期</span>
+            <input id="travel_in_time" type="text" class="fm-text calendar"/>
+          </div>
+        </div>
+      </div>
+      <div class="afa-f-list">
+        <div class="w-grid-a">
+          <div class="w-block-a"><span class="label">人&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;数</span>
+            <div class="field"><i class="btn-right">人</i>
+              <input type="text" class="fm-text"/>
+            </div>
+          </div>
+          <div class="w-block-b"><span class="label">高级选项</span>
+            <div class="field">
+              <input id="open_gaoji" type="button" class="icon icon-open open-gaoji"/>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div data-open="false" style="display:none;" class="high-grade-content">
+        <hr color="#fff" style=" height：0;border:none;border-top:1px dashed #eef1f5; background:#a1a1a0;"/>
+        <div class="afa-f-list">
+          <div class="w-grid-a">
+            <div class="w-block-a w-cf"><span class="label">成&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;人</span>
+              <div class="field"><i class="btn-right">人</i>
+                <input type="text" class="fm-text"/>
+              </div>
+            </div>
+            <div class="w-block-b w-cf"><span class="label">类&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;型</span>
+              <div class="field"><i class="btn-right icon select"></i>
+                <input id="value_form" type="text" value="AA制" class="fm-text"/>
+                <select name="" data-select="true" _goal="value_form">
+                  <option value="1">AA制</option>
+                  <option value="2">俱乐部形式</option>
+                  <option value="3">女士免单</option>
+                  <option value="4">生日聚会</option>
+                </select>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="afa-f-list">
+          <div class="w-grid-a">
+            <div class="w-block-a w-cf"><span class="label">男&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;人</span>
+              <div class="field"><i class="btn-right">人</i>
+                <input type="text" class="fm-text"/>
+              </div>
+            </div>
+            <div class="w-block-b w-cf"><span class="label">女&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;人</span>
+              <div class="field"><i class="btn-right">人</i>
+                <input type="text" class="fm-text"/>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="afa-f-list">
+          <div class="w-grid-a">
+            <div class="w-block-a w-cf"><span class="label">儿&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;童</span>
+              <div class="field"><i class="btn-right">人</i>
+                <input type="text" class="fm-text"/>
+              </div>
+            </div>
+            <div class="w-block-a w-cf"><span class="label">要求人数</span>
+              <div class="field"><i class="btn-right">人</i>
+                <input type="text" class="fm-text"/>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="afa-f-list">
+          <div class="w-grid-a">
+            <div class="w-block-a w-cf"><span class="label">费用形式</span>
+              <div class="field"><i class="btn-right icon select"></i>
+                <input id="value_money_form" type="text" value="AA制" class="fm-text"/>
+                <select data-select="true" _goal="value_money_form" name="">
+                  <option value="1">AA制</option>
+                  <option value="2">俱乐部形式</option>
+                  <option value="3">女士免单</option>
+                  <option value="4">生日聚会</option>
+                </select>
+              </div>
+            </div>
+            <div class="w-block-b w-cf"><span class="label">人均消费</span>
+              <div class="field"><i class="icon-calendar"></i>
+                <input type="text" class="fm-text"/>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="afa-f-list">
+          <div class="w-grid-a">
+            <div class="w-block-a w-cf"><span class="label">司&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;机</span>
+              <div class="field"><i class="btn-right icon select"></i>
+                <input id="value_siji" type="text" value="AA制" class="fm-text"/>
+                <select data-select="true" _goal="value_siji" name="">
+                  <option value="1">是</option>
+                  <option value="2">否</option>
+                </select>
+              </div>
+            </div>
+            <div class="w-block-b w-cf"><span class="label">当地导游</span>
+              <div class="field"><i class="btn-right icon select"></i>
+                <input id="value_local_dao" type="text" value="AA制" class="fm-text"/>
+                <select data-select="true" _goal="value_local_dao" name="">
+                  <option value="1">是</option>
+                  <option value="2">否</option>
+                </select>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="afa-f-list">
+          <div class="w-grid-a">
+            <div class="w-block-a w-cf"><span class="label">马&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;匹</span>
+              <div class="field"><i class="btn-right icon select"></i>
+                <input id="value_horse" type="text" value="AA制" class="fm-text"/>
+                <select data-select="true" _goal="value_horse" name="">
+                  <option value="1">是</option>
+                  <option value="2">否</option>
+                </select>
+              </div>
+            </div>
+            <div class="w-block-b w-cf"><span class="label">是否购物</span>
+              <div class="field"><i class="btn-right icon select"></i>
+                <input id="value_shopping" type="text" value="AA制" class="fm-text"/>
+                <select data-select="true" _goal="value_shopping" name="">
+                  <option value="1">是</option>
+                  <option value="2">否</option>
+                </select>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="afa-f-list">
+          <div class="w-grid-a">
+            <div class="w-block-a w-cf"><span class="label">娱乐项目</span>
+              <div class="field"><i class="btn-right icon select"></i>
+                <input id="value_yule" type="text" value="AA制" class="fm-text"/>
+                <select data-select="true" _goal="value_yule" name="">
+                  <option value="1">是</option>
+                  <option value="2">否</option>
+                </select>
+              </div>
+            </div>
+            <div class="w-block-b w-cf"><span class="label">指定领队</span>
+              <div class="field"><i class="btn-right icon select"></i>
+                <input id="value_team" type="text" value="AA制" class="fm-text"/>
+                <select data-select="true" _goal="value_team" name="">
+                  <option value="1">是</option>
+                  <option value="2">否</option>
+                </select>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="afa-f-list">
+          <div class="w-grid-a">
+            <div class="w-block-a w-cf"><span class="label">门票代购</span>
+              <div class="field"><i class="btn-right icon select"></i>
+                <input id="value_help_buy" type="text" value="AA制" class="fm-text"/>
+                <select data-select="true" _goal="value_help_buy" name="">
+                  <option value="1">是</option>
+                  <option value="2">否</option>
+                </select>
+              </div>
+            </div>
+            <div class="w-block-b w-cf"><span class="label">当地导游</span>
+              <div class="field"><i class="btn-right icon select"></i>
+                <input id="value_local_dao" type="text" value="AA制" class="fm-text"/>
+                <select data-select="true" _goal="value_local_dao" name="">
+                  <option value="1">是</option>
+                  <option value="2">否</option>
+                </select>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="afa-f-list"><span class="label">住宿要求</span>
+          <div class="field">
+            <input type="text" placeholder="关键字" class="f-text"/>
+          </div>
+        </div>
+        <div class="afa-f-list"><span class="label"></span>
+          <div class="field">
+            <input type="text" placeholder="关键字" class="f-text"/>
+          </div>
+        </div>
+        <div class="submit-make">
+          <input id="submit_make" type="submit" value="提交定制"/>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>

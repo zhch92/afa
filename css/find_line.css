@@ -470,7 +470,8 @@
     right: 10px; }
 
 .afa-m-imgshow {
-  background: #ffffff; }
+  background: #ffffff;
+  padding: 5px 0; }
   .afa-m-imgshow .list {
     margin-right: -8px; }
     .afa-m-imgshow .list .item {
@@ -482,7 +483,11 @@
       height: 150px;
       line-height: 150px;
       vertical-align: middle;
-      text-align: center; }
+      text-align: center;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      border: 1px solid #eeeeee; }
       .afa-m-imgshow .list .img img {
         width: 100%;
         height: 100%; }
@@ -503,7 +508,7 @@
         border: 2px solid #ffffff; }
       .afa-m-imgshow .list .user a i {
         vertical-align: middle;
-        margin: 0 3px 0 0; }
+        margin: -2px 3px 0 3px; }
     .afa-m-imgshow .list .hotel-info {
       position: relative; }
       .afa-m-imgshow .list .hotel-info .col-md-8, .afa-m-imgshow .list .hotel-info .col-md-4, .afa-m-imgshow .list .hotel-info .col-md-12 {
@@ -785,6 +790,7 @@
   .line-title .bg_01 {
     width: 50px;
     height: 50px;
+    margin: 0 10px 0 0;
     text-align: center;
     font-style: normal;
     background: url("../img/icon/circle_bg_01.png") center no-repeat; }
@@ -805,6 +811,7 @@
   .day-title .bg_02 {
     width: 50px;
     height: 50px;
+    margin: 0 10px 0 0;
     text-align: center;
     font-style: normal;
     color: #ffffff;
@@ -840,7 +847,10 @@
 /***********************************/
 /***********************************/
 .afa-m-leader {
-  padding: 0 20px; }
+  padding: 10px 0 20px; }
+  .afa-m-leader .zu-title {
+    text-indent: 10px;
+    padding-bottom: 5px; }
 
 .leader-pic img {
   display: block;
@@ -873,9 +883,42 @@
     border-color: transparent;
     background: #849dcb; }
 
-.leader-zu-img img {
-  width: 644px;
-  height: 322px; }
+.leader-zu-img {
+  padding: 0 20px; }
+  .leader-zu-img img {
+    display: block;
+    width: 604px;
+    height: 322px; }
+
+.l-c-title {
+  font-size: 20px;
+  text-indent: 20px;
+  line-height: 2; }
+
+.afa-module-club .club-picture {
+  padding: 20px; }
+  .afa-module-club .club-picture img {
+    display: block;
+    height: 200px;
+    overflow: hidden; }
+.afa-module-club .club-info {
+  margin: 20px 0 0 20px;
+  width: 80%; }
+  .afa-module-club .club-info tr.bg {
+    background: #eeeeee; }
+  .afa-module-club .club-info td {
+    width: 50%;
+    line-height: 1.8;
+    text-indent: 10px; }
+
+.blue-tooltip {
+  color: #0d6396;
+  background: #ffffff;
+  font-size: 30px;
+  line-height: 2; }
+  .blue-tooltip a {
+    color: #0d6396;
+    text-decoration: underline; }
 
 /* ==========================================================================
    阿尔法 相应模块主页

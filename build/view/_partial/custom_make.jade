@@ -1,0 +1,181 @@
+.afa-custom-make
+	.a-c-m-content-wrapper
+		form(id="custom_make", method="", action="")
+			.afa-f-list.head
+				span.label 马上定制
+				.field
+					ul.tab-list
+						li.tab-item.active 四川省内
+						li.tab-item 四川省外
+						li.tab-item 国外
+			.afa-f-list
+				span.label 出&nbsp;发&nbsp;地
+				.field
+					i.icon.icon-search
+					input.f-text.i_search(type="text",placeholder="请输入目的地")
+			.afa-f-list
+				span.label 目&nbsp;的&nbsp;地
+				.field
+					i.icon.icon-search
+					input.f-text.i_search(type="text",placeholder="请输入目的地")			
+			.afa-f-list
+				.w-grid-a
+					.w-block-a.w-cf
+						span.label 出发日期
+						input#travel_out_time.fm-text.calendar(type="text")
+					.w-block-b.w-cf
+						span.label 返回日期
+						input#travel_in_time.fm-text.calendar(type="text")
+			.afa-f-list
+				.w-grid-a
+					.w-block-a
+						span.label 人&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;数
+						.field
+							i.btn-right 人
+							input.fm-text(type="text")
+					.w-block-b
+						span.label 高级选项
+						.field
+							input#open_gaoji.icon.icon-open.open-gaoji(type="button")
+			.high-grade-content(data-open="false",style="display:none;")
+				hr(color='#fff',style=" height：0;border:none;border-top:1px dashed #eef1f5; background:#a1a1a0;")			
+				.afa-f-list
+					.w-grid-a
+						.w-block-a.w-cf
+							span.label 成&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;人
+							.field
+								i.btn-right 人
+								input.fm-text(type="text")
+						.w-block-b.w-cf
+							span.label 类&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;型
+							.field
+								i.btn-right.icon.select
+								input#value_form.fm-text(type="text",value="AA制")
+								select(name="",data-select="true",_goal="value_form")
+									option(value="1") AA制
+									option(value="2") 俱乐部形式
+									option(value="3") 女士免单
+									option(value="4") 生日聚会
+				.afa-f-list
+					.w-grid-a
+						.w-block-a.w-cf
+							span.label 男&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;人
+							.field 
+								i.btn-right 人
+								input.fm-text(type="text")
+						.w-block-b.w-cf
+							span.label 女&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;人
+							.field 
+								i.btn-right 人
+								input.fm-text(type="text")
+				.afa-f-list
+					.w-grid-a
+						.w-block-a.w-cf
+							span.label 儿&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;童
+							.field
+								i.btn-right 人
+								input.fm-text(type="text")
+						.w-block-a.w-cf
+							span.label 要求人数
+							.field
+								i.btn-right 人
+								input.fm-text(type="text")
+				.afa-f-list
+					.w-grid-a
+						.w-block-a.w-cf
+							span.label 费用形式
+							.field 
+								i.btn-right.icon.select
+								input#value_money_form.fm-text(type="text",value="AA制")
+								select(data-select="true",_goal="value_money_form",name="")
+									option(value="1") AA制
+									option(value="2") 俱乐部形式
+									option(value="3") 女士免单
+									option(value="4") 生日聚会
+						.w-block-b.w-cf
+							span.label 人均消费
+							.field
+								i.icon-calendar
+								input.fm-text(type="text")
+				.afa-f-list
+					.w-grid-a
+						.w-block-a.w-cf
+							span.label 司&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;机
+							.field 
+								i.btn-right.icon.select
+								input#value_siji.fm-text(type="text",value="AA制")
+								select(data-select="true",_goal="value_siji",name="")
+									option(value="1") 是
+									option(value="2") 否
+						.w-block-b.w-cf
+							span.label 当地导游
+							.field 
+								i.btn-right.icon.select
+								input#value_local_dao.fm-text(type="text",value="AA制")
+								select(data-select="true",_goal="value_local_dao",name="")
+									option(value="1") 是
+									option(value="2") 否
+				.afa-f-list
+					.w-grid-a
+						.w-block-a.w-cf
+							span.label 马&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;匹
+							.field 
+								i.btn-right.icon.select
+								input#value_horse.fm-text(type="text",value="AA制")
+								select(data-select="true",_goal="value_horse",name="")
+									option(value="1") 是
+									option(value="2") 否
+						.w-block-b.w-cf
+							span.label 是否购物
+							.field 
+								i.btn-right.icon.select
+								input#value_shopping.fm-text(type="text",value="AA制")
+								select(data-select="true",_goal="value_shopping",name="")
+									option(value="1") 是
+									option(value="2") 否
+				.afa-f-list
+					.w-grid-a
+						.w-block-a.w-cf
+							span.label 娱乐项目
+							.field 
+								i.btn-right.icon.select
+								input#value_yule.fm-text(type="text",value="AA制")
+								select(data-select="true",_goal="value_yule",name="")
+									option(value="1") 是
+									option(value="2") 否
+						.w-block-b.w-cf
+							span.label 指定领队
+							.field 
+								i.btn-right.icon.select
+								input#value_team.fm-text(type="text",value="AA制")
+								select(data-select="true",_goal="value_team",name="")
+									option(value="1") 是
+									option(value="2") 否
+				.afa-f-list
+					.w-grid-a
+						.w-block-a.w-cf
+							span.label 门票代购
+							.field 
+								i.btn-right.icon.select
+								input#value_help_buy.fm-text(type="text",value="AA制")
+								select(data-select="true",_goal="value_help_buy",name="")
+									option(value="1") 是
+									option(value="2") 否
+						.w-block-b.w-cf
+							span.label 当地导游
+							.field 
+								i.btn-right.icon.select
+								input#value_local_dao.fm-text(type="text",value="AA制")
+								select(data-select="true",_goal="value_local_dao",name="")
+									option(value="1") 是
+									option(value="2") 否
+				.afa-f-list
+					span.label 住宿要求
+					.field
+						input.f-text(type="text",placeholder="关键字")
+				.afa-f-list
+					span.label
+					.field
+						input.f-text(type="text",placeholder="关键字")
+				.submit-make
+					input#submit_make(type="submit",value="提交定制")

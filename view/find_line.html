@@ -7,6 +7,7 @@
   <link rel="shortcut icon" type="image/x-icon" href="../img/favicon.ico" media="screen">
   <link rel="stylesheet" type="text/css" href="../css/global.css">
   <link rel="stylesheet" type="text/css" href="../css/pro.min.css">
+  <link rel="stylesheet" type="text/css" href="../css/lib/jquery-ui.min.css">
   <link rel="stylesheet" type="text/css" href="../css/find_line.css">
 </head>
 <body>
@@ -70,29 +71,836 @@
                             </div>
                           </div>
                         </div>
-            <div class="afa-m-imgshow">
-              <ul class="list">
-                <li class="item">
-                  <div class="img"><img src="../img/list_img.jpg" alt=""></div>
-                  <div class="user"><img src="../img/tou.jpg" alt="" class="tou"><a href="#"><i class="icon icon-like"></i>34</a><a href="#"><i class="icon icon-comment"></i>23</a></div>
-                </li>
-                <li class="item">
-                  <div class="img"><img src="../img/list_img.jpg" alt=""></div>
-                  <div class="user"><img src="../img/tou.jpg" alt="" class="tou"><a href="#"><i class="icon icon-like"></i>34</a><a href="#"><i class="icon icon-comment"></i>23</a></div>
-                </li>
-                <li class="item">
-                  <div class="img"><img src="../img/list_img.jpg" alt=""></div>
-                  <div class="user"><img src="../img/tou.jpg" alt="" class="tou"><a href="#"><i class="icon icon-like"></i>34</a><a href="#"><i class="icon icon-comment"></i>23</a></div>
-                </li>
-                <li class="item">
-                  <div class="img"><img src="../img/list_img.jpg" alt=""></div>
-                  <div class="user"><img src="../img/tou.jpg" alt="" class="tou"><a href="#"><i class="icon icon-like"></i>34</a><a href="#"><i class="icon icon-comment"></i>23</a></div>
-                </li>
-              </ul>
+                        <div id="img_list_01" class="afa-m-imgshow">
+                          <ul class="list">
+                            <li class="item">
+                              <div class="img"><img src="../img/list_img.jpg" alt=""></div>
+                              <div class="user"><img src="../img/tou.jpg" alt="" class="tou"><a href="#"><i class="icon icon-like"></i>34</a><a href="#"><i class="icon icon-comment"></i>23</a></div>
+                            </li>
+                            <li class="item">
+                              <div class="img"><img src="../img/list_img.jpg" alt=""></div>
+                              <div class="user"><img src="../img/tou.jpg" alt="" class="tou"><a href="#"><i class="icon icon-like"></i>34</a><a href="#"><i class="icon icon-comment"></i>23</a></div>
+                            </li>
+                            <li class="item">
+                              <div class="img"><img src="../img/list_img.jpg" alt=""></div>
+                              <div class="user"><img src="../img/tou.jpg" alt="" class="tou"><a href="#"><i class="icon icon-like"></i>34</a><a href="#"><i class="icon icon-comment"></i>23</a></div>
+                            </li>
+                            <li class="item">
+                              <div class="img"><img src="../img/list_img.jpg" alt=""></div>
+                              <div class="user"><img src="../img/tou.jpg" alt="" class="tou"><a href="#"><i class="icon icon-like"></i>34</a><a href="#"><i class="icon icon-comment"></i>23</a></div>
+                            </li>
+                          </ul>
+                        </div>
+          </div>
+        </div>
+        <div class="blue-tooltip w-tc">这里没有你想去的路线吗？<a href="#">点击这里</a></div>
+        <div class="afa-m-fe">
+          <h2 class="afa-module-title afa-bg-m-title"><span class="t-chinese">定制吧</span><span class="t-english">COSTOM-MAKE</span></h2>
+          <div class="afa-m-fe-content">
+            <div class="afa-custom-make">
+              <div class="a-c-m-content-wrapper">
+                <form id="custom_make" method="" action="">
+                  <div class="afa-f-list head"><span class="label">马上定制</span>
+                    <div class="field">
+                      <ul class="tab-list">
+                        <li class="tab-item active">四川省内</li>
+                        <li class="tab-item">四川省外</li>
+                        <li class="tab-item">国外</li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="afa-f-list"><span class="label">出&nbsp;发&nbsp;地</span>
+                    <div class="field"><i class="icon icon-search"></i>
+                      <input type="text" placeholder="请输入目的地" class="f-text i_search">
+                    </div>
+                  </div>
+                  <div class="afa-f-list"><span class="label">目&nbsp;的&nbsp;地</span>
+                    <div class="field"><i class="icon icon-search"></i>
+                      <input type="text" placeholder="请输入目的地" class="f-text i_search">
+                    </div>
+                  </div>
+                  <div class="afa-f-list">
+                    <div class="w-grid-a">
+                      <div class="w-block-a w-cf"><span class="label">出发日期</span>
+                        <input id="travel_out_time" type="text" class="fm-text calendar">
+                      </div>
+                      <div class="w-block-b w-cf"><span class="label">返回日期</span>
+                        <input id="travel_in_time" type="text" class="fm-text calendar">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="afa-f-list">
+                    <div class="w-grid-a">
+                      <div class="w-block-a"><span class="label">人&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;数</span>
+                        <div class="field"><i class="btn-right">人</i>
+                          <input type="text" class="fm-text">
+                        </div>
+                      </div>
+                      <div class="w-block-b"><span class="label">高级选项</span>
+                        <div class="field">
+                          <input id="open_gaoji" type="button" class="icon icon-open open-gaoji">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div data-open="false" style="display:none;" class="high-grade-content">
+                    <hr color="#fff" style=" height：0;border:none;border-top:1px dashed #eef1f5; background:#a1a1a0;">
+                    <div class="afa-f-list">
+                      <div class="w-grid-a">
+                        <div class="w-block-a w-cf"><span class="label">成&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;人</span>
+                          <div class="field"><i class="btn-right">人</i>
+                            <input type="text" class="fm-text">
+                          </div>
+                        </div>
+                        <div class="w-block-b w-cf"><span class="label">类&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;型</span>
+                          <div class="field"><i class="btn-right icon select"></i>
+                            <input id="value_form" type="text" value="AA制" class="fm-text">
+                            <select name="" data-select="true" _goal="value_form">
+                              <option value="1">AA制</option>
+                              <option value="2">俱乐部形式</option>
+                              <option value="3">女士免单</option>
+                              <option value="4">生日聚会</option>
+                            </select>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="afa-f-list">
+                      <div class="w-grid-a">
+                        <div class="w-block-a w-cf"><span class="label">男&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;人</span>
+                          <div class="field"><i class="btn-right">人</i>
+                            <input type="text" class="fm-text">
+                          </div>
+                        </div>
+                        <div class="w-block-b w-cf"><span class="label">女&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;人</span>
+                          <div class="field"><i class="btn-right">人</i>
+                            <input type="text" class="fm-text">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="afa-f-list">
+                      <div class="w-grid-a">
+                        <div class="w-block-a w-cf"><span class="label">儿&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;童</span>
+                          <div class="field"><i class="btn-right">人</i>
+                            <input type="text" class="fm-text">
+                          </div>
+                        </div>
+                        <div class="w-block-a w-cf"><span class="label">要求人数</span>
+                          <div class="field"><i class="btn-right">人</i>
+                            <input type="text" class="fm-text">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="afa-f-list">
+                      <div class="w-grid-a">
+                        <div class="w-block-a w-cf"><span class="label">费用形式</span>
+                          <div class="field"><i class="btn-right icon select"></i>
+                            <input id="value_money_form" type="text" value="AA制" class="fm-text">
+                            <select data-select="true" _goal="value_money_form" name="">
+                              <option value="1">AA制</option>
+                              <option value="2">俱乐部形式</option>
+                              <option value="3">女士免单</option>
+                              <option value="4">生日聚会</option>
+                            </select>
+                          </div>
+                        </div>
+                        <div class="w-block-b w-cf"><span class="label">人均消费</span>
+                          <div class="field"><i class="icon-calendar"></i>
+                            <input type="text" class="fm-text">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="afa-f-list">
+                      <div class="w-grid-a">
+                        <div class="w-block-a w-cf"><span class="label">司&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;机</span>
+                          <div class="field"><i class="btn-right icon select"></i>
+                            <input id="value_siji" type="text" value="AA制" class="fm-text">
+                            <select data-select="true" _goal="value_siji" name="">
+                              <option value="1">是</option>
+                              <option value="2">否</option>
+                            </select>
+                          </div>
+                        </div>
+                        <div class="w-block-b w-cf"><span class="label">当地导游</span>
+                          <div class="field"><i class="btn-right icon select"></i>
+                            <input id="value_local_dao" type="text" value="AA制" class="fm-text">
+                            <select data-select="true" _goal="value_local_dao" name="">
+                              <option value="1">是</option>
+                              <option value="2">否</option>
+                            </select>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="afa-f-list">
+                      <div class="w-grid-a">
+                        <div class="w-block-a w-cf"><span class="label">马&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;匹</span>
+                          <div class="field"><i class="btn-right icon select"></i>
+                            <input id="value_horse" type="text" value="AA制" class="fm-text">
+                            <select data-select="true" _goal="value_horse" name="">
+                              <option value="1">是</option>
+                              <option value="2">否</option>
+                            </select>
+                          </div>
+                        </div>
+                        <div class="w-block-b w-cf"><span class="label">是否购物</span>
+                          <div class="field"><i class="btn-right icon select"></i>
+                            <input id="value_shopping" type="text" value="AA制" class="fm-text">
+                            <select data-select="true" _goal="value_shopping" name="">
+                              <option value="1">是</option>
+                              <option value="2">否</option>
+                            </select>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="afa-f-list">
+                      <div class="w-grid-a">
+                        <div class="w-block-a w-cf"><span class="label">娱乐项目</span>
+                          <div class="field"><i class="btn-right icon select"></i>
+                            <input id="value_yule" type="text" value="AA制" class="fm-text">
+                            <select data-select="true" _goal="value_yule" name="">
+                              <option value="1">是</option>
+                              <option value="2">否</option>
+                            </select>
+                          </div>
+                        </div>
+                        <div class="w-block-b w-cf"><span class="label">指定领队</span>
+                          <div class="field"><i class="btn-right icon select"></i>
+                            <input id="value_team" type="text" value="AA制" class="fm-text">
+                            <select data-select="true" _goal="value_team" name="">
+                              <option value="1">是</option>
+                              <option value="2">否</option>
+                            </select>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="afa-f-list">
+                      <div class="w-grid-a">
+                        <div class="w-block-a w-cf"><span class="label">门票代购</span>
+                          <div class="field"><i class="btn-right icon select"></i>
+                            <input id="value_help_buy" type="text" value="AA制" class="fm-text">
+                            <select data-select="true" _goal="value_help_buy" name="">
+                              <option value="1">是</option>
+                              <option value="2">否</option>
+                            </select>
+                          </div>
+                        </div>
+                        <div class="w-block-b w-cf"><span class="label">当地导游</span>
+                          <div class="field"><i class="btn-right icon select"></i>
+                            <input id="value_local_dao" type="text" value="AA制" class="fm-text">
+                            <select data-select="true" _goal="value_local_dao" name="">
+                              <option value="1">是</option>
+                              <option value="2">否</option>
+                            </select>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="afa-f-list"><span class="label">住宿要求</span>
+                      <div class="field">
+                        <input type="text" placeholder="关键字" class="f-text">
+                      </div>
+                    </div>
+                    <div class="afa-f-list"><span class="label"></span>
+                      <div class="field">
+                        <input type="text" placeholder="关键字" class="f-text">
+                      </div>
+                    </div>
+                    <div class="submit-make">
+                      <input id="submit_make" type="submit" value="提交定制">
+                    </div>
+                  </div>
+                </form>
+              </div>
             </div>
+          </div>
+        </div>
+        <div class="afa-m-fe bg-white">
+          <div class="line-recommend">
+            <div class="w-padding-wrapper">
+              <h3 class="lr-t-title">推荐行程</h3>
+              <div class="w-grid-a line-intr">
+                <div class="w-block-a w3"><img src="../img/sanya.jpg" alt="" class="line-img"></div>
+                <div class="w-block-b w3">
+                  <div class="bar w-grid-b"><span class="name-c w-block-a">三亚</span><span class="name-e w-block-b">SANYA</span><span class="btn-go w-block-c">我要报名</span></div>
+                  <div class="w-grid-b w-tc line-operate">
+                    <div class="w-block-a"><i class="icon icon-h"></i><span class="text">想去</span></div>
+                    <div class="w-block-b"><i class="icon icon-q"></i><span class="text">去过</span></div>
+                    <div class="w-block-c"><i class="icon icon-a"></i><span class="text">加入行程</span></div>
+                  </div>
+                  <div class="num-go w-tc">22332去过这里</div>
+                </div>
+                <div class="w-block-c w4">
+                  <div class="w-wrapper">
+                    活动地点：三亚情人岛海滩
+                    <br>行程：2014-09-23——2014-09-25
+                  </div>
+                  <div class="w-grid-a">
+                    <div class="w-block-a">人数：15人</div>
+                    <div class="w-block-b">领队：哥哥</div>
+                    <div class="w-block-a">预计费用：500元/人</div>
+                    <div class="w-block-b">住宿：5星级酒店3晚</div>
+                    <div class="w-block-a">已报名人数：20人</div>
+                    <div class="w-block-b">剩余名额：20人</div>
+                    <div class="w-block-a">性别要求：不限</div>
+                    <div class="w-block-b">报名截止：2014-10-10</div>
+                  </div>
+                </div>
+              </div>
+              <hr class="line-hr">
+              <div class="line-intr-text">
+                <h4>概述</h4>
+                <p class="text">金紫荆广场位于香港湾仔香港会议展览中心新翼人工岛上的东北部，是博览海滨花园的一部份。临近湾仔临时海滨花园及维多利亚港，是香港回归时，会议展览中心扩建工程之一部分。近年来成为部分中国内地旅客的必到香港旅游景点之一。1997年7月1日，中央政府赠送了特区政府一座名为“永远盛开的紫荆花”的贴金铜雕。此雕塑安放在新落成的会议展览中心新翼，在1997年7月1日早上由时任行政长官董建华及国务院副总理钱其琛主持揭幕式。雕塑寓意香港永远繁荣昌盛；铜雕高6米，重70吨，以青铜铸造，表面铺以金箔，以红色花岗岩作底座。基座圆柱方底，寓意九州方圆，刻有长城图案，象征中国怀抱香港。 金紫荆广场位于香港湾仔香港会议展览中心新翼人工岛上的东北部，是博览海滨花园的一部份。临近湾仔临时海滨花园及维多利亚港，是香港回归时，会议展览中心扩建工程之一部分。近年来成为部分中国内地旅客的必到香港旅游景点之一。1997年7月1日，中央政府赠送了特区政府一座名为“永远盛开的紫荆花”的贴金铜雕。此雕塑安放在新落成的会议展览中心新翼，在1997年7月1日早上由时任行政长官董建华及国务院副总理钱其琛主持揭幕式。雕塑寓意香港永远繁荣昌盛；铜雕高6米，重70吨，以青铜铸造，表面铺以金箔，以红色花岗岩作底座。基座圆柱方底，寓意九州方圆，刻有长城图案，象征中国怀抱香港。 金紫荆广场位于香港湾仔香港会议展览中心新翼人工岛上的东北部，是博览海滨花园的一部份。临近湾仔临时海滨花园及维多利亚港，是香港回归时，会议展览中心扩建工程之一部分。近年来成为部分中国内地旅客的必到香港旅游景点之一。1997年7月1日，中央政府赠送了特区政府一座名为“永远盛开的紫荆花”的贴金铜雕。此雕塑安放在新落成的会议展览中心新翼，在1997年7月1日早上由时任行政长官董建华及国务院副总理钱其琛主持揭幕式。雕塑寓意香港永远繁荣昌盛；铜雕高6米，重70吨，以青铜铸造，表面铺以金箔，以红色花岗岩作底座。基座圆柱方底，寓意九州方圆，刻有长城图案，象征中国怀抱香港。</p>
+                <div class="w-wrapper w-tr"><a class="show-all-btn">展开全部</a></div>
+              </div>
+            </div>
+            <h2 class="line-title"><i class="icon bg_01">1</i>行程</h2>
+            <div class="w-padding-wrapper">
+              <div class="day-item">
+                <div class="head-line-intr">
+                  <div class="day-title"><i class="icon bg_02">D1</i><span class="text">第一天</span>
+                    <h3 class="title">2014-09-24 09：00 成都双流机场集合 成都-新加坡-三亚</h3>
+                  </div>
+                  <div class="afa-module-roll">
+                                        <div id="afa_roll_line_01" class="afa-m-roll">
+                                          <ul class="roll-list">
+                                            <li class="roll-item"><a href="#"><img src="../img/default_roll.jpg" alt=""></a></li>
+                                            <li class="roll-item"><a href="#"><img src="../img/default_roll.jpg" alt=""></a></li>
+                                            <li class="roll-item"><a href="#"><img src="../img/default_roll.jpg" alt=""></a></li>
+                                            <li class="roll-item"><a href="#"><img src="../img/default_roll.jpg" alt=""></a></li>
+                                          </ul><a href="javascript:void(0);" class="roll-btn-left"></a><a href="javascript:void(0);" class="roll-btn-right"></a>
+                                        </div>
+                    <div class="afa-m-text">
+                      <div class="item">
+                        <div class="user-photo"><img src="../img/tou.jpg" alt=""></div>
+                        <div class="user-operate"><a href="#"><i class="icon icon-like"></i>34</a><a href="#"><i class="icon icon-comment"></i>23</a><a href="#"><i class="icon icon-share"></i>20</a></div>
+                        <p class="t-content">这周刚和妈妈去首尔玩儿了几天，趁热打铁把攻略写了。我是个馋嘴猫，先总结一下这一路吃的吧。首先想说的是，大家不要对韩国的美食抱太高的期望，不然真的会很失望。之前在中国和美国吃过很多次韩国菜，很惊异韩国本土吃到的还没有在其他国家吃到的韩国菜好吃，而且我们去的很多餐厅还是网友们大力推荐的。我妈妈的一句话评语是：“大长今真是太能编</p>
+                      </div>
+                    </div>
+                                        <div id="img_list_01" class="afa-m-imgshow">
+                                          <ul class="list">
+                                            <li class="item">
+                                              <div class="img"><img src="../img/list_img.jpg" alt=""></div>
+                                              <div class="user"><img src="../img/tou.jpg" alt="" class="tou"><a href="#"><i class="icon icon-like"></i>34</a><a href="#"><i class="icon icon-comment"></i>23</a></div>
+                                            </li>
+                                            <li class="item">
+                                              <div class="img"><img src="../img/list_img.jpg" alt=""></div>
+                                              <div class="user"><img src="../img/tou.jpg" alt="" class="tou"><a href="#"><i class="icon icon-like"></i>34</a><a href="#"><i class="icon icon-comment"></i>23</a></div>
+                                            </li>
+                                            <li class="item">
+                                              <div class="img"><img src="../img/list_img.jpg" alt=""></div>
+                                              <div class="user"><img src="../img/tou.jpg" alt="" class="tou"><a href="#"><i class="icon icon-like"></i>34</a><a href="#"><i class="icon icon-comment"></i>23</a></div>
+                                            </li>
+                                            <li class="item">
+                                              <div class="img"><img src="../img/list_img.jpg" alt=""></div>
+                                              <div class="user"><img src="../img/tou.jpg" alt="" class="tou"><a href="#"><i class="icon icon-like"></i>34</a><a href="#"><i class="icon icon-comment"></i>23</a></div>
+                                            </li>
+                                          </ul>
+                                        </div>
+                  </div>
+                </div>
+                <div class="content">
+                  <div class="afa-module-hotel">
+                    <div class="m-day-head">住宿</div>
+                    <div class="m-hotel-intr w-grid-a">
+                      <div class="w-block-a w3"><img src="../img/hotel.jpg" alt="" class="m-hotel-img"></div>
+                      <div class="w-block-b w7">
+                        <p class="m-hotel-intr-text">金紫荆广场位于香港湾仔香港会议展览中心新翼人工岛上的东北部，是博览海滨花园的一部份。临近湾仔临时海滨花园及维多利亚港，是香港回归时，会议展览中心扩建工程之一部分。近年来成为部分中国内地旅客的必到香港旅游景点之一。1997年7月1日，中央政府赠送了特区政府一座名为“永远盛开的紫荆花”的贴金铜雕。此雕塑安放在新落成的会议展览中心新翼，在1997年7月1日早上由时任行政长官董建华及国务院副总理钱其琛主持揭幕式。雕塑寓意香港永远繁荣昌盛；铜雕高6米，重70吨，以青铜铸造，表面铺以金箔，以红色花岗岩作底座。基座圆柱方底，寓意九州方圆，刻有长城图案，象征中国怀抱香港。 金紫荆广场位于香港湾仔香港会议展览中心新翼人工岛上的东北部，是博览海滨花园的一部份。临近湾仔临时海滨花园及维多利亚港，是香港回归时，会议展览中心扩建工程之一部分。近年来成为部分中国内地旅客的必到香港旅游景点之一。</p>
+                        <div class="m-hotel-addr-map"><i class="icon icon-map"></i>情人岛 海滩</div>
+                      </div>
+                    </div>
+                                        <div id="afa_hotel_roll_01" class="afa-m-roll">
+                                          <ul class="roll-list">
+                                            <li class="roll-item"><a href="#"><img src="../img/default_roll.jpg" alt=""></a></li>
+                                            <li class="roll-item"><a href="#"><img src="../img/default_roll.jpg" alt=""></a></li>
+                                            <li class="roll-item"><a href="#"><img src="../img/default_roll.jpg" alt=""></a></li>
+                                            <li class="roll-item"><a href="#"><img src="../img/default_roll.jpg" alt=""></a></li>
+                                          </ul><a href="javascript:void(0);" class="roll-btn-left"></a><a href="javascript:void(0);" class="roll-btn-right"></a>
+                                        </div>
+                    <div class="afa-m-text">
+                      <div class="item">
+                        <div class="user-photo"><img src="../img/tou.jpg" alt=""></div>
+                        <div class="user-operate"><a href="#"><i class="icon icon-like"></i>34</a><a href="#"><i class="icon icon-comment"></i>23</a><a href="#"><i class="icon icon-share"></i>20</a></div>
+                        <p class="t-content">这周刚和妈妈去首尔玩儿了几天，趁热打铁把攻略写了。我是个馋嘴猫，先总结一下这一路吃的吧。首先想说的是，大家不要对韩国的美食抱太高的期望，不然真的会很失望。之前在中国和美国吃过很多次韩国菜，很惊异韩国本土吃到的还没有在其他国家吃到的韩国菜好吃，而且我们去的很多餐厅还是网友们大力推荐的。我妈妈的一句话评语是：“大长今真是太能编</p>
+                      </div>
+                    </div>
+                                        <div id="img_list_01" class="afa-m-imgshow">
+                                          <ul class="list">
+                                            <li class="item">
+                                              <div class="img"><img src="../img/list_img.jpg" alt=""></div>
+                                              <div class="user"><img src="../img/tou.jpg" alt="" class="tou"><a href="#"><i class="icon icon-like"></i>34</a><a href="#"><i class="icon icon-comment"></i>23</a></div>
+                                            </li>
+                                            <li class="item">
+                                              <div class="img"><img src="../img/list_img.jpg" alt=""></div>
+                                              <div class="user"><img src="../img/tou.jpg" alt="" class="tou"><a href="#"><i class="icon icon-like"></i>34</a><a href="#"><i class="icon icon-comment"></i>23</a></div>
+                                            </li>
+                                            <li class="item">
+                                              <div class="img"><img src="../img/list_img.jpg" alt=""></div>
+                                              <div class="user"><img src="../img/tou.jpg" alt="" class="tou"><a href="#"><i class="icon icon-like"></i>34</a><a href="#"><i class="icon icon-comment"></i>23</a></div>
+                                            </li>
+                                            <li class="item">
+                                              <div class="img"><img src="../img/list_img.jpg" alt=""></div>
+                                              <div class="user"><img src="../img/tou.jpg" alt="" class="tou"><a href="#"><i class="icon icon-like"></i>34</a><a href="#"><i class="icon icon-comment"></i>23</a></div>
+                                            </li>
+                                          </ul>
+                                        </div>
+                  </div>
+                  <div class="afa-module-food">
+                    <div class="m-day-head">美食</div>
+                                        <div id="afa_food_roll_01" class="afa-m-roll">
+                                          <ul class="roll-list">
+                                            <li class="roll-item"><a href="#"><img src="../img/default_roll.jpg" alt=""></a></li>
+                                            <li class="roll-item"><a href="#"><img src="../img/default_roll.jpg" alt=""></a></li>
+                                            <li class="roll-item"><a href="#"><img src="../img/default_roll.jpg" alt=""></a></li>
+                                            <li class="roll-item"><a href="#"><img src="../img/default_roll.jpg" alt=""></a></li>
+                                          </ul><a href="javascript:void(0);" class="roll-btn-left"></a><a href="javascript:void(0);" class="roll-btn-right"></a>
+                                        </div>
+                    <div class="afa-m-text">
+                      <div class="item">
+                        <div class="user-photo"><img src="../img/tou.jpg" alt=""></div>
+                        <div class="user-operate"><a href="#"><i class="icon icon-like"></i>34</a><a href="#"><i class="icon icon-comment"></i>23</a><a href="#"><i class="icon icon-share"></i>20</a></div>
+                        <p class="t-content">这周刚和妈妈去首尔玩儿了几天，趁热打铁把攻略写了。我是个馋嘴猫，先总结一下这一路吃的吧。首先想说的是，大家不要对韩国的美食抱太高的期望，不然真的会很失望。之前在中国和美国吃过很多次韩国菜，很惊异韩国本土吃到的还没有在其他国家吃到的韩国菜好吃，而且我们去的很多餐厅还是网友们大力推荐的。我妈妈的一句话评语是：“大长今真是太能编</p>
+                      </div>
+                    </div>
+                                        <div id="img_list_01" class="afa-m-imgshow">
+                                          <ul class="list">
+                                            <li class="item">
+                                              <div class="img"><img src="../img/list_img.jpg" alt=""></div>
+                                              <div class="user"><img src="../img/tou.jpg" alt="" class="tou"><a href="#"><i class="icon icon-like"></i>34</a><a href="#"><i class="icon icon-comment"></i>23</a></div>
+                                            </li>
+                                            <li class="item">
+                                              <div class="img"><img src="../img/list_img.jpg" alt=""></div>
+                                              <div class="user"><img src="../img/tou.jpg" alt="" class="tou"><a href="#"><i class="icon icon-like"></i>34</a><a href="#"><i class="icon icon-comment"></i>23</a></div>
+                                            </li>
+                                            <li class="item">
+                                              <div class="img"><img src="../img/list_img.jpg" alt=""></div>
+                                              <div class="user"><img src="../img/tou.jpg" alt="" class="tou"><a href="#"><i class="icon icon-like"></i>34</a><a href="#"><i class="icon icon-comment"></i>23</a></div>
+                                            </li>
+                                            <li class="item">
+                                              <div class="img"><img src="../img/list_img.jpg" alt=""></div>
+                                              <div class="user"><img src="../img/tou.jpg" alt="" class="tou"><a href="#"><i class="icon icon-like"></i>34</a><a href="#"><i class="icon icon-comment"></i>23</a></div>
+                                            </li>
+                                          </ul>
+                                        </div>
+                  </div>
+                  <div class="afa-module-techan">
+                    <div class="m-day-head">特产</div>
+                                        <div id="afa_techan_roll_01" class="afa-m-roll">
+                                          <ul class="roll-list">
+                                            <li class="roll-item"><a href="#"><img src="../img/default_roll.jpg" alt=""></a></li>
+                                            <li class="roll-item"><a href="#"><img src="../img/default_roll.jpg" alt=""></a></li>
+                                            <li class="roll-item"><a href="#"><img src="../img/default_roll.jpg" alt=""></a></li>
+                                            <li class="roll-item"><a href="#"><img src="../img/default_roll.jpg" alt=""></a></li>
+                                          </ul><a href="javascript:void(0);" class="roll-btn-left"></a><a href="javascript:void(0);" class="roll-btn-right"></a>
+                                        </div>
+                    <div class="afa-m-text">
+                      <div class="item">
+                        <div class="user-photo"><img src="../img/tou.jpg" alt=""></div>
+                        <div class="user-operate"><a href="#"><i class="icon icon-like"></i>34</a><a href="#"><i class="icon icon-comment"></i>23</a><a href="#"><i class="icon icon-share"></i>20</a></div>
+                        <p class="t-content">这周刚和妈妈去首尔玩儿了几天，趁热打铁把攻略写了。我是个馋嘴猫，先总结一下这一路吃的吧。首先想说的是，大家不要对韩国的美食抱太高的期望，不然真的会很失望。之前在中国和美国吃过很多次韩国菜，很惊异韩国本土吃到的还没有在其他国家吃到的韩国菜好吃，而且我们去的很多餐厅还是网友们大力推荐的。我妈妈的一句话评语是：“大长今真是太能编</p>
+                      </div>
+                    </div>
+                                        <div id="img_list_01" class="afa-m-imgshow">
+                                          <ul class="list">
+                                            <li class="item">
+                                              <div class="img"><img src="../img/list_img.jpg" alt=""></div>
+                                              <div class="user"><img src="../img/tou.jpg" alt="" class="tou"><a href="#"><i class="icon icon-like"></i>34</a><a href="#"><i class="icon icon-comment"></i>23</a></div>
+                                            </li>
+                                            <li class="item">
+                                              <div class="img"><img src="../img/list_img.jpg" alt=""></div>
+                                              <div class="user"><img src="../img/tou.jpg" alt="" class="tou"><a href="#"><i class="icon icon-like"></i>34</a><a href="#"><i class="icon icon-comment"></i>23</a></div>
+                                            </li>
+                                            <li class="item">
+                                              <div class="img"><img src="../img/list_img.jpg" alt=""></div>
+                                              <div class="user"><img src="../img/tou.jpg" alt="" class="tou"><a href="#"><i class="icon icon-like"></i>34</a><a href="#"><i class="icon icon-comment"></i>23</a></div>
+                                            </li>
+                                            <li class="item">
+                                              <div class="img"><img src="../img/list_img.jpg" alt=""></div>
+                                              <div class="user"><img src="../img/tou.jpg" alt="" class="tou"><a href="#"><i class="icon icon-like"></i>34</a><a href="#"><i class="icon icon-comment"></i>23</a></div>
+                                            </li>
+                                          </ul>
+                                        </div>
+                  </div>
+                </div>
+              </div>
+              <hr class="line-hr">
+              <div class="day-item">
+                <div class="head-line-intr">
+                  <div class="day-title"><i class="icon bg_02">D2</i><span class="text">第二天</span>
+                    <h3 class="title">2014-09-24 09：00 成都双流机场集合 成都-新加坡-三亚</h3>
+                  </div>
+                  <div class="afa-module-roll">
+                                        <div id="afa_roll_line_02" class="afa-m-roll">
+                                          <ul class="roll-list">
+                                            <li class="roll-item"><a href="#"><img src="../img/default_roll.jpg" alt=""></a></li>
+                                            <li class="roll-item"><a href="#"><img src="../img/default_roll.jpg" alt=""></a></li>
+                                            <li class="roll-item"><a href="#"><img src="../img/default_roll.jpg" alt=""></a></li>
+                                            <li class="roll-item"><a href="#"><img src="../img/default_roll.jpg" alt=""></a></li>
+                                          </ul><a href="javascript:void(0);" class="roll-btn-left"></a><a href="javascript:void(0);" class="roll-btn-right"></a>
+                                        </div>
+                    <div class="afa-m-text">
+                      <div class="item">
+                        <div class="user-photo"><img src="../img/tou.jpg" alt=""></div>
+                        <div class="user-operate"><a href="#"><i class="icon icon-like"></i>34</a><a href="#"><i class="icon icon-comment"></i>23</a><a href="#"><i class="icon icon-share"></i>20</a></div>
+                        <p class="t-content">这周刚和妈妈去首尔玩儿了几天，趁热打铁把攻略写了。我是个馋嘴猫，先总结一下这一路吃的吧。首先想说的是，大家不要对韩国的美食抱太高的期望，不然真的会很失望。之前在中国和美国吃过很多次韩国菜，很惊异韩国本土吃到的还没有在其他国家吃到的韩国菜好吃，而且我们去的很多餐厅还是网友们大力推荐的。我妈妈的一句话评语是：“大长今真是太能编</p>
+                      </div>
+                    </div>
+                                        <div id="img_list_01" class="afa-m-imgshow">
+                                          <ul class="list">
+                                            <li class="item">
+                                              <div class="img"><img src="../img/list_img.jpg" alt=""></div>
+                                              <div class="user"><img src="../img/tou.jpg" alt="" class="tou"><a href="#"><i class="icon icon-like"></i>34</a><a href="#"><i class="icon icon-comment"></i>23</a></div>
+                                            </li>
+                                            <li class="item">
+                                              <div class="img"><img src="../img/list_img.jpg" alt=""></div>
+                                              <div class="user"><img src="../img/tou.jpg" alt="" class="tou"><a href="#"><i class="icon icon-like"></i>34</a><a href="#"><i class="icon icon-comment"></i>23</a></div>
+                                            </li>
+                                            <li class="item">
+                                              <div class="img"><img src="../img/list_img.jpg" alt=""></div>
+                                              <div class="user"><img src="../img/tou.jpg" alt="" class="tou"><a href="#"><i class="icon icon-like"></i>34</a><a href="#"><i class="icon icon-comment"></i>23</a></div>
+                                            </li>
+                                            <li class="item">
+                                              <div class="img"><img src="../img/list_img.jpg" alt=""></div>
+                                              <div class="user"><img src="../img/tou.jpg" alt="" class="tou"><a href="#"><i class="icon icon-like"></i>34</a><a href="#"><i class="icon icon-comment"></i>23</a></div>
+                                            </li>
+                                          </ul>
+                                        </div>
+                  </div>
+                </div>
+                <div class="content">
+                  <div class="afa-module-hotel">
+                    <div class="m-day-head">住宿</div>
+                    <div class="m-hotel-intr w-grid-a">
+                      <div class="w-block-a w3"><img src="../img/hotel.jpg" alt="" class="m-hotel-img"></div>
+                      <div class="w-block-b w7">
+                        <p class="m-hotel-intr-text">金紫荆广场位于香港湾仔香港会议展览中心新翼人工岛上的东北部，是博览海滨花园的一部份。临近湾仔临时海滨花园及维多利亚港，是香港回归时，会议展览中心扩建工程之一部分。近年来成为部分中国内地旅客的必到香港旅游景点之一。1997年7月1日，中央政府赠送了特区政府一座名为“永远盛开的紫荆花”的贴金铜雕。此雕塑安放在新落成的会议展览中心新翼，在1997年7月1日早上由时任行政长官董建华及国务院副总理钱其琛主持揭幕式。雕塑寓意香港永远繁荣昌盛；铜雕高6米，重70吨，以青铜铸造，表面铺以金箔，以红色花岗岩作底座。基座圆柱方<br>底，寓意九州方圆，刻有长城图案，象征中国怀抱香港。 金紫荆广场位于香港湾仔香港会议展览中心新翼人工岛上的东北部，是博览海滨花园的一部份。临近湾仔临时海滨花园及维多利亚港，是香港回归时，会议展览中心扩建工程之一部分。近年来成为部分中国内地旅客的必到香港旅游景点之一。</p>
+                        <div class="m-hotel-addr-map"><i class="icon icon-map"></i>情人岛海滩</div>
+                      </div>
+                    </div>
+                                        <div id="afa_hotel_roll_02" class="afa-m-roll">
+                                          <ul class="roll-list">
+                                            <li class="roll-item"><a href="#"><img src="../img/default_roll.jpg" alt=""></a></li>
+                                            <li class="roll-item"><a href="#"><img src="../img/default_roll.jpg" alt=""></a></li>
+                                            <li class="roll-item"><a href="#"><img src="../img/default_roll.jpg" alt=""></a></li>
+                                            <li class="roll-item"><a href="#"><img src="../img/default_roll.jpg" alt=""></a></li>
+                                          </ul><a href="javascript:void(0);" class="roll-btn-left"></a><a href="javascript:void(0);" class="roll-btn-right"></a>
+                                        </div>
+                    <div class="afa-m-text">
+                      <div class="item">
+                        <div class="user-photo"><img src="../img/tou.jpg" alt=""></div>
+                        <div class="user-operate"><a href="#"><i class="icon icon-like"></i>34</a><a href="#"><i class="icon icon-comment"></i>23</a><a href="#"><i class="icon icon-share"></i>20</a></div>
+                        <p class="t-content">这周刚和妈妈去首尔玩儿了几天，趁热打铁把攻略写了。我是个馋嘴猫，先总结一下这一路吃的吧。首先想说的是，大家不要对韩国的美食抱太高的期望，不然真的会很失望。之前在中国和美国吃过很多次韩国菜，很惊异韩国本土吃到的还没有在其他国家吃到的韩国菜好吃，而且我们去的很多餐厅还是网友们大力推荐的。我妈妈的一句话评语是：“大长今真是太能编</p>
+                      </div>
+                    </div>
+                                        <div id="img_list_01" class="afa-m-imgshow">
+                                          <ul class="list">
+                                            <li class="item">
+                                              <div class="img"><img src="../img/list_img.jpg" alt=""></div>
+                                              <div class="user"><img src="../img/tou.jpg" alt="" class="tou"><a href="#"><i class="icon icon-like"></i>34</a><a href="#"><i class="icon icon-comment"></i>23</a></div>
+                                            </li>
+                                            <li class="item">
+                                              <div class="img"><img src="../img/list_img.jpg" alt=""></div>
+                                              <div class="user"><img src="../img/tou.jpg" alt="" class="tou"><a href="#"><i class="icon icon-like"></i>34</a><a href="#"><i class="icon icon-comment"></i>23</a></div>
+                                            </li>
+                                            <li class="item">
+                                              <div class="img"><img src="../img/list_img.jpg" alt=""></div>
+                                              <div class="user"><img src="../img/tou.jpg" alt="" class="tou"><a href="#"><i class="icon icon-like"></i>34</a><a href="#"><i class="icon icon-comment"></i>23</a></div>
+                                            </li>
+                                            <li class="item">
+                                              <div class="img"><img src="../img/list_img.jpg" alt=""></div>
+                                              <div class="user"><img src="../img/tou.jpg" alt="" class="tou"><a href="#"><i class="icon icon-like"></i>34</a><a href="#"><i class="icon icon-comment"></i>23</a></div>
+                                            </li>
+                                          </ul>
+                                        </div>
+                  </div>
+                  <div class="afa-module-food">
+                    <div class="m-day-head">美食</div>
+                                        <div id="afa_food_roll_02" class="afa-m-roll">
+                                          <ul class="roll-list">
+                                            <li class="roll-item"><a href="#"><img src="../img/default_roll.jpg" alt=""></a></li>
+                                            <li class="roll-item"><a href="#"><img src="../img/default_roll.jpg" alt=""></a></li>
+                                            <li class="roll-item"><a href="#"><img src="../img/default_roll.jpg" alt=""></a></li>
+                                            <li class="roll-item"><a href="#"><img src="../img/default_roll.jpg" alt=""></a></li>
+                                          </ul><a href="javascript:void(0);" class="roll-btn-left"></a><a href="javascript:void(0);" class="roll-btn-right"></a>
+                                        </div>
+                    <div class="afa-m-text">
+                      <div class="item">
+                        <div class="user-photo"><img src="../img/tou.jpg" alt=""></div>
+                        <div class="user-operate"><a href="#"><i class="icon icon-like"></i>34</a><a href="#"><i class="icon icon-comment"></i>23</a><a href="#"><i class="icon icon-share"></i>20</a></div>
+                        <p class="t-content">这周刚和妈妈去首尔玩儿了几天，趁热打铁把攻略写了。我是个馋嘴猫，先总结一下这一路吃的吧。首先想说的是，大家不要对韩国的美食抱太高的期望，不然真的会很失望。之前在中国和美国吃过很多次韩国菜，很惊异韩国本土吃到的还没有在其他国家吃到的韩国菜好吃，而且我们去的很多餐厅还是网友们大力推荐的。我妈妈的一句话评语是：“大长今真是太能编</p>
+                      </div>
+                    </div>
+                                        <div id="img_list_01" class="afa-m-imgshow">
+                                          <ul class="list">
+                                            <li class="item">
+                                              <div class="img"><img src="../img/list_img.jpg" alt=""></div>
+                                              <div class="user"><img src="../img/tou.jpg" alt="" class="tou"><a href="#"><i class="icon icon-like"></i>34</a><a href="#"><i class="icon icon-comment"></i>23</a></div>
+                                            </li>
+                                            <li class="item">
+                                              <div class="img"><img src="../img/list_img.jpg" alt=""></div>
+                                              <div class="user"><img src="../img/tou.jpg" alt="" class="tou"><a href="#"><i class="icon icon-like"></i>34</a><a href="#"><i class="icon icon-comment"></i>23</a></div>
+                                            </li>
+                                            <li class="item">
+                                              <div class="img"><img src="../img/list_img.jpg" alt=""></div>
+                                              <div class="user"><img src="../img/tou.jpg" alt="" class="tou"><a href="#"><i class="icon icon-like"></i>34</a><a href="#"><i class="icon icon-comment"></i>23</a></div>
+                                            </li>
+                                            <li class="item">
+                                              <div class="img"><img src="../img/list_img.jpg" alt=""></div>
+                                              <div class="user"><img src="../img/tou.jpg" alt="" class="tou"><a href="#"><i class="icon icon-like"></i>34</a><a href="#"><i class="icon icon-comment"></i>23</a></div>
+                                            </li>
+                                          </ul>
+                                        </div>
+                  </div>
+                  <div class="afa-module-techan">
+                    <div class="m-day-head">特产</div>
+                                        <div id="afa_techan_roll_02" class="afa-m-roll">
+                                          <ul class="roll-list">
+                                            <li class="roll-item"><a href="#"><img src="../img/default_roll.jpg" alt=""></a></li>
+                                            <li class="roll-item"><a href="#"><img src="../img/default_roll.jpg" alt=""></a></li>
+                                            <li class="roll-item"><a href="#"><img src="../img/default_roll.jpg" alt=""></a></li>
+                                            <li class="roll-item"><a href="#"><img src="../img/default_roll.jpg" alt=""></a></li>
+                                          </ul><a href="javascript:void(0);" class="roll-btn-left"></a><a href="javascript:void(0);" class="roll-btn-right"></a>
+                                        </div>
+                    <div class="afa-m-text">
+                      <div class="item">
+                        <div class="user-photo"><img src="../img/tou.jpg" alt=""></div>
+                        <div class="user-operate"><a href="#"><i class="icon icon-like"></i>34</a><a href="#"><i class="icon icon-comment"></i>23</a><a href="#"><i class="icon icon-share"></i>20</a></div>
+                        <p class="t-content">这周刚和妈妈去首尔玩儿了几天，趁热打铁把攻略写了。我是个馋嘴猫，先总结一下这一路吃的吧。首先想说的是，大家不要对韩国的美食抱太高的期望，不然真的会很失望。之前在中国和美国吃过很多次韩国菜，很惊异韩国本土吃到的还没有在其他国家吃到的韩国菜好吃，而且我们去的很多餐厅还是网友们大力推荐的。我妈妈的一句话评语是：“大长今真是太能编</p>
+                      </div>
+                    </div>
+                                        <div id="img_list_01" class="afa-m-imgshow">
+                                          <ul class="list">
+                                            <li class="item">
+                                              <div class="img"><img src="../img/list_img.jpg" alt=""></div>
+                                              <div class="user"><img src="../img/tou.jpg" alt="" class="tou"><a href="#"><i class="icon icon-like"></i>34</a><a href="#"><i class="icon icon-comment"></i>23</a></div>
+                                            </li>
+                                            <li class="item">
+                                              <div class="img"><img src="../img/list_img.jpg" alt=""></div>
+                                              <div class="user"><img src="../img/tou.jpg" alt="" class="tou"><a href="#"><i class="icon icon-like"></i>34</a><a href="#"><i class="icon icon-comment"></i>23</a></div>
+                                            </li>
+                                            <li class="item">
+                                              <div class="img"><img src="../img/list_img.jpg" alt=""></div>
+                                              <div class="user"><img src="../img/tou.jpg" alt="" class="tou"><a href="#"><i class="icon icon-like"></i>34</a><a href="#"><i class="icon icon-comment"></i>23</a></div>
+                                            </li>
+                                            <li class="item">
+                                              <div class="img"><img src="../img/list_img.jpg" alt=""></div>
+                                              <div class="user"><img src="../img/tou.jpg" alt="" class="tou"><a href="#"><i class="icon icon-like"></i>34</a><a href="#"><i class="icon icon-comment"></i>23</a></div>
+                                            </li>
+                                          </ul>
+                                        </div>
+                  </div>
+                </div>
+              </div>
+              <hr class="line-hr">
+            </div>
+            <h2 class="line-title"><i class="icon bg_01">2</i>找领队</h2>
+            <div class="w-padding-wrapper">
+              <div class="afa-m-leader">
+                <div class="w-grid-a">
+                  <div class="w-block-a w3">
+                    <div class="leader-pic"><img src="../img/circle_cover.png" alt="" style="background:url(../img/leader.jpg)"></div>
+                    <div class="w-grid-a leader-info">
+                      <div class="w-wrapper w-tc"><b>雁峰俱乐部</b>推荐</div>
+                      <div class="w-block-a">姓名：阿花</div>
+                      <div class="w-block-b">年龄：28岁</div>
+                      <div class="w-block-a">身高：175cm</div>
+                      <div class="w-block-b">体重：保密</div>
+                      <div class="w-block-a">粉丝数量：500</div>
+                      <div class="w-block-b">发起活动次数：50</div>
+                    </div>
+                    <div class="leader-operate"><a href="javascript:void(0);" class="bg">通过站内认证<i class="icon icon-qi"></i></a><a href="#">向领队提问</a><a href="#">+关注</a></div>
+                  </div>
+                  <div class="w-block-b w7">
+                    <h3 class="zu-title">他的足迹</h3>
+                    <div class="leader-zu-img"><img src="../img/map.jpg" alt=""></div>
+                    <p class="leader-intr">这周刚和妈妈去首尔玩儿了几天，趁热打铁把攻略写了。我是个馋嘴猫，先总结一下这一路吃的吧。首先想说的是，大家不要对韩国的美食抱太高的期望，不然真的会很失望。之前在中国和美国吃过很多次韩国菜，很惊异韩国本土吃到的还没有在其他国家吃到的韩国菜好吃，而且我们去的很多餐厅还是网友们大力推荐的。我妈妈的一句话评语是：“大长今真是太能编了！”</p>
+                  </div>
+                </div>
+              </div>
+              <hr class="line-hr">
+            </div>
+            <h3 class="l-c-title">俱乐部</h3>
+            <div class="w-padding-wrapper">
+              <div class="afa-module-club">
+                <div class="w-grid-a">
+                  <div class="w4 w-block-a">
+                    <div class="club-picture"><img src="../img/abc.jpg" alt=""></div>
+                  </div>
+                  <div class="w6 w-block-b">
+                    <table border="1" class="club-info">
+                      <tbody>
+                        <tr class="bg">
+                          <th colspan="2">雁峰俱乐部</th>
+                        </tr>
+                        <tr>
+                          <td>成立日期：2014-09-23</td>
+                          <td>法人代表：峰哥	</td>
+                        </tr>
+                        <tr class="bg">
+                          <td>户外方式：******</td>
+                          <td>户外方式：******	</td>
+                        </tr>
+                        <tr>
+                          <td>成立日期：2014-09-23</td>
+                          <td>法人代表：峰哥	</td>
+                        </tr>
+                        <tr class="bg">
+                          <td>联系方式：******</td>
+                          <td>邮箱地址：******</td>
+                        </tr>
+                        <tr>
+                          <td>领队人数：100人</td>
+                          <td>推荐程度：******	</td>
+                        </tr>
+                        <tr class="bg">
+                          <td colspan="2">是否通过站内认证:</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+              <hr class="line-hr">
+            </div>
+            <h2 class="line-title"><i class="icon bg_01">3</i>找同伴</h2>
+            <div class="blue-tooltip w-tc">我们的目的地相同，一起同行吧！</div>
+                        <div id="line-wall" class="afa-m-wall">
+                          <div class="status-one">
+                            <div class="r-top">
+                              <div class="c-one">
+                                <ul>
+                                  <li class="item"><img src="../img/a07.jpg" alt=""></li>
+                                  <li class="item"><img src="../img/a07.jpg" alt=""></li>
+                                  <li class="item"><img src="../img/a07.jpg" alt=""></li>
+                                </ul>
+                              </div>
+                              <div class="c-three"><img src="../img/a07.jpg" alt="" data-adImg="1"></div>
+                              <div class="c-one">
+                                <ul>
+                                  <li class="item"><img src="../img/a07.jpg" alt=""></li>
+                                  <li class="item"><img src="../img/a07.jpg" alt=""></li>
+                                  <li class="item"><img src="../img/a07.jpg" alt=""></li>
+                                </ul>
+                              </div>
+                            </div>
+                            <div class="r-bottom">
+                              <div class="c-three">
+                                <ul>
+                                  <li class="item"><img src="../img/a07.jpg" alt=""></li>
+                                  <li class="item"><img src="../img/a07.jpg" alt=""></li>
+                                  <li class="item"><img src="../img/a07.jpg" alt=""></li>
+                                  <li class="item"><img src="../img/a07.jpg" alt=""></li>
+                                  <li class="item"><img src="../img/a07.jpg" alt=""></li>
+                                  <li class="item"><img src="../img/a07.jpg" alt=""></li>
+                                </ul>
+                              </div>
+                              <div class="c-two"><img src="../img/a07.jpg" alt="" data-adImg="3"></div>
+                            </div>
+                          </div>
+                          <div class="status-two">
+                            <ul>
+                              <li class="item"><img src="../img/a07.jpg" alt=""></li>
+                              <li class="item"><img src="../img/a07.jpg" alt=""></li>
+                              <li class="item"><img src="../img/a07.jpg" alt=""></li>
+                              <li class="item"><img src="../img/a07.jpg" alt=""></li>
+                              <li class="item"><img src="../img/a07.jpg" alt=""></li>
+                              <li class="item"><img src="../img/a07.jpg" alt=""></li>
+                              <li class="item"><img src="../img/a07.jpg" alt=""></li>
+                              <li class="item"><img src="../img/a07.jpg" alt=""></li>
+                              <li class="item"><img src="../img/a07.jpg" alt=""></li>
+                              <li class="item"><img src="../img/a07.jpg" alt=""></li>
+                            </ul>
+                          </div>
+                          <div class="status-three">
+                            <div class="r-one">
+                              <ul>
+                                <li class="item"><img src="../img/a07.jpg" alt=""></li>
+                                <li class="item"><img src="../img/a07.jpg" alt=""></li>
+                                <li class="item"><img src="../img/a07.jpg" alt=""></li>
+                              </ul>
+                            </div>
+                            <div class="r-three"><img data-adImg="2" src="../img/a07.jpg" alt=""></div>
+                            <div class="r-one">
+                              <ul>
+                                <li class="item"><img src="../img/a07.jpg" alt=""></li>
+                                <li class="item"><img src="../img/a07.jpg" alt=""></li>
+                                <li class="item"><img src="../img/a07.jpg" alt=""></li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="status-two">
+                            <ul>
+                              <li class="item"><img src="../img/a07.jpg" alt=""></li>
+                              <li class="item"><img src="../img/a07.jpg" alt=""></li>
+                              <li class="item"><img src="../img/a07.jpg" alt=""></li>
+                              <li class="item"><img src="../img/a07.jpg" alt=""></li>
+                              <li class="item"><img src="../img/a07.jpg" alt=""></li>
+                              <li class="item"><img src="../img/a07.jpg" alt=""></li>
+                              <li class="item"><img src="../img/a07.jpg" alt=""></li>
+                              <li class="item"><img src="../img/a07.jpg" alt=""></li>
+                              <li class="item"><img src="../img/a07.jpg" alt=""></li>
+                              <li class="item"><img src="../img/a07.jpg" alt=""></li>
+                            </ul>
+                          </div>
+                        </div>
+            <h2 class="line-title"><i class="icon bg_01">4</i>找相似</h2>
+            <div class="blue-tooltip w-tc">友情提示：目的地相似的路线正在招募中！</div>
+                        <div id="img_list_01" class="afa-m-imgshow">
+                          <ul class="list">
+                            <li class="item">
+                              <div class="img"><img src="../img/list_img.jpg" alt=""></div>
+                              <div class="user"><img src="../img/tou.jpg" alt="" class="tou"><a href="#"><i class="icon icon-like"></i>34</a><a href="#"><i class="icon icon-comment"></i>23</a></div>
+                            </li>
+                            <li class="item">
+                              <div class="img"><img src="../img/list_img.jpg" alt=""></div>
+                              <div class="user"><img src="../img/tou.jpg" alt="" class="tou"><a href="#"><i class="icon icon-like"></i>34</a><a href="#"><i class="icon icon-comment"></i>23</a></div>
+                            </li>
+                            <li class="item">
+                              <div class="img"><img src="../img/list_img.jpg" alt=""></div>
+                              <div class="user"><img src="../img/tou.jpg" alt="" class="tou"><a href="#"><i class="icon icon-like"></i>34</a><a href="#"><i class="icon icon-comment"></i>23</a></div>
+                            </li>
+                            <li class="item">
+                              <div class="img"><img src="../img/list_img.jpg" alt=""></div>
+                              <div class="user"><img src="../img/tou.jpg" alt="" class="tou"><a href="#"><i class="icon icon-like"></i>34</a><a href="#"><i class="icon icon-comment"></i>23</a></div>
+                            </li>
+                          </ul>
+                        </div>
+            <div class="blue-tooltip w-tc">还有相同的出发日期哦！</div>
+                        <div id="img_list_01" class="afa-m-imgshow">
+                          <ul class="list">
+                            <li class="item">
+                              <div class="img"><img src="../img/list_img.jpg" alt=""></div>
+                              <div class="user"><img src="../img/tou.jpg" alt="" class="tou"><a href="#"><i class="icon icon-like"></i>34</a><a href="#"><i class="icon icon-comment"></i>23</a></div>
+                            </li>
+                            <li class="item">
+                              <div class="img"><img src="../img/list_img.jpg" alt=""></div>
+                              <div class="user"><img src="../img/tou.jpg" alt="" class="tou"><a href="#"><i class="icon icon-like"></i>34</a><a href="#"><i class="icon icon-comment"></i>23</a></div>
+                            </li>
+                            <li class="item">
+                              <div class="img"><img src="../img/list_img.jpg" alt=""></div>
+                              <div class="user"><img src="../img/tou.jpg" alt="" class="tou"><a href="#"><i class="icon icon-like"></i>34</a><a href="#"><i class="icon icon-comment"></i>23</a></div>
+                            </li>
+                            <li class="item">
+                              <div class="img"><img src="../img/list_img.jpg" alt=""></div>
+                              <div class="user"><img src="../img/tou.jpg" alt="" class="tou"><a href="#"><i class="icon icon-like"></i>34</a><a href="#"><i class="icon icon-comment"></i>23</a></div>
+                            </li>
+                          </ul>
+                        </div>
           </div>
         </div>
       </div>
     </div>
+    <div class="footer">
+      <div class="w-cf wrapper">
+        <div class="w-fl copyright">Copyright© 1999-2014, ctrip.com. All rights reserved. | ICP证：沪B2-20050130</div>
+        <div class="w-fr friendlink"><a href="#" target="_blank">关于我们 &nbsp;|&nbsp;</a><a href="#" target="_blank">媒体报道 &nbsp;|&nbsp;</a><a href="#" target="_blank">合作查询 &nbsp;|&nbsp;</a><a href="#" target="_blank">友情连接</a></div>
+      </div>
+    </div>
   </div>
+  <script type="text/javascript" data-main="../js/find_line" src="../js/require.js"></script>
 </body>

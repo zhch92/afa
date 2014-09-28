@@ -470,7 +470,8 @@
     right: 10px; }
 
 .afa-m-imgshow {
-  background: #ffffff; }
+  background: #ffffff;
+  padding: 5px 0; }
   .afa-m-imgshow .list {
     margin-right: -8px; }
     .afa-m-imgshow .list .item {
@@ -482,7 +483,11 @@
       height: 150px;
       line-height: 150px;
       vertical-align: middle;
-      text-align: center; }
+      text-align: center;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      border: 1px solid #eeeeee; }
       .afa-m-imgshow .list .img img {
         width: 100%;
         height: 100%; }
@@ -503,7 +508,7 @@
         border: 2px solid #ffffff; }
       .afa-m-imgshow .list .user a i {
         vertical-align: middle;
-        margin: 0 3px 0 0; }
+        margin: -2px 3px 0 3px; }
     .afa-m-imgshow .list .hotel-info {
       position: relative; }
       .afa-m-imgshow .list .hotel-info .col-md-8, .afa-m-imgshow .list .hotel-info .col-md-4, .afa-m-imgshow .list .hotel-info .col-md-12 {
