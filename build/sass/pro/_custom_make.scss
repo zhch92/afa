@@ -101,6 +101,7 @@
         position: relative;
         .icon {
             position: absolute;
+            z-index: 2;
         }
         .icon-search{
     		top: 5px;
@@ -134,7 +135,7 @@
             width: 80px;
             text-align: center;
             border: 1px solid $border;
-            border-radius: 4px;
+            @include border-radius(4px);
             cursor: pointer;
             &.active {
                 color: #fff;
@@ -149,7 +150,7 @@
 			line-height: 30px;
 			font-size: 20px;
 			width: 150px;
-			border-radius: 4px;
+			@include border-radius(4px);
 			border: 1px solid $white;
 			color: lighten($black,10%);
 			background: #a1a1a0;

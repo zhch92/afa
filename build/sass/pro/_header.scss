@@ -55,7 +55,7 @@
 		line-height: 1.2;
 		display: inline-block;
 		border: 1px solid $black;
-		border-radius: 4px;
+		@include border-radius(4px);
 	}
 	.contentbox{
 		position: relative;	
@@ -80,7 +80,7 @@
 			width: 60px;
 			height: 60px;
 			margin: 0 5px;
-			border-radius: 60px;
+			@include border-radius(60px);
 			background:#fce70e;
 
 			text-align: center;

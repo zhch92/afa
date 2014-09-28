@@ -1,0 +1,21 @@
+doctype html
+head
+	include _partial/head
+	link(rel="stylesheet", type="text/css", href="../css/find_line.css")
+body
+	include _partial/bg
+	#find_line
+		include _partial/header
+		.box
+			include _partial/slidebar
+			.contentbox
+				//- 推荐路线
+				.afa-m-fe
+					h2.afa-module-title.afa-bg-m-title
+						span.t-chinese 找路线
+						span.t-english FIND-LINE
+					.afa-m-fe-content
+						include _partial/carousel.jade
+						+carousel("find_line_roll_1")
+							include _partial/roll_info_box
+						include _partial/list_img

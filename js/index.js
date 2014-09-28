@@ -16,11 +16,13 @@ requirejs(['jquery'], function($) {
 	var nav_img_arr = ['./img/b01.jpg', './img/b02.jpg', './img/b03.jpg', './img/b04.jpg', './img/b05.jpg', './img/b06.jpg', './img/b07.jpg']
 
 	indexTimer = setTimeout(function() {
+
 		$('#first-screen').animate({
-			opacity: '0',
-			display: 'none',
-			zIndex: '20'
-		}, 1000);
+			opacity: '0'
+		}, 1000, function(event) {
+			$(this).css('zIndex', '5');
+		});
+		$('#index').show();
 	}, 3000);
 
 

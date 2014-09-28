@@ -8,7 +8,7 @@ requirejs.config({
 	}
 });
 
-requirejs(['jquery', 'fade', 'falseSelect', '../libs/jquery-ui.min'], function($) {
+requirejs(['jquery', 'fade', 'falseSelect', '../libs/jquery-ui.min','jquery_ui'], function($) {
 
 
 	var open_gaoji = $('#open_gaoji');

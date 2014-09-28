@@ -2,126 +2,140 @@
 @import "variables";
 @import "mixins";
 @import "placeholders";
-
-
-$boxW:1210px;
-$slideboxW:125px;
-$contentboxW:960px;
-.box{
-	width:$boxW+2;
-	margin:0 auto;
-	@extend %clearfix;
-	min-height:1px;
-	&.padding{
-		padding:$header-height 0 $footer-height;
-	}
+ $boxW:1210px;
+ $slideboxW:125px;
+ $contentboxW:960px;
+ .box {
+    width: $boxW+2;
+    margin: 0 auto;
+    @extend %clearfix;
+    min-height: 1px;
+    &.padding {
+        padding: $header-height 0 $footer-height;
+    }
 }
-.slidebox{
-	float:left;
-	width:$slideboxW;
-	min-height:1px;
+.slidebox {
+    float: left;
+    width: $slideboxW;
+    min-height: 1px;
 }
-.contentbox{
-	float:left;
-	width:$contentboxW;
-	min-height:1px;
-	overflow:hidden;
-	//border: 1px solid transparent;
-	box-sizing:content-box;
-	&.afa-index{
-		border: none;
-	}
-	&.border{
-		border-color: $border;
-	}
+.contentbox {
+    float: left;
+    width: $contentboxW;
+    min-height: 1px;
+    overflow: hidden;
+    //border: 1px solid transparent;
+    box-sizing: content-box;
+    &.afa-index {
+        border: none;
+    }
+    &.border {
+        border-color: $border;
+    }
 }
-
-.wrapper{
-	width: 960px;
-	margin: 0 auto;
+.wrapper {
+    width: 960px;
+    margin: 0 auto;
 }
-.afa-f-list{
-	padding: 5px 0;
-	@extend %clearfix;
-	.label{
-		display: block;
-		float: left;
-		width: 100px;
-
-	}
-	.field{
-		display: block;
-		float: left;
-	}
-	.f-select{
-		color: #000;
-	}
+.afa-f-list {
+    padding: 5px 0;
+    @extend %clearfix;
+    .label {
+        display: block;
+        float: left;
+        width: 100px;
+    }
+    .field {
+        display: block;
+        float: left;
+    }
+    .f-select {
+        color: #000;
+    }
 }
-
 /* ==========================================================================
    tabs 模块
    ========================================================================== */
-.tab-list{
-	@extend %clearfix;
-	.tab-item{
-		float: left;
-		padding:0 20px;
-		line-height: 1.5;
-	}
+
+.tab-list {
+    @extend %clearfix;
+    .tab-item {
+        float: left;
+        padding: 0 20px;
+        line-height: 1.5;
+    }
 }
-
-
 /* ==========================================================================
    grid 模块
    ========================================================================== */
-.w-grid-a,
-.w-grid-b,
-.w-grid-c,
-.w-grid-d,
-.w-grid-e{
-	display: block;
-	@extend %clearfix;
-}
-.w-block-a,
-.w-block-b,
-.w-block-c,
-.w-block-d,
-.w-block-e,
-.w-block-f{
-	display: block;
-	float: left;
-}
 
-.w-grid-a{
-	.w-block-a,.w-block-b{
-		width: 50%;
-	}
+.w-grid-a, .w-grid-b, .w-grid-c, .w-grid-d, .w-grid-e {
+    display: block;
+    @extend %clearfix;
+    .w-block-a, .w-block-b, .w-block-c, .w-block-d, .w-block-e, .w-block-f {
+        &.w1 {
+            width: 10%;
+        }
+        &.w2 {
+            width: 20%;
+        }
+        &.w3 {
+            width: 30%;
+        }
+        &.w4 {
+            width: 40%;
+        }
+        &.w5 {
+            width: 50%;
+        }
+        &.w6 {
+            width: 60%;
+        }
+        &.w7 {
+            width: 70%;
+        }
+        &.w8 {
+            width: 80%;
+        }
+        &.w9 {
+            width: 90%;
+        }
+    }
 }
-.w-grid-b{
-	.w-block-a,
-	.w-block-b,
-	.w-block-c,{
-		width: 33.3333%;
-	}
+.w-block-a, .w-block-b, .w-block-c, .w-block-d, .w-block-e, .w-block-f {
+    display: block;
+    float: left;
 }
-.w-grid-c{
-	.w-block-a,.w-block-b,
-	.w-block-c,.w-block-d{
-		width: 25%;
-	}
+.w-grid-a {
+    &>.w-block-a, &>.w-block-b {
+        width: 50%;
+    }
 }
-.w-grid-d{
-	.w-block-a,.w-block-b,
-	.w-block-c,.w-block-d,	
-	.w-block-e{
-		width: 20%;
-	}
+.w-grid-b {
+    &>.w-block-a, &>.w-block-b, &>.w-block-c, {
+        width: 33.3333%;
+    }
 }
-.w-grid-e{
-	.w-block-a,.w-block-b,
-	.w-block-c,.w-block-d,	
-	.w-block-e,.w-block-f,{
-		width: 16.6666%;
-	}
+.w-grid-c {
+    &>.w-block-a, &>.w-block-b, &>.w-block-c, &>.w-block-d {
+        width: 25%;
+    }
 }
-
+.w-grid-d {
+    &>.w-block-a, &>.w-block-b, &>.w-block-c, &>.w-block-d, &>.w-block-e {
+        width: 20%;
+    }
+}
+.w-grid-e {
+    &>.w-block-a, &>.w-block-b, &>.w-block-c, &>.w-block-d, &>.w-block-e, &>.w-block-f, {
+        width: 16.6666%;
+    }
+}
+.w-wrapper {
+    display: block;
+    @extend %clearfix;
+}
+//pading box
+ .w-padding-wrapper {
+    padding: 0 20px;
+}

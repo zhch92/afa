@@ -7,9 +7,19 @@
     position: relative;
     height: 180px;
     margin-bottom: 20px;
-    
-    font-size: 20px;
     font-weight: bold;
+    color: $white;
+    font-family: "Microsoft YaHei", 微软雅黑, "MicrosoftJhengHei", 华文细黑, STHeiti, MingLiu;
+    text-indent: 20px;
+    vertical-align: super;
+    @include box-sizing(border-box);
+    //padding-top: 30px;
+    .t-chinese{
+        font-size: 100px;   
+    }
+    .t-english{
+        font-size: 50px;
+    }
 }
 /*==================全程管理子模块=================*/
 /*===title===*/
@@ -34,7 +44,7 @@
         text-indent: 25px;
         border: 1px solid;
         padding: 2px 2px;
-        border-radius: 2px;
+        @include border-radius(2px);
         background:transparent url('../img/icon/search.png') 2px center no-repeat;
     }
 }

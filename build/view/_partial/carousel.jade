@@ -1,0 +1,13 @@
+mixin carousel(idname)
+	.afa-m-roll(id=idname)
+		ul.roll-list
+			-for(var i=0;i<4;i++)
+				li.roll-item
+					a(href="#")
+						img(src="../img/default_roll.jpg", alt="")
+		a.roll-btn-left(href="javascript:void(0);")
+		a.roll-btn-right(href="javascript:void(0);")
+		if block
+			block
+		else
+

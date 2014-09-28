@@ -1,0 +1,29 @@
+.header
+	.box
+		.slidebox
+		.contentbox
+			span.afa-logo.w-p-absolute
+				a(href="../index.html")
+					img(src="../img/logo.png", alt="")
+			span.img-nav-tab
+				-for(var i=0;i<7;i++)
+					case i
+						when 0
+							a.nav-item(href="#") 徒步
+						when 1
+							a.nav-item(href="#") 骑行
+						when 2
+							a.nav-item(href="#") 钓鱼
+						when 3
+							a.nav-item(href="#") 自驾
+						when 4
+							a.nav-item(href="#") 攀岩
+						when 5
+							a.nav-item(href="#") 滑雪
+						when 6
+							a.nav-item(href="#") 更多
+			.center-operate
+				a(href="login.html") 登录 &nbsp;|&nbsp;
+				a(href="register.html") 注册 &nbsp;|&nbsp;
+				a.afa-center(href="mycenter.html") 个人中心
+		.slidebox

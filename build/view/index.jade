@@ -1,0 +1,55 @@
+doctype html
+html(lang="zh-cn")
+  head
+    meta(charset="utf-8")
+    meta(http-equiv="X-UA-Compatible",content="IE=edge,chrome=1")
+    meta(name="viewport" content="width=device-width, initial-scale=1")
+    title 阿尔法旅游网站
+    link(rel="shortcut icon" type="image/x-icon", href="./img/favicon.ico",media="screen")
+    link(rel="stylesheet", type="text/css", href="./css/global.css")
+    link(rel="stylesheet", type="text/css", href="./css/pro.min.css")
+    link(rel="stylesheet", type="text/css", href="./css/index.css")
+  body
+    #first-screen.full-screen.first-screen
+      .index-bg(style="background-image:url(img/123.jpg);")
+      .welcome-info
+        .afa-logo
+          img(src="img/logo.png",alt="阿尔法logo")
+        p.text.
+          我们一直<b>在路上</b>
+    #index.full-screen.afa-index.w-hide
+      .afa-logo.index
+        a(href="javascript:void(0);")
+          img(src="img/logo.png", alt="")
+      .full-screen.menu-nav
+        include _partial/bg
+        .box.main
+          .slidebox
+          .contentbox.img-menu.afa-index
+            ul#img_menu_wrapper
+              -for(var i=0;i<7;i++)
+                case i
+                  when 0
+                    li.img-item.bl
+                      a(href="view/afa_index.html", target="_blank")
+                        .title
+                          h2
+                            b HIKING
+                            <br>徒步
+                          span.text.
+                            徒步旅行，去自己想去的地方
+                        img(src="img/index_default.jpg", alt="")
+                        .cover
+                  default
+                    li.img-item
+                        a(href="view/afa-index.html", target="_blank")
+                          .title
+                            h2
+                              b HIKING
+                              <br>徒步
+                            span.text.
+                              徒步旅行，去自己想去的地方
+                          img(src="img/index_default.jpg", alt="")
+                          .cover
+          .slidebox
+    script(type="text/javascript", data-main="./js/index.js", src="./js/require.js")

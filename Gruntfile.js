@@ -38,26 +38,48 @@ module.exports = function(grunt) {
                     'css/knowledge.css': 'build/sass/knowledge.scss',
                     'css/equipment.css': 'build/sass/equipment.scss',
                     'css/team.css': 'build/sass/team.scss',
-                    'css/afa_index.css': 'build/sass/afa_index.scss'
+                    'css/afa_index.css': 'build/sass/afa_index.scss',
+                    'css/find_line.css': 'build/sass/find_line.scss'
                 }
             }
         },
-        /*        jade: {
-            compile: {
+        jade: {
+            indexfile: {
+                options: {
+                    pretty: true,
+                    data: {
+                        debug: false
+                    }
+                },
                 files: {
-                    'index.html': 'build/page/index.jade'
+                    'index.html': 'build/view/index.jade'
                 }
+            },
+            mainfile: {
+                options: {
+                    pretty: true,
+                    data: {
+                        debug: false
+                    }
+                },
+                files: [{
+                    expand: true,
+                    cwd: 'build/view',
+                    src: ['**/*.jade','!index.jade','!_partial'],
+                    dest: 'view',
+                    ext: '.html'
+                }]
             }
-        },*/
+        },
         watch: {
             sass: {
                 files: ['build/sass/**/*.scss'],
                 tasks: ['sass']
-            } //,
-            // jade: {
-            //      files: ['build/page/**/*.jade'],
-            //      tasks: ['jade']
-            // }
+            },
+            jade: {
+                files: ['build/view/**/*.jade'],
+                tasks: ['jade']
+            }
         }
     });
 
@@ -66,11 +88,11 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-contrib-sass');
     grunt.loadNpmTasks('grunt-contrib-watch');
     // grunt.loadNpmTasks('grunt-contrib-concat');
-    //grunt.loadNpmTasks('grunt-contrib-jade');
+    grunt.loadNpmTasks('grunt-contrib-jade');
 
     //grunt.loadNpmTasks('grunt-contrib-qunit');
     //grunt.loadNpmTasks('grunt-contrib-copy');
     //grunt.registerTask('test', ['jshint', 'qunit']);
 
-    grunt.registerTask('default', ['jshint', 'sass', 'watch']);
+    grunt.registerTask('default', ['jshint', 'sass', 'jade', 'watch']);
 };

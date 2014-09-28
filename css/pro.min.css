@@ -1,21 +1,56 @@
 /*font end base.css*/
 @charset "UTF-8";
-.box:before, .afa-f-list:before, .tab-list:before, .w-grid-a:before,
-.w-grid-b:before,
-.w-grid-c:before,
-.w-grid-d:before,
-.w-grid-e:before, .box:after, .afa-f-list:after, .tab-list:after, .w-grid-a:after,
-.w-grid-b:after,
-.w-grid-c:after,
-.w-grid-d:after,
-.w-grid-e:after {
+/* -------------------------------------------------------------
+
+  Mixins available:
+    -   background-gradient     - arguments: Start Color: #3C3C3C, End Color: #999999
+    -   background-size         - arguments: Width: 100%, Height: 100%
+    -   border-radius           - arguments: Radius: 5px
+    -   border-radius-separate  - arguments: Top Left: 5px, Top Left: 5px, Bottom Left: 5px, Bottom Right: 5px
+    -   box                     - arguments: Orientation: horizontal, Pack: center, Align: center
+    -   box-rgba                - arguments: R: 60, G: 3, B: 12, Opacity: 0.23, Color: #3C3C3C
+    -   box-shadow              - arguments: X: 2px, Y: 2px, Blur: 5px, Color: rgba(0,0,0,.4)
+    -   box-sizing              - arguments: Type: border-box
+    -   columns                 - arguments: Count: 3, Gap: 10
+    -   double-borders          - arguments: Color One: #3C3C3C, Color Two: #999999, Radius: 0
+    -   flex                    - arguments: Value: 1
+    -   flip                    - arguments: ScaleX: -1
+    -   font-face               - arguments: Font Family: myFont, Eot File Src: myFont.eot, Woff File Src: myFont.woff, Ttf File Src: myFont.ttf
+    -   opacity                 - arguments: Opacity: 0.5
+    -   outline radius          - arguments: Radius: 5px
+    -   resize                  - arguments: Direction: both
+    -   rotate                  - arguments: Degree: 0, M11: 0, M12: 0, M21: 0, M22: 0
+    CSS Matrix Rotation Calculator http://www.boogdesign.com/examples/transforms/matrix-calculator.html
+    -   text-shadow             - arguments: X: 2px, Y: 2px, Blur: 5px, Color: rgba(0,0,0,.4)
+    -   transform               - arguments: Parameters: null
+    -   transition              - arguments: What: all, Length: 1s, Easing: ease-in-out
+    -   triple-borders          - arguments: Color One: #3C3C3C, Color Two: #999999, Color Three: #000000, Radius: 0
+
+------------------------------------------------------------- */
+/* BACKGROUND GRADIENT */
+/* BACKGROUND SIZE */
+/* BORDER RADIUS */
+/* BOX */
+/* BOX RGBA */
+/* BOX SHADOW */
+/* BOX SIZING */
+/* COLUMNS */
+/* DOUBLE BORDERS */
+/* FLEX */
+/* FLIP */
+/* FONT FACE */
+/* OPACITY */
+/* OUTLINE RADIUS */
+/* RESIZE */
+/* ROTATE*/
+/* TEXT SHADOW */
+/* TRANSFORM  */
+/* TRANSITION */
+/* TRIPLE BORDERS */
+.box:before, .afa-f-list:before, .tab-list:before, .w-grid-a:before, .w-grid-b:before, .w-grid-c:before, .w-grid-d:before, .w-grid-e:before, .w-wrapper:before, .box:after, .afa-f-list:after, .tab-list:after, .w-grid-a:after, .w-grid-b:after, .w-grid-c:after, .w-grid-d:after, .w-grid-e:after, .w-wrapper:after {
   content: " ";
   display: table; }
-.box:after, .afa-f-list:after, .tab-list:after, .w-grid-a:after,
-.w-grid-b:after,
-.w-grid-c:after,
-.w-grid-d:after,
-.w-grid-e:after {
+.box:after, .afa-f-list:after, .tab-list:after, .w-grid-a:after, .w-grid-b:after, .w-grid-c:after, .w-grid-d:after, .w-grid-e:after, .w-wrapper:after {
   clear: both; }
 
 /* ==========================================================================
@@ -29,7 +64,7 @@ div, span,
 ul, li,
 dl, dt, dd,
 i, b, em,
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, p {
   padding: 0;
   margin: 0; }
 
@@ -117,6 +152,8 @@ a {
     line-height: 1.2;
     display: inline-block;
     border: 1px solid #000000;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
     border-radius: 4px; }
   .header .contentbox {
     position: relative;
@@ -139,6 +176,8 @@ a {
       width: 60px;
       height: 60px;
       margin: 0 5px;
+      -moz-border-radius: 60px;
+      -webkit-border-radius: 60px;
       border-radius: 60px;
       background: #fce70e;
       text-align: center;
@@ -162,22 +201,57 @@ a {
 .friendlink {
   text-align: right; }
 
-.box:before, .afa-f-list:before, .tab-list:before, .w-grid-a:before,
-.w-grid-b:before,
-.w-grid-c:before,
-.w-grid-d:before,
-.w-grid-e:before, .box:after, .afa-f-list:after, .tab-list:after, .w-grid-a:after,
-.w-grid-b:after,
-.w-grid-c:after,
-.w-grid-d:after,
-.w-grid-e:after {
+/* -------------------------------------------------------------
+
+  Mixins available:
+    -   background-gradient     - arguments: Start Color: #3C3C3C, End Color: #999999
+    -   background-size         - arguments: Width: 100%, Height: 100%
+    -   border-radius           - arguments: Radius: 5px
+    -   border-radius-separate  - arguments: Top Left: 5px, Top Left: 5px, Bottom Left: 5px, Bottom Right: 5px
+    -   box                     - arguments: Orientation: horizontal, Pack: center, Align: center
+    -   box-rgba                - arguments: R: 60, G: 3, B: 12, Opacity: 0.23, Color: #3C3C3C
+    -   box-shadow              - arguments: X: 2px, Y: 2px, Blur: 5px, Color: rgba(0,0,0,.4)
+    -   box-sizing              - arguments: Type: border-box
+    -   columns                 - arguments: Count: 3, Gap: 10
+    -   double-borders          - arguments: Color One: #3C3C3C, Color Two: #999999, Radius: 0
+    -   flex                    - arguments: Value: 1
+    -   flip                    - arguments: ScaleX: -1
+    -   font-face               - arguments: Font Family: myFont, Eot File Src: myFont.eot, Woff File Src: myFont.woff, Ttf File Src: myFont.ttf
+    -   opacity                 - arguments: Opacity: 0.5
+    -   outline radius          - arguments: Radius: 5px
+    -   resize                  - arguments: Direction: both
+    -   rotate                  - arguments: Degree: 0, M11: 0, M12: 0, M21: 0, M22: 0
+    CSS Matrix Rotation Calculator http://www.boogdesign.com/examples/transforms/matrix-calculator.html
+    -   text-shadow             - arguments: X: 2px, Y: 2px, Blur: 5px, Color: rgba(0,0,0,.4)
+    -   transform               - arguments: Parameters: null
+    -   transition              - arguments: What: all, Length: 1s, Easing: ease-in-out
+    -   triple-borders          - arguments: Color One: #3C3C3C, Color Two: #999999, Color Three: #000000, Radius: 0
+
+------------------------------------------------------------- */
+/* BACKGROUND GRADIENT */
+/* BACKGROUND SIZE */
+/* BORDER RADIUS */
+/* BOX */
+/* BOX RGBA */
+/* BOX SHADOW */
+/* BOX SIZING */
+/* COLUMNS */
+/* DOUBLE BORDERS */
+/* FLEX */
+/* FLIP */
+/* FONT FACE */
+/* OPACITY */
+/* OUTLINE RADIUS */
+/* RESIZE */
+/* ROTATE*/
+/* TEXT SHADOW */
+/* TRANSFORM  */
+/* TRANSITION */
+/* TRIPLE BORDERS */
+.box:before, .afa-f-list:before, .tab-list:before, .w-grid-a:before, .w-grid-b:before, .w-grid-c:before, .w-grid-d:before, .w-grid-e:before, .w-wrapper:before, .box:after, .afa-f-list:after, .tab-list:after, .w-grid-a:after, .w-grid-b:after, .w-grid-c:after, .w-grid-d:after, .w-grid-e:after, .w-wrapper:after {
   content: " ";
   display: table; }
-.box:after, .afa-f-list:after, .tab-list:after, .w-grid-a:after,
-.w-grid-b:after,
-.w-grid-c:after,
-.w-grid-d:after,
-.w-grid-e:after {
+.box:after, .afa-f-list:after, .tab-list:after, .w-grid-a:after, .w-grid-b:after, .w-grid-c:after, .w-grid-d:after, .w-grid-e:after, .w-wrapper:after {
   clear: both; }
 
 .box {
@@ -230,43 +304,51 @@ a {
 /* ==========================================================================
    grid 模块
    ========================================================================== */
-.w-grid-a,
-.w-grid-b,
-.w-grid-c,
-.w-grid-d,
-.w-grid-e {
+.w-grid-a, .w-grid-b, .w-grid-c, .w-grid-d, .w-grid-e {
   display: block; }
+  .w-grid-a .w-block-a.w1, .w-grid-a .w-block-b.w1, .w-grid-a .w-block-c.w1, .w-grid-a .w-block-d.w1, .w-grid-a .w-block-e.w1, .w-grid-a .w-block-f.w1, .w-grid-b .w-block-a.w1, .w-grid-b .w-block-b.w1, .w-grid-b .w-block-c.w1, .w-grid-b .w-block-d.w1, .w-grid-b .w-block-e.w1, .w-grid-b .w-block-f.w1, .w-grid-c .w-block-a.w1, .w-grid-c .w-block-b.w1, .w-grid-c .w-block-c.w1, .w-grid-c .w-block-d.w1, .w-grid-c .w-block-e.w1, .w-grid-c .w-block-f.w1, .w-grid-d .w-block-a.w1, .w-grid-d .w-block-b.w1, .w-grid-d .w-block-c.w1, .w-grid-d .w-block-d.w1, .w-grid-d .w-block-e.w1, .w-grid-d .w-block-f.w1, .w-grid-e .w-block-a.w1, .w-grid-e .w-block-b.w1, .w-grid-e .w-block-c.w1, .w-grid-e .w-block-d.w1, .w-grid-e .w-block-e.w1, .w-grid-e .w-block-f.w1 {
+    width: 10%; }
+  .w-grid-a .w-block-a.w2, .w-grid-a .w-block-b.w2, .w-grid-a .w-block-c.w2, .w-grid-a .w-block-d.w2, .w-grid-a .w-block-e.w2, .w-grid-a .w-block-f.w2, .w-grid-b .w-block-a.w2, .w-grid-b .w-block-b.w2, .w-grid-b .w-block-c.w2, .w-grid-b .w-block-d.w2, .w-grid-b .w-block-e.w2, .w-grid-b .w-block-f.w2, .w-grid-c .w-block-a.w2, .w-grid-c .w-block-b.w2, .w-grid-c .w-block-c.w2, .w-grid-c .w-block-d.w2, .w-grid-c .w-block-e.w2, .w-grid-c .w-block-f.w2, .w-grid-d .w-block-a.w2, .w-grid-d .w-block-b.w2, .w-grid-d .w-block-c.w2, .w-grid-d .w-block-d.w2, .w-grid-d .w-block-e.w2, .w-grid-d .w-block-f.w2, .w-grid-e .w-block-a.w2, .w-grid-e .w-block-b.w2, .w-grid-e .w-block-c.w2, .w-grid-e .w-block-d.w2, .w-grid-e .w-block-e.w2, .w-grid-e .w-block-f.w2 {
+    width: 20%; }
+  .w-grid-a .w-block-a.w3, .w-grid-a .w-block-b.w3, .w-grid-a .w-block-c.w3, .w-grid-a .w-block-d.w3, .w-grid-a .w-block-e.w3, .w-grid-a .w-block-f.w3, .w-grid-b .w-block-a.w3, .w-grid-b .w-block-b.w3, .w-grid-b .w-block-c.w3, .w-grid-b .w-block-d.w3, .w-grid-b .w-block-e.w3, .w-grid-b .w-block-f.w3, .w-grid-c .w-block-a.w3, .w-grid-c .w-block-b.w3, .w-grid-c .w-block-c.w3, .w-grid-c .w-block-d.w3, .w-grid-c .w-block-e.w3, .w-grid-c .w-block-f.w3, .w-grid-d .w-block-a.w3, .w-grid-d .w-block-b.w3, .w-grid-d .w-block-c.w3, .w-grid-d .w-block-d.w3, .w-grid-d .w-block-e.w3, .w-grid-d .w-block-f.w3, .w-grid-e .w-block-a.w3, .w-grid-e .w-block-b.w3, .w-grid-e .w-block-c.w3, .w-grid-e .w-block-d.w3, .w-grid-e .w-block-e.w3, .w-grid-e .w-block-f.w3 {
+    width: 30%; }
+  .w-grid-a .w-block-a.w4, .w-grid-a .w-block-b.w4, .w-grid-a .w-block-c.w4, .w-grid-a .w-block-d.w4, .w-grid-a .w-block-e.w4, .w-grid-a .w-block-f.w4, .w-grid-b .w-block-a.w4, .w-grid-b .w-block-b.w4, .w-grid-b .w-block-c.w4, .w-grid-b .w-block-d.w4, .w-grid-b .w-block-e.w4, .w-grid-b .w-block-f.w4, .w-grid-c .w-block-a.w4, .w-grid-c .w-block-b.w4, .w-grid-c .w-block-c.w4, .w-grid-c .w-block-d.w4, .w-grid-c .w-block-e.w4, .w-grid-c .w-block-f.w4, .w-grid-d .w-block-a.w4, .w-grid-d .w-block-b.w4, .w-grid-d .w-block-c.w4, .w-grid-d .w-block-d.w4, .w-grid-d .w-block-e.w4, .w-grid-d .w-block-f.w4, .w-grid-e .w-block-a.w4, .w-grid-e .w-block-b.w4, .w-grid-e .w-block-c.w4, .w-grid-e .w-block-d.w4, .w-grid-e .w-block-e.w4, .w-grid-e .w-block-f.w4 {
+    width: 40%; }
+  .w-grid-a .w-block-a.w5, .w-grid-a .w-block-b.w5, .w-grid-a .w-block-c.w5, .w-grid-a .w-block-d.w5, .w-grid-a .w-block-e.w5, .w-grid-a .w-block-f.w5, .w-grid-b .w-block-a.w5, .w-grid-b .w-block-b.w5, .w-grid-b .w-block-c.w5, .w-grid-b .w-block-d.w5, .w-grid-b .w-block-e.w5, .w-grid-b .w-block-f.w5, .w-grid-c .w-block-a.w5, .w-grid-c .w-block-b.w5, .w-grid-c .w-block-c.w5, .w-grid-c .w-block-d.w5, .w-grid-c .w-block-e.w5, .w-grid-c .w-block-f.w5, .w-grid-d .w-block-a.w5, .w-grid-d .w-block-b.w5, .w-grid-d .w-block-c.w5, .w-grid-d .w-block-d.w5, .w-grid-d .w-block-e.w5, .w-grid-d .w-block-f.w5, .w-grid-e .w-block-a.w5, .w-grid-e .w-block-b.w5, .w-grid-e .w-block-c.w5, .w-grid-e .w-block-d.w5, .w-grid-e .w-block-e.w5, .w-grid-e .w-block-f.w5 {
+    width: 50%; }
+  .w-grid-a .w-block-a.w6, .w-grid-a .w-block-b.w6, .w-grid-a .w-block-c.w6, .w-grid-a .w-block-d.w6, .w-grid-a .w-block-e.w6, .w-grid-a .w-block-f.w6, .w-grid-b .w-block-a.w6, .w-grid-b .w-block-b.w6, .w-grid-b .w-block-c.w6, .w-grid-b .w-block-d.w6, .w-grid-b .w-block-e.w6, .w-grid-b .w-block-f.w6, .w-grid-c .w-block-a.w6, .w-grid-c .w-block-b.w6, .w-grid-c .w-block-c.w6, .w-grid-c .w-block-d.w6, .w-grid-c .w-block-e.w6, .w-grid-c .w-block-f.w6, .w-grid-d .w-block-a.w6, .w-grid-d .w-block-b.w6, .w-grid-d .w-block-c.w6, .w-grid-d .w-block-d.w6, .w-grid-d .w-block-e.w6, .w-grid-d .w-block-f.w6, .w-grid-e .w-block-a.w6, .w-grid-e .w-block-b.w6, .w-grid-e .w-block-c.w6, .w-grid-e .w-block-d.w6, .w-grid-e .w-block-e.w6, .w-grid-e .w-block-f.w6 {
+    width: 60%; }
+  .w-grid-a .w-block-a.w7, .w-grid-a .w-block-b.w7, .w-grid-a .w-block-c.w7, .w-grid-a .w-block-d.w7, .w-grid-a .w-block-e.w7, .w-grid-a .w-block-f.w7, .w-grid-b .w-block-a.w7, .w-grid-b .w-block-b.w7, .w-grid-b .w-block-c.w7, .w-grid-b .w-block-d.w7, .w-grid-b .w-block-e.w7, .w-grid-b .w-block-f.w7, .w-grid-c .w-block-a.w7, .w-grid-c .w-block-b.w7, .w-grid-c .w-block-c.w7, .w-grid-c .w-block-d.w7, .w-grid-c .w-block-e.w7, .w-grid-c .w-block-f.w7, .w-grid-d .w-block-a.w7, .w-grid-d .w-block-b.w7, .w-grid-d .w-block-c.w7, .w-grid-d .w-block-d.w7, .w-grid-d .w-block-e.w7, .w-grid-d .w-block-f.w7, .w-grid-e .w-block-a.w7, .w-grid-e .w-block-b.w7, .w-grid-e .w-block-c.w7, .w-grid-e .w-block-d.w7, .w-grid-e .w-block-e.w7, .w-grid-e .w-block-f.w7 {
+    width: 70%; }
+  .w-grid-a .w-block-a.w8, .w-grid-a .w-block-b.w8, .w-grid-a .w-block-c.w8, .w-grid-a .w-block-d.w8, .w-grid-a .w-block-e.w8, .w-grid-a .w-block-f.w8, .w-grid-b .w-block-a.w8, .w-grid-b .w-block-b.w8, .w-grid-b .w-block-c.w8, .w-grid-b .w-block-d.w8, .w-grid-b .w-block-e.w8, .w-grid-b .w-block-f.w8, .w-grid-c .w-block-a.w8, .w-grid-c .w-block-b.w8, .w-grid-c .w-block-c.w8, .w-grid-c .w-block-d.w8, .w-grid-c .w-block-e.w8, .w-grid-c .w-block-f.w8, .w-grid-d .w-block-a.w8, .w-grid-d .w-block-b.w8, .w-grid-d .w-block-c.w8, .w-grid-d .w-block-d.w8, .w-grid-d .w-block-e.w8, .w-grid-d .w-block-f.w8, .w-grid-e .w-block-a.w8, .w-grid-e .w-block-b.w8, .w-grid-e .w-block-c.w8, .w-grid-e .w-block-d.w8, .w-grid-e .w-block-e.w8, .w-grid-e .w-block-f.w8 {
+    width: 80%; }
+  .w-grid-a .w-block-a.w9, .w-grid-a .w-block-b.w9, .w-grid-a .w-block-c.w9, .w-grid-a .w-block-d.w9, .w-grid-a .w-block-e.w9, .w-grid-a .w-block-f.w9, .w-grid-b .w-block-a.w9, .w-grid-b .w-block-b.w9, .w-grid-b .w-block-c.w9, .w-grid-b .w-block-d.w9, .w-grid-b .w-block-e.w9, .w-grid-b .w-block-f.w9, .w-grid-c .w-block-a.w9, .w-grid-c .w-block-b.w9, .w-grid-c .w-block-c.w9, .w-grid-c .w-block-d.w9, .w-grid-c .w-block-e.w9, .w-grid-c .w-block-f.w9, .w-grid-d .w-block-a.w9, .w-grid-d .w-block-b.w9, .w-grid-d .w-block-c.w9, .w-grid-d .w-block-d.w9, .w-grid-d .w-block-e.w9, .w-grid-d .w-block-f.w9, .w-grid-e .w-block-a.w9, .w-grid-e .w-block-b.w9, .w-grid-e .w-block-c.w9, .w-grid-e .w-block-d.w9, .w-grid-e .w-block-e.w9, .w-grid-e .w-block-f.w9 {
+    width: 90%; }
 
-.w-block-a,
-.w-block-b,
-.w-block-c,
-.w-block-d,
-.w-block-e,
-.w-block-f {
+.w-block-a, .w-block-b, .w-block-c, .w-block-d, .w-block-e, .w-block-f {
   display: block;
   float: left; }
 
-.w-grid-a .w-block-a, .w-grid-a .w-block-b {
+.w-grid-a > .w-block-a, .w-grid-a > .w-block-b {
   width: 50%; }
 
-.w-grid-b .w-block-a,
-.w-grid-b .w-block-b,
-.w-grid-b .w-block-c {
+.w-grid-b > .w-block-a, .w-grid-b > .w-block-b, .w-grid-b > .w-block-c {
   width: 33.3333%; }
 
-.w-grid-c .w-block-a, .w-grid-c .w-block-b,
-.w-grid-c .w-block-c, .w-grid-c .w-block-d {
+.w-grid-c > .w-block-a, .w-grid-c > .w-block-b, .w-grid-c > .w-block-c, .w-grid-c > .w-block-d {
   width: 25%; }
 
-.w-grid-d .w-block-a, .w-grid-d .w-block-b,
-.w-grid-d .w-block-c, .w-grid-d .w-block-d,
-.w-grid-d .w-block-e {
+.w-grid-d > .w-block-a, .w-grid-d > .w-block-b, .w-grid-d > .w-block-c, .w-grid-d > .w-block-d, .w-grid-d > .w-block-e {
   width: 20%; }
 
-.w-grid-e .w-block-a, .w-grid-e .w-block-b,
-.w-grid-e .w-block-c, .w-grid-e .w-block-d,
-.w-grid-e .w-block-e, .w-grid-e .w-block-f {
+.w-grid-e > .w-block-a, .w-grid-e > .w-block-b, .w-grid-e > .w-block-c, .w-grid-e > .w-block-d, .w-grid-e > .w-block-e, .w-grid-e > .w-block-f {
   width: 16.6666%; }
+
+.w-wrapper {
+  display: block; }
+
+.w-padding-wrapper {
+  padding: 0 20px; }
 
 .slide-menu {
   position: relative;
@@ -306,6 +388,62 @@ a {
       .slide-menu.skin03 .btn-list a:hover {
         color: #4b87bf; }
 
+/* -------------------------------------------------------------
+
+  Mixins available:
+    -   background-gradient     - arguments: Start Color: #3C3C3C, End Color: #999999
+    -   background-size         - arguments: Width: 100%, Height: 100%
+    -   border-radius           - arguments: Radius: 5px
+    -   border-radius-separate  - arguments: Top Left: 5px, Top Left: 5px, Bottom Left: 5px, Bottom Right: 5px
+    -   box                     - arguments: Orientation: horizontal, Pack: center, Align: center
+    -   box-rgba                - arguments: R: 60, G: 3, B: 12, Opacity: 0.23, Color: #3C3C3C
+    -   box-shadow              - arguments: X: 2px, Y: 2px, Blur: 5px, Color: rgba(0,0,0,.4)
+    -   box-sizing              - arguments: Type: border-box
+    -   columns                 - arguments: Count: 3, Gap: 10
+    -   double-borders          - arguments: Color One: #3C3C3C, Color Two: #999999, Radius: 0
+    -   flex                    - arguments: Value: 1
+    -   flip                    - arguments: ScaleX: -1
+    -   font-face               - arguments: Font Family: myFont, Eot File Src: myFont.eot, Woff File Src: myFont.woff, Ttf File Src: myFont.ttf
+    -   opacity                 - arguments: Opacity: 0.5
+    -   outline radius          - arguments: Radius: 5px
+    -   resize                  - arguments: Direction: both
+    -   rotate                  - arguments: Degree: 0, M11: 0, M12: 0, M21: 0, M22: 0
+    CSS Matrix Rotation Calculator http://www.boogdesign.com/examples/transforms/matrix-calculator.html
+    -   text-shadow             - arguments: X: 2px, Y: 2px, Blur: 5px, Color: rgba(0,0,0,.4)
+    -   transform               - arguments: Parameters: null
+    -   transition              - arguments: What: all, Length: 1s, Easing: ease-in-out
+    -   triple-borders          - arguments: Color One: #3C3C3C, Color Two: #999999, Color Three: #000000, Radius: 0
+
+------------------------------------------------------------- */
+/* BACKGROUND GRADIENT */
+/* BACKGROUND SIZE */
+/* BORDER RADIUS */
+/* BOX */
+/* BOX RGBA */
+/* BOX SHADOW */
+/* BOX SIZING */
+/* COLUMNS */
+/* DOUBLE BORDERS */
+/* FLEX */
+/* FLIP */
+/* FONT FACE */
+/* OPACITY */
+/* OUTLINE RADIUS */
+/* RESIZE */
+/* ROTATE*/
+/* TEXT SHADOW */
+/* TRANSFORM  */
+/* TRANSITION */
+/* TRIPLE BORDERS */
+.box:before, .afa-f-list:before, .tab-list:before, .w-grid-a:before, .w-grid-b:before, .w-grid-c:before, .w-grid-d:before, .w-grid-e:before, .w-wrapper:before, .box:after, .afa-f-list:after, .tab-list:after, .w-grid-a:after, .w-grid-b:after, .w-grid-c:after, .w-grid-d:after, .w-grid-e:after, .w-wrapper:after {
+  content: " ";
+  display: table; }
+.box:after, .afa-f-list:after, .tab-list:after, .w-grid-a:after, .w-grid-b:after, .w-grid-c:after, .w-grid-d:after, .w-grid-e:after, .w-wrapper:after {
+  clear: both; }
+
+/* --------------------------------------------------------------------------
+    推荐路线
+     -------------------------------------------------------------------------- */
 .icon {
   display: inline-block;
   text-decoration: none;
@@ -383,6 +521,26 @@ a {
   width: 30px;
   height: 30px; }
 
+.icon-h {
+  width: 30px;
+  height: 30px;
+  background: url("../img/icon/h.png") center no-repeat; }
+
+.icon-q {
+  width: 30px;
+  height: 30px;
+  background: url("../img/icon/q.png") center no-repeat; }
+
+.icon-a {
+  width: 30px;
+  height: 30px;
+  background: url("../img/icon/a.png") center no-repeat; }
+
+.icon-map {
+  width: 30px;
+  height: 30px;
+  background: url("../img/icon/map.png") center no-repeat; }
+
 .roll-btn-b-left, .roll-btn-b-right {
   display: inline-block;
   width: 20px;
@@ -403,8 +561,18 @@ a {
   position: relative;
   height: 180px;
   margin-bottom: 20px;
-  font-size: 20px;
-  font-weight: bold; }
+  font-weight: bold;
+  color: #ffffff;
+  font-family: "Microsoft YaHei", 微软雅黑, "MicrosoftJhengHei", 华文细黑, STHeiti, MingLiu;
+  text-indent: 20px;
+  vertical-align: super;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+  .afa-module-title .t-chinese {
+    font-size: 100px; }
+  .afa-module-title .t-english {
+    font-size: 50px; }
 
 /*==================全程管理子模块=================*/
 /*===title===*/
@@ -425,6 +593,8 @@ a {
     text-indent: 25px;
     border: 1px solid;
     padding: 2px 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
     border-radius: 2px;
     background: transparent url("../img/icon/search.png") 2px center no-repeat; }
 
@@ -433,5 +603,8 @@ a {
    ========================================================================== */
 .afa-bg-m-title {
   background: url(../img/bg_m_title.png) repeat center; }
+
+.bg-white {
+  background: #ffffff; }
 
 /*# sourceMappingURL=pro.min.css.map */

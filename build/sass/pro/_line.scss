@@ -1,0 +1,196 @@
+@charset "UTF-8";
+@import "variables";
+@import "mixins";
+@import "placeholders";
+
+/* --------------------------------------------------------------------------
+    推荐路线
+     -------------------------------------------------------------------------- */
+
+.line-recommend {
+    .line-img {
+        display: block;
+        max-width: 100%;
+        max-height: 100%;
+    }
+    .line-intr {
+        padding: 20px 0;
+        .w-block-a {
+            
+        } 
+        &>.w-block-b {
+            padding: 0 15px;
+            @include box-sizing(border-box);
+        }
+        .bar {
+            background: #686665;
+            border: 1px solid #686665;
+            color: $white;
+            text-align: center;
+            line-height: 30px;
+            .btn-go {
+                float: right;
+                background: $white;
+                color: #0d6396;
+                text-align: center;
+                line-height: 30px;
+            }
+        }
+        &>.w-block-c {
+            font-size: 14px;
+            line-height: 2;
+        }
+        .num-go {
+            font-size: 24px;
+            color: #0d6396;
+        }
+    }
+    .line-operate {
+        font-size: 12px;
+        padding: 10px 0;
+        .w-block-a, .w-block-b, .w-block-c {
+            cursor: pointer;
+        }
+    }
+    .line-intr-text {
+        font-size: 14px;
+        h4 {
+            font-weight: normal;
+        }
+        .text {
+            line-height: 1.8;
+            height: 200px;
+            overflow: hidden;
+        }
+    }
+    .show-all-btn {
+        color: #0d6396;
+        line-height: 2;
+    }
+}
+.lr-t-title {
+    font-size: 30px;
+    color: #086292;
+    margin: 10px 0;
+    padding-top: 30px;
+    font-family: "Microsoft YaHei", 微软雅黑, "MicrosoftJhengHei", 华文细黑, STHeiti, MingLiu;
+}
+.line-title {
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 50px;
+    padding-left: 20px;
+    .bg_01 {
+        width: 50px;
+        height: 50px;
+        text-align: center;
+        font-style: normal;
+        background: url('../img/icon/circle_bg_01.png') center no-repeat;
+    }
+}
+.day-item{
+    .afa-m-imgshow{
+        .item{
+            width: 224px;
+        }
+    }     
+}
+.line-hr{
+    height: 0;
+    border: none;
+    border-top: 1px dashed #cfd6d9;
+}
+.day-title {
+    padding:10px 0 20px 40px;
+    line-height: 50px;
+    h3{
+        display: inline-block;
+    }
+    .bg_02 {
+        width: 50px;
+        height: 50px;
+        text-align: center;
+        font-style: normal;
+        color: $white;
+        background: url('../img/icon/circle_bg_02.png') center no-repeat;
+    }
+}
+
+.m-day-head{
+    height: 80px;
+    text-indent: 20px;
+    font-size: 30px;
+    line-height: 80px;
+    color: $white;
+    background:url(../img/bg_m_title.png) repeat;
+}
+.m-hotel-intr{
+    padding: 20px 0;
+    .m-hotel-img{
+        display: block;
+        width: 100%;
+        height: auto;
+        max-width: 100%;
+        max-height: 100%;
+    }
+}
+.m-hotel-intr-text{
+    height: 320px;
+    overflow: hidden;
+    padding: 0 10px 0 20px;
+}
+.m-hotel-addr-map{
+    padding: 0 20px;
+    font-size: 14px;
+    line-height: 30px;
+}
+
+
+
+/***********************************/
+ //找领队
+/***********************************/ 
+.afa-m-leader{
+   padding: 0 20px; 
+}
+.leader-pic{
+    img{
+        display: block;
+        margin: 0 auto;
+        width: 200px;
+        height: 200px;
+    }
+}
+.leader-info{
+    margin: 20px 0;
+    line-height: 2;
+    .w-warapper{
+        padding: 20px 0;
+    }
+}
+.leader-intr{
+    padding: 0 20px;
+}
+.leader-operate{
+    a{
+        display: block;
+        text-align: center;
+        width: 200px;
+        margin: 10px auto;
+        height: 30px;
+        line-height: 28px;
+        @include box-sizing(border-box);
+        border:1px solid;
+        color: $black;
+        &.bg{
+            border-color: transparent;
+            background:#849dcb;
+        }
+    }
+}
+.leader-zu-img{
+    img{
+        width: 644px;
+        height: 322px;
+    }
+}

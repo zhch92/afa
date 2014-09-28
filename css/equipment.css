@@ -1,10 +1,62 @@
 /*font end base.css*/
 @charset "UTF-8";
+/* -------------------------------------------------------------
+
+  Mixins available:
+    -   background-gradient     - arguments: Start Color: #3C3C3C, End Color: #999999
+    -   background-size         - arguments: Width: 100%, Height: 100%
+    -   border-radius           - arguments: Radius: 5px
+    -   border-radius-separate  - arguments: Top Left: 5px, Top Left: 5px, Bottom Left: 5px, Bottom Right: 5px
+    -   box                     - arguments: Orientation: horizontal, Pack: center, Align: center
+    -   box-rgba                - arguments: R: 60, G: 3, B: 12, Opacity: 0.23, Color: #3C3C3C
+    -   box-shadow              - arguments: X: 2px, Y: 2px, Blur: 5px, Color: rgba(0,0,0,.4)
+    -   box-sizing              - arguments: Type: border-box
+    -   columns                 - arguments: Count: 3, Gap: 10
+    -   double-borders          - arguments: Color One: #3C3C3C, Color Two: #999999, Radius: 0
+    -   flex                    - arguments: Value: 1
+    -   flip                    - arguments: ScaleX: -1
+    -   font-face               - arguments: Font Family: myFont, Eot File Src: myFont.eot, Woff File Src: myFont.woff, Ttf File Src: myFont.ttf
+    -   opacity                 - arguments: Opacity: 0.5
+    -   outline radius          - arguments: Radius: 5px
+    -   resize                  - arguments: Direction: both
+    -   rotate                  - arguments: Degree: 0, M11: 0, M12: 0, M21: 0, M22: 0
+    CSS Matrix Rotation Calculator http://www.boogdesign.com/examples/transforms/matrix-calculator.html
+    -   text-shadow             - arguments: X: 2px, Y: 2px, Blur: 5px, Color: rgba(0,0,0,.4)
+    -   transform               - arguments: Parameters: null
+    -   transition              - arguments: What: all, Length: 1s, Easing: ease-in-out
+    -   triple-borders          - arguments: Color One: #3C3C3C, Color Two: #999999, Color Three: #000000, Radius: 0
+
+------------------------------------------------------------- */
+/* BACKGROUND GRADIENT */
+/* BACKGROUND SIZE */
+/* BORDER RADIUS */
+/* BOX */
+/* BOX RGBA */
+/* BOX SHADOW */
+/* BOX SIZING */
+/* COLUMNS */
+/* DOUBLE BORDERS */
+/* FLEX */
+/* FLIP */
+/* FONT FACE */
+/* OPACITY */
+/* OUTLINE RADIUS */
+/* RESIZE */
+/* ROTATE*/
+/* TEXT SHADOW */
+/* TRANSFORM  */
+/* TRANSITION */
+/* TRIPLE BORDERS */
 .afa-m-roll .roll-list:before, .afa-m-imgshow .list:before, .afa-m-roll .roll-list:after, .afa-m-imgshow .list:after {
   content: " ";
   display: table; }
 .afa-m-roll .roll-list:after, .afa-m-imgshow .list:after {
   clear: both; }
+
+.afa-m-roll .box-theme-one .user-photo img {
+  display: block;
+  width: 100%;
+  height: auto; }
 
 /* ==========================================================================
    引用模块
@@ -25,41 +77,88 @@
     overflow: hidden; }
     .afa-m-roll .roll-item a {
       display: block;
+      border: 1px solid #949494;
       height: 100%; }
     .afa-m-roll .roll-item img {
       width: 100%;
-      height: auto; }
-  .afa-m-roll .roll-btn-left,
-  .afa-m-roll .roll-btn-right {
+      height: auto;
+      min-width: 958px;
+      max-width: 960px; }
+  .afa-m-roll .roll-btn-left, .afa-m-roll .roll-btn-right {
     position: absolute;
     top: 50%;
     display: inline-block;
-    width: 40px;
-    height: 77px;
+    width: 30px;
+    height: 48px;
     margin-top: -38px; }
-    .afa-m-roll .roll-btn-left:hover,
-    .afa-m-roll .roll-btn-right:hover {
+    .afa-m-roll .roll-btn-left:hover, .afa-m-roll .roll-btn-right:hover {
       background-color: #fff;
       background-color: rgba(255, 255, 255, 0.4); }
   .afa-m-roll .roll-btn-left {
     left: 10px;
-    background: transparent url(../img/icon/roll_left.png) center no-repeat; }
+    background: transparent url(../img/icon/prev.png) center no-repeat; }
   .afa-m-roll .roll-btn-right {
     right: 10px;
-    background: transparent url(../img/icon/roll_right.png) center no-repeat; }
+    background: transparent url(../img/icon/next.png) center no-repeat; }
   .afa-m-roll .info-box {
     position: absolute;
-    top: 50px;
-    right: 60px;
-    width: 200px;
-    height: 250px;
-    background: transparent url(../img/icon/info_bg.png) center no-repeat;
+    top: 80px;
+    right: 80px;
     color: #000000;
     font-size: 14px;
     line-height: 1.5; }
     .afa-m-roll .info-box .title {
       text-align: center;
       line-height: 2; }
+  .afa-m-roll .box-theme-one {
+    position: relative;
+    width: 300px;
+    height: 250px;
+    background: #ffffff;
+    background: rgba(255, 255, 255, 0.7); }
+    .afa-m-roll .box-theme-one .user-photo {
+      position: absolute;
+      top: -25px;
+      right: -30px;
+      z-index: 10;
+      width: 50px;
+      height: 50px;
+      margin: 0;
+      padding: 5px;
+      -moz-border-radius: 100%;
+      -webkit-border-radius: 100%;
+      border-radius: 100%;
+      overflow: hidden; }
+      .afa-m-roll .box-theme-one .user-photo img {
+        -moz-border-radius: 100%;
+        -webkit-border-radius: 100%;
+        border-radius: 100%; }
+    .afa-m-roll .box-theme-one .head {
+      position: relative;
+      color: #ffffff;
+      background: #000000;
+      font-size: 20px; }
+      .afa-m-roll .box-theme-one .head .time {
+        position: absolute;
+        top: 0;
+        left: 10px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 18px; }
+      .afa-m-roll .box-theme-one .head .title {
+        text-align: center;
+        display: block;
+        width: 150px;
+        height: 40px;
+        overflow: hidden;
+        margin: 0 auto; }
+    .afa-m-roll .box-theme-one .content {
+      margin: 0 15px;
+      padding: 10px 0;
+      font-size: 14px;
+      line-height: 1.5; }
+      .afa-m-roll .box-theme-one .content .w-grid-a {
+        font-size: 16px; }
 
 .afa-m-text {
   position: relative;
@@ -72,6 +171,8 @@
     top: 0;
     width: 50px;
     height: 50px;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
     border-radius: 100px;
     overflow: hidden; }
     .afa-m-text .user-photo img {
@@ -90,8 +191,7 @@
     font-size: 12px;
     padding: 0 20px;
     line-height: 1.5; }
-  .afa-m-text .roll-btn-b-left,
-  .afa-m-text .roll-btn-b-right {
+  .afa-m-text .roll-btn-b-left, .afa-m-text .roll-btn-b-right {
     position: absolute;
     top: 50%;
     margin-top: -18px; }
@@ -109,16 +209,14 @@
       margin-right: 8px;
       width: 234px; }
     .afa-m-imgshow .list .img {
-      display: table-cell;
+      display: block;
       height: 150px;
       line-height: 150px;
       vertical-align: middle;
-      text-align: center;
-      width: 234px; }
+      text-align: center; }
       .afa-m-imgshow .list .img img {
-        max-width: 100%;
-        max-height: 100%;
-        vertical-align: middle; }
+        width: 100%;
+        height: 100%; }
     .afa-m-imgshow .list .user {
       position: relative;
       text-align: right;
@@ -130,6 +228,8 @@
         left: 0;
         width: 30px;
         height: 30px;
+        -moz-border-radius: 30px;
+        -webkit-border-radius: 30px;
         border-radius: 30px;
         border: 2px solid #ffffff; }
       .afa-m-imgshow .list .user a i {
@@ -137,9 +237,7 @@
         margin: 0 3px 0 0; }
     .afa-m-imgshow .list .hotel-info {
       position: relative; }
-      .afa-m-imgshow .list .hotel-info .col-md-8,
-      .afa-m-imgshow .list .hotel-info .col-md-4,
-      .afa-m-imgshow .list .hotel-info .col-md-12 {
+      .afa-m-imgshow .list .hotel-info .col-md-8, .afa-m-imgshow .list .hotel-info .col-md-4, .afa-m-imgshow .list .hotel-info .col-md-12 {
         padding: 0; }
       .afa-m-imgshow .list .hotel-info .name, .afa-m-imgshow .list .hotel-info .price {
         font-family: "Microsoft YaHei"; }
@@ -171,11 +269,63 @@
         font-size: 12px;
         margin: 0 0 10px; }
 
+/* -------------------------------------------------------------
+
+  Mixins available:
+    -   background-gradient     - arguments: Start Color: #3C3C3C, End Color: #999999
+    -   background-size         - arguments: Width: 100%, Height: 100%
+    -   border-radius           - arguments: Radius: 5px
+    -   border-radius-separate  - arguments: Top Left: 5px, Top Left: 5px, Bottom Left: 5px, Bottom Right: 5px
+    -   box                     - arguments: Orientation: horizontal, Pack: center, Align: center
+    -   box-rgba                - arguments: R: 60, G: 3, B: 12, Opacity: 0.23, Color: #3C3C3C
+    -   box-shadow              - arguments: X: 2px, Y: 2px, Blur: 5px, Color: rgba(0,0,0,.4)
+    -   box-sizing              - arguments: Type: border-box
+    -   columns                 - arguments: Count: 3, Gap: 10
+    -   double-borders          - arguments: Color One: #3C3C3C, Color Two: #999999, Radius: 0
+    -   flex                    - arguments: Value: 1
+    -   flip                    - arguments: ScaleX: -1
+    -   font-face               - arguments: Font Family: myFont, Eot File Src: myFont.eot, Woff File Src: myFont.woff, Ttf File Src: myFont.ttf
+    -   opacity                 - arguments: Opacity: 0.5
+    -   outline radius          - arguments: Radius: 5px
+    -   resize                  - arguments: Direction: both
+    -   rotate                  - arguments: Degree: 0, M11: 0, M12: 0, M21: 0, M22: 0
+    CSS Matrix Rotation Calculator http://www.boogdesign.com/examples/transforms/matrix-calculator.html
+    -   text-shadow             - arguments: X: 2px, Y: 2px, Blur: 5px, Color: rgba(0,0,0,.4)
+    -   transform               - arguments: Parameters: null
+    -   transition              - arguments: What: all, Length: 1s, Easing: ease-in-out
+    -   triple-borders          - arguments: Color One: #3C3C3C, Color Two: #999999, Color Three: #000000, Radius: 0
+
+------------------------------------------------------------- */
+/* BACKGROUND GRADIENT */
+/* BACKGROUND SIZE */
+/* BORDER RADIUS */
+/* BOX */
+/* BOX RGBA */
+/* BOX SHADOW */
+/* BOX SIZING */
+/* COLUMNS */
+/* DOUBLE BORDERS */
+/* FLEX */
+/* FLIP */
+/* FONT FACE */
+/* OPACITY */
+/* OUTLINE RADIUS */
+/* RESIZE */
+/* ROTATE*/
+/* TEXT SHADOW */
+/* TRANSFORM  */
+/* TRANSITION */
+/* TRIPLE BORDERS */
 .afa-m-roll .roll-list:before, .afa-m-imgshow .list:before, .afa-m-roll .roll-list:after, .afa-m-imgshow .list:after {
   content: " ";
   display: table; }
 .afa-m-roll .roll-list:after, .afa-m-imgshow .list:after {
   clear: both; }
+
+.afa-m-roll .box-theme-one .user-photo img {
+  display: block;
+  width: 100%;
+  height: auto; }
 
 .w-fade-in-out-wrapper-outer {
   position: relative; }
@@ -279,10 +429,12 @@
     right: 10px;
     font-size: 18px;
     line-height: 1.5;
-    border-radius: 15px;
     padding: 0 20px;
     background: #ffffff;
-    color: #7c9d1d; }
+    color: #7c9d1d;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    border-radius: 15px; }
   .afa-m-fe-imgshow .bottom .name {
     display: block;
     line-height: 20px;

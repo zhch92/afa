@@ -1,0 +1,11 @@
+.slidebox.slide-menu.skin01
+	ul.btn-list
+		-var items=['定制吧','找分享','找同伴','找攻略','找领队','找装备','找知识','全程管家']
+		-for(var i=0;i<items.length;i++)
+			case i
+				when 0
+					li
+						a.active(href="#")= items[i]
+				default
+					li
+						a(href="#")= items[i]

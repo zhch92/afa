@@ -1,3 +1,11 @@
+@charset "UTF-8";
+@import "variables";
+@import "mixins";
+@import "placeholders";
+
+/* --------------------------------------------------------------------------
+    推荐路线
+     -------------------------------------------------------------------------- */
 .icon{
 	display: inline-block;
 	text-decoration: none;
@@ -90,3 +98,23 @@
 	height: 30px;
 }
 
+.icon-h{
+	width: 30px;
+	height: 30px;
+	background:url('../img/icon/h.png') center no-repeat;
+}
+.icon-q{
+	width: 30px;
+	height: 30px;
+	background:url('../img/icon/q.png') center no-repeat;
+}
+.icon-a{
+	width: 30px;
+	height: 30px;
+	background:url('../img/icon/a.png') center no-repeat;
+}
+.icon-map{
+	width: 30px;
+	height: 30px;
+	background: url('../img/icon/map.png') center no-repeat;
+}
