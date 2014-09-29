@@ -471,19 +471,23 @@
 
 .afa-m-imgshow {
   background: #ffffff;
-  padding: 5px 0; }
+  padding: 5px 8px; }
   .afa-m-imgshow .list {
     margin-right: -8px; }
     .afa-m-imgshow .list .item {
       float: left;
       margin-right: 8px;
-      width: 234px; }
+      width: 230px; }
     .afa-m-imgshow .list .img {
       display: block;
       height: 150px;
       line-height: 150px;
       vertical-align: middle;
       text-align: center;
+      -moz-border-radius: 5px;
+      -webkit-border-radius: 5px;
+      border-radius: 5px;
+      overflow: hidden;
       -webkit-box-sizing: border-box;
       -moz-box-sizing: border-box;
       box-sizing: border-box;
@@ -796,7 +800,7 @@
     background: url("../img/icon/circle_bg_01.png") center no-repeat; }
 
 .day-item .afa-m-imgshow .item {
-  width: 224px; }
+  width: 220px; }
 
 .line-hr {
   height: 0;
@@ -913,7 +917,6 @@
 
 .blue-tooltip {
   color: #0d6396;
-  background: #ffffff;
   font-size: 30px;
   line-height: 2; }
   .blue-tooltip a {

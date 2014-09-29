@@ -48,3 +48,21 @@
         background:transparent url('../img/icon/search.png') 2px center no-repeat;
     }
 }
+
+.afa-h1{
+    font-size: 30px;
+}
+.afa-h2{
+    font-size: 20px;
+}
+.afa-h3{
+    font-size: 15px;
+}
+
+.list{
+    @extend %clearfix;
+    .item{
+        min-height: 1px;
+        float: left;
+    }
+}

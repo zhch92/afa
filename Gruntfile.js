@@ -39,7 +39,8 @@ module.exports = function(grunt) {
                     'css/equipment.css': 'build/sass/equipment.scss',
                     'css/team.css': 'build/sass/team.scss',
                     'css/afa_index.css': 'build/sass/afa_index.scss',
-                    'css/find_line.css': 'build/sass/find_line.scss'
+                    'css/find_line.css': 'build/sass/find_line.scss',
+                    'css/share.css': 'build/sass/share.scss'
                 }
             }
         },

@@ -1,0 +1,285 @@
+@charset "UTF-8";
+@import "variables";
+@import "mixins";
+@import "placeholders";
+
+/* ==========================================================================
+   引用模块
+   ========================================================================== */
+
+@import "pro/fade";
+@import "pro/wall";
+@import "pro/roll";
+@import "pro/custom_make";
+@import "pro/line";
+
+
+//找分享
+
+.share-line-user-box{
+	padding: 20px 0;
+	.w-block-a{
+		img{
+			display: block;
+			width:280px;
+			height: auto;
+			margin: 0 20px;
+		}
+	}
+	.afa-share-line-name{
+		background:#686665;
+		margin: 0 5px;
+		height: 40px;
+		color: #fff;
+		text-align: center;
+		.zh{
+			float: left;
+			width:80px;
+			text-align: left;
+			font-size: 20px;
+			line-height: 40px;
+			font-weight: bold;
+			text-indent: 20px;
+		}
+		.time{
+			width: 100px;
+		}
+		.en{
+			width: 128px;
+		}
+		.time,.en{
+			float: left;
+			text-align: center;
+			font-size: 15px;
+			line-height: 40px;
+		}
+	}
+	.share-down{
+		padding: 20px 0;
+		text-align: center;
+		input{
+			background:#d45f46;
+			color: #fff;
+			border: none;
+			outline: none;
+			font-size: 12px;
+			line-height: 30px;
+		}
+	}
+	.line-operate{
+		padding: 10px 0;
+	}
+	.share-user-name{
+		line-height: 80px;
+		b{
+			font-style: normal;
+			font-size: 15px;
+			color: #1791bf;
+		}
+		img{
+			width: 80px;
+			height: 80px;
+			padding: 5px;
+			vertical-align: top;
+			@include border-radius(100%);
+		}
+	}
+}
+.imgshow-share-box{
+	font-size: 14px;
+	.time{
+
+	}
+	.name{
+		text-align: right;
+	}
+	.line-text{
+
+	}
+}
+.share-line-tui{
+	.afa-h2{
+		font-size: #000;
+		text-indent: 20px;
+		a{
+			color: #000;
+		}
+	}
+}
+.i-want-to-share{
+	.afa-h2{
+		text-indent: 20px;
+		padding: 10px 0;
+	}
+	.share-nav{
+		.list{
+			height: 80px;
+			padding-left: 220px;
+			background:transparent url('../img/share_nav.png') center no-repeat;
+		}
+		.item{
+			width: 80px;
+			line-height: 80px;
+			margin-right: 20px;
+		}
+	}
+}
+
+.step-title{
+	font-size: 20px;
+	font-weight: normal;
+	line-height: 40px;
+}
+
+.share-go-wrapper{
+	.step-title{
+		i{
+			font-style: normal;
+		}
+	}
+	.b-b{
+		border: 1px solid $black;
+		@include border-radius(5px);
+	}
+	.share-step-list{
+
+	}
+	.share-choose-line{
+		.b-b{
+			padding: 5px;
+		}
+		.line-item{
+			@extend %clearfix;
+			margin: 5px 0;
+			.l-img{
+				float: left;
+				width: 100px;
+				height: 80px;
+				margin: 0 10px 0 0;
+				img{
+					width: 100%;
+					height: 100%;
+				}
+			}
+			.l-intr{
+				float: left;
+
+			}
+		}
+	}
+}
+.share-create-line{
+	.create-list{
+		padding: 5px;
+	}
+	.item{
+		position: relative;
+		margin: 10px 0;
+		.w-block-a,.w-block-b{
+			position: relative;
+		}
+		.unit{
+			position: absolute;
+			top: 5px;
+			left: 240px;
+		}
+		@extend %clearfix;
+		span.label{
+			display: inline-block;
+			width: 80px;
+		}
+		input{
+			height: 30px;
+			width: 180px;
+			background-color:$white;
+			border: none;
+			outline: none;
+			@include box-sizing(border-box);
+		}
+		.search{
+			padding-left: 30px;
+			background:$white url(../img/icon/search.png) no-repeat 5px center;
+		}
+		.calendar{
+			padding-right: 30px;
+			background:$white url(../img/icon/calendar.png) no-repeat right center;
+		}
+	}
+}	
+.share-create-title{
+	input{
+		background:$white;
+		@include border-radius(5px);
+		line-height: 30px;
+		padding: 4px 3px;
+		width: 100%;
+		@include box-sizing(border-box);
+	}
+}
+
+.block-input{
+	display: block;
+	background:$white;
+	@include border-radius(5px);
+	line-height: 30px;
+	padding: 4px 3px;
+	width: 100%;
+	@include box-sizing(border-box);
+}
+.block-btn{
+	display: block;
+	@include border-radius(5px);
+	line-height: 30px;
+	width: 100%;
+	@include box-sizing(border-box);
+}
+
+.share-create-content{
+	.day-list{
+		.step-title{
+			text-indent: 20px;
+		}
+		.day-title{
+			padding: 0;
+		}
+		.day-picture{
+			position: relative;
+			width: 400px;
+			height: 400px;
+			margin: 0 auto;
+			border: 1px solid;
+			@include border-radius(5px);
+			.add-pic{
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				width: 60px;
+				height: 60px;
+				font-weight: bolder;
+				font-size: 30px;
+				color: #000;
+				border: 1px solid;
+				margin: -30px 0 0 -30px;
+			}
+		}
+		.day-text{
+
+
+			.day-textarea{
+				padding: 3px;
+				width: 400px;
+				min-height: 150px;
+			}
+		}
+	}
+}
+.share-create-btn{
+	width: 200px;
+	margin: 0 auto;
+	input{
+		margin: 10px 0;
+		&.b{
+			background:#0d6396; 
+		}
+	}
+}

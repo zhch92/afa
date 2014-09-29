@@ -2,11 +2,213 @@ doctype html
 head
 	include _partial/head
 	link(rel="stylesheet", type="text/css", href="../css/lib/jquery-ui.min.css")
-	link(rel="stylesheet", type="text/css", href="../css/find_line.css")
+	link(rel="stylesheet", type="text/css", href="../css/share.css")
 body
 	include _partial/bg
 	#find_share
 		include _partial/header
 		.box
 			include _partial/slidebar
-			.contentbox
+			.contentbox.bg-gray
+				.afa-m-fe
+					h2.afa-module-title.afa-bg-m-title
+						span.t-chinese 精华推荐
+						span.t-english FIND-LINE
+					.afa-m-fe-content
+						include _partial/carousel.jade
+						+carousel("find_line_roll_1")
+							include _partial/roll_info_box
+						include _partial/list_img
+						+imglist('share_img_list_01')
+				.afa-m-fe
+					.w-grid-b.share-line-user-box
+						.w-block-a
+									img.line-img(src="../img/sanya.jpg", alt="")
+						.w-block-b
+							.afa-share-line-name.w-cf
+								.zh 三亚
+								.time 2014-09-29
+								.en  SANYA
+							.w-grid-b.w-tc.line-operate
+										.w-block-a
+											i.icon.icon-h
+											span.text 想去
+										.w-block-b
+											i.icon.icon-q
+											span.text 去过
+										.w-block-c
+											i.icon.icon-a
+											span.text 加入行程
+							.w-grid-a.share-down
+								.w-block-a
+									input(type="button",value="生成相同路线")
+								.w-block-b
+									input(type="button",value="下载路线")
+
+
+						.w-block-c
+							.w-wrapper.share-user-name
+								img(src="../img/tou.jpg", alt="")
+								| 来自<b>小童</b>的分享
+							p.share-user-info
+								|常住地：成都<br>
+								|性别：女<br>
+								|星座：射手座<br>
+								|年龄：23岁<br>
+				.afa-m-fe
+					h2.line-title
+						i.icon.bg_01 1
+						| 行程
+					.w-padding-wrapper
+						.day-item
+							.head-line-intr
+								.day-title
+									i.icon.bg_02 D1
+									span.text 第一天
+									h3.title 2014-09-24 09：00 成都双流机场集合 成都-新加坡-三亚
+								.afa-module-roll
+									include _partial/carousel
+									+carousel("afa_roll_line_01")
+									include _partial/roll_text
+									include _partial/list_img
+									+imglist('img_list_01')
+						hr.line-hr
+						.day-item
+							.head-line-intr
+								.day-title
+									i.icon.bg_02 D2
+									span.text 第二天
+									h3.title 2014-09-24 09：00 成都双流机场集合 成都-新加坡-三亚
+								.afa-module-roll
+									include _partial/carousel
+									+carousel("afa_roll_line_02")
+									include _partial/roll_text
+									include _partial/list_img
+									+imglist('img_list_01')
+						hr.line-hr
+				.afa-m-fe.share-line-tui
+					h2.afa-h2 相似路线分享推荐 
+						a(href="#") >>
+					include _partial/list_img
+					+imglist('share_img_list_02')
+						.w-grid-a.imgshow-share-box
+							.w-block-a.w2.time 15天
+							.w-block-b.w8.name.w-fr 三亚旅游
+							p.line-text
+								| 成都>三亚>情人岛>三亚
+				.afa-m-fe.i-want-to-share
+					h3.afa-h2 我也要分享
+					.w-padding-wrapper
+						.share-nav
+							h3.w-tc 分享流程
+							ul.list.w-tc
+								li.item 选择路线
+								li.item 创建标题
+								li.item 内容创建
+								li.item 提交创建
+								li.item 邀人力挺
+						.share-go-wrapper
+							ul.share-step-list
+								li.step-one
+									h4.step-title
+										i.icon.icon-small-cir 1
+										| 选择我的路线
+									.share-choose-line
+										ul.b-b
+											-for(var i=0;i<5;i++)
+												li.line-item.w-cf
+													.l-img
+														img(src="../img/jse.jpg", alt="")
+													.l-intr
+														p 路线：成都-沈阳-贵州-三亚
+														p 时间：2014-09-25——2014-09-30
+
+									.blue-tooltip 这儿没有想分享的路线？还可以自己创建其他的路线哦！
+								li.step-two
+									h4.step-title
+										i.icon.icon-small-cir 2
+										| 创建我的其他路线
+									.share-create-line
+										.create-list.b-b
+											.item
+												.w-grid-a
+													.w-block-a
+														span.label 出发地
+														input.search(type="text",placeholder="请输入出发地")
+													.w-block-b
+														span.label 目的地
+														input.search(type="text",placeholder="请输入目的地")
+											.item
+												span.label 经由
+												input(type="text")
+												input(type="text")
+												input(type="text")
+											.item
+												.w-grid-a
+													.w-block-a
+														span.label 出发日期
+														input.calendar(type="text",id="")
+													.w-block-b
+														span.label 返回日期
+														input.calendar(type="text")
+											
+											.item
+												.w-grid-a
+													.w-block-a
+														span.label 参加人数
+														label.unit(for="") 人
+														input(type="text")
+													.w-block-b
+														span.label 人均消费
+														label.unit(for="") 元
+														input(type="text")
+								li.step-three
+									h4.step-title
+										i.icon.icon-small-cir 3
+										| 创建我的标题栏，不超过30个字
+									.share-create-title
+										input(type="text")
+								li.step-four
+									h4.step-title
+										i.icon.icon-small-cir 4
+										| 内容创建
+									.share-create-content
+										h4.step-title 
+											i.icon.icon-small-cir A
+											| 记录行程
+										.day-list
+											h4.step-title 第一天
+											.day-title
+												input.block-input(type="text")
+											h4.step-title
+												i.icon.icon-small-cir B
+												| 上传图片
+											.day-picture
+												input.add-pic(type="button",value="+")
+											h4.step-title
+												i.icon.icon-small-cir C
+												| 写下你的感想
+											.day-text
+												h4.da-t 
+												textarea.day-textarea(name="", cols="30", rows="10",placeholder="不超过200字")
+							.w-wrapper
+								.share-create-btn
+									input.block-btn(type="button",value="+行程")
+									input.block-btn(type="button",value="提交")
+									input.block-btn(type="button",value="查看我的分享")
+
+
+
+
+
+											
+
+
+
+
+
+
+
+
+
+

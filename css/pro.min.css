@@ -47,10 +47,10 @@
 /* TRANSFORM  */
 /* TRANSITION */
 /* TRIPLE BORDERS */
-.box:before, .afa-f-list:before, .tab-list:before, .w-grid-a:before, .w-grid-b:before, .w-grid-c:before, .w-grid-d:before, .w-grid-e:before, .w-wrapper:before, .box:after, .afa-f-list:after, .tab-list:after, .w-grid-a:after, .w-grid-b:after, .w-grid-c:after, .w-grid-d:after, .w-grid-e:after, .w-wrapper:after {
+.box:before, .afa-f-list:before, .tab-list:before, .w-grid-a:before, .w-grid-b:before, .w-grid-c:before, .w-grid-d:before, .w-grid-e:before, .w-wrapper:before, .list:before, .box:after, .afa-f-list:after, .tab-list:after, .w-grid-a:after, .w-grid-b:after, .w-grid-c:after, .w-grid-d:after, .w-grid-e:after, .w-wrapper:after, .list:after {
   content: " ";
   display: table; }
-.box:after, .afa-f-list:after, .tab-list:after, .w-grid-a:after, .w-grid-b:after, .w-grid-c:after, .w-grid-d:after, .w-grid-e:after, .w-wrapper:after {
+.box:after, .afa-f-list:after, .tab-list:after, .w-grid-a:after, .w-grid-b:after, .w-grid-c:after, .w-grid-d:after, .w-grid-e:after, .w-wrapper:after, .list:after {
   clear: both; }
 
 /* ==========================================================================
@@ -248,10 +248,10 @@ a {
 /* TRANSFORM  */
 /* TRANSITION */
 /* TRIPLE BORDERS */
-.box:before, .afa-f-list:before, .tab-list:before, .w-grid-a:before, .w-grid-b:before, .w-grid-c:before, .w-grid-d:before, .w-grid-e:before, .w-wrapper:before, .box:after, .afa-f-list:after, .tab-list:after, .w-grid-a:after, .w-grid-b:after, .w-grid-c:after, .w-grid-d:after, .w-grid-e:after, .w-wrapper:after {
+.box:before, .afa-f-list:before, .tab-list:before, .w-grid-a:before, .w-grid-b:before, .w-grid-c:before, .w-grid-d:before, .w-grid-e:before, .w-wrapper:before, .list:before, .box:after, .afa-f-list:after, .tab-list:after, .w-grid-a:after, .w-grid-b:after, .w-grid-c:after, .w-grid-d:after, .w-grid-e:after, .w-wrapper:after, .list:after {
   content: " ";
   display: table; }
-.box:after, .afa-f-list:after, .tab-list:after, .w-grid-a:after, .w-grid-b:after, .w-grid-c:after, .w-grid-d:after, .w-grid-e:after, .w-wrapper:after {
+.box:after, .afa-f-list:after, .tab-list:after, .w-grid-a:after, .w-grid-b:after, .w-grid-c:after, .w-grid-d:after, .w-grid-e:after, .w-wrapper:after, .list:after {
   clear: both; }
 
 .box {
@@ -435,10 +435,10 @@ a {
 /* TRANSFORM  */
 /* TRANSITION */
 /* TRIPLE BORDERS */
-.box:before, .afa-f-list:before, .tab-list:before, .w-grid-a:before, .w-grid-b:before, .w-grid-c:before, .w-grid-d:before, .w-grid-e:before, .w-wrapper:before, .box:after, .afa-f-list:after, .tab-list:after, .w-grid-a:after, .w-grid-b:after, .w-grid-c:after, .w-grid-d:after, .w-grid-e:after, .w-wrapper:after {
+.box:before, .afa-f-list:before, .tab-list:before, .w-grid-a:before, .w-grid-b:before, .w-grid-c:before, .w-grid-d:before, .w-grid-e:before, .w-wrapper:before, .list:before, .box:after, .afa-f-list:after, .tab-list:after, .w-grid-a:after, .w-grid-b:after, .w-grid-c:after, .w-grid-d:after, .w-grid-e:after, .w-wrapper:after, .list:after {
   content: " ";
   display: table; }
-.box:after, .afa-f-list:after, .tab-list:after, .w-grid-a:after, .w-grid-b:after, .w-grid-c:after, .w-grid-d:after, .w-grid-e:after, .w-wrapper:after {
+.box:after, .afa-f-list:after, .tab-list:after, .w-grid-a:after, .w-grid-b:after, .w-grid-c:after, .w-grid-d:after, .w-grid-e:after, .w-wrapper:after, .list:after {
   clear: both; }
 
 /* --------------------------------------------------------------------------
@@ -598,6 +598,19 @@ a {
     border-radius: 2px;
     background: transparent url("../img/icon/search.png") 2px center no-repeat; }
 
+.afa-h1 {
+  font-size: 30px; }
+
+.afa-h2 {
+  font-size: 20px; }
+
+.afa-h3 {
+  font-size: 15px; }
+
+.list .item {
+  min-height: 1px;
+  float: left; }
+
 /* ==========================================================================
    阿尔法 项目 背景统一管理
    ========================================================================== */
@@ -606,5 +619,8 @@ a {
 
 .bg-white {
   background: #ffffff; }
+
+.bg-gray {
+  background: #e7e7e7; }
 
 /*# sourceMappingURL=pro.min.css.map */
