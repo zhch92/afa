@@ -10,8 +10,10 @@ html(lang="zh-cn")
     link(rel="stylesheet", type="text/css", href="./css/pro.min.css")
     link(rel="stylesheet", type="text/css", href="./css/index.css")
   body
+    .full-bg(style="background:url(./img/main_bg.jpg) no-repeat center;")
+      .full-bg.opacity-8
     #first-screen.full-screen.first-screen
-      .index-bg(style="background-image:url(img/123.jpg);")
+      //- .index-bg(style="background-image:url(./img/main_bg.jpg);")
       .welcome-info
         .afa-logo
           img(src="img/logo.png",alt="阿尔法logo")
@@ -21,8 +23,14 @@ html(lang="zh-cn")
       .afa-logo.index
         a(href="javascript:void(0);")
           img(src="img/logo.png", alt="")
+      .afa-i-center-in
+        .w-box
+          a(href="#") 注册
+          a(href="#") 登录
+          a(href="#") 个人中心
+          a(href="#") 论坛
       .full-screen.menu-nav
-        include _partial/bg
+        //- include _partial/bg
         .box.main
           .slidebox
           .contentbox.img-menu.afa-index
@@ -34,8 +42,63 @@ html(lang="zh-cn")
                       a(href="view/afa_index.html")
                         .title
                           h2
-                            b HIKING
-                            <br>徒步
+                            b 徒步
+                            <br>HIKING
+                          span.text.
+                            徒步旅行，去自己想去的地方
+                        img(src="img/index_default.jpg", alt="")
+                        .cover
+                  when 1
+                    li.img-item
+                      a(href="view/afa_index.html")
+                        .title
+                          h2
+                            b 骑行
+                            <br>RIDING
+                          span.text.
+                            徒步旅行，去自己想去的地方
+                        img(src="img/index_default.jpg", alt="")
+                        .cover
+                  when 2
+                    li.img-item
+                      a(href="view/afa_index.html")
+                        .title
+                          h2
+                            b 钓鱼
+                            <br>FISHING
+                          span.text.
+                            徒步旅行，去自己想去的地方
+                        img(src="img/index_default.jpg", alt="")
+                        .cover
+                  when 3
+                    li.img-item
+                      a(href="view/afa_index.html")
+                        .title
+                          h2
+                            b 自驾
+                            <br>SLEF-DRIVING
+                          span.text.
+                            徒步旅行，去自己想去的地方
+                        img(src="img/index_default.jpg", alt="")
+                        .cover
+                  when 4
+                    li.img-item
+                      a(href="view/afa_index.html")
+                        .title
+                          h2
+                            b 攀岩
+                            <br>CLIMBING
+                          span.text.
+                            徒步旅行，去自己想去的地方
+                        img(src="img/index_default.jpg", alt="")
+                        .cover
+                  when 5
+                    li.img-item
+                      a(href="view/afa_index.html")
+                        .title
+                          h2
+                            b 滑雪
+                            <br>SKIING
                           span.text.
                             徒步旅行，去自己想去的地方
                         img(src="img/index_default.jpg", alt="")
@@ -45,11 +108,22 @@ html(lang="zh-cn")
                         a(href="view/afa_index.html")
                           .title
                             h2
-                              b HIKING
-                              <br>徒步
+                              b 更多
+                              <br>MORE
                             span.text.
                               徒步旅行，去自己想去的地方
                           img(src="img/index_default.jpg", alt="")
                           .cover
           .slidebox
+
+      .footer.index
+        .w-cf.wrapper
+          .w-fl.copyright.
+            Copyright© 1999-2014, ctrip.com. All rights reserved. | ICP证：沪B2-20050130
+          .w-fr.friendlink
+            a(href="#", target="_blank") 关于我们 &nbsp;|&nbsp;
+            a(href="#", target="_blank") 媒体报道 &nbsp;|&nbsp;
+            a(href="#", target="_blank") 合作查询 &nbsp;|&nbsp;
+            a(href="#", target="_blank") 友情连接
+
     script(type="text/javascript", data-main="./js/index.js", src="./js/require.js")

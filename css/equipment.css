@@ -1,4 +1,3 @@
-/*font end base.css*/
 @charset "UTF-8";
 /* -------------------------------------------------------------
 
@@ -47,236 +46,419 @@
 /* TRANSFORM  */
 /* TRANSITION */
 /* TRIPLE BORDERS */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/_placeholders\.scss}line{font-family:\000039}}
 .afa-m-roll .roll-list:before, .afa-m-imgshow .list:before, .afa-m-roll .roll-list:after, .afa-m-imgshow .list:after {
   content: " ";
-  display: table; }
+  display: table;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/_placeholders\.scss}line{font-family:\0000314}}
 .afa-m-roll .roll-list:after, .afa-m-imgshow .list:after {
-  clear: both; }
+  clear: both;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/_placeholders\.scss}line{font-family:\0000349}}
 .afa-m-roll .box-theme-one .user-photo img {
   display: block;
   width: 100%;
-  height: auto; }
+  height: auto;
+}
 
 /* ==========================================================================
    引用模块
    ========================================================================== */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/pro\/_roll\.scss}line{font-family:\000031}}
 .afa-m-roll {
   position: relative;
   top: 0;
   left: 0;
   height: 400px;
-  overflow: hidden; }
-  .afa-m-roll .roll-list {
-    position: relative;
-    top: 0;
-    left: 0; }
-  .afa-m-roll .roll-item {
-    float: left;
-    height: 400px;
-    overflow: hidden; }
-    .afa-m-roll .roll-item a {
-      display: block;
-      border: 1px solid #949494;
-      height: 100%; }
-    .afa-m-roll .roll-item img {
-      width: 100%;
-      height: auto;
-      min-width: 958px;
-      max-width: 960px; }
-  .afa-m-roll .roll-btn-left, .afa-m-roll .roll-btn-right {
-    position: absolute;
-    top: 50%;
-    display: inline-block;
-    width: 30px;
-    height: 48px;
-    margin-top: -38px; }
-    .afa-m-roll .roll-btn-left:hover, .afa-m-roll .roll-btn-right:hover {
-      background-color: #fff;
-      background-color: rgba(255, 255, 255, 0.4); }
-  .afa-m-roll .roll-btn-left {
-    left: 10px;
-    background: transparent url(../img/icon/prev.png) center no-repeat; }
-  .afa-m-roll .roll-btn-right {
-    right: 10px;
-    background: transparent url(../img/icon/next.png) center no-repeat; }
-  .afa-m-roll .info-box {
-    position: absolute;
-    top: 80px;
-    right: 80px;
-    color: #000000;
-    font-size: 14px;
-    line-height: 1.5; }
-    .afa-m-roll .info-box .title {
-      text-align: center;
-      line-height: 2; }
-  .afa-m-roll .box-theme-one {
-    position: relative;
-    width: 300px;
-    height: 250px;
-    background: #ffffff;
-    background: rgba(255, 255, 255, 0.7); }
-    .afa-m-roll .box-theme-one .user-photo {
-      position: absolute;
-      top: -25px;
-      right: -30px;
-      z-index: 10;
-      width: 50px;
-      height: 50px;
-      margin: 0;
-      padding: 5px;
-      -moz-border-radius: 100%;
-      -webkit-border-radius: 100%;
-      border-radius: 100%;
-      overflow: hidden; }
-      .afa-m-roll .box-theme-one .user-photo img {
-        -moz-border-radius: 100%;
-        -webkit-border-radius: 100%;
-        border-radius: 100%; }
-    .afa-m-roll .box-theme-one .head {
-      position: relative;
-      color: #ffffff;
-      background: #000000;
-      font-size: 20px; }
-      .afa-m-roll .box-theme-one .head .time {
-        position: absolute;
-        top: 0;
-        left: 10px;
-        height: 40px;
-        line-height: 40px;
-        font-size: 18px; }
-      .afa-m-roll .box-theme-one .head .title {
-        text-align: center;
-        display: block;
-        width: 150px;
-        height: 40px;
-        overflow: hidden;
-        margin: 0 auto; }
-    .afa-m-roll .box-theme-one .content {
-      margin: 0 15px;
-      padding: 10px 0;
-      font-size: 14px;
-      line-height: 1.5; }
-      .afa-m-roll .box-theme-one .content .w-grid-a {
-        font-size: 16px; }
+  overflow: hidden;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/pro\/_roll\.scss}line{font-family:\000038}}
+.afa-m-roll .roll-list {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/pro\/_roll\.scss}line{font-family:\0000314}}
+.afa-m-roll .roll-item {
+  float: left;
+  height: 400px;
+  overflow: hidden;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/pro\/_roll\.scss}line{font-family:\0000318}}
+.afa-m-roll .roll-item a {
+  display: block;
+  border: 1px solid #949494;
+  height: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/pro\/_roll\.scss}line{font-family:\0000323}}
+.afa-m-roll .roll-item img {
+  width: 100%;
+  height: auto;
+  min-width: 958px;
+  max-width: 960px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/pro\/_roll\.scss}line{font-family:\0000330}}
+.afa-m-roll .roll-btn-left, .afa-m-roll .roll-btn-right {
+  position: absolute;
+  top: 50%;
+  display: inline-block;
+  width: 30px;
+  height: 48px;
+  margin-top: -38px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/pro\/_roll\.scss}line{font-family:\0000337}}
+.afa-m-roll .roll-btn-left:hover, .afa-m-roll .roll-btn-right:hover {
+  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.4);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/pro\/_roll\.scss}line{font-family:\0000342}}
+.afa-m-roll .roll-btn-left {
+  left: 10px;
+  background: transparent url(../img/icon/prev.png) center no-repeat;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/pro\/_roll\.scss}line{font-family:\0000346}}
+.afa-m-roll .roll-btn-right {
+  right: 10px;
+  background: transparent url(../img/icon/next.png) center no-repeat;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/pro\/_roll\.scss}line{font-family:\0000350}}
+.afa-m-roll .info-box {
+  position: absolute;
+  top: 80px;
+  right: 80px;
+  color: #000000;
+  font-size: 14px;
+  line-height: 1.5;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/pro\/_roll\.scss}line{font-family:\0000357}}
+.afa-m-roll .info-box .title {
+  text-align: center;
+  line-height: 2;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/pro\/_roll\.scss}line{font-family:\0000362}}
+.afa-m-roll .box-theme-one {
+  position: relative;
+  width: 300px;
+  height: 250px;
+  background: #ffffff;
+  background: rgba(255, 255, 255, 0.7);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/pro\/_roll\.scss}line{font-family:\0000368}}
+.afa-m-roll .box-theme-one .user-photo {
+  position: absolute;
+  top: -25px;
+  right: -30px;
+  z-index: 10;
+  width: 50px;
+  height: 50px;
+  margin: 0;
+  padding: 5px;
+  -moz-border-radius: 100%;
+  -webkit-border-radius: 100%;
+  border-radius: 100%;
+  overflow: hidden;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/pro\/_roll\.scss}line{font-family:\0000379}}
+.afa-m-roll .box-theme-one .user-photo img {
+  -moz-border-radius: 100%;
+  -webkit-border-radius: 100%;
+  border-radius: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/pro\/_roll\.scss}line{font-family:\0000384}}
+.afa-m-roll .box-theme-one .head {
+  position: relative;
+  color: #ffffff;
+  background: #000000;
+  font-size: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/pro\/_roll\.scss}line{font-family:\0000389}}
+.afa-m-roll .box-theme-one .head .time {
+  position: absolute;
+  top: 0;
+  left: 10px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 18px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/pro\/_roll\.scss}line{font-family:\0000397}}
+.afa-m-roll .box-theme-one .head .title {
+  text-align: center;
+  display: block;
+  width: 150px;
+  height: 40px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/pro\/_roll\.scss}line{font-family:\00003106}}
+.afa-m-roll .box-theme-one .content {
+  margin: 0 15px;
+  padding: 10px 0;
+  font-size: 14px;
+  line-height: 1.5;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/pro\/_roll\.scss}line{font-family:\00003111}}
+.afa-m-roll .box-theme-one .content .w-grid-a {
+  font-size: 16px;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/pro\/_roll\.scss}line{font-family:\00003117}}
 .afa-m-text {
   position: relative;
-  padding: 20px 100px; }
-  .afa-m-text .item {
-    position: relative; }
-  .afa-m-text .user-photo {
-    position: absolute;
-    left: -20px;
-    top: 0;
-    width: 50px;
-    height: 50px;
-    -moz-border-radius: 100px;
-    -webkit-border-radius: 100px;
-    border-radius: 100px;
-    overflow: hidden; }
-    .afa-m-text .user-photo img {
-      width: 100%;
-      height: auto; }
-  .afa-m-text .user-operate {
-    text-align: right;
-    margin: 10px 0; }
-    .afa-m-text .user-operate a {
-      line-height: 34px;
-      padding: 0 5px; }
-      .afa-m-text .user-operate a i {
-        vertical-align: middle;
-        margin: 0 3px 0 0; }
-  .afa-m-text .t-content {
-    font-size: 12px;
-    padding: 0 20px;
-    line-height: 1.5; }
-  .afa-m-text .roll-btn-b-left, .afa-m-text .roll-btn-b-right {
-    position: absolute;
-    top: 50%;
-    margin-top: -18px; }
-  .afa-m-text .roll-btn-b-left {
-    left: 10px; }
-  .afa-m-text .roll-btn-b-right {
-    right: 10px; }
+  padding: 20px 100px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/pro\/_roll\.scss}line{font-family:\00003120}}
+.afa-m-text .item {
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/pro\/_roll\.scss}line{font-family:\00003123}}
+.afa-m-text .user-photo {
+  position: absolute;
+  left: -20px;
+  top: 0;
+  width: 50px;
+  height: 50px;
+  -moz-border-radius: 100px;
+  -webkit-border-radius: 100px;
+  border-radius: 100px;
+  overflow: hidden;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/pro\/_roll\.scss}line{font-family:\00003131}}
+.afa-m-text .user-photo img {
+  width: 100%;
+  height: auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/pro\/_roll\.scss}line{font-family:\00003136}}
+.afa-m-text .user-operate {
+  text-align: right;
+  margin: 10px 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/pro\/_roll\.scss}line{font-family:\00003139}}
+.afa-m-text .user-operate a {
+  line-height: 34px;
+  padding: 0 5px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/pro\/_roll\.scss}line{font-family:\00003142}}
+.afa-m-text .user-operate a i {
+  vertical-align: middle;
+  margin: 0 3px 0 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/pro\/_roll\.scss}line{font-family:\00003148}}
+.afa-m-text .t-content {
+  font-size: 15px;
+  padding: 0 20px;
+  line-height: 1.5;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/pro\/_roll\.scss}line{font-family:\00003153}}
+.afa-m-text .roll-btn-b-left, .afa-m-text .roll-btn-b-right {
+  position: absolute;
+  top: 50%;
+  margin-top: -18px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/pro\/_roll\.scss}line{font-family:\00003158}}
+.afa-m-text .roll-btn-b-left {
+  left: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/pro\/_roll\.scss}line{font-family:\00003161}}
+.afa-m-text .roll-btn-b-right {
+  right: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/pro\/_roll\.scss}line{font-family:\00003164}}
+.afa-m-text .show-bottom {
+  margin: 10px 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/pro\/_roll\.scss}line{font-family:\00003166}}
+.afa-m-text .show-bottom a {
+  padding: 0 0 0 15px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/pro\/_roll\.scss}line{font-family:\00003170}}
+.afa-m-text .icon {
+  vertical-align: middle;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/pro\/_roll\.scss}line{font-family:\00003174}}
 .afa-m-imgshow {
+  padding: 5px 8px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/pro\/_roll\.scss}line{font-family:\00003177}}
+.afa-m-imgshow .list {
+  margin-right: -8px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/pro\/_roll\.scss}line{font-family:\00003180}}
+.afa-m-imgshow .list .item {
+  float: left;
+  margin-right: 8px;
+  width: 230px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/pro\/_roll\.scss}line{font-family:\00003185}}
+.afa-m-imgshow .list .img {
+  position: relative;
+  display: block;
+  height: 150px;
+  line-height: 150px;
+  vertical-align: middle;
+  text-align: center;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  overflow: hidden;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 1px solid #eeeeee;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/pro\/_roll\.scss}line{font-family:\00003196}}
+.afa-m-imgshow .list .img img {
+  width: 100%;
+  height: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/pro\/_roll\.scss}line{font-family:\00003200}}
+.afa-m-imgshow .list .img .user {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 54px;
+  padding: 0 0 0 55px;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  color: #ffffff;
+  font-size: 12px;
+  text-align: left;
+  background: rgba(0, 0, 0, 0.7);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/pro\/_roll\.scss}line{font-family:\00003213}}
+.afa-m-imgshow .list .img .user img {
+  position: absolute;
+  left: 5px;
+  bottom: 5px;
+  width: 40px;
+  height: 40px;
+  padding: 2px;
   background: #ffffff;
-  padding: 5px 8px; }
-  .afa-m-imgshow .list {
-    margin-right: -8px; }
-    .afa-m-imgshow .list .item {
-      float: left;
-      margin-right: 8px;
-      width: 230px; }
-    .afa-m-imgshow .list .img {
-      display: block;
-      height: 150px;
-      line-height: 150px;
-      vertical-align: middle;
-      text-align: center;
-      -moz-border-radius: 5px;
-      -webkit-border-radius: 5px;
-      border-radius: 5px;
-      overflow: hidden;
-      -webkit-box-sizing: border-box;
-      -moz-box-sizing: border-box;
-      box-sizing: border-box;
-      border: 1px solid #eeeeee; }
-      .afa-m-imgshow .list .img img {
-        width: 100%;
-        height: 100%; }
-    .afa-m-imgshow .list .user {
-      position: relative;
-      text-align: right;
-      margin: 0 0 20px 0;
-      line-height: 30px; }
-      .afa-m-imgshow .list .user .tou {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 30px;
-        height: 30px;
-        -moz-border-radius: 30px;
-        -webkit-border-radius: 30px;
-        border-radius: 30px;
-        border: 2px solid #ffffff; }
-      .afa-m-imgshow .list .user a i {
-        vertical-align: middle;
-        margin: -2px 3px 0 3px; }
-    .afa-m-imgshow .list .hotel-info {
-      position: relative; }
-      .afa-m-imgshow .list .hotel-info .col-md-8, .afa-m-imgshow .list .hotel-info .col-md-4, .afa-m-imgshow .list .hotel-info .col-md-12 {
-        padding: 0; }
-      .afa-m-imgshow .list .hotel-info .name, .afa-m-imgshow .list .hotel-info .price {
-        font-family: "Microsoft YaHei"; }
-      .afa-m-imgshow .list .hotel-info .name {
-        width: 150px;
-        height: 20px;
-        margin: 0 0 8px;
-        overflow: hidden; }
-        .afa-m-imgshow .list .hotel-info .name a {
-          color: #000000;
-          font-size: 14px;
-          font-weight: bold;
-          line-height: 20px; }
-          .afa-m-imgshow .list .hotel-info .name a:hover {
-            color: #ff7e00; }
-      .afa-m-imgshow .list .hotel-info .price {
-        position: absolute;
-        top: 0;
-        right: 15px;
-        text-align: right;
-        font-size: 14px;
-        color: #ff7e00; }
-        .afa-m-imgshow .list .hotel-info .price b {
-          font-size: 20px; }
-      .afa-m-imgshow .list .hotel-info .address {
-        height: 20px;
-        line-height: 20px;
-        overflow: hidden;
-        font-size: 12px;
-        margin: 0 0 10px; }
+  -moz-border-radius: 100%;
+  -webkit-border-radius: 100%;
+  border-radius: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/pro\/_roll\.scss}line{font-family:\00003222}}
+.afa-m-imgshow .list .img .user .name, .afa-m-imgshow .list .img .user .time {
+  line-height: 1;
+  display: block;
+  padding: 5px 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/pro\/_roll\.scss}line{font-family:\00003227}}
+.afa-m-imgshow .list .img .user .name {
+  font-size: 14px;
+  padding-top: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/pro\/_roll\.scss}line{font-family:\00003231}}
+.afa-m-imgshow .list .img .user .time {
+  font-size: 12px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/pro\/_roll\.scss}line{font-family:\00003236}}
+.afa-m-imgshow .list .user {
+  position: relative;
+  margin: 0 0 20px 0;
+  line-height: 30px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/pro\/_roll\.scss}line{font-family:\00003240}}
+.afa-m-imgshow .list .user .tou {
+  width: 30px;
+  height: 30px;
+  -moz-border-radius: 30px;
+  -webkit-border-radius: 30px;
+  border-radius: 30px;
+  border: 2px solid #ffffff;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/pro\/_roll\.scss}line{font-family:\00003250}}
+.afa-m-imgshow .list .user a i {
+  vertical-align: middle;
+  margin: -2px 3px 0 3px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/pro\/_roll\.scss}line{font-family:\00003256}}
+.afa-m-imgshow .list .hotel-info {
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/pro\/_roll\.scss}line{font-family:\00003258}}
+.afa-m-imgshow .list .hotel-info .col-md-8, .afa-m-imgshow .list .hotel-info .col-md-4, .afa-m-imgshow .list .hotel-info .col-md-12 {
+  padding: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/pro\/_roll\.scss}line{font-family:\00003261}}
+.afa-m-imgshow .list .hotel-info .name, .afa-m-imgshow .list .hotel-info .price {
+  font-family: "Microsoft YaHei";
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/pro\/_roll\.scss}line{font-family:\00003264}}
+.afa-m-imgshow .list .hotel-info .name {
+  width: 150px;
+  height: 20px;
+  margin: 0 0 8px;
+  overflow: hidden;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/pro\/_roll\.scss}line{font-family:\00003269}}
+.afa-m-imgshow .list .hotel-info .name a {
+  color: #000000;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/pro\/_roll\.scss}line{font-family:\00003274}}
+.afa-m-imgshow .list .hotel-info .name a:hover {
+  color: #ff7e00;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/pro\/_roll\.scss}line{font-family:\00003279}}
+.afa-m-imgshow .list .hotel-info .price {
+  position: absolute;
+  top: 0;
+  right: 15px;
+  text-align: right;
+  font-size: 14px;
+  color: #ff7e00;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/pro\/_roll\.scss}line{font-family:\00003286}}
+.afa-m-imgshow .list .hotel-info .price b {
+  font-size: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/pro\/_roll\.scss}line{font-family:\00003290}}
+.afa-m-imgshow .list .hotel-info .address {
+  height: 20px;
+  line-height: 20px;
+  overflow: hidden;
+  font-size: 12px;
+  margin: 0 0 10px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/pro\/_roll\.scss}line{font-family:\00003303}}
+.afa-line-sim-intr.one {
+  font-size: 12px;
+  line-height: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/pro\/_roll\.scss}line{font-family:\00003306}}
+.afa-line-sim-intr.one .addr {
+  font-size: 14px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/pro\/_roll\.scss}line{font-family:\00003309}}
+.afa-line-sim-intr.one b {
+  font-style: normal;
+  font-size: 14px;
+  font-weight: normal;
+  color: #0d6396;
+  vertical-align: middle;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/pro\/_roll\.scss}line{font-family:\00003317}}
+.afa-line-sim-intr.two {
+  font-size: 12px;
+  line-height: 20px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/pro\/_roll\.scss}line{font-family:\00003323}}
+.list-img-bottom-text {
+  font-size: 14px;
+  height: 60px;
+  overflow: hidden;
+}
 
 /* -------------------------------------------------------------
 
@@ -325,70 +507,98 @@
 /* TRANSFORM  */
 /* TRANSITION */
 /* TRIPLE BORDERS */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/_placeholders\.scss}line{font-family:\000039}}
 .afa-m-roll .roll-list:before, .afa-m-imgshow .list:before, .afa-m-roll .roll-list:after, .afa-m-imgshow .list:after {
   content: " ";
-  display: table; }
+  display: table;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/_placeholders\.scss}line{font-family:\0000314}}
 .afa-m-roll .roll-list:after, .afa-m-imgshow .list:after {
-  clear: both; }
+  clear: both;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/_placeholders\.scss}line{font-family:\0000349}}
 .afa-m-roll .box-theme-one .user-photo img {
   display: block;
   width: 100%;
-  height: auto; }
+  height: auto;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/pro\/_fade\.scss}line{font-family:\000037}}
 .w-fade-in-out-wrapper-outer {
-  position: relative; }
-  .w-fade-in-out-wrapper-outer .wrapper-list {
-    position: relative;
-    height: 400px;
-    overflow: hidden; }
-  .w-fade-in-out-wrapper-outer .img-item {
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 1;
-    width: 100%;
-    height: 400px;
-    overflow: hidden; }
-    .w-fade-in-out-wrapper-outer .img-item a {
-      display: block; }
-      .w-fade-in-out-wrapper-outer .img-item a img {
-        display: block;
-        width: 100%;
-        height: auto; }
-    .w-fade-in-out-wrapper-outer .img-item .desc {
-      position: absolute;
-      bottom: 0;
-      left: 0;
-      width: 100%;
-      background: rgba(0, 0, 0, 0.6);
-      background: #000 \9;
-      filter: alpha(opacity=60);
-      color: #ffffff; }
-      .w-fade-in-out-wrapper-outer .img-item .desc h3 {
-        line-height: 2;
-        font-size: 30px;
-        padding: 0 20px; }
-      .w-fade-in-out-wrapper-outer .img-item .desc p {
-        font-size: 12px;
-        line-height: 1.5;
-        padding: 0 20px 20px 20px;
-        margin: 0; }
-  .w-fade-in-out-wrapper-outer .control-view {
-    position: absolute;
-    bottom: 10px;
-    left: 0;
-    width: 100%;
-    height: 13px;
-    z-index: 50;
-    text-align: center; }
-    .w-fade-in-out-wrapper-outer .control-view a {
-      display: inline-block;
-      width: 13px;
-      height: 13px;
-      background: url(../img/icon/circle.png) no-repeat 0 0; }
-      .w-fade-in-out-wrapper-outer .control-view a.current {
-        background-position: -16px 0; }
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/pro\/_fade\.scss}line{font-family:\0000310}}
+.w-fade-in-out-wrapper-outer .wrapper-list {
+  position: relative;
+  height: 400px;
+  overflow: hidden;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/pro\/_fade\.scss}line{font-family:\0000315}}
+.w-fade-in-out-wrapper-outer .img-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/pro\/_fade\.scss}line{font-family:\0000325}}
+.w-fade-in-out-wrapper-outer .img-item a {
+  display: block;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/pro\/_fade\.scss}line{font-family:\0000327}}
+.w-fade-in-out-wrapper-outer .img-item a img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/pro\/_fade\.scss}line{font-family:\0000334}}
+.w-fade-in-out-wrapper-outer .img-item .desc {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  background: #000 \9;
+  filter: alpha(opacity=60);
+  color: #ffffff;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/pro\/_fade\.scss}line{font-family:\0000346}}
+.w-fade-in-out-wrapper-outer .img-item .desc h3 {
+  line-height: 2;
+  font-size: 30px;
+  padding: 0 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/pro\/_fade\.scss}line{font-family:\0000351}}
+.w-fade-in-out-wrapper-outer .img-item .desc p {
+  font-size: 12px;
+  line-height: 1.5;
+  padding: 0 20px 20px 20px;
+  margin: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/pro\/_fade\.scss}line{font-family:\0000360}}
+.w-fade-in-out-wrapper-outer .control-view {
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  width: 100%;
+  height: 13px;
+  z-index: 50;
+  text-align: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/pro\/_fade\.scss}line{font-family:\0000371}}
+.w-fade-in-out-wrapper-outer .control-view a {
+  display: inline-block;
+  width: 13px;
+  height: 13px;
+  background: url(../img/icon/circle.png) no-repeat 0 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/pro\/_fade\.scss}line{font-family:\0000378}}
+.w-fade-in-out-wrapper-outer .control-view a.current {
+  background-position: -16px 0;
+}
 
 /* ==========================================================================
    找装备页面
@@ -399,71 +609,99 @@
 /* --------------------------------------------------------------------------
    找装备
    -------------------------------------------------------------------------- */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/equipment\.scss}line{font-family:\0000331}}
 .afa-m-fe-shop-name .name-img {
   display: block;
   margin: 0 auto;
   max-width: 100%;
-  height: auto; }
+  height: auto;
+}
 
 /* --------------------------------------------------------------------------
   	img show
    -------------------------------------------------------------------------- */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/equipment\.scss}line{font-family:\0000343}}
 .afa-m-fe-imgshow {
-  margin: 5px 0; }
-  .afa-m-fe-imgshow .item {
-    padding: 10px;
-    background: #424242;
-    box-sizing: border-box; }
-    .afa-m-fe-imgshow .item .img {
-      height: auto; }
-  .afa-m-fe-imgshow .img .price {
-    position: relative;
-    padding: 5px;
-    background: #7c9d1d;
-    line-height: 1.2;
-    color: #ffffff;
-    text-align: left; }
-    .afa-m-fe-imgshow .img .price p {
-      margin: 0;
-      line-height: 1.5; }
-  .afa-m-fe-imgshow .img .new-price {
-    font-size: 20px;
-    font-weight: bold; }
-  .afa-m-fe-imgshow .img .old-price {
-    font-size: 14px;
-    text-decoration: line-through; }
-  .afa-m-fe-imgshow .img .buy-btn {
-    position: absolute;
-    top: 15px;
-    right: 10px;
-    font-size: 18px;
-    line-height: 1.5;
-    padding: 0 20px;
-    background: #ffffff;
-    color: #7c9d1d;
-    -moz-border-radius: 15px;
-    -webkit-border-radius: 15px;
-    border-radius: 15px; }
-  .afa-m-fe-imgshow .bottom .name {
-    display: block;
-    line-height: 20px;
-    height: 40px;
-    padding: 5px 0;
-    overflow: hidden;
-    font-size: 14px;
-    color: #949494;
-    box-sizing: content-box; }
-  .afa-m-fe-imgshow .bottom .info {
-    padding: 0;
-    font-size: 12px;
-    padding-top: 10px; }
-    .afa-m-fe-imgshow .bottom .info .col-md-4, .afa-m-fe-imgshow .bottom .info .col-md-8 {
-      padding: 0;
-      line-height: 20px; }
-    .afa-m-fe-imgshow .bottom .info b, .afa-m-fe-imgshow .bottom .info i {
-      color: #7c9d1d;
-      font-style: normal; }
-    .afa-m-fe-imgshow .bottom .info b {
-      font-size: 16px; }
+  margin: 5px 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/equipment\.scss}line{font-family:\0000345}}
+.afa-m-fe-imgshow .item {
+  padding: 10px;
+  background: #424242;
+  box-sizing: border-box;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/equipment\.scss}line{font-family:\0000349}}
+.afa-m-fe-imgshow .item .img {
+  height: auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/equipment\.scss}line{font-family:\0000354}}
+.afa-m-fe-imgshow .img .price {
+  position: relative;
+  padding: 5px;
+  background: #7c9d1d;
+  line-height: 1.2;
+  color: #ffffff;
+  text-align: left;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/equipment\.scss}line{font-family:\0000361}}
+.afa-m-fe-imgshow .img .price p {
+  margin: 0;
+  line-height: 1.5;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/equipment\.scss}line{font-family:\0000366}}
+.afa-m-fe-imgshow .img .new-price {
+  font-size: 20px;
+  font-weight: bold;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/equipment\.scss}line{font-family:\0000370}}
+.afa-m-fe-imgshow .img .old-price {
+  font-size: 14px;
+  text-decoration: line-through;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/equipment\.scss}line{font-family:\0000374}}
+.afa-m-fe-imgshow .img .buy-btn {
+  position: absolute;
+  top: 15px;
+  right: 10px;
+  font-size: 18px;
+  line-height: 1.5;
+  padding: 0 20px;
+  background: #ffffff;
+  color: #7c9d1d;
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  border-radius: 15px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/equipment\.scss}line{font-family:\0000387}}
+.afa-m-fe-imgshow .bottom .name {
+  display: block;
+  line-height: 20px;
+  height: 40px;
+  padding: 5px 0;
+  overflow: hidden;
+  font-size: 14px;
+  color: #949494;
+  box-sizing: content-box;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/equipment\.scss}line{font-family:\0000397}}
+.afa-m-fe-imgshow .bottom .info {
+  padding: 0;
+  font-size: 12px;
+  padding-top: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/equipment\.scss}line{font-family:\00003101}}
+.afa-m-fe-imgshow .bottom .info .col-md-4, .afa-m-fe-imgshow .bottom .info .col-md-8 {
+  padding: 0;
+  line-height: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/equipment\.scss}line{font-family:\00003105}}
+.afa-m-fe-imgshow .bottom .info b, .afa-m-fe-imgshow .bottom .info i {
+  color: #7c9d1d;
+  font-style: normal;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/equipment\.scss}line{font-family:\00003109}}
+.afa-m-fe-imgshow .bottom .info b {
+  font-size: 16px;
+}
 
 /*# sourceMappingURL=equipment.css.map */

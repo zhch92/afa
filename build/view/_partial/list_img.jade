@@ -5,6 +5,10 @@ mixin imglist(listID)
 				li.item
 					.img
 						img(src="../img/list_img.jpg", alt="")
+						.user
+							img(src="../img/tou.jpg", alt="")
+							span.name 法国
+							span.time 2014-05-12
 					if block
 						block
 					else
@@ -16,3 +20,26 @@ mixin imglist(listID)
 							a(href="#")
 								i.icon.icon-comment
 								| 23
+
+
+mixin imglist_no_user(listID)
+	.afa-m-imgshow(id=listID)
+		ul.list
+			-for(var i=0;i<4;i++)
+				li.item
+					.img
+						img(src="../img/list_img.jpg", alt="")
+					if block
+						block
+					else
+						.user
+							.w-grid-a
+								.w-block-a
+									img.tou(src="../img/tou.jpg", alt="")
+								.w-block-b.w-tr
+									a(href="#")
+										i.icon.icon-like
+										| 34
+									a(href="#")
+										i.icon.icon-comment
+										| 23

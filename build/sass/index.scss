@@ -160,8 +160,44 @@
 	&.index{
 		position: absolute;
 		top:50px;
-		left: 20%;
+		left: 50%;
+		margin-left: -450px;
 		z-index: 999;
 	}
 }
+.afa-i-center-in{
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 100%;
+	z-index: 999;
+	text-align: right;
+	height: 30px;
+	line-height: 30px;
+	vertical-align: middle;
+	@include bgimage("../img/trans_8.png");
+	.w-box{
+		width: 960px;
+		height: 30px;
+		margin: 0 auto;
+		padding: 0;
+	}
+	a{
+		display: inline-block;
+		padding: 0 5px;
+		font-size: 12px;
+		color: $white;
+		text-decoration: none;
+		&:hover{
+			text-decoration: underline;
+		}
+	}
+}
 
+
+.footer.index{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+}

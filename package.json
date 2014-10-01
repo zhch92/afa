@@ -1,20 +1,24 @@
 {
-	"name": "project-name",
-	"description": "description",
-	"version": "0.1.0",
-	"private": true,
-	"author": {
-		"name": "huanhuan",
-		"email": "469973264@qq.com"
-	},
-	"devDependencies": {
-		"grunt": "~0.4.0",
-		"grunt-contrib-concat": "*",
-		"grunt-contrib-cssmin": "*",
-		"grunt-contrib-jshint": "^0.10.0",
-		"grunt-contrib-sass": "*",
-		"grunt-contrib-uglify": "*",
-		"grunt-contrib-watch": "*",
-		"grunt-contrib-jade": "*"
-	}
+  "name": "project-name",
+  "description": "description",
+  "version": "0.1.0",
+  "private": true,
+  "author": {
+    "name": "huanhuan",
+    "email": "469973264@qq.com"
+  },
+  "devDependencies": {
+    "connect-livereload": "^0.4.0",
+    "grunt": "~0.4.0",
+    "grunt-contrib-concat": "*",
+    "grunt-contrib-connect": "^0.8.0",
+    "grunt-contrib-cssmin": "*",
+    "grunt-contrib-jade": "*",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-sass": "*",
+    "grunt-contrib-uglify": "*",
+    "grunt-contrib-watch": "*",
+    "grunt-express": "^1.4.1",
+    "grunt-open": "~0.2.3"
+  }
 }

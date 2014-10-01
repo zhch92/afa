@@ -146,7 +146,7 @@
         }
     }
     .t-content {
-        font-size: 12px;
+        font-size: 15px;
         padding: 0 20px;
         line-height: 1.5;
     }
@@ -161,9 +161,18 @@
     .roll-btn-b-right {
         right: 10px;
     }
+    .show-bottom{
+        margin: 10px 0;
+        a{
+            padding: 0 0 0 15px;
+        }
+    }
+    .icon{
+        vertical-align: middle;
+    }
 }
 .afa-m-imgshow {
-    background: $white;
+    // background: $white;
     padding: 5px 8px;
     .list {
         @extend %clearfix;
@@ -174,6 +183,7 @@
             width: 230px;
         }
         .img {
+            position: relative;
             display: block;
             height: 150px;
             line-height: 150px;
@@ -187,16 +197,50 @@
                 width: 100%;
                 height: 100%;
             }
+            .user{
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                width: 100%;
+                height: 54px;
+                padding:0 0 0 55px;
+                margin: 0;
+                @include box-sizing(border-box);
+                color: $white;
+                font-size: 12px;
+                text-align: left;
+                background: rgba(#000,.7);
+                img{
+                    position: absolute;
+                    left: 5px;bottom: 5px;
+                    width: 40px;
+                    height: 40px;
+                    padding:2px;
+                    background: $white;
+                    @include border-radius(100%);
+                }
+                .name,.time{
+                    line-height: 1;
+                    display: block;
+                    padding: 5px 0;
+                }
+                .name{
+                    font-size: 14px;
+                    padding-top: 10px;
+                }
+                .time{
+                    font-size: 12px;
+                }
+            }
         }
         .user {
             position: relative;
-            text-align: right;
             margin: 0 0 20px 0;
             line-height: 30px;
             .tou {
-                position: absolute;
-                top: 0;
-                left: 0;
+                // position: absolute;
+                // top: 0;
+                // left: 0;
                 width: 30px;
                 height: 30px;
                 @include border-radius(30px);
@@ -252,4 +296,32 @@
             }
         }
     }
+}
+
+
+.afa-line-sim-intr{
+    &.one{
+        font-size: 12px;
+        line-height: 20px;
+        .addr{
+            font-size: 14px;
+        }
+        b{
+            font-style: normal;
+            font-size: 14px;
+            font-weight: normal;
+            color: #0d6396;
+            vertical-align: middle;
+        }
+    }
+    &.two{
+        font-size: 12px;
+        line-height: 20px;
+    }
+}
+
+.list-img-bottom-text{
+  font-size: 14px;
+  height: 60px;
+  overflow: hidden;
 }

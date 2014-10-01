@@ -21,6 +21,8 @@ body
 							include _partial/roll_info_box
 						include _partial/list_img
 						+imglist('img_list_01')
+							include _partial/list_img_bottom
+							+list-img-b-one()
 				.blue-tooltip.w-tc 这里没有你想去的路线吗？
 					a(href="#") 点击这里
 				.afa-m-fe
@@ -86,9 +88,11 @@ body
 									.afa-module-roll
 										include _partial/carousel
 										+carousel("afa_roll_line_01")
-										include _partial/roll_text
+										include _partial/user_comment_show
 										include _partial/list_img
-										+imglist('img_list_01')
+										+imglist_no_user('img_list_01')
+											include _partial/list_img_bottom
+											+list-img-b-two()
 
 								.content
 									.afa-module-hotel
@@ -105,7 +109,7 @@ body
 										+carousel("afa_hotel_roll_01")
 										include _partial/roll_text
 										include _partial/list_img
-										+imglist('img_list_01')
+										+imglist_no_user('img_list_01')
 
 									.afa-module-food
 										.m-day-head 美食
@@ -113,14 +117,14 @@ body
 										+carousel("afa_food_roll_01")
 										include _partial/roll_text
 										include _partial/list_img
-										+imglist('img_list_01')
+										+imglist_no_user('img_list_01')
 									.afa-module-techan
 										.m-day-head 特产
 										include _partial/carousel
 										+carousel("afa_techan_roll_01")
 										include _partial/roll_text
 										include _partial/list_img
-										+imglist('img_list_01')
+										+imglist_no_user('img_list_01')
 							hr.line-hr
 							.day-item
 								.head-line-intr
@@ -130,40 +134,44 @@ body
 										h3.title 2014-09-24 09：00 成都双流机场集合 成都-新加坡-三亚
 									.afa-module-roll
 										include _partial/carousel
-										+carousel("afa_roll_line_02")
-										include _partial/roll_text
+										+carousel("afa_roll_line_01")
+										include _partial/user_comment_show
 										include _partial/list_img
-										+imglist('img_list_01')
+										+imglist_no_user('img_list_01')
+											include _partial/list_img_bottom
+											+list-img-b-two()
+
 								.content
 									.afa-module-hotel
 										.m-day-head 住宿
 										.m-hotel-intr.w-grid-a
 											.w-block-a.w3
-												img.m-hotel-img(src="../img/hotel.jpg", alt="")
+												img.m-hotel-img(src="../img/hotel.jpg",alt="")
 											.w-block-b.w7
-												p.m-hotel-intr-text 金紫荆广场位于香港湾仔香港会议展览中心新翼人工岛上的东北部，是博览海滨花园的一部份。临近湾仔临时海滨花园及维多利亚港，是香港回归时，会议展览中心扩建工程之一部分。近年来成为部分中国内地旅客的必到香港旅游景点之一。1997年7月1日，中央政府赠送了特区政府一座名为“永远盛开的紫荆花”的贴金铜雕。此雕塑安放在新落成的会议展览中心新翼，在1997年7月1日早上由时任行政长官董建华及国务院副总理钱其琛主持揭幕式。雕塑寓意香港永远繁荣昌盛；铜雕高6米，重70吨，以青铜铸造，表面铺以金箔，以红色花岗岩作底座。基座圆柱方<br>底，寓意九州方圆，刻有长城图案，象征中国怀抱香港。 金紫荆广场位于香港湾仔香港会议展览中心新翼人工岛上的东北部，是博览海滨花园的一部份。临近湾仔临时海滨花园及维多利亚港，是香港回归时，会议展览中心扩建工程之一部分。近年来成为部分中国内地旅客的必到香港旅游景点之一。
-												.m-hotel-addr-map
+												p.m-hotel-intr-text 金紫荆广场位于香港湾仔香港会议展览中心新翼人工岛上的东北部，是博览海滨花园的一部份。临近湾仔临时海滨花园及维多利亚港，是香港回归时，会议展览中心扩建工程之一部分。近年来成为部分中国内地旅客的必到香港旅游景点之一。1997年7月1日，中央政府赠送了特区政府一座名为“永远盛开的紫荆花”的贴金铜雕。此雕塑安放在新落成的会议展览中心新翼，在1997年7月1日早上由时任行政长官董建华及国务院副总理钱其琛主持揭幕式。雕塑寓意香港永远繁荣昌盛；铜雕高6米，重70吨，以青铜铸造，表面铺以金箔，以红色花岗岩作底座。基座圆柱方底，寓意九州方圆，刻有长城图案，象征中国怀抱香港。 金紫荆广场位于香港湾仔香港会议展览中心新翼人工岛上的东北部，是博览海滨花园的一部份。临近湾仔临时海滨花园及维多利亚港，是香港回归时，会议展览中心扩建工程之一部分。近年来成为部分中国内地旅客的必到香港旅游景点之一。
+												.m-hotel-addr-map 
 													i.icon.icon-map
-													| 情人岛海滩
+													| 情人岛 海滩
 										include _partial/carousel
-										+carousel("afa_hotel_roll_02")
+										+carousel("afa_hotel_roll_01")
 										include _partial/roll_text
 										include _partial/list_img
-										+imglist('img_list_01')
+										+imglist_no_user('img_list_01')
+
 									.afa-module-food
 										.m-day-head 美食
 										include _partial/carousel
-										+carousel("afa_food_roll_02")
+										+carousel("afa_food_roll_01")
 										include _partial/roll_text
 										include _partial/list_img
-										+imglist('img_list_01')
+										+imglist_no_user('img_list_01')
 									.afa-module-techan
 										.m-day-head 特产
 										include _partial/carousel
-										+carousel("afa_techan_roll_02")
+										+carousel("afa_techan_roll_01")
 										include _partial/roll_text
 										include _partial/list_img
-										+imglist('img_list_01')
+										+imglist_no_user('img_list_01')
 							hr.line-hr
 						h2.line-title
 							i.icon.bg_01 2
@@ -239,9 +247,13 @@ body
 							友情提示：目的地相似的路线正在招募中！
 						include _partial/list_img
 						+imglist('img_list_01')
+							include _partial/list_img_bottom
+							+list-img-b-one()
 						.blue-tooltip.w-tc.
 							还有相同的出发日期哦！
 						include _partial/list_img
 						+imglist('img_list_01')
+							include _partial/list_img_bottom
+							+list-img-b-one()
 		include _partial/footer
 	script(type="text/javascript", data-main="../js/find_line" src="../js/require.js")

@@ -47,12 +47,12 @@
 /* TRANSITION */
 /* TRIPLE BORDERS */
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/_placeholders\.scss}line{font-family:\000039}}
-.afa-m-picwall .img-list:before, .afa-m-picwall ul:before, .afa-m-wall:before, .afa-m-wall .status-one .r-top:before, .afa-m-wall .status-one .r-bottom:before, .afa-m-wall ul:before, .afa-m-roll .roll-list:before, .afa-m-imgshow .list:before, .afa-m-picwall .img-list:after, .afa-m-picwall ul:after, .afa-m-wall:after, .afa-m-wall .status-one .r-top:after, .afa-m-wall .status-one .r-bottom:after, .afa-m-wall ul:after, .afa-m-roll .roll-list:after, .afa-m-imgshow .list:after {
+.afa-m-picwall .img-list:before, .afa-m-picwall ul:before, .afa-m-wall:before, .afa-m-wall .status-one .r-top:before, .afa-m-wall .status-one .r-bottom:before, .afa-m-wall ul:before, .afa-m-roll .roll-list:before, .afa-m-imgshow .list:before, .share-go-wrapper .share-choose-line .line-item:before, .share-create-line .item:before, .afa-m-picwall .img-list:after, .afa-m-picwall ul:after, .afa-m-wall:after, .afa-m-wall .status-one .r-top:after, .afa-m-wall .status-one .r-bottom:after, .afa-m-wall ul:after, .afa-m-roll .roll-list:after, .afa-m-imgshow .list:after, .share-go-wrapper .share-choose-line .line-item:after, .share-create-line .item:after {
   content: " ";
   display: table;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/_placeholders\.scss}line{font-family:\0000314}}
-.afa-m-picwall .img-list:after, .afa-m-picwall ul:after, .afa-m-wall:after, .afa-m-wall .status-one .r-top:after, .afa-m-wall .status-one .r-bottom:after, .afa-m-wall ul:after, .afa-m-roll .roll-list:after, .afa-m-imgshow .list:after {
+.afa-m-picwall .img-list:after, .afa-m-picwall ul:after, .afa-m-wall:after, .afa-m-wall .status-one .r-top:after, .afa-m-wall .status-one .r-bottom:after, .afa-m-wall ul:after, .afa-m-roll .roll-list:after, .afa-m-imgshow .list:after, .share-go-wrapper .share-choose-line .line-item:after, .share-create-line .item:after {
   clear: both;
 }
 
@@ -122,12 +122,12 @@
 /* TRANSITION */
 /* TRIPLE BORDERS */
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/_placeholders\.scss}line{font-family:\000039}}
-.afa-m-picwall .img-list:before, .afa-m-picwall ul:before, .afa-m-wall:before, .afa-m-wall .status-one .r-top:before, .afa-m-wall .status-one .r-bottom:before, .afa-m-wall ul:before, .afa-m-roll .roll-list:before, .afa-m-imgshow .list:before, .afa-m-picwall .img-list:after, .afa-m-picwall ul:after, .afa-m-wall:after, .afa-m-wall .status-one .r-top:after, .afa-m-wall .status-one .r-bottom:after, .afa-m-wall ul:after, .afa-m-roll .roll-list:after, .afa-m-imgshow .list:after {
+.afa-m-picwall .img-list:before, .afa-m-picwall ul:before, .afa-m-wall:before, .afa-m-wall .status-one .r-top:before, .afa-m-wall .status-one .r-bottom:before, .afa-m-wall ul:before, .afa-m-roll .roll-list:before, .afa-m-imgshow .list:before, .share-go-wrapper .share-choose-line .line-item:before, .share-create-line .item:before, .afa-m-picwall .img-list:after, .afa-m-picwall ul:after, .afa-m-wall:after, .afa-m-wall .status-one .r-top:after, .afa-m-wall .status-one .r-bottom:after, .afa-m-wall ul:after, .afa-m-roll .roll-list:after, .afa-m-imgshow .list:after, .share-go-wrapper .share-choose-line .line-item:after, .share-create-line .item:after {
   content: " ";
   display: table;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/_placeholders\.scss}line{font-family:\0000314}}
-.afa-m-picwall .img-list:after, .afa-m-picwall ul:after, .afa-m-wall:after, .afa-m-wall .status-one .r-top:after, .afa-m-wall .status-one .r-bottom:after, .afa-m-wall ul:after, .afa-m-roll .roll-list:after, .afa-m-imgshow .list:after {
+.afa-m-picwall .img-list:after, .afa-m-picwall ul:after, .afa-m-wall:after, .afa-m-wall .status-one .r-top:after, .afa-m-wall .status-one .r-bottom:after, .afa-m-wall ul:after, .afa-m-roll .roll-list:after, .afa-m-imgshow .list:after, .share-go-wrapper .share-choose-line .line-item:after, .share-create-line .item:after {
   clear: both;
 }
 
@@ -270,12 +270,12 @@
 /* TRANSITION */
 /* TRIPLE BORDERS */
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/_placeholders\.scss}line{font-family:\000039}}
-.afa-m-picwall .img-list:before, .afa-m-picwall ul:before, .afa-m-wall:before, .afa-m-wall .status-one .r-top:before, .afa-m-wall .status-one .r-bottom:before, .afa-m-wall ul:before, .afa-m-roll .roll-list:before, .afa-m-imgshow .list:before, .afa-m-picwall .img-list:after, .afa-m-picwall ul:after, .afa-m-wall:after, .afa-m-wall .status-one .r-top:after, .afa-m-wall .status-one .r-bottom:after, .afa-m-wall ul:after, .afa-m-roll .roll-list:after, .afa-m-imgshow .list:after {
+.afa-m-picwall .img-list:before, .afa-m-picwall ul:before, .afa-m-wall:before, .afa-m-wall .status-one .r-top:before, .afa-m-wall .status-one .r-bottom:before, .afa-m-wall ul:before, .afa-m-roll .roll-list:before, .afa-m-imgshow .list:before, .share-go-wrapper .share-choose-line .line-item:before, .share-create-line .item:before, .afa-m-picwall .img-list:after, .afa-m-picwall ul:after, .afa-m-wall:after, .afa-m-wall .status-one .r-top:after, .afa-m-wall .status-one .r-bottom:after, .afa-m-wall ul:after, .afa-m-roll .roll-list:after, .afa-m-imgshow .list:after, .share-go-wrapper .share-choose-line .line-item:after, .share-create-line .item:after {
   content: " ";
   display: table;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/_placeholders\.scss}line{font-family:\0000314}}
-.afa-m-picwall .img-list:after, .afa-m-picwall ul:after, .afa-m-wall:after, .afa-m-wall .status-one .r-top:after, .afa-m-wall .status-one .r-bottom:after, .afa-m-wall ul:after, .afa-m-roll .roll-list:after, .afa-m-imgshow .list:after {
+.afa-m-picwall .img-list:after, .afa-m-picwall ul:after, .afa-m-wall:after, .afa-m-wall .status-one .r-top:after, .afa-m-wall .status-one .r-bottom:after, .afa-m-wall ul:after, .afa-m-roll .roll-list:after, .afa-m-imgshow .list:after, .share-go-wrapper .share-choose-line .line-item:after, .share-create-line .item:after {
   clear: both;
 }
 
@@ -992,14 +992,661 @@
   background: #a1a1a0;
 }
 
-/* ==========================================================================
-   阿尔法 相应模块主页
-   ========================================================================== */
-/* --------------------------------------------------------------------------
-  
-   -------------------------------------------------------------------------- */
-/* --------------------------------------------------------------------------
-   
-   -------------------------------------------------------------------------- */
+/* -------------------------------------------------------------
 
-/*# sourceMappingURL=afa_index.css.map */
+  Mixins available:
+    -   background-gradient     - arguments: Start Color: #3C3C3C, End Color: #999999
+    -   background-size         - arguments: Width: 100%, Height: 100%
+    -   border-radius           - arguments: Radius: 5px
+    -   border-radius-separate  - arguments: Top Left: 5px, Top Left: 5px, Bottom Left: 5px, Bottom Right: 5px
+    -   box                     - arguments: Orientation: horizontal, Pack: center, Align: center
+    -   box-rgba                - arguments: R: 60, G: 3, B: 12, Opacity: 0.23, Color: #3C3C3C
+    -   box-shadow              - arguments: X: 2px, Y: 2px, Blur: 5px, Color: rgba(0,0,0,.4)
+    -   box-sizing              - arguments: Type: border-box
+    -   columns                 - arguments: Count: 3, Gap: 10
+    -   double-borders          - arguments: Color One: #3C3C3C, Color Two: #999999, Radius: 0
+    -   flex                    - arguments: Value: 1
+    -   flip                    - arguments: ScaleX: -1
+    -   font-face               - arguments: Font Family: myFont, Eot File Src: myFont.eot, Woff File Src: myFont.woff, Ttf File Src: myFont.ttf
+    -   opacity                 - arguments: Opacity: 0.5
+    -   outline radius          - arguments: Radius: 5px
+    -   resize                  - arguments: Direction: both
+    -   rotate                  - arguments: Degree: 0, M11: 0, M12: 0, M21: 0, M22: 0
+    CSS Matrix Rotation Calculator http://www.boogdesign.com/examples/transforms/matrix-calculator.html
+    -   text-shadow             - arguments: X: 2px, Y: 2px, Blur: 5px, Color: rgba(0,0,0,.4)
+    -   transform               - arguments: Parameters: null
+    -   transition              - arguments: What: all, Length: 1s, Easing: ease-in-out
+    -   triple-borders          - arguments: Color One: #3C3C3C, Color Two: #999999, Color Three: #000000, Radius: 0
+
+------------------------------------------------------------- */
+/* BACKGROUND GRADIENT */
+/* BACKGROUND SIZE */
+/* BORDER RADIUS */
+/* BOX */
+/* BOX RGBA */
+/* BOX SHADOW */
+/* BOX SIZING */
+/* COLUMNS */
+/* DOUBLE BORDERS */
+/* FLEX */
+/* FLIP */
+/* FONT FACE */
+/* OPACITY */
+/* OUTLINE RADIUS */
+/* RESIZE */
+/* ROTATE*/
+/* TEXT SHADOW */
+/* TRANSFORM  */
+/* TRANSITION */
+/* TRIPLE BORDERS */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/_placeholders\.scss}line{font-family:\000039}}
+.afa-m-picwall .img-list:before, .afa-m-picwall ul:before, .afa-m-wall:before, .afa-m-wall .status-one .r-top:before, .afa-m-wall .status-one .r-bottom:before, .afa-m-wall ul:before, .afa-m-roll .roll-list:before, .afa-m-imgshow .list:before, .share-go-wrapper .share-choose-line .line-item:before, .share-create-line .item:before, .afa-m-picwall .img-list:after, .afa-m-picwall ul:after, .afa-m-wall:after, .afa-m-wall .status-one .r-top:after, .afa-m-wall .status-one .r-bottom:after, .afa-m-wall ul:after, .afa-m-roll .roll-list:after, .afa-m-imgshow .list:after, .share-go-wrapper .share-choose-line .line-item:after, .share-create-line .item:after {
+  content: " ";
+  display: table;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/_placeholders\.scss}line{font-family:\0000314}}
+.afa-m-picwall .img-list:after, .afa-m-picwall ul:after, .afa-m-wall:after, .afa-m-wall .status-one .r-top:after, .afa-m-wall .status-one .r-bottom:after, .afa-m-wall ul:after, .afa-m-roll .roll-list:after, .afa-m-imgshow .list:after, .share-go-wrapper .share-choose-line .line-item:after, .share-create-line .item:after {
+  clear: both;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/_placeholders\.scss}line{font-family:\0000335}}
+.afa-m-wall img {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/_placeholders\.scss}line{font-family:\0000349}}
+.afa-m-roll .box-theme-one .user-photo img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* --------------------------------------------------------------------------
+    推荐路线
+     -------------------------------------------------------------------------- */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/pro\/_line\.scss}line{font-family:\0000311}}
+.line-recommend .line-img {
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/pro\/_line\.scss}line{font-family:\0000316}}
+.line-recommend .line-intr {
+  padding: 20px 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/pro\/_line\.scss}line{font-family:\0000321}}
+.line-recommend .line-intr > .w-block-b {
+  padding: 0 15px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/pro\/_line\.scss}line{font-family:\0000325}}
+.line-recommend .line-intr .bar {
+  background: #686665;
+  border: 1px solid #686665;
+  color: #ffffff;
+  text-align: center;
+  line-height: 30px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/pro\/_line\.scss}line{font-family:\0000331}}
+.line-recommend .line-intr .bar .btn-go {
+  float: right;
+  background: #ffffff;
+  color: #0d6396;
+  text-align: center;
+  line-height: 30px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/pro\/_line\.scss}line{font-family:\0000339}}
+.line-recommend .line-intr > .w-block-c {
+  font-size: 14px;
+  line-height: 2;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/pro\/_line\.scss}line{font-family:\0000343}}
+.line-recommend .line-intr .num-go {
+  font-size: 24px;
+  color: #0d6396;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/pro\/_line\.scss}line{font-family:\0000348}}
+.line-recommend .line-operate {
+  font-size: 12px;
+  padding: 10px 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/pro\/_line\.scss}line{font-family:\0000351}}
+.line-recommend .line-operate .w-block-a, .line-recommend .line-operate .w-block-b, .line-recommend .line-operate .w-block-c {
+  cursor: pointer;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/pro\/_line\.scss}line{font-family:\0000355}}
+.line-recommend .line-intr-text {
+  font-size: 14px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/pro\/_line\.scss}line{font-family:\0000357}}
+.line-recommend .line-intr-text h4 {
+  font-weight: normal;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/pro\/_line\.scss}line{font-family:\0000360}}
+.line-recommend .line-intr-text .text {
+  line-height: 1.8;
+  height: 200px;
+  overflow: hidden;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/pro\/_line\.scss}line{font-family:\0000366}}
+.line-recommend .show-all-btn {
+  color: #0d6396;
+  line-height: 2;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/pro\/_line\.scss}line{font-family:\0000371}}
+.lr-t-title {
+  font-size: 30px;
+  color: #086292;
+  margin: 10px 0;
+  padding-top: 30px;
+  font-family: "Microsoft YaHei", 微软雅黑, "MicrosoftJhengHei", 华文细黑, STHeiti, MingLiu;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/pro\/_line\.scss}line{font-family:\0000378}}
+.line-title {
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 50px;
+  padding-left: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/pro\/_line\.scss}line{font-family:\0000383}}
+.line-title .bg_01 {
+  width: 50px;
+  height: 50px;
+  margin: 0 10px 0 0;
+  text-align: center;
+  font-style: normal;
+  background: url("../img/icon/circle_bg_01.png") center no-repeat;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/pro\/_line\.scss}line{font-family:\0000394}}
+.day-item .afa-m-imgshow .item {
+  width: 220px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/pro\/_line\.scss}line{font-family:\0000399}}
+.line-hr {
+  height: 0;
+  border: none;
+  border-top: 1px dashed #cfd6d9;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/pro\/_line\.scss}line{font-family:\00003104}}
+.day-title {
+  padding: 10px 0 20px 40px;
+  line-height: 50px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/pro\/_line\.scss}line{font-family:\00003107}}
+.day-title h3 {
+  display: inline-block;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/pro\/_line\.scss}line{font-family:\00003110}}
+.day-title .bg_02 {
+  width: 50px;
+  height: 50px;
+  margin: 0 10px 0 0;
+  text-align: center;
+  font-style: normal;
+  color: #ffffff;
+  background: url("../img/icon/circle_bg_02.png") center no-repeat;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/pro\/_line\.scss}line{font-family:\00003121}}
+.m-day-head {
+  height: 80px;
+  text-indent: 20px;
+  font-size: 30px;
+  line-height: 80px;
+  color: #ffffff;
+  background: url(../img/bg_m_title.png) repeat;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/pro\/_line\.scss}line{font-family:\00003129}}
+.m-hotel-intr {
+  padding: 20px 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/pro\/_line\.scss}line{font-family:\00003131}}
+.m-hotel-intr .m-hotel-img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/pro\/_line\.scss}line{font-family:\00003139}}
+.m-hotel-intr-text {
+  height: 320px;
+  overflow: hidden;
+  padding: 0 10px 0 20px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/pro\/_line\.scss}line{font-family:\00003144}}
+.m-hotel-addr-map {
+  padding: 0 20px;
+  font-size: 14px;
+  line-height: 30px;
+}
+
+/***********************************/
+/***********************************/
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/pro\/_line\.scss}line{font-family:\00003155}}
+.afa-m-leader {
+  padding: 10px 0 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/pro\/_line\.scss}line{font-family:\00003158}}
+.afa-m-leader .zu-title {
+  text-indent: 10px;
+  padding-bottom: 5px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/pro\/_line\.scss}line{font-family:\00003164}}
+.leader-pic img {
+  display: block;
+  margin: 0 auto;
+  width: 200px;
+  height: 200px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/pro\/_line\.scss}line{font-family:\00003171}}
+.leader-info {
+  margin: 20px 0;
+  line-height: 2;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/pro\/_line\.scss}line{font-family:\00003174}}
+.leader-info .w-warapper {
+  padding: 20px 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/pro\/_line\.scss}line{font-family:\00003178}}
+.leader-intr {
+  padding: 0 20px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/pro\/_line\.scss}line{font-family:\00003182}}
+.leader-operate a {
+  display: block;
+  text-align: center;
+  width: 200px;
+  margin: 10px auto;
+  height: 30px;
+  line-height: 28px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 1px solid;
+  color: #000000;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/pro\/_line\.scss}line{font-family:\00003192}}
+.leader-operate a.bg {
+  border-color: transparent;
+  background: #849dcb;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/pro\/_line\.scss}line{font-family:\00003198}}
+.leader-zu-img {
+  padding: 0 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/pro\/_line\.scss}line{font-family:\00003200}}
+.leader-zu-img img {
+  display: block;
+  width: 604px;
+  height: 322px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/pro\/_line\.scss}line{font-family:\00003208}}
+.l-c-title {
+  font-size: 20px;
+  text-indent: 20px;
+  line-height: 2;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/pro\/_line\.scss}line{font-family:\00003214}}
+.afa-module-club .club-picture {
+  padding: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/pro\/_line\.scss}line{font-family:\00003216}}
+.afa-module-club .club-picture img {
+  display: block;
+  height: 200px;
+  overflow: hidden;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/pro\/_line\.scss}line{font-family:\00003222}}
+.afa-module-club .club-info {
+  margin: 20px 0 0 20px;
+  width: 80%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/pro\/_line\.scss}line{font-family:\00003226}}
+.afa-module-club .club-info tr.bg {
+  background: #eeeeee;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/pro\/_line\.scss}line{font-family:\00003230}}
+.afa-module-club .club-info td {
+  width: 50%;
+  line-height: 1.8;
+  text-indent: 10px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/pro\/_line\.scss}line{font-family:\00003238}}
+.blue-tooltip {
+  color: #0d6396;
+  font-size: 30px;
+  line-height: 2;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/pro\/_line\.scss}line{font-family:\00003242}}
+.blue-tooltip a {
+  color: #0d6396;
+  text-decoration: underline;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/strategy\.scss}line{font-family:\0000319}}
+.share-line-user-box {
+  padding: 20px 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/strategy\.scss}line{font-family:\0000322}}
+.share-line-user-box .w-block-a img {
+  display: block;
+  width: 280px;
+  height: auto;
+  margin: 0 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/strategy\.scss}line{font-family:\0000329}}
+.share-line-user-box .afa-share-line-name {
+  background: #686665;
+  margin: 0 5px;
+  height: 40px;
+  color: #fff;
+  text-align: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/strategy\.scss}line{font-family:\0000335}}
+.share-line-user-box .afa-share-line-name .zh {
+  float: left;
+  width: 80px;
+  text-align: left;
+  font-size: 20px;
+  line-height: 40px;
+  font-weight: bold;
+  text-indent: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/strategy\.scss}line{font-family:\0000344}}
+.share-line-user-box .afa-share-line-name .time {
+  width: 100px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/strategy\.scss}line{font-family:\0000347}}
+.share-line-user-box .afa-share-line-name .en {
+  width: 128px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/strategy\.scss}line{font-family:\0000350}}
+.share-line-user-box .afa-share-line-name .time, .share-line-user-box .afa-share-line-name .en {
+  float: left;
+  text-align: center;
+  font-size: 15px;
+  line-height: 40px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/strategy\.scss}line{font-family:\0000357}}
+.share-line-user-box .share-down {
+  padding: 20px 0;
+  text-align: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/strategy\.scss}line{font-family:\0000360}}
+.share-line-user-box .share-down input {
+  background: #d45f46;
+  color: #fff;
+  border: none;
+  outline: none;
+  font-size: 12px;
+  line-height: 30px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/strategy\.scss}line{font-family:\0000369}}
+.share-line-user-box .line-operate {
+  padding: 10px 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/strategy\.scss}line{font-family:\0000372}}
+.share-line-user-box .share-user-name {
+  line-height: 80px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/strategy\.scss}line{font-family:\0000374}}
+.share-line-user-box .share-user-name b {
+  font-style: normal;
+  font-size: 15px;
+  color: #1791bf;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/strategy\.scss}line{font-family:\0000379}}
+.share-line-user-box .share-user-name img {
+  width: 80px;
+  height: 80px;
+  padding: 5px;
+  vertical-align: top;
+  -moz-border-radius: 100%;
+  -webkit-border-radius: 100%;
+  border-radius: 100%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/strategy\.scss}line{font-family:\0000388}}
+.imgshow-share-box {
+  font-size: 14px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/strategy\.scss}line{font-family:\0000393}}
+.imgshow-share-box .name {
+  text-align: right;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/strategy\.scss}line{font-family:\00003101}}
+.share-line-tui .afa-h2 {
+  font-size: #000;
+  text-indent: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/strategy\.scss}line{font-family:\00003104}}
+.share-line-tui .afa-h2 a {
+  color: #000;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/strategy\.scss}line{font-family:\00003110}}
+.i-want-to-share .afa-h2 {
+  text-indent: 20px;
+  padding: 10px 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/strategy\.scss}line{font-family:\00003115}}
+.i-want-to-share .share-nav .list {
+  height: 80px;
+  padding-left: 220px;
+  background: transparent url("../img/share_nav.png") center no-repeat;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/strategy\.scss}line{font-family:\00003120}}
+.i-want-to-share .share-nav .item {
+  width: 80px;
+  line-height: 80px;
+  margin-right: 20px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/strategy\.scss}line{font-family:\00003128}}
+.step-title {
+  font-size: 20px;
+  font-weight: normal;
+  line-height: 40px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/strategy\.scss}line{font-family:\00003136}}
+.share-go-wrapper .step-title i {
+  font-style: normal;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/strategy\.scss}line{font-family:\00003140}}
+.share-go-wrapper .b-b {
+  border: 1px solid #000000;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/strategy\.scss}line{font-family:\00003148}}
+.share-go-wrapper .share-choose-line .b-b {
+  padding: 5px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/strategy\.scss}line{font-family:\00003151}}
+.share-go-wrapper .share-choose-line .line-item {
+  margin: 5px 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/strategy\.scss}line{font-family:\00003154}}
+.share-go-wrapper .share-choose-line .line-item .l-img {
+  float: left;
+  width: 100px;
+  height: 80px;
+  margin: 0 10px 0 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/strategy\.scss}line{font-family:\00003159}}
+.share-go-wrapper .share-choose-line .line-item .l-img img {
+  width: 100%;
+  height: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/strategy\.scss}line{font-family:\00003164}}
+.share-go-wrapper .share-choose-line .line-item .l-intr {
+  float: left;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/strategy\.scss}line{font-family:\00003172}}
+.share-create-line .create-list {
+  padding: 5px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/strategy\.scss}line{font-family:\00003175}}
+.share-create-line .item {
+  position: relative;
+  margin: 10px 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/strategy\.scss}line{font-family:\00003178}}
+.share-create-line .item .w-block-a, .share-create-line .item .w-block-b {
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/strategy\.scss}line{font-family:\00003181}}
+.share-create-line .item .unit {
+  position: absolute;
+  top: 5px;
+  left: 240px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/strategy\.scss}line{font-family:\00003187}}
+.share-create-line .item span.label {
+  display: inline-block;
+  width: 80px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/strategy\.scss}line{font-family:\00003191}}
+.share-create-line .item input {
+  height: 30px;
+  width: 180px;
+  background-color: #ffffff;
+  border: none;
+  outline: none;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/strategy\.scss}line{font-family:\00003199}}
+.share-create-line .item .search {
+  padding-left: 30px;
+  background: #ffffff url(../img/icon/search.png) no-repeat 5px center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/strategy\.scss}line{font-family:\00003203}}
+.share-create-line .item .calendar {
+  padding-right: 30px;
+  background: #ffffff url(../img/icon/calendar.png) no-repeat right center;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/strategy\.scss}line{font-family:\00003210}}
+.share-create-title input {
+  background: #ffffff;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  line-height: 30px;
+  padding: 4px 3px;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/strategy\.scss}line{font-family:\00003220}}
+.block-input {
+  display: block;
+  background: #ffffff;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  line-height: 30px;
+  padding: 4px 3px;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/strategy\.scss}line{font-family:\00003229}}
+.block-btn {
+  display: block;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  line-height: 30px;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/strategy\.scss}line{font-family:\00003239}}
+.share-create-content .day-list .step-title {
+  text-indent: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/strategy\.scss}line{font-family:\00003242}}
+.share-create-content .day-list .day-title {
+  padding: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/strategy\.scss}line{font-family:\00003245}}
+.share-create-content .day-list .day-picture {
+  position: relative;
+  width: 400px;
+  height: 400px;
+  margin: 0 auto;
+  border: 1px solid;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/strategy\.scss}line{font-family:\00003252}}
+.share-create-content .day-list .day-picture .add-pic {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 60px;
+  height: 60px;
+  font-weight: bolder;
+  font-size: 30px;
+  color: #000;
+  border: 1px solid;
+  margin: -30px 0 0 -30px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/strategy\.scss}line{font-family:\00003268}}
+.share-create-content .day-list .day-text .day-textarea {
+  padding: 3px;
+  width: 400px;
+  min-height: 150px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/strategy\.scss}line{font-family:\00003276}}
+.share-create-btn {
+  width: 200px;
+  margin: 0 auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/strategy\.scss}line{font-family:\00003279}}
+.share-create-btn input {
+  margin: 10px 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/strategy\.scss}line{font-family:\00003281}}
+.share-create-btn input.b {
+  background: #0d6396;
+}
+
+/*# sourceMappingURL=strategy.css.map */

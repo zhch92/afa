@@ -1,4 +1,3 @@
-/*font end base.css*/
 @charset "UTF-8";
 /* -------------------------------------------------------------
 
@@ -59,49 +58,75 @@
 /* --------------------------------------------------------------------------
    文章模块
    -------------------------------------------------------------------------- */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/knowledge\.scss}line{font-family:\0000320}}
 .afa-m-k-zixun-content {
-  background: #fafafa; }
+  background: #fafafa;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/knowledge\.scss}line{font-family:\0000324}}
 .travel-m-title h2 {
   font-size: 20px;
   font-weight: bold;
-  line-height: 3; }
+  line-height: 3;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/knowledge\.scss}line{font-family:\0000330}}
 .travel-text-intr {
   line-height: 2;
   font-size: 12px;
-  text-indent: 2em; }
-  .travel-text-intr span {
-    display: inline-block;
-    margin: 0 20px 0 0;
-    text-indent: 0; }
+  text-indent: 2em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/knowledge\.scss}line{font-family:\0000334}}
+.travel-text-intr span {
+  display: inline-block;
+  margin: 0 20px 0 0;
+  text-indent: 0;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/knowledge\.scss}line{font-family:\0000342}}
 .travel-text p {
-  text-indent: 2em; }
+  text-indent: 2em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/knowledge\.scss}line{font-family:\0000345}}
 .travel-text strong {
-  text-indent: 0; }
+  text-indent: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/knowledge\.scss}line{font-family:\0000348}}
 .travel-text p.intr-img {
   text-indent: 0;
-  text-align: center; }
-  .travel-text p.intr-img img {
-    max-width: 900px;
-    height: auto; }
+  text-align: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/knowledge\.scss}line{font-family:\0000351}}
+.travel-text p.intr-img img {
+  max-width: 900px;
+  height: auto;
+}
 
 /* --------------------------------------------------------------------------
    找常识
    -------------------------------------------------------------------------- */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/knowledge\.scss}line{font-family:\0000364}}
 .afa-m-k-chang-content {
-  background: #fafafa; }
-  .afa-m-k-chang-content .content-table {
-    width: 400px;
-    margin: 0 auto;
-    padding: 20px 0; }
-    .afa-m-k-chang-content .content-table tr {
-      height: 30px; }
-      .afa-m-k-chang-content .content-table tr th {
-        text-indent: 5px;
-        font-weight: normal; }
-      .afa-m-k-chang-content .content-table tr td {
-        text-align: center; }
+  background: #fafafa;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/knowledge\.scss}line{font-family:\0000366}}
+.afa-m-k-chang-content .content-table {
+  width: 400px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/knowledge\.scss}line{font-family:\0000370}}
+.afa-m-k-chang-content .content-table tr {
+  height: 30px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/knowledge\.scss}line{font-family:\0000372}}
+.afa-m-k-chang-content .content-table tr th {
+  text-indent: 5px;
+  font-weight: normal;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/knowledge\.scss}line{font-family:\0000376}}
+.afa-m-k-chang-content .content-table tr td {
+  text-align: center;
+}
 
 /*# sourceMappingURL=knowledge.css.map */

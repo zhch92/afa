@@ -1,4 +1,3 @@
-/*font end base.css*/
 @charset "UTF-8";
 /* -------------------------------------------------------------
 
@@ -47,11 +46,15 @@
 /* TRANSFORM  */
 /* TRANSITION */
 /* TRIPLE BORDERS */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/_placeholders\.scss}line{font-family:\000039}}
 .w-cf:before, .w-cf:after {
   content: " ";
-  display: table; }
+  display: table;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/_placeholders\.scss}line{font-family:\0000314}}
 .w-cf:after {
-  clear: both; }
+  clear: both;
+}
 
 /*! normalize.css v3.0.1 | MIT License | git.io/normalize */
 /**
@@ -59,19 +62,23 @@
 * 2. Prevent iOS text size adjust after orientation change, without disabling
 * user zoom.
 */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/_reset\.scss}line{font-family:\0000310}}
 html {
   font-family: sans-serif;
   /* 1 */
   -ms-text-size-adjust: 100%;
   /* 2 */
   -webkit-text-size-adjust: 100%;
-  /* 2 */ }
+  /* 2 */
+}
 
 /**
 * Remove default margin.
 */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/_reset\.scss}line{font-family:\0000320}}
 body {
-  margin: 0; }
+  margin: 0;
+}
 
 /* HTML5 display definitions
 ========================================================================== */
@@ -80,6 +87,7 @@ body {
 * Correct `block` display not defined for `details` or `summary` in IE 10/11 and Firefox.
 * Correct `block` display not defined for `main` in IE 11.
 */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/_reset\.scss}line{font-family:\0000333}}
 article,
 aside,
 details,
@@ -92,12 +100,14 @@ main,
 nav,
 section,
 summary {
-  display: block; }
+  display: block;
+}
 
 /**
 * 1. Correct `inline-block` display not defined in IE 8/9.
 * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
 */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/_reset\.scss}line{font-family:\0000353}}
 audio,
 canvas,
 progress,
@@ -105,142 +115,181 @@ video {
   display: inline-block;
   /* 1 */
   vertical-align: baseline;
-  /* 2 */ }
+  /* 2 */
+}
 
 /**
 * Prevent modern browsers from displaying `audio` without controls.
 * Remove excess height in iOS 5 devices.
 */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/_reset\.scss}line{font-family:\0000366}}
 audio:not([controls]) {
   display: none;
-  height: 0; }
+  height: 0;
+}
 
 /**
 * Address `[hidden]` styling not present in IE 8/9/10.
 * Hide the `template` element in IE 8/9/11, Safari, and Firefox < 22.
 */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/_reset\.scss}line{font-family:\0000376}}
 [hidden],
 template {
-  display: none; }
+  display: none;
+}
 
 /* Links
 ========================================================================== */
 /**
 * Remove the gray background color from active links in IE 10.
 */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/_reset\.scss}line{font-family:\0000388}}
 a {
-  background: transparent; }
+  background: transparent;
+}
 
 /**
 * Improve readability when focused and also mouse hovered in all browsers.
 */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/_reset\.scss}line{font-family:\0000396}}
 a:active,
 a:hover {
-  outline: 0; }
+  outline: 0;
+}
 
 /* Text-level semantics
 ========================================================================== */
 /**
 * Address styling not present in IE 8/9/10/11, Safari, and Chrome.
 */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/_reset\.scss}line{font-family:\00003108}}
 abbr[title] {
-  border-bottom: 1px dotted; }
+  border-bottom: 1px dotted;
+}
 
 /**
 * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
 */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/_reset\.scss}line{font-family:\00003116}}
 b,
 strong {
-  font-weight: bold; }
+  font-weight: bold;
+}
 
 /**
 * Address styling not present in Safari and Chrome.
 */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/_reset\.scss}line{font-family:\00003125}}
 dfn {
-  font-style: italic; }
+  font-style: italic;
+}
 
 /**
 * Address variable `h1` font-size and margin within `section` and `article`
 * contexts in Firefox 4+, Safari, and Chrome.
 */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/_reset\.scss}line{font-family:\00003134}}
 h1 {
   font-size: 2em;
-  margin: 0.67em 0; }
+  margin: 0.67em 0;
+}
 
 /**
 * Address styling not present in IE 8/9.
 */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/_reset\.scss}line{font-family:\00003143}}
 mark {
   background: #ff0;
-  color: #000; }
+  color: #000;
+}
 
 /**
 * Address inconsistent and variable font size in all browsers.
 */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/_reset\.scss}line{font-family:\00003152}}
 small {
-  font-size: 80%; }
+  font-size: 80%;
+}
 
 /**
 * Prevent `sub` and `sup` affecting `line-height` in all browsers.
 */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/_reset\.scss}line{font-family:\00003160}}
 sub,
 sup {
   font-size: 75%;
   line-height: 0;
   position: relative;
-  vertical-align: baseline; }
+  vertical-align: baseline;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/_reset\.scss}line{font-family:\00003168}}
 sup {
-  top: -0.5em; }
+  top: -0.5em;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/_reset\.scss}line{font-family:\00003172}}
 sub {
-  bottom: -0.25em; }
+  bottom: -0.25em;
+}
 
 /* Embedded content
 ========================================================================== */
 /**
 * Remove border when inside `a` element in IE 8/9/10.
 */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/_reset\.scss}line{font-family:\00003183}}
 img {
-  border: 0; }
+  border: 0;
+}
 
 /**
 * Correct overflow not hidden in IE 9/10/11.
 */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/_reset\.scss}line{font-family:\00003191}}
 svg:not(:root) {
-  overflow: hidden; }
+  overflow: hidden;
+}
 
 /* Grouping content
 ========================================================================== */
 /**
 * Address margin not present in IE 8/9 and Safari.
 */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/_reset\.scss}line{font-family:\00003202}}
 figure {
-  margin: 1em 40px; }
+  margin: 1em 40px;
+}
 
 /**
 * Address differences between Firefox and other browsers.
 */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/_reset\.scss}line{font-family:\00003210}}
 hr {
   -moz-box-sizing: content-box;
   box-sizing: content-box;
-  height: 0; }
+  height: 0;
+}
 
 /**
 * Contain overflow in all browsers.
 */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/_reset\.scss}line{font-family:\00003220}}
 pre {
-  overflow: auto; }
+  overflow: auto;
+}
 
 /**
 * Address odd `em`-unit font size rendering in all browsers.
 */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/_reset\.scss}line{font-family:\00003228}}
 code,
 kbd,
 pre,
 samp {
   font-family: monospace, monospace;
-  font-size: 1em; }
+  font-size: 1em;
+}
 
 /* Forms
 ========================================================================== */
@@ -254,6 +303,7 @@ samp {
 * 2. Correct font properties not being inherited.
 * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.
 */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/_reset\.scss}line{font-family:\00003251}}
 button,
 input,
 optgroup,
@@ -264,13 +314,16 @@ textarea {
   font: inherit;
   /* 2 */
   margin: 0;
-  /* 3 */ }
+  /* 3 */
+}
 
 /**
 * Address `overflow` set to `hidden` in IE 8/9/10/11.
 */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/_reset\.scss}line{font-family:\00003265}}
 button {
-  overflow: visible; }
+  overflow: visible;
+}
 
 /**
 * Address inconsistent `text-transform` inheritance for `button` and `select`.
@@ -278,9 +331,11 @@ button {
 * Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.
 * Correct `select` style inheritance in Firefox.
 */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/_reset\.scss}line{font-family:\00003276}}
 button,
 select {
-  text-transform: none; }
+  text-transform: none;
+}
 
 /**
 * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
@@ -289,6 +344,7 @@ select {
 * 3. Improve usability and consistency of cursor style between image-type
 * `input` and others.
 */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/_reset\.scss}line{font-family:\00003289}}
 button,
 html input[type="button"],
 input[type="reset"],
@@ -296,29 +352,36 @@ input[type="submit"] {
   -webkit-appearance: button;
   /* 2 */
   cursor: pointer;
-  /* 3 */ }
+  /* 3 */
+}
 
 /**
 * Re-set default cursor for disabled elements.
 */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/_reset\.scss}line{font-family:\00003301}}
 button[disabled],
 html input[disabled] {
-  cursor: default; }
+  cursor: default;
+}
 
 /**
 * Remove inner padding and border in Firefox 4+.
 */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/_reset\.scss}line{font-family:\00003310}}
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   border: 0;
-  padding: 0; }
+  padding: 0;
+}
 
 /**
 * Address Firefox 4+ setting `line-height` on `input` using `!important` in
 * the UA stylesheet.
 */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/_reset\.scss}line{font-family:\00003321}}
 input {
-  line-height: normal; }
+  line-height: normal;
+}
 
 /**
 * It's recommended that you don't attempt to style these elements.
@@ -327,88 +390,109 @@ input {
 * 1. Address box sizing set to `content-box` in IE 8/9/10.
 * 2. Remove excess padding in IE 8/9/10.
 */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/_reset\.scss}line{font-family:\00003333}}
 input[type="checkbox"],
 input[type="radio"] {
   box-sizing: border-box;
   /* 1 */
   padding: 0;
-  /* 2 */ }
+  /* 2 */
+}
 
 /**
 * Fix the cursor style for Chrome's increment/decrement buttons. For certain
 * `font-size` values of the `input`, it causes the cursor style of the
 * decrement button to change from `default` to `text`.
 */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/_reset\.scss}line{font-family:\00003345}}
 input[type="number"]::-webkit-inner-spin-button,
 input[type="number"]::-webkit-outer-spin-button {
-  height: auto; }
+  height: auto;
+}
 
 /**
 * 1. Address `appearance` set to `searchfield` in Safari and Chrome.
 * 2. Address `box-sizing` set to `border-box` in Safari and Chrome
 * (include `-moz` to future-proof).
 */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/_reset\.scss}line{font-family:\00003356}}
 input[type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
   -moz-box-sizing: content-box;
   -webkit-box-sizing: content-box;
   /* 2 */
-  box-sizing: content-box; }
+  box-sizing: content-box;
+}
 
 /**
 * Remove inner padding and search cancel button in Safari and Chrome on OS X.
 * Safari (but not Chrome) clips the cancel button when the search input has
 * padding (and `textfield` appearance).
 */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/_reset\.scss}line{font-family:\00003369}}
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
-  -webkit-appearance: none; }
+  -webkit-appearance: none;
+}
 
 /**
 * Define consistent border, margin, and padding.
 */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/_reset\.scss}line{font-family:\00003378}}
 fieldset {
   border: 1px solid #c0c0c0;
   margin: 0 2px;
-  padding: 0.35em 0.625em 0.75em; }
+  padding: 0.35em 0.625em 0.75em;
+}
 
 /**
 * 1. Correct `color` not being inherited in IE 8/9/10/11.
 * 2. Remove padding so people aren't caught out if they zero out fieldsets.
 */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/_reset\.scss}line{font-family:\00003389}}
 legend {
   border: 0;
   /* 1 */
   padding: 0;
-  /* 2 */ }
+  /* 2 */
+}
 
 /**
 * Remove default vertical scrollbar in IE 8/9/10/11.
 */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/_reset\.scss}line{font-family:\00003398}}
 textarea {
-  overflow: auto; }
+  overflow: auto;
+}
 
 /**
 * Don't inherit the `font-weight` (applied by a rule above).
 * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.
 */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/_reset\.scss}line{font-family:\00003407}}
 optgroup {
-  font-weight: bold; }
+  font-weight: bold;
+}
 
 /* Tables
 ========================================================================== */
 /**
 * Remove most spacing between table cells.
 */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/_reset\.scss}line{font-family:\00003418}}
 table {
   border-collapse: collapse;
-  border-spacing: 0; }
+  border-spacing: 0;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/_reset\.scss}line{font-family:\00003423}}
 td,
 th {
-  padding: 0; }
+  padding: 0;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/_flex\.scss}line{font-family:\000032}}
 .fe-flex-box {
   display: -webkit-box;
   /* OLD - iOS 6-, Safari 3.1-6 */
@@ -419,115 +503,144 @@ th {
   display: -webkit-flex;
   /* NEW - Chrome */
   display: flex;
-  /* NEW, Spec - Opera 12.1, Firefox 20+ */ }
-  .fe-flex-box.row {
-    -webkit-flex-direction: row;
-    -moz-flex-direction: row;
-    -ms-flex-direction: row;
-    -o-flex-direction: row;
-    flex-direction: row;
-    -webkit-box-orient: horizontal;
-    -moz-box-orient: horizontal;
-    -ms-box-orient: horizontal;
-    -o-box-orient: horizontal;
-    box-orient: horizontal; }
-  .fe-flex-box.row-reverse {
-    -webkit-flex-direction: row-reverse;
-    -moz-flex-direction: row-reverse;
-    -ms-flex-direction: row-reverse;
-    -o-flex-direction: row-reverse;
-    flex-direction: row-reverse; }
-  .fe-flex-box.column {
-    -webkit-flex-direction: column;
-    -moz-flex-direction: column;
-    -ms-flex-direction: column;
-    -o-flex-direction: column;
-    flex-direction: column;
-    -webkit-box-orient: vertical;
-    -moz-box-orient: vertical;
-    -ms-box-orient: vertical;
-    -o-box-orient: vertical;
-    box-orient: vertical; }
-  .fe-flex-box.column-reverse {
-    -webkit-flex-direction: column-reverse;
-    -moz-flex-direction: column-reverse;
-    -ms-flex-direction: column-reverse;
-    -o-flex-direction: column-reverse;
-    flex-direction: column-reverse; }
-  .fe-flex-box .flex1 {
-    -webkit-box-flex: 1;
-    /* OLD - iOS 6-, Safari 3.1-6 */
-    -moz-box-flex: 1;
-    /* OLD - Firefox 19- */
-    -webkit-flex: 1;
-    /* Chrome */
-    -ms-flex: 1;
-    /* IE 10 */
-    flex: 1;
-    /* NEW, Spec - Opera 12.1, Firefox 20+ */ }
-  .fe-flex-box .flex2 {
-    -webkit-box-flex: 2;
-    /* OLD - iOS 6-, Safari 3.1-6 */
-    -moz-box-flex: 2;
-    /* OLD - Firefox 19- */
-    -webkit-flex: 2;
-    /* Chrome */
-    -ms-flex: 2;
-    /* IE 10 */
-    flex: 2;
-    /* NEW, Spec - Opera 12.1, Firefox 20+ */ }
-  .fe-flex-box .flex2 {
-    -webkit-box-flex: 2;
-    /* OLD - iOS 6-, Safari 3.1-6 */
-    -moz-box-flex: 2;
-    /* OLD - Firefox 19- */
-    -webkit-flex: 2;
-    /* Chrome */
-    -ms-flex: 2;
-    /* IE 10 */
-    flex: 2;
-    /* NEW, Spec - Opera 12.1, Firefox 20+ */ }
-  .fe-flex-box .order1 {
-    -webkit-box-ordinal-group: 1;
-    -moz-box-ordinal-group: 1;
-    -ms-flex-order: 1;
-    -webkit-order: 1;
-    order: 1; }
-  .fe-flex-box .order2 {
-    -webkit-box-ordinal-group: 2;
-    /* OLD - iOS 6-, Safari 3.1-6 */
-    -moz-box-ordinal-group: 2;
-    /* OLD - Firefox 19- */
-    -ms-flex-order: 2;
-    /* TWEENER - IE 10 */
-    -webkit-order: 2;
-    /* NEW - Chrome */
-    order: 2;
-    /* NEW, Spec - Opera 12.1, Firefox 20+ */ }
-  .fe-flex-box .order3 {
-    -webkit-box-ordinal-group: 3;
-    -moz-box-ordinal-group: 3;
-    -ms-flex-order: 3;
-    -webkit-order: 3;
-    order: 3; }
+  /* NEW, Spec - Opera 12.1, Firefox 20+ */
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/_flex\.scss}line{font-family:\000038}}
+.fe-flex-box.row {
+  -webkit-flex-direction: row;
+  -moz-flex-direction: row;
+  -ms-flex-direction: row;
+  -o-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-orient: horizontal;
+  -moz-box-orient: horizontal;
+  -ms-box-orient: horizontal;
+  -o-box-orient: horizontal;
+  box-orient: horizontal;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/_flex\.scss}line{font-family:\0000320}}
+.fe-flex-box.row-reverse {
+  -webkit-flex-direction: row-reverse;
+  -moz-flex-direction: row-reverse;
+  -ms-flex-direction: row-reverse;
+  -o-flex-direction: row-reverse;
+  flex-direction: row-reverse;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/_flex\.scss}line{font-family:\0000327}}
+.fe-flex-box.column {
+  -webkit-flex-direction: column;
+  -moz-flex-direction: column;
+  -ms-flex-direction: column;
+  -o-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -moz-box-orient: vertical;
+  -ms-box-orient: vertical;
+  -o-box-orient: vertical;
+  box-orient: vertical;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/_flex\.scss}line{font-family:\0000339}}
+.fe-flex-box.column-reverse {
+  -webkit-flex-direction: column-reverse;
+  -moz-flex-direction: column-reverse;
+  -ms-flex-direction: column-reverse;
+  -o-flex-direction: column-reverse;
+  flex-direction: column-reverse;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/_flex\.scss}line{font-family:\0000346}}
+.fe-flex-box .flex1 {
+  -webkit-box-flex: 1;
+  /* OLD - iOS 6-, Safari 3.1-6 */
+  -moz-box-flex: 1;
+  /* OLD - Firefox 19- */
+  -webkit-flex: 1;
+  /* Chrome */
+  -ms-flex: 1;
+  /* IE 10 */
+  flex: 1;
+  /* NEW, Spec - Opera 12.1, Firefox 20+ */
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/_flex\.scss}line{font-family:\0000353}}
+.fe-flex-box .flex2 {
+  -webkit-box-flex: 2;
+  /* OLD - iOS 6-, Safari 3.1-6 */
+  -moz-box-flex: 2;
+  /* OLD - Firefox 19- */
+  -webkit-flex: 2;
+  /* Chrome */
+  -ms-flex: 2;
+  /* IE 10 */
+  flex: 2;
+  /* NEW, Spec - Opera 12.1, Firefox 20+ */
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/_flex\.scss}line{font-family:\0000360}}
+.fe-flex-box .flex2 {
+  -webkit-box-flex: 2;
+  /* OLD - iOS 6-, Safari 3.1-6 */
+  -moz-box-flex: 2;
+  /* OLD - Firefox 19- */
+  -webkit-flex: 2;
+  /* Chrome */
+  -ms-flex: 2;
+  /* IE 10 */
+  flex: 2;
+  /* NEW, Spec - Opera 12.1, Firefox 20+ */
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/_flex\.scss}line{font-family:\0000367}}
+.fe-flex-box .order1 {
+  -webkit-box-ordinal-group: 1;
+  -moz-box-ordinal-group: 1;
+  -ms-flex-order: 1;
+  -webkit-order: 1;
+  order: 1;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/_flex\.scss}line{font-family:\0000374}}
+.fe-flex-box .order2 {
+  -webkit-box-ordinal-group: 2;
+  /* OLD - iOS 6-, Safari 3.1-6 */
+  -moz-box-ordinal-group: 2;
+  /* OLD - Firefox 19- */
+  -ms-flex-order: 2;
+  /* TWEENER - IE 10 */
+  -webkit-order: 2;
+  /* NEW - Chrome */
+  order: 2;
+  /* NEW, Spec - Opera 12.1, Firefox 20+ */
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/_flex\.scss}line{font-family:\0000381}}
+.fe-flex-box .order3 {
+  -webkit-box-ordinal-group: 3;
+  -moz-box-ordinal-group: 3;
+  -ms-flex-order: 3;
+  -webkit-order: 3;
+  order: 3;
+}
 
 /*
 *文本对其方式
 */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/_text\.scss}line{font-family:\000035}}
 .fe-tl {
-  text-align: left; }
+  text-align: left;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/_text\.scss}line{font-family:\000038}}
 .fe-tc {
-  text-align: center; }
+  text-align: center;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/_text\.scss}line{font-family:\0000311}}
 .fe-tr {
-  text-align: right; }
+  text-align: right;
+}
 
 /*
 *字体缩进
 */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/_text\.scss}line{font-family:\0000318}}
 .fe-t2em {
-  text-indent: 2em; }
+  text-indent: 2em;
+}
 
 /* -------------------------------------------------------------
 
@@ -576,50 +689,76 @@ th {
 /* TRANSFORM  */
 /* TRANSITION */
 /* TRIPLE BORDERS */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/_placeholders\.scss}line{font-family:\000039}}
 .w-cf:before, .w-cf:after {
   content: " ";
-  display: table; }
+  display: table;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/_placeholders\.scss}line{font-family:\0000314}}
 .w-cf:after {
-  clear: both; }
+  clear: both;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/_layout\.scss}line{font-family:\000036}}
 input, textarea {
   -webkit-appearance: none;
-  -webkit-border-radius: 0; }
+  -webkit-border-radius: 0;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/_layout\.scss}line{font-family:\0000310}}
 .full-screen {
   position: fixed;
   width: 100%;
   height: 100%;
   top: 0;
-  left: 0; }
+  left: 0;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/_layout\.scss}line{font-family:\0000321}}
 .w-fl {
   display: block;
-  float: left; }
+  float: left;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/_layout\.scss}line{font-family:\0000325}}
 .w-fr {
   display: block;
-  float: right; }
+  float: right;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/_layout\.scss}line{font-family:\0000329}}
 .w-tl {
-  text-align: left; }
+  text-align: left;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/_layout\.scss}line{font-family:\0000332}}
 .w-tc {
-  text-align: center; }
+  text-align: center;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/_layout\.scss}line{font-family:\0000335}}
 .w-tr {
-  text-align: right; }
+  text-align: right;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/_layout\.scss}line{font-family:\0000338}}
 .w-hide {
-  display: none; }
+  display: none;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/_layout\.scss}line{font-family:\0000341}}
 .w-show {
-  display: block; }
+  display: block;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/_layout\.scss}line{font-family:\0000344}}
 .w-p-fixed {
-  position: fixed; }
+  position: fixed;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/_layout\.scss}line{font-family:\0000347}}
 .w-p-absolute {
-  position: absolute; }
+  position: absolute;
+}
 
 /*# sourceMappingURL=global.css.map */
