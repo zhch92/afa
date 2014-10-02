@@ -1,0 +1,84 @@
+doctype html
+head
+	include _partial/head
+	link(rel="stylesheet", type="text/css", href="../css/companion.css")
+body
+	include _partial/bg
+	#find_companion
+		include _partial/header
+		.box
+			include _partial/slidebar
+			.contentbox
+				.afa-m-fe
+					h2.afa-module-title.afa-bg-m-title
+						span.t-chinese 找路线
+						span.t-english FIND-LINE
+					.afa-m-fe-content.bg-gray
+						include _partial/wall
+						+wall('companion_wall')
+				.afa-m-fe.bg-gray
+					h3.afa-com-m-t 没有找到合适的？发条结伴
+					.share-create-line
+						.create-list
+							.item
+								.w-grid-a
+									.w-block-a
+										span.label 出发地
+										input.search(type="text",placeholder="请输入出发地")
+									.w-block-b
+										span.label 目的地
+										input.search(type="text",placeholder="请输入目的地")
+							.item
+								span.label 经由
+								input(type="text")
+								input(type="text")
+								input(type="text")
+							.item
+								.w-grid-a
+									.w-block-a
+										span.label 出发日期
+										input.calendar(type="text",id="travel_out_time")
+									.w-block-b
+										span.label 返回日期
+										input.calendar(type="text",id="travel_back_time")
+							
+							.item
+								.w-grid-a
+									.w-block-a
+										span.label 参加人数
+										label.unit(for="") 人
+										input(type="text",maxlength="3")
+									.w-block-b
+										span.label 人均消费
+										label.unit(for="") 元
+										input(type="text",maxlength="5")
+					.afa-com-m
+						.afa-com-m-row
+							span.label 结伴标题
+							div.field
+								input(type="text",name="afa_com_title",id="afa_com_title")
+						.afa-com-m-row
+							span.label 结伴描述
+							div.field
+								textarea#afa_com_content(name="afa_com_content", cols="30", rows="10")
+						.afa-com-m-row
+							span.label
+							.field
+								input#afa_com_submit.afa_com_submit(type="button",value="发表结伴")
+		include _partial/footer
+	script(type="text/javascript", data-main="../js/find_companion",src="../js/require.js")
+
+
+
+
+											
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,175 @@
+@charset "UTF-8";
+@import "variables";
+@import "mixins";
+@import "placeholders";
+
+/* ==========================================================================
+   引用模块
+   ========================================================================== */
+@import "pro/wall";
+
+.afa-com-m-t{
+	text-indent: 20px;
+	padding: 10px 0 0 0;
+}
+.share-create-line{
+	padding: 10px 20px;
+	.create-list{
+		padding: 5px;
+		border: 1px solid $color;
+	}
+	.item{
+		position: relative;
+		margin: 10px 0;
+		.w-block-a,.w-block-b{
+			position: relative;
+		}
+		.unit{
+			position: absolute;
+			top: 5px;
+			left: 240px;
+		}
+		@extend %clearfix;
+		span.label{
+			display: inline-block;
+			width: 80px;
+		}
+		input{
+			height: 30px;
+			width: 180px;
+			background-color:$white;
+			border: none;
+			outline: none;
+			padding: 3px 4px;
+			font-size: 14px;
+			line-height: 20px;
+			@include box-sizing(border-box);
+		}
+		.search{
+			padding-left: 30px;
+			background:$white url(../img/icon/search.png) no-repeat 5px center;
+		}
+		.calendar{
+			padding-right: 30px;
+			background:$white url(../img/icon/calendar.png) no-repeat right center;
+		}
+	}
+}	
+.share-create-title{
+	input{
+		background:$white;
+		@include border-radius(5px);
+		line-height: 30px;
+		padding: 4px 3px;
+		line-height: 20px;
+		width: 100%;
+		@include box-sizing(border-box);
+	}
+}
+
+.block-input{
+	display: block;
+	background:$white;
+	@include border-radius(5px);
+	line-height: 30px;
+	padding: 4px 3px;
+	width: 100%;
+	@include box-sizing(border-box);
+}
+.block-btn{
+	display: block;
+	@include border-radius(5px);
+	line-height: 30px;
+	width: 100%;
+	@include box-sizing(border-box);
+}
+
+.share-create-content{
+	.day-list{
+		.step-title{
+			text-indent: 20px;
+		}
+		.day-title{
+			padding: 0;
+		}
+		.day-picture{
+			position: relative;
+			width: 400px;
+			height: 400px;
+			margin: 0 auto;
+			border: 1px solid;
+			@include border-radius(5px);
+			.add-pic{
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				width: 60px;
+				height: 60px;
+				font-weight: bolder;
+				font-size: 30px;
+				color: #000;
+				border: 1px solid;
+				margin: -30px 0 0 -30px;
+			}
+		}
+		.day-text{
+			.day-textarea{
+				padding: 3px;
+				width: 400px;
+				min-height: 150px;
+			}
+		}
+	}
+}
+
+.afa-com-m{
+	padding: 0 20px;
+}
+.afa-com-m-row{
+	@extend %clearfix;
+	padding: 10px 0;
+	.label{
+		display: block;
+		float: left;
+		width: 80px;
+		line-height: 30px;
+		min-height: 1px;
+	}
+	.field{
+		display: block;
+		float: left;
+		width: 840px;
+	}
+	#afa_com_title{
+		background: $background;
+		color: $color;
+		border: 1px solid;
+		width: 100%;
+		height: 30px;
+		padding: 4px 3px;
+		font-size: 14px;
+		line-height: 20px;
+		@include box-sizing(border-box);
+	}
+	#afa_com_content{
+		width: 100%;
+		border: 1px solid;
+		color: $color;
+		background:$background;
+		min-height: 80px;
+		padding: 4px 3px;
+		line-height: 20px;
+		font-size: 14px;
+		@include box-sizing(border-box);
+	}
+	.afa_com_submit{
+		display: inline-block;
+		width: 100px;
+		line-height: 30px;
+		color: $white;
+		background:$blue;
+		@include border-radius(5px);
+		border: none;
+		outline: none;
+	}
+}
