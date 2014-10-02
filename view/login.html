@@ -7,131 +7,101 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>阿尔法旅游网站</title>
     <link rel="shortcut icon" type="image/x-icon" href="../img/favicon.ico" media="screen" />
-    <!-- style -->
-    <link rel="stylesheet" type="text/css" href="../css/lib/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="../css/lib/bootstrap-theme.min.css">
     <link rel="stylesheet" type="text/css" href="../css/global.css">
     <link rel="stylesheet" type="text/css" href="../css/pro.min.css">
-    <link rel="stylesheet" type="text/css" href="../css/user.css">
-</head>
+    <link rel="stylesheet" type="text/css" href="../css/user.css"></head>
 
 <body>
-    <div id="manager" class="afa-manager">
+    <div style="background:url(../img/main_bg.jpg) no-repeat center;" class="full-bg">
+        <div class="full-bg opacity-8"></div>
+    </div>
+    <div id="login">
         <div class="header">
             <div class="box">
-                <div class="slidebox">
-                    <span class="afa-logo">
+                <div class="slidebox"></div>
+                <div class="contentbox">
+                    <span class="afa-logo w-p-absolute">
                         <a href="../index.html">
-                            <img src="../img/icon/logo.png" alt="">
+                            <img src="../img/logo.png" alt=""/>
                         </a>
                     </span>
+                    <span class="img-nav-tab">
+                        <a href="#" class="nav-item">徒步</a>
+                        <a href="#" class="nav-item">骑行</a>
+                        <a href="#" class="nav-item">钓鱼</a>
+                        <a href="#" class="nav-item">自驾</a>
+                        <a href="#" class="nav-item">攀岩</a>
+                        <a href="#" class="nav-item">滑雪</a>
+                        <a href="#" class="nav-item">更多</a>
+                    </span>
+                    <div class="center-operate">
+                        <a href="login.html">登录</a>&nbsp;|&nbsp;
+                        <a href="register.html">注册</a>&nbsp;|&nbsp;
+                        <a href="mycenter.html" class="afa-center">个人中心</a>
+                    </div>
                 </div>
-                <!--                 <div class="contentbox">
-    <span class="afa-logo">
-        <a>
-            <img src="../img/icon/logo.png" alt="">
-        </a>
-    </span>
-    <span class="img-nav-tab">
-        <a href="" class="nav-item"></a>
-        <a href="" class="nav-item active"></a>
-        <a href="" class="nav-item"></a>
-        <a href="" class="nav-item"></a>
-        <a href="" class="nav-item"></a>
-        <a href="" class="nav-item"></a>
-        <a href="" class="nav-item"></a>
-    </span>
-</div>
-<div class="slidebox fe-tr center-operate">
-    <a href="">登录</a>&nbsp;|&nbsp;
-    <a href="">注册</a>&nbsp;&nbsp;
-    <a href="" class="afa-center">个人中心</a>
-</div> -->
+                <div class="slidebox"></div>
             </div>
         </div>
-        <div class="box">
-            <div class="slidebox">
-            </div>
-            <div class="contentbox">
-                <div class="afa-user-login">
-                    <div class="login-banner">
-                        <a href="#">
-                            <img src="../img/login_banner.jpg" alt="">
-                        </a>
-                    </div>
-                    <div class="afa-login-section">
-                        <div class="validate-info">
-                            <i class="tip-status tip-warming-small"></i>账号不存在，请重新输入。<a href="">忘记了账号？</a>
-                        </div>
-                        <form action="" method="post" class="form">
-                            <div class="form-field">
-                                <i class="icon icon-afa-user icon-user"></i>
-                                <input type="text" class="f-text" name="" placeholder="手机号/用户名/邮箱" value="">
-                            </div>
-                            <div class="form-field">
-                                <i class="icon icon-afa-user icon-password"></i>
-                                <input type="password" id="login-password" class="f-text" name="password" placeholder="密码">
-                            </div>
-                            <div class="form-field form-field-auto-login">
-                                <a tabindex="-1" href="/account/retrievepassword" class="forget-password">忘记密码？</a>
-                                <input type="checkbox" value="1" checked name="remember_username" id="remember-username" class="select-checkbox">
-                                <label class="normal" for="remember-username">记住账号</label>
-                                <input type="checkbox" value="1" name="auto_login" id="autologin" class="select-checkbox">
-                                <label class="normal" for="autologin">下次自动登录</label>
-                            </div>
-                            <div class="form-field">
-                                <input type="submit" class="btn" name="commit" value="登录">
-                            </div>
-                        </form>
-                        <p class="signup-guide">还没有账号？<a href="register.html">免费注册</a>
-                        </p>
-                        <div class="oauth-wrapper">
-                            <h3>用合作网站账号登录</h3>
-                            <ul class="oauth w-cf">
-                                <li>
-                                    <a class="icon icon-sina" href="" target="_blank">
-                                    </a>
-                                </li>
-                                <li>
-                                    <a class="icon icon-weixin" href="" target="_blank">
-                                    </a>
-                                </li>
-                                <li>
-                                    <a class="icon icon-qq" href="" target="_blank">
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
+        <div class="wrapper">
 
+            <div class="afa-user-login">
+                <div class="afa-login-section">
+                    <div class="validate-info"> <i class="tip-status tip-warming-small"></i>
+                        账号不存在，请重新输入。
+                        <a href="">忘记了账号？</a>
                     </div>
+                    <form action="" method="post" class="form">
+                        <div class="form-field"> <i class="icon icon-afa-user icon-user"></i>
+                            <input type="text" class="f-text" name="" placeholder="手机号/用户名/邮箱" value=""></div>
+                        <div class="form-field">
+                            <i class="icon icon-afa-user icon-password"></i>
+                            <input type="password" id="login-password" class="f-text" name="password" placeholder="密码"></div>
+                        <div class="form-field form-field-auto-login">
+                            <a tabindex="-1" href="/account/retrievepassword" class="forget-password">忘记密码？</a>
+                            <input type="checkbox" value="1" checked name="remember_username" id="remember-username" class="select-checkbox">
+                            <label class="normal" for="remember-username">记住账号</label>
+                            <input type="checkbox" value="1" name="auto_login" id="autologin" class="select-checkbox">
+                            <label class="normal" for="autologin">下次自动登录</label>
+                        </div>
+                        <div class="form-field">
+                            <input type="submit" class="btn" name="commit" value="登录"></div>
+                    </form>
+                    <p class="signup-guide">
+                        还没有账号？
+                        <a href="register.html">免费注册</a>
+                    </p>
+                    <div class="oauth-wrapper">
+                        <h3>用合作网站账号登录</h3>
+                        <ul class="oauth w-cf">
+                            <li>
+                                <a class="icon icon-sina" href=""></a>
+                            </li>
+                            <li>
+                                <a class="icon icon-weixin" href=""></a>
+                            </li>
+                            <li>
+                                <a class="icon icon-qq" href=""></a>
+                            </li>
+                        </ul>
+                    </div>
+
                 </div>
-            </div>
-            <div class="slidebox">
             </div>
         </div>
         <div class="footer">
-            <div class="container">
-                <div class="col-md-12">
-                    <div class="col-md-8 copyright">
-                        Copyright© 1999-2014, ctrip.com. All rights reserved. | ICP证：沪B2-20050130
-                    </div>
-                    <div class="col-md-4 friendlink">
-                        <a href="">关于我们</a>&nbsp;|&nbsp;
-                        <a href="">媒体报道</a>&nbsp;|&nbsp;
-                        <a href="">合作查询</a>&nbsp;|&nbsp;
-                        <a href="">友情连接</a>
-                    </div>
+            <div class="w-cf wrapper">
+                <div class="w-fl copyright">
+                    Copyright© 1999-2014, ctrip.com. All rights reserved. | ICP证：沪B2-20050130
+                </div>
+                <div class="w-fr friendlink">
+                    <a href="#">关于我们 &nbsp;|&nbsp;</a>
+                    <a href="#">媒体报道 &nbsp;|&nbsp;</a>
+                    <a href="#">合作查询 &nbsp;|&nbsp;</a>
+                    <a href="#">友情连接</a>
                 </div>
             </div>
         </div>
     </div>
-    <script type="text/javascript" src="../js/lib/jquery.js"></script>
-    <script type="text/javascript" src="../js/lib/bootstrap.min.js"></script>
-    <!--[if lte IE 9]>
-    <script type="text/javascript" src="../js/lib/respond.min.js"></script>
-    <script type="text/javascript" src="../js/lib/html5shiv.min.js"></script>
-    <![endif]-->
-    <!--         // <script data-main="../js/main" src="js/require.js"></script> -->
 </body>
-
 </html>

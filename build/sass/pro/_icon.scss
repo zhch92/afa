@@ -62,10 +62,10 @@
 	width: 18px;
 	height: 18px;
 
-	.icon-user{
+	&.icon-user{
 		background-position: 0 -57px;
 	}
-	.icon-password{
+	&.icon-password{
 		background-position: 0 0;
 	}
 }

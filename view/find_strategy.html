@@ -5,9 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>阿尔法旅游网站</title>
   <link rel="shortcut icon" type="image/x-icon" href="../img/favicon.ico" media="screen">
+  <link rel="stylesheet" type="text/css" href="../css/lib/jquery-ui.min.css">
   <link rel="stylesheet" type="text/css" href="../css/global.css">
   <link rel="stylesheet" type="text/css" href="../css/pro.min.css">
-  <link rel="stylesheet" type="text/css" href="../css/lib/jquery-ui.min.css">
   <link rel="stylesheet" type="text/css" href="../css/strategy.css">
 </head>
 <body>
@@ -19,7 +19,7 @@
       <div class="box">
         <div class="slidebox"></div>
         <div class="contentbox"><span class="afa-logo w-p-absolute"><a href="../index.html"><img src="../img/logo.png" alt=""></a></span><span class="img-nav-tab"><a href="#" class="nav-item">徒步</a><a href="#" class="nav-item">骑行</a><a href="#" class="nav-item">钓鱼</a><a href="#" class="nav-item">自驾</a><a href="#" class="nav-item">攀岩</a><a href="#" class="nav-item">滑雪</a><a href="#" class="nav-item">更多</a></span>
-          <div class="center-operate"><a href="login.html">登录 &nbsp;|&nbsp;</a><a href="register.html">注册 &nbsp;|&nbsp;</a><a href="mycenter.html" class="afa-center">个人中心</a></div>
+          <div class="center-operate"><a href="login.html">登录 </a>&nbsp;|&nbsp;<a href="register.html">注册 </a>&nbsp;|&nbsp;<a href="mycenter.html" class="afa-center">个人中心</a></div>
         </div>
         <div class="slidebox"></div>
       </div>
@@ -37,11 +37,11 @@
           <li><a href="./find_line.html">全程管家</a></li>
         </ul>
       </div>
-      <div class="contentbox bg-gray">
+      <div class="contentbox">
         <div class="afa-m-fe">
           <h2 class="afa-module-title afa-bg-m-title"><span class="t-chinese">精华推荐</span><span class="t-english">GOOD-LINE-RECOMMENF</span></h2>
-          <div class="afa-m-fe-content">
-                        <div id="find_line_roll_1" class="afa-m-roll">
+          <div class="afa-m-fe-content bg-gray">
+                        <div id="fs_roll_01" class="afa-m-roll">
                           <ul class="roll-list">
                             <li class="roll-item"><a href="#"><img src="../img/default_roll.jpg" alt=""></a></li>
                             <li class="roll-item"><a href="#"><img src="../img/default_roll.jpg" alt=""></a></li>
@@ -125,7 +125,7 @@
                         </div>
           </div>
         </div>
-        <div class="afa-m-fe">
+        <div class="afa-m-fe bg-gray">
           <div class="w-grid-b share-line-user-box">
             <div class="w-block-a"><img src="../img/sanya.jpg" alt="" class="line-img"></div>
             <div class="w-block-b">
@@ -159,7 +159,7 @@
             </div>
           </div>
         </div>
-        <div class="afa-m-fe">
+        <div class="afa-m-fe bg-gray">
           <h2 class="line-title"><i class="icon bg_01">1</i>行程</h2>
           <div class="w-padding-wrapper">
             <div class="day-item">
@@ -168,7 +168,7 @@
                   <h3 class="title">2014-09-24 09：00 成都双流机场集合 成都-新加坡-三亚</h3>
                 </div>
                 <div class="afa-module-roll">
-                                    <div id="afa_roll_line_01" class="afa-m-roll">
+                                    <div id="fs_roll_02" class="afa-m-roll">
                                       <ul class="roll-list">
                                         <li class="roll-item"><a href="#"><img src="../img/default_roll.jpg" alt=""></a></li>
                                         <li class="roll-item"><a href="#"><img src="../img/default_roll.jpg" alt=""></a></li>
@@ -239,7 +239,7 @@
                   <h3 class="title">2014-09-24 09：00 成都双流机场集合 成都-新加坡-三亚</h3>
                 </div>
                 <div class="afa-module-roll">
-                                    <div id="afa_roll_line_01" class="afa-m-roll">
+                                    <div id="fs_roll_03" class="afa-m-roll">
                                       <ul class="roll-list">
                                         <li class="roll-item"><a href="#"><img src="../img/default_roll.jpg" alt=""></a></li>
                                         <li class="roll-item"><a href="#"><img src="../img/default_roll.jpg" alt=""></a></li>
@@ -306,7 +306,7 @@
             <hr class="line-hr">
           </div>
         </div>
-        <div class="afa-m-fe share-line-tui">
+        <div class="afa-m-fe share-line-tui bg-gray">
           <h2 class="afa-h2">相似路线分享推荐 <a href="#">>></a></h2>
                     <div id="share_img_list_02" class="afa-m-imgshow">
                       <ul class="list">
@@ -361,7 +361,7 @@
                       </ul>
                     </div>
         </div>
-        <div class="afa-m-fe i-want-to-share">
+        <div class="afa-m-fe i-want-to-share bg-gray">
           <h3 class="afa-h2">我也要分享</h3>
           <div class="w-padding-wrapper">
             <div class="share-nav">
@@ -441,10 +441,10 @@
                       <div class="item">
                         <div class="w-grid-a">
                           <div class="w-block-a"><span class="label">出发日期</span>
-                            <input type="text" id="" class="calendar">
+                            <input type="text" id="travel_out_time" class="calendar">
                           </div>
                           <div class="w-block-b"><span class="label">返回日期</span>
-                            <input type="text" class="calendar">
+                            <input type="text" id="travel_back_time" class="calendar">
                           </div>
                         </div>
                       </div>
@@ -452,11 +452,11 @@
                         <div class="w-grid-a">
                           <div class="w-block-a"><span class="label">参加人数</span>
                             <label for="" class="unit">人</label>
-                            <input type="text">
+                            <input type="text" maxlength="3">
                           </div>
                           <div class="w-block-b"><span class="label">人均消费</span>
                             <label for="" class="unit">元</label>
-                            <input type="text">
+                            <input type="text" maxlength="5">
                           </div>
                         </div>
                       </div>
@@ -510,4 +510,5 @@
       </div>
     </div>
   </div>
+  <script type="text/javascript" data-main="../js/find_strategy" src="../js/require.js"></script>
 </body>

@@ -108,26 +108,27 @@ a:hover {
   height: 100%;
   background-repeat: no-repeat;
   background-position: center;
+  background-size: 100% auto;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/pro\/_common\.scss}line{font-family:\0000348}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/pro\/_common\.scss}line{font-family:\0000349}}
 .full-bg .opacity-9 {
   background: #000000;
   opacity: 0.9;
   filter: alpha(opacity=90);
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/pro\/_common\.scss}line{font-family:\0000352}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/pro\/_common\.scss}line{font-family:\0000353}}
 .full-bg .opacity-8 {
   background: #000000;
   opacity: 0.8;
   filter: alpha(opacity=80);
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/pro\/_common\.scss}line{font-family:\0000356}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/pro\/_common\.scss}line{font-family:\0000357}}
 .full-bg .opacity-7 {
   background: #000000;
   opacity: 0.7;
   filter: alpha(opacity=70);
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/pro\/_common\.scss}line{font-family:\0000360}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/pro\/_common\.scss}line{font-family:\0000361}}
 .full-bg .opacity-6 {
   background: #000000;
   opacity: 0.6;
@@ -142,6 +143,7 @@ a:hover {
   width: 100%;
   height: 120px;
   font-size: 12px;
+  background: transparent url("../img/trans_5.png") repeat center;
   color: #ffffff;
   z-index: 100;
 }
@@ -675,11 +677,11 @@ a:hover {
   height: 18px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/pro\/_icon\.scss}line{font-family:\0000365}}
-.icon-afa-user .icon-user {
+.icon-afa-user.icon-user {
   background-position: 0 -57px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/pro\/_icon\.scss}line{font-family:\0000368}}
-.icon-afa-user .icon-password {
+.icon-afa-user.icon-password {
   background-position: 0 0;
 }
 

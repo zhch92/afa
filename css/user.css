@@ -55,10 +55,9 @@
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/user\.scss}line{font-family:\0000314}}
 .afa-user-login {
   position: relative;
-  padding: 100px 0 50px 600px;
-  min-height: 500px;
+  padding: 100px 0 50px 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/user\.scss}line{font-family:\0000319}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/user\.scss}line{font-family:\0000318}}
 .afa-user-login .login-banner {
   position: absolute;
   top: 0px;
@@ -66,8 +65,9 @@
   width: 500px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/user\.scss}line{font-family:\0000326}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/user\.scss}line{font-family:\0000325}}
 .afa-login-section {
+  margin: 0 auto;
   width: 260px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/user\.scss}line{font-family:\0000328}}
@@ -151,18 +151,22 @@
   padding: 10px 0;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/user\.scss}line{font-family:\00003100}}
+.oauth-wrapper .oauth {
+  text-align: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/user\.scss}line{font-family:\00003103}}
 .oauth-wrapper li {
-  float: left;
+  display: inline-block;
   margin: 0 5px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/user\.scss}line{font-family:\00003106}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/user\.scss}line{font-family:\00003109}}
 .form-field {
   position: relative;
   padding: 8px 0;
   font-size: 14px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/user\.scss}line{font-family:\00003110}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/user\.scss}line{font-family:\00003113}}
 .form-field label {
   display: inline-block;
   padding: 6px 0 0 0;
@@ -170,7 +174,7 @@
   font-weight: normal;
   text-align: right;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/user\.scss}line{font-family:\00003117}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/user\.scss}line{font-family:\00003120}}
 .form-field .f-text {
   width: 248px;
   padding: 5px;
@@ -181,7 +185,7 @@
   box-sizing: content-box;
   border: 1px solid #328fe1;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/user\.scss}line{font-family:\00003127}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/user\.scss}line{font-family:\00003130}}
 .form-field .inline-tip {
   display: inline-block;
   margin-left: 4px;
@@ -192,24 +196,26 @@
   vertical-align: top;
   zoom: 1;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/user\.scss}line{font-family:\00003137}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/user\.scss}line{font-family:\00003140}}
 .form-field .btn {
   padding: 8px 20px;
   background: #0e97e1;
   color: #ffffff;
   font-weight: bold;
+  border: none;
+  outline: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/user\.scss}line{font-family:\00003144}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/user\.scss}line{font-family:\00003149}}
 .form-field.field-captcha .f-text {
   width: 62px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/user\.scss}line{font-family:\00003147}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/user\.scss}line{font-family:\00003152}}
 .form-field.field-captcha img {
   box-sizing: content-box;
   border: 1px solid #328fe1;
   cursor: pointer;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/user\.scss}line{font-family:\00003153}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/user\.scss}line{font-family:\00003158}}
 .form-field .inline-link {
   line-height: 36px;
   vertical-align: top;
@@ -217,18 +223,18 @@
   font-size: 12px;
   zoom: 1;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/user\.scss}line{font-family:\00003160}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/user\.scss}line{font-family:\00003165}}
 .form-field.field-noleft {
   padding-left: 70px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/user\.scss}line{font-family:\00003164}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/user\.scss}line{font-family:\00003169}}
 .form-field .pw-strength {
   position: absolute;
   top: 50px;
   left: 74px;
   width: 260px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/user\.scss}line{font-family:\00003171}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/user\.scss}line{font-family:\00003176}}
 .form-field .pw-strength-bar {
   height: 20px;
   -webkit-transition: all .5ms linear;
@@ -236,28 +242,28 @@
   -ms-transition: all .5ms linear;
   transition: all .5ms linear;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/user\.scss}line{font-family:\00003178}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/user\.scss}line{font-family:\00003183}}
 .form-field .pw-strength-bar--weak {
   width: 85px;
   background: #DF4426;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/user\.scss}line{font-family:\00003182}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/user\.scss}line{font-family:\00003187}}
 .form-field .pw-strength-bar--normal {
   width: 172px;
   background: #F80;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/user\.scss}line{font-family:\00003186}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/user\.scss}line{font-family:\00003191}}
 .form-field .pw-strength-bar--strong {
   width: 260px;
   background: #A5CF28;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/user\.scss}line{font-family:\00003190}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/user\.scss}line{font-family:\00003195}}
 .form-field .pw-strength-title {
   position: absolute;
   left: 0;
   top: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/user\.scss}line{font-family:\00003195}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/user\.scss}line{font-family:\00003200}}
 .form-field .pw-strength-label {
   display: block;
   float: left;
@@ -268,19 +274,19 @@
   color: #ffffff;
   box-sizing: content-box;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/user\.scss}line{font-family:\00003204}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/user\.scss}line{font-family:\00003209}}
 .form-field .pw-strength-label.no-border {
   border: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/user\.scss}line{font-family:\00003208}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/user\.scss}line{font-family:\00003213}}
 .form-field.field-pw-strength {
   padding-bottom: 20px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/user\.scss}line{font-family:\00003211}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/user\.scss}line{font-family:\00003216}}
 .form-field.field-mobile-send-btn {
   padding-bottom: 30px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/user\.scss}line{font-family:\00003214}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/user\.scss}line{font-family:\00003219}}
 .form-field .send-btn {
   position: absolute;
   top: 50px;
@@ -292,22 +298,22 @@
 /* ==========================================================================
    注册模块
    ========================================================================== */
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/user\.scss}line{font-family:\00003229}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/user\.scss}line{font-family:\00003234}}
 .afa-register-section {
   padding: 50px 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/user\.scss}line{font-family:\00003231}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/user\.scss}line{font-family:\00003236}}
 .afa-register-section .head-section {
   position: relative;
   border-bottom: 1px solid #eee;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/user\.scss}line{font-family:\00003234}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/user\.scss}line{font-family:\00003239}}
 .afa-register-section .head-section ul li {
   display: inline-block;
   margin: 0 3px;
   zoom: 1;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/user\.scss}line{font-family:\00003238}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/user\.scss}line{font-family:\00003243}}
 .afa-register-section .head-section ul li a {
   position: relative;
   display: block;
@@ -322,16 +328,16 @@
   background: #e9f6f6;
   color: #1aa29e;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/user\.scss}line{font-family:\00003251}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/user\.scss}line{font-family:\00003256}}
 .afa-register-section .head-section ul li a span {
   display: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/user\.scss}line{font-family:\00003256}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/user\.scss}line{font-family:\00003261}}
 .afa-register-section .head-section ul li.current a {
   background: #1aa29e;
   color: #fff;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/user\.scss}line{font-family:\00003259}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/user\.scss}line{font-family:\00003264}}
 .afa-register-section .head-section ul li.current a span {
   position: absolute;
   display: block;
@@ -341,7 +347,7 @@
   border: 4px solid transparent;
   border-top: 4px solid #1aa29e;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/user\.scss}line{font-family:\00003274}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/www\/project\/afa\/build\/sass\/user\.scss}line{font-family:\00003279}}
 .afa-register-section .login-guide {
   position: absolute;
   top: 8px;

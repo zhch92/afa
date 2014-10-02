@@ -13,8 +13,7 @@
 
 .afa-user-login {
     position: relative;
-    padding: 100px 0 50px 600px;
-    min-height: 500px;
+    padding: 100px 0 50px 0;
     // advertisement banner
     .login-banner {
         position: absolute;
@@ -24,6 +23,7 @@
     }
 }
 .afa-login-section {
+    margin: 0 auto;
     width: 260px;
     .validate-info {
         margin-bottom: 10px;
@@ -97,8 +97,11 @@
         font-size: 12px;
         padding: 10px 0;
     }
+    .oauth{
+        text-align: center;
+    }
     li {
-        float: left;
+        display: inline-block;
         margin: 0 5px;
     }
 }
@@ -139,6 +142,8 @@
 	    background: #0e97e1;
         color: #ffffff;
         font-weight: bold;
+        border: none;
+        outline: none;
     }
     &.field-captcha{
     	.f-text{

@@ -91,7 +91,8 @@ a {
   width: 100%;
   height: 100%;
   background-repeat: no-repeat;
-  background-position: center; }
+  background-position: center;
+  background-size: 100% auto; }
   .full-bg .opacity-9 {
     background: #000000;
     opacity: 0.9;
@@ -116,6 +117,7 @@ a {
   width: 100%;
   height: 120px;
   font-size: 12px;
+  background: transparent url("../img/trans_5.png") repeat center;
   color: #ffffff;
   z-index: 100; }
   .header.fixed {
@@ -491,9 +493,9 @@ a {
   background: transparent url(../img/icon/afa_user.png) no-repeat;
   width: 18px;
   height: 18px; }
-  .icon-afa-user .icon-user {
+  .icon-afa-user.icon-user {
     background-position: 0 -57px; }
-  .icon-afa-user .icon-password {
+  .icon-afa-user.icon-password {
     background-position: 0 0; }
 
 .icon-search {

@@ -1,7 +1,6 @@
 doctype html
 head
 	include _partial/head
-	link(rel="stylesheet", type="text/css", href="../css/lib/jquery-ui.min.css")
 	link(rel="stylesheet", type="text/css", href="../css/strategy.css")
 body
 	include _partial/bg
@@ -9,21 +8,21 @@ body
 		include _partial/header
 		.box
 			include _partial/slidebar
-			.contentbox.bg-gray
+			.contentbox
 				.afa-m-fe
 					h2.afa-module-title.afa-bg-m-title
 						span.t-chinese 精华推荐
 						span.t-english GOOD-LINE-RECOMMENF
-					.afa-m-fe-content
+					.afa-m-fe-content.bg-gray
 						include _partial/carousel.jade
-						+carousel("find_line_roll_1")
+						+carousel("fs_roll_01")
 							include _partial/roll_info_box
 						include _partial/list_img
 						+imglist('share_img_list_01')
 							include _partial/list_img_bottom
 							+list-img-b-one()
 
-				.afa-m-fe
+				.afa-m-fe.bg-gray
 					.w-grid-b.share-line-user-box
 						.w-block-a
 									img.line-img(src="../img/sanya.jpg", alt="")
@@ -58,7 +57,7 @@ body
 								|性别：女<br>
 								|星座：射手座<br>
 								|年龄：23岁<br>
-				.afa-m-fe
+				.afa-m-fe.bg-gray
 					h2.line-title
 						i.icon.bg_01 1
 						| 行程
@@ -71,7 +70,7 @@ body
 									h3.title 2014-09-24 09：00 成都双流机场集合 成都-新加坡-三亚
 								.afa-module-roll
 										include _partial/carousel
-										+carousel("afa_roll_line_01")
+										+carousel("fs_roll_02")
 										include _partial/user_comment_show
 										include _partial/list_img
 										+imglist_no_user('img_list_01')
@@ -86,21 +85,21 @@ body
 									h3.title 2014-09-24 09：00 成都双流机场集合 成都-新加坡-三亚
 								.afa-module-roll
 										include _partial/carousel
-										+carousel("afa_roll_line_01")
+										+carousel("fs_roll_03")
 										include _partial/user_comment_show
 										include _partial/list_img
 										+imglist_no_user('img_list_01')
 											include _partial/list_img_bottom
 											+list-img-b-two()
 						hr.line-hr
-				.afa-m-fe.share-line-tui
+				.afa-m-fe.share-line-tui.bg-gray
 					h2.afa-h2 相似路线分享推荐 
 						a(href="#") >>
 					include _partial/list_img
 					+imglist('share_img_list_02')
 							include _partial/list_img_bottom
 							+list-img-b-two()
-				.afa-m-fe.i-want-to-share
+				.afa-m-fe.i-want-to-share.bg-gray
 					h3.afa-h2 我也要分享
 					.w-padding-wrapper
 						.share-nav
@@ -151,21 +150,21 @@ body
 												.w-grid-a
 													.w-block-a
 														span.label 出发日期
-														input.calendar(type="text",id="")
+														input.calendar(type="text",id="travel_out_time")
 													.w-block-b
 														span.label 返回日期
-														input.calendar(type="text")
+														input.calendar(type="text",id="travel_back_time")
 											
 											.item
 												.w-grid-a
 													.w-block-a
 														span.label 参加人数
 														label.unit(for="") 人
-														input(type="text")
+														input(type="text",maxlength="3")
 													.w-block-b
 														span.label 人均消费
 														label.unit(for="") 元
-														input(type="text")
+														input(type="text",maxlength="5")
 								li.step-three
 									h4.step-title
 										i.icon.icon-small-cir 3
@@ -201,7 +200,7 @@ body
 									input.block-btn(type="button",value="提交")
 									input.block-btn(type="button",value="查看我的分享")
 		include _partial/footer
-
+	script(type="text/javascript", data-main="../js/find_strategy",src="../js/require.js")
 
 
 
